@@ -22,7 +22,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_DIR = PROJECT_ROOT / "data" / "cleaned"
 
 # JSONL 결과 파일 저장 폴더
-OUTPUT_DIR = PROJECT_ROOT / "src" / "chunking"
+OUTPUT_DIR = PROJECT_ROOT / "data" / "chunk"
 
 # data/cleaned 안의 모든 TXT 파일 찾기
 txt_files = sorted(INPUT_DIR.glob("*.txt"))
