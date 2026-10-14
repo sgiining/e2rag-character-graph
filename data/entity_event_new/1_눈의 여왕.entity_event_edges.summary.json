@@ -1,0 +1,23 @@
+{
+  "work_id": "1_눈의 여왕",
+  "entities": "data\\entity_observation\\1_눈의 여왕.entities.jsonl",
+  "event_run": "data\\events_new\\1_눈의 여왕\\20261014T072303_007795Z",
+  "edges": 829,
+  "only_paper_method": 302,
+  "only_paper_method_unbounded": 24,
+  "only_extension_methods": 88,
+  "label_only_official": 7,
+  "recommended": 805,
+  "not_recommended": 24,
+  "method:name_in_label_bounded": 456,
+  "method:name_in_description": 741,
+  "method:mention_in_evidence": 527,
+  "method:name_in_description_bounded": 723,
+  "method:name_in_label": 465,
+  "method:participant": 238,
+  "events": 310,
+  "events_without_entity": 7,
+  "entity_observations": 482,
+  "entity_observations_without_event": 220,
+  "events_without_recommended_entity": 7
+}

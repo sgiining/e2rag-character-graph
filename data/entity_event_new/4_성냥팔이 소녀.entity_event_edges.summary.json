@@ -1,0 +1,23 @@
+{
+  "work_id": "4_성냥팔이 소녀",
+  "entities": "data\\entity_observation\\4_성냥팔이 소녀.entities.jsonl",
+  "event_run": "data\\events_new\\4_성냥팔이 소녀\\20261014T075623_593432Z",
+  "edges": 72,
+  "only_paper_method": 26,
+  "only_paper_method_unbounded": 1,
+  "only_extension_methods": 2,
+  "label_only_official": 1,
+  "recommended": 71,
+  "not_recommended": 1,
+  "method:name_in_description_bounded": 70,
+  "method:name_in_description": 70,
+  "method:name_in_label_bounded": 31,
+  "method:participant": 23,
+  "method:mention_in_evidence": 46,
+  "method:name_in_label": 31,
+  "events": 29,
+  "events_without_entity": 0,
+  "entity_observations": 24,
+  "entity_observations_without_event": 5,
+  "events_without_recommended_entity": 0
+}

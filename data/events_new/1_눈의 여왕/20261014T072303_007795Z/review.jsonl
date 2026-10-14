@@ -1,0 +1,199 @@
+{"kind": "utf8_boundary", "chunk_id": 1, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 0, "chunk_char_end": 1909}
+{"kind": "utf8_boundary", "chunk_id": 16, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 1, "chunk_char_end": 1916}
+{"kind": "utf8_boundary", "chunk_id": 19, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 0, "chunk_char_end": 1859}
+{"kind": "event_removed_by_verify", "chunk_id": 1, "record": {"local_id": "G1", "key": "g:G1", "phase": "glean", "label": "아이들이 의자를 사용하다", "trigger": "자그마한 의자를 지", "trigger_span": [1899, 1909], "event_type": "action", "description": "아이들이 자그마한 의자를 사용하여 상자 위로 올라가려고 했다.", "evidence": "그것은 마치 꽃 담장처럼 보였다. 콩이 상자 위로 드리우고 장미 덤불이 길게 늘어지면서 창틀을 휘감고 서로에게 허리를 숙여서 마치 꽃과 풀로 이루어진 개선문 같았다. 상자는 꽤 높아서 위로 올라가면 안 된다는 것을 알았지만, 둘은 종종 자그마한 의자를 지", "original_span": [1767, 1909], "chunk_span": [1767, 1909], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 1, "flags": [], "verify_reason": "의자를 사용하는 행위는 사건으로 보기 어렵고 배경 설명에 해당한다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_cd9291a6485c1212", "flags": ["evidence_fuzzy"]}
+{"kind": "event_flags", "event_id": "evt_e569bbbae088dbd0", "flags": ["evidence_whitespace_normalized", "verify_unfixed"]}
+{"kind": "event_flags", "event_id": "evt_95fcca6c385f7877", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 1, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E8", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "아이들이 서로를 아끼는 것 다음에 아이들이 의자를 사용하여 상자 위로 올라가려고 했다."}}
+{"kind": "event_flags", "event_id": "evt_b075853086c9adab", "flags": ["trigger_not_in_evidence", "verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9a8a51d7f1873b8f", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_f3858a5e628fd67e", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7a0b9251db66c1fb", "flags": ["trigger_is_evidence"]}
+{"kind": "edge_flags", "edge_id": "ee_8e2f4f36bd6ecdaa", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_d7c3aca007dec112", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_8e2f4f36bd6ecdaa", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_removed_by_verify", "chunk_id": 3, "record": {"local_id": "E2", "key": "x:E2", "phase": "extract", "label": "시계가 울렸다", "trigger": "시계가 다섯 번 울렸다", "trigger_span": [3511, 3523], "event_type": "occurrence", "description": "교회 탑의 시계가 다섯 번 울렸다.", "evidence": "그때 교회 탑의 시계가 다섯 번 울렸다.", "original_span": [3502, 3524], "chunk_span": [40, 62], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 3, "flags": [], "verify_reason": "시계가 울린 것은 사건이 아닌 배경 설명이다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_360bceddf5b5084d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fcaa27ae5c33392f", "flags": ["verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_23237961cabf8a35", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7000b7aa24738f11", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_26948f22a7ea2c40", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2d5c855939537eda", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_bcad52a0f25a40fb", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b4d08e298479763a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fbc91702276e0617", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4db1209eaa31e4dd", "flags": ["evidence_fuzzy", "participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_bd7d45463bd38ccd", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3beb05c63a6339d9", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_becb1fe1a112e1bc", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2d5c855939537eda", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_bcad52a0f25a40fb", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b4d08e298479763a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_bd7d45463bd38ccd", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 3, "phase": "extract", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E2", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "게르다와 카이가 그림책을 보고 있었던 후에 교회 탑의 시계가 다섯 번 울렸다."}}
+{"kind": "relation_rejected", "chunk_id": 3, "phase": "extract", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E2", "target": "E3", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "교회 탑의 시계가 다섯 번 울린 후 카이가 소리쳤다."}}
+{"kind": "relation_rejected", "chunk_id": 3, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E19", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "카이가 눈송이를 관찰하자고 말한 후 카이가 눈송이를 관찰했다."}}
+{"kind": "relation_rejected", "chunk_id": 3, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E22", "target": "G4", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "카이가 썰매를 지고 내려온 후 카이가 놀 수 있다고 말했다."}}
+{"kind": "event_flags", "event_id": "evt_4db1209eaa31e4dd", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_66ca91e875017ca2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c8b505c7858bf143", "flags": ["verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_efead3a3008190ba", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fb7aa7ff3abbf7cf", "flags": ["evidence_whitespace_normalized", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_efead3a3008190ba", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 4, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E10", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "여왕이 카이의 이마에 입을 맞추고 나서 여왕이 카이에게 입맞춤을 했다."}}
+{"kind": "event_removed_by_verify", "chunk_id": 5, "record": {"local_id": "E1", "key": "x:E1", "phase": "extract", "label": "카이의 소식 전해짐", "trigger": null, "trigger_span": null, "event_type": "occurrence", "description": "소년들이 카이가 멋진 마차에 썰매를 매달고 나갔다는 소식을 전했다.", "evidence": "소년들은 카이가 아주 멋진 커다란 마차에 그 작은 썰매를 매달고 따라갔다면서, 길을 따라 마을 밖으로 나갔다는 말만 했다.", "original_span": [6829, 6897], "chunk_span": [19, 87], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 5, "flags": ["trigger_not_in_evidence"], "verify_reason": "소년들이 카이의 소식을 전하는 내용이지만, 특정 시점의 사건이 아닌 배경 설명에 해당한다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_d734cf27fe65602e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_79ea0cd416075861", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_24e0c8ea3e35d346", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_6794227b1d09e26d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_653d404877bb62a8", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c47725c96bd56784", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 5, "phase": "extract", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E2", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "소년들이 카이의 소식을 전한 후 사람들은 슬퍼하며 눈물을 흘렸다."}}
+{"kind": "event_flags", "event_id": "evt_34a068e63eea661b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3872e3287a45ad79", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d5447741b02d7378", "flags": ["verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7bbeb955b398b9fb", "flags": ["verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_41ff1df177ec0df3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fe19c492e75ab55e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_662238dfa52f8d6f", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d47d6a9dd97769dc", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_41ff1df177ec0df3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fe19c492e75ab55e", "flags": ["participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_c534f8fc8524e26e", "flags": ["noncore_label", "label_typo_suspected"]}
+{"kind": "event_flags", "event_id": "evt_8fe4bac113867b36", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f01445bee2550efb", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_503dc1c53b2ee844", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0af686fec5a43eac", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_36fb5ed0cf3bb717", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_312b71aae7fe8990", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_503dc1c53b2ee844", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0af686fec5a43eac", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_36fb5ed0cf3bb717", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_312b71aae7fe8990", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 7, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E8", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "게르다가 카이에 대한 얘기를 듣지 못한 후 꽃들에게 귀를 기울였다."}}
+{"kind": "event_flags", "event_id": "evt_bcae4902325178cd", "flags": ["evidence_partial", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_57b03b5869250127", "flags": ["evidence_partial", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fddcbb6eba87fa22", "flags": ["evidence_partial", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_66a5b21cba555f7f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_19ea754e5a51870a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3b58f45750955cba", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6ce6189f5e7e0ce9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6ce6189f5e7e0ce9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_79d439434acd8bb7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8b3a31f4983968ac", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_62f5dd9619caa20c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d015e0c483142383", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1085e3425408ac03", "flags": ["evidence_whitespace_normalized", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1652f237662e09c8", "flags": ["participant_from_context", "verify_unfixed"]}
+{"kind": "event_flags", "event_id": "evt_b12c6c882dfd27e7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b12c6c882dfd27e7", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 9, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E8", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "까마귀가 게르다에게 이야기하기로 한 후, 까마귀가 아는 이야기를 모두 들려주었다."}}
+{"kind": "event_flags", "event_id": "evt_8d81270929788202", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_3503aa10caebd073", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_47daee6075fe852e", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 10, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E8", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 1.0, "description": "어린 사람이 궁정으로 과감하게 걸어간 것은 셋째 날의 사건이다."}}
+{"kind": "event_flags", "event_id": "evt_c3c7d355fce0f236", "flags": ["participant_from_context", "verify_unfixed"]}
+{"kind": "event_flags", "event_id": "evt_e1c80bf5baab46b9", "flags": ["verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_31573a2e62fde3c0", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b14691fde0bd8a7c", "flags": ["evidence_edge_trimmed"]}
+{"kind": "event_flags", "event_id": "evt_1a00a5154511e060", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ee0485db239c498b", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_270492eba15e1024", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_664c6baf62ac25de", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_38c3739ec36ef8fe", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2b2ebcb9b7547863", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a2ad64bdd1894531", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7c8f9978ef56ac99", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_eb68becfc745f45a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b12fc39916856595", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_db78b4671169eb05", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6e71492073d0725d", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_086d366a5fb540c3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4e7f501479a26e55", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a2ad64bdd1894531", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 11, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E9", "target": "G1", "relation_type": "PRECEDES", "cue": "어둠이 내려앉았을 때", "evidence_kind": "explicit", "confidence": 1.0, "description": "까마귀가 돌아온 것은 어둠이 내려앉았을 때였다."}}
+{"kind": "edge_flags", "edge_id": "ee_ff2c0f2e909e31b2", "flags": ["cue_not_in_text"]}
+{"kind": "event_flags", "event_id": "evt_0f2642cda70e28d2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_caa3ef0fca827ac0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1bd881f678c2218a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1bd881f678c2218a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4b2353b147697e93", "flags": ["event_type_invalid"]}
+{"kind": "event_flags", "event_id": "evt_e3f297bf2951a50a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1bd881f678c2218a", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5480cb4c49eebf7b", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_9c508460772ba292", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_bb1ca41a87ffe33f", "flags": ["evidence_exact_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_90a5dc2157d85189", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fd5fb846937641f3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_de99b407400445c1", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_495b2117e3d6677a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7021c91dcd1448f5", "flags": ["evidence_partial", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f36837c1da1ce541", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_462cd01e24d7ac6a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_859b4388b1c315dc", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_746ac2637416109f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4b33d697d364725d", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_921603f2db75e847", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7827143752965a22", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_96cf406cca611ce6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3e9f98b0390af819", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5747f87d2decc51c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ab67996b10d20c6d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_049b97d26e92d284", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f4b04cfc60a7f726", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f4b04cfc60a7f726", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_removed_by_verify", "chunk_id": 16, "record": {"local_id": "G1", "key": "g:G1", "phase": "glean", "label": "순록이 게르다의 이야기를 들려주다", "trigger": "순록은 다시 달렸다", "trigger_span": [25962, 25972], "event_type": "action", "description": "순록이 게르다의 이야기를 들려주고 다시 달리기 시작했다.", "evidence": "순록은 다시 달렸다.", "original_span": [25962, 25973], "chunk_span": [533, 544], "participants": [{"name": "순록", "evidence_spans": [[25962, 25964]], "resolved_from_context": false}], "dropped_participants": [], "narrative_level": "main", "chunk_id": 16, "flags": [], "verify_reason": "순록이 게르다의 이야기를 들려주는 사건이 아닌, 순록이 달리는 행동이다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_a90a4853308cefcf", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f4b04cfc60a7f726", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a593c7dd50c16953", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1609d24072150e7e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_02b2f66f955f6e4b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fe098381e46e4503", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c6f7b029bcbc85a5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7196d52f93da4fd8", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4145b85376ab4e7a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2acc1e164aae8a4d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4c02a3d04bf9a3cb", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2acc1e164aae8a4d", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 16, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E5", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "순록이 다시 달린 후, 순록이 게르다의 이야기를 들려주었다."}}
+{"kind": "relation_rejected", "chunk_id": 16, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "G1", "target": "G2", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.8, "description": "순록이 게르다의 이야기를 들려준 후, 핀족 여인이 순록에게 얼음조각을 올려주었다."}}
+{"kind": "event_flags", "event_id": "evt_3d8e57b03de2e318", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_180c674e0c5c5c77", "flags": ["verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_5a733d801a12a786", "flags": ["verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_36f84a3a9cfa7386", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_47f283bc8247fd50", "flags": ["evidence_edge_trimmed"]}
+{"kind": "event_flags", "event_id": "evt_55849c5b10360132", "flags": ["verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_aedb9b441b4f5cd6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ed527592d9fced60", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d1cbcb8ca655ae0b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f0a984f6df68cb2c", "flags": ["evidence_fuzzy", "trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_40f65560a3364917", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ad8eb4dca4e14a3e", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_aedb9b441b4f5cd6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31683d7c972dc4b0", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 18, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E9", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "게르다가 카이를 발견한 후 카이를 품에 안았다."}}
+{"kind": "event_flags", "event_id": "evt_f2becbbf6136cb9f", "flags": ["participant_from_context", "verify_unfixed"]}
+{"kind": "event_flags", "event_id": "evt_782f692f63996461", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f0a9d453cdcdaf6d", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_fd1247e2cd669018", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e6f6dfb358b3d7f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f97e4c248d6237a6", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f4b6bd64a4111f3b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b4e7178ab8a27952", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e6f6dfb358b3d7f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e6f6dfb358b3d7f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fccd86281d018026", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_56cf077b0ec36b9e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_bbad2f987d99bd15", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e62b16f8294c015b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b0eb66ec8823f0e0", "flags": ["participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_f50c1e65f6e30aab", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_279f5cf9ac6dc999", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_3c4fb4d448f87a7f", "ee_81adcddea14f8c88"], "labels": ["evt_3beb05c63a6339d9-CAUSES->evt_becb1fe1a112e1bc", "evt_3beb05c63a6339d9-PRECEDES->evt_becb1fe1a112e1bc"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_5f08e5a468f98b51", "ee_90edd113b1e0b82c"], "labels": ["evt_669e40e988704aae-PRECEDES->evt_efead3a3008190ba", "evt_efead3a3008190ba-PRECEDES->evt_669e40e988704aae"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_c534f8fc8524e26e", "ee_d2cc7b9b6264228a"], "labels": ["evt_41ff1df177ec0df3-CASES->evt_fe19c492e75ab55e", "evt_41ff1df177ec0df3-PRECEDES->evt_fe19c492e75ab55e"]}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_3c4fb4d448f87a7f", "label": "evt_3beb05c63a6339d9-PRECEDES->evt_becb1fe1a112e1bc"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_5f08e5a468f98b51", "label": "evt_669e40e988704aae-PRECEDES->evt_efead3a3008190ba"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_d2cc7b9b6264228a", "label": "evt_41ff1df177ec0df3-PRECEDES->evt_fe19c492e75ab55e"}
+{"kind": "temporal_cycle_broken", "edge_id": "ee_5064cfadb2c95415", "label": "evt_caa4702ce7999709-PRECEDES->evt_48fa764c4054d1c9"}
