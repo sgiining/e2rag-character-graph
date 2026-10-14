@@ -1,0 +1,102 @@
+{"kind": "event_flags", "event_id": "evt_18a33da302b60fae", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5cd4e55ee8ad0a3e", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_173d45478a92a290", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5f2b674e082697b8", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6d93b5673b77bf9b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_39103e1e52a1051a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1d4a90a88c6c8522", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f5a0dbc3a46b9808", "flags": ["participant_from_context"]}
+{"kind": "event_rejected", "chunk_id": 2, "phase": "extract", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E8", "label": "아기 오리 슬픔", "trigger": "몹시도 슬펐다", "event_type": "occurrence", "description": "아기 오리가 다른 오리들과 닭들에게 놀림을 당하며 슬퍼했다.", "evidence": "가엾은 아기 오리는 얼굴이 새빨개졌다. ... 몹시도 슬펐다.", "participants": []}}
+{"kind": "event_rejected", "chunk_id": 2, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E2", "label": "아기 오리 놀림", "trigger": "모두 말했다.", "event_type": "interaction", "description": "다른 오리들과 닭들이 아기 오리를 놀렸다.", "evidence": "“저 애는 너무 커.” 모두 말했다. 박차처럼 뒤 발톱을 달고 태어났다고 자기가 황제라고 여기는 수컷 칠면조는 돛이 빵빵한 배처럼 몸을 부풀리면서 고르륵 고르륵 위협을 해대서 마침내 아기 오리는 얼굴이 새빨개졌다.", "participants": ["모두", "수컷 칠면조"]}}
+{"kind": "event_flags", "event_id": "evt_14dacd4314f1e696", "flags": ["evidence_repaired", "evidence_fuzzy", "trigger_not_in_evidence"]}
+{"kind": "edge_flags", "edge_id": "ee_1e66cc97c45f9187", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_624c2719c034329a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f9c6b352956805f2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_23c18e3bd2bf180b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a02942fbd484523c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_92e328c647b63d4d", "flags": ["trigger_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_064932b35d25f7ee", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_df0e952d9d9f141f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_06434128937d9c86", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_65b2af3fa9f03ad4", "flags": ["participant_not_in_chunk", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_940ab246ce306b1e", "flags": ["participant_not_in_chunk", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0d803559086de90a", "flags": ["participant_not_in_chunk"]}
+{"kind": "event_flags", "event_id": "evt_2a44ec1969895743", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_8635fcf9e287f6a7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7fd7093d588de40d", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ffbd8ac7cd929c77", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ad96b9cbf2640cc3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d9749b09cd6a6eef", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_940ab246ce306b1e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0d803559086de90a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2a44ec1969895743", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_8635fcf9e287f6a7", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 3, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E14", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "기러기의 제안이 아기 오리와의 만남 이후에 일어났다."}}
+{"kind": "edge_flags", "edge_id": "ee_dcd016dd687ec6d6", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_b538ddd433259413", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_ffbd8ac7cd929c77", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ad96b9cbf2640cc3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_91d8fcfbf267d364", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c7c4f11a2b647a3e", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_26dca56d86e28c64", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_19958b69e59d3a44", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7879d12ab939af0e", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_d3811e793bcb23a1", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_c56e1a5162266e67", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ee8ba79343b62d9d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9b4c4ddfb69e1062", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c131738799a1e1c8", "flags": ["evidence_fuzzy"]}
+{"kind": "event_flags", "event_id": "evt_5d29984574e81d1f", "flags": ["evidence_fuzzy", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cb1ffa5e851f09ff", "flags": ["evidence_exact_ambiguous", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f806a2fb4e9a263f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_21c37714607ec1d6", "flags": ["evidence_fuzzy", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cb1ffa5e851f09ff", "flags": ["evidence_exact_ambiguous", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6f560faccf4fb374", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2f63cdf2e97f07aa", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e307ebfb45155e3", "flags": ["evidence_fuzzy", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31c0cc0b1434562b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ffb4d0d11ce321c2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_699c12f12e012401", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7b216fda6322625c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2bbe8444195602bc", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fd1fdb4aa20e1068", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ea1a6794b1c9b870", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c56e1a5162266e67", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ee8ba79343b62d9d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9b4c4ddfb69e1062", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5d29984574e81d1f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_21c37714607ec1d6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2f63cdf2e97f07aa", "flags": ["trigger_not_in_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e307ebfb45155e3", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31c0cc0b1434562b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ffb4d0d11ce321c2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fd1fdb4aa20e1068", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 4, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E11", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "고양이와 암탉이 아기 오리를 알아차린 후, 노파가 아기 오리를 착각했다."}}
+{"kind": "event_flags", "event_id": "evt_633db7b57aa1d33b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e5475fbf5cfd1c9e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_00037e2d46497784", "flags": ["event_type_invalid", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1eb1f4e19c9fbfd9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e0119d4a38754e63", "flags": ["event_type_invalid", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0b4b7183f9727e18", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_07d0c6d73bf93c18", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5f1758a7b421f5d1", "flags": ["event_type_invalid", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f08d690c0349b93c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1eb1f4e19c9fbfd9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e0119d4a38754e63", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0b4b7183f9727e18", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_112174926276263d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_37a9b757f2e3119a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c6c5afdf08693658", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_632e211c0dee37b7", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_1534b9d8230fe834", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1d9f2b087d741b50", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_987e8c0bea78561c", "flags": ["verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_112174926276263d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_37a9b757f2e3119a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1534b9d8230fe834", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1d9f2b087d741b50", "flags": ["verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f450d12f73ca7f29", "flags": ["event_type_invalid"]}
+{"kind": "event_flags", "event_id": "evt_987e8c0bea78561c", "flags": ["event_type_invalid", "participant_not_in_description"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_32108f8d28baca78", "ee_39ffbceba1bfd7ff"], "labels": ["evt_c131738799a1e1c8-DURING->evt_5d29984574e81d1f", "evt_c131738799a1e1c8-PRECEDES->evt_5d29984574e81d1f"]}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_39ffbceba1bfd7ff", "label": "evt_c131738799a1e1c8-DURING->evt_5d29984574e81d1f"}
+{"kind": "temporal_cycle_broken", "edge_id": "ee_8cde11c265dc55f2", "label": "evt_21c37714607ec1d6-PRECEDES->evt_cb1ffa5e851f09ff"}

@@ -1,0 +1,23 @@
+{
+  "work_id": "2_엄지 공주",
+  "entities": "data\\entity_observation\\2_엄지 공주.entities.jsonl",
+  "event_run": "data\\events_new\\2_엄지 공주\\20261014T074011_885877Z",
+  "edges": 336,
+  "only_paper_method": 129,
+  "only_paper_method_unbounded": 12,
+  "only_extension_methods": 57,
+  "label_only_official": 7,
+  "recommended": 324,
+  "not_recommended": 12,
+  "method:name_in_label_bounded": 153,
+  "method:name_in_description": 279,
+  "method:name_in_description_bounded": 271,
+  "method:name_in_label": 156,
+  "method:participant": 94,
+  "method:mention_in_evidence": 207,
+  "events": 106,
+  "events_without_entity": 1,
+  "entity_observations": 176,
+  "entity_observations_without_event": 62,
+  "events_without_recommended_entity": 1
+}

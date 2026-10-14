@@ -1,0 +1,28 @@
+{"kind": "event_rejected", "chunk_id": 1, "phase": "extract", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E11", "label": "세 번째 성냥을 켜다", "trigger": "성냥이 꺼졌다", "event_type": "action", "description": "소녀가 세 번째 성냥을 켰다.", "evidence": "문득 성냥이 꺼졌다. 성냥 하나를 더 밝혔다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E1", "label": "소녀가 성냥을 꺼내다", "trigger": "성냥 하나를 꺼내", "event_type": "action", "description": "소녀가 성냥갑에서 성냥 하나를 꺼냈다.", "evidence": "소녀가 성냥갑에서 성냥 하나를 꺼내 벽에 그어서 손을 따뜻하게 할 수만 있다면……. 소녀는 하나를 꺼냈다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E2", "label": "성냥이 타오르다", "trigger": "성냥은 탁 소리를 내며 타올랐다", "event_type": "occurrence", "description": "소녀가 꺼낸 성냥이 타올랐다.", "evidence": "성냥은 탁 소리를 내며 타올랐다! 온기를 주며 작은 초처럼 환한 불꽃을 일으켰다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E3", "label": "소녀가 난로를 상상하다", "trigger": "자신이 앉아 있는 것 같았다", "event_type": "other", "description": "소녀가 타오르는 불꽃을 보며 난로에 앉아 있는 상상을 했다.", "evidence": "소녀가 그 불꽃 위로 손을 올리자, 이상한 빛이 일었다! 정말이지 반짝반짝 빛나는 황동 손잡이와 뚜껑이 달린 거대한 쇠 난로 앞에 자신이 앉아 있는 것 같았다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E4", "label": "소녀가 두 번째 성냥을 켜다", "trigger": "성냥을 하나 더 벽에 그었다", "event_type": "action", "description": "소녀가 두 번째 성냥을 켰다.", "evidence": "소녀는 성냥을 하나 더 벽에 그었다. 성냥은 밝게 타올랐다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E5", "label": "소녀가 저녁 식사를 상상하다", "trigger": "찬란하게 빛나는 저녁 식사가 차려있다", "event_type": "other", "description": "소녀가 두 번째 성냥의 불빛을 통해 저녁 식사를 상상했다.", "evidence": "탁자에 눈처럼 하얀 식탁보가 덮여있고, 그 위에 찬란하게 빛나는 저녁 식사가 차려있다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E6", "label": "소녀가 세 번째 성냥을 켜다", "trigger": "성냥 하나를 더 밝혔다", "event_type": "action", "description": "소녀가 세 번째 성냥을 켰다.", "evidence": "문득 성냥이 꺼졌다. 성냥 하나를 더 밝혔다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E7", "label": "소녀가 크리스마스트리를 상상하다", "trigger": "몹시도 아름다운 크리스마스트리 아래 앉아 있다", "event_type": "other", "description": "소녀가 세 번째 성냥의 불빛을 통해 크리스마스트리를 상상했다.", "evidence": "문득 소녀가 몹시도 아름다운 크리스마스트리 아래 앉아 있다.", "participants": ["소녀"]}}
+{"kind": "event_rejected", "chunk_id": 1, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E8", "label": "별이 떨어지다", "trigger": "별 하나가 길게 줄을 이루며 떨어져 내렸다", "event_type": "occurrence", "description": "하늘에서 별 하나가 떨어졌다.", "evidence": "별 하나가 길게 줄을 이루며 떨어져 내렸다.", "participants": ["소녀"]}}
+{"kind": "event_flags", "event_id": "evt_23996aceb81c9784", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_e316515452d68f1d", "flags": ["verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_78d7b29b629bc3ba", "flags": ["verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_3f64a6138a1a4a33", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_25efd3c7be540111", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_610975a25302b6af", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_97fd73274f330dd9", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_25efd3c7be540111", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_610975a25302b6af", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 1, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E10", "target": "E11", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 1.0, "description": "거위가 걸어온 후 소녀가 세 번째 성냥을 켰다."}}
+{"kind": "relation_rejected", "chunk_id": 1, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E11", "target": "E12", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 1.0, "description": "소녀가 세 번째 성냥을 켠 후 크리스마스트리 아래 앉았다."}}
+{"kind": "event_flags", "event_id": "evt_a16b31920bfce3a9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ffdcc1f599a3d242", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c2a39fcf6229945d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2d9c27e8bd74887d", "flags": ["verify_unfixed"]}
+{"kind": "event_flags", "event_id": "evt_1f47bef25530c024", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ffdcc1f599a3d242", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2f5a48df07c93f81", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_1f47bef25530c024", "flags": ["trigger_not_in_evidence"]}
