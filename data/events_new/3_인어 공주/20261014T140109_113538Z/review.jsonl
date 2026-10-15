@@ -1,0 +1,331 @@
+{"kind": "utf8_boundary", "chunk_id": 5, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 1, "chunk_char_end": 1882}
+{"kind": "utf8_boundary", "chunk_id": 12, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 0, "chunk_char_end": 1904}
+{"kind": "event_flags", "event_id": "evt_88b072a3341d4504", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f7089a5af17e67b9", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ca346d9d8119a5c4", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7e551ee8960ace28", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4b3d05015ec50d88", "flags": ["trigger_is_evidence"]}
+{"kind": "edge_flags", "edge_id": "ee_c24b96f0cd040bc0", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_39d57cac00791845", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fe9713cffb3d5889", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_548ce995ff279379", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8c835d8839ddd836", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_946509ec3f7a8e93", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8f2bab974b055981", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_0b05a9fc90596f46", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_06ed9681eb50139b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2e2eccd4dc4a6cab", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2c13b6336f484e11", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3d4a6f62f4a3a385", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0acb2735c57aa2af", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_548ce995ff279379", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e29202307c58e7dc", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8c835d8839ddd836", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_dced0a8f6bf54615", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_dced0a8f6bf54615", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_946509ec3f7a8e93", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0b05a9fc90596f46", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E5", "target": "G8", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "막내 공주가 기다림 사건이 막내 공주가 세상에 대해 기다림 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E6", "target": "G10", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "막내 공주가 바다를 바라봄 사건이 막내 공주가 바다를 바라봄 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E7", "target": "G11", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "맏이 공주가 생일 맞음 사건이 맏이 공주가 물 밖으로 올라감 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E8", "target": "G13", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "맏이 공주가 이야기 전함 사건이 맏이 공주가 이야기 전함 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E9", "target": "G14", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "막내 공주가 도시를 상상함 사건이 막내 공주가 도시를 상상함 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E10", "target": "G15", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "둘째 공주가 물 위로 올라감 사건이 둘째 공주가 일몰을 감상함 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E11", "target": "G16", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "둘째 공주가 일몰을 감상함 사건이 셋째 공주가 물 위로 올라감 사건보다 먼저 일어났다."}}
+{"kind": "event_flags", "event_id": "evt_c8c02f946d7d287e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_00b08f4c7cea3c4f", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_873c6d47a79ee7c5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e464ee46a5aa2727", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_40b4328e2157af2f", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_010fd7135fa08a55", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_52eff3bf2fba8cb2", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_440f112204730a32", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_d9914a7ed2c6d642", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_6b210ffafc2573a7", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_e2a81f5022c01836", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_31e27618d53c40c2", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_a80633aeacd66e66", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_2dfd3070b99c54c1", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_00d8ba3397f11d16", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_619d1f806cd60d19", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_e464ee46a5aa2727", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_d598e19c03380e7f", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_a5117ccf741d766f", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_e7455f74ba037156", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_010fd7135fa08a55", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "relation_rejected", "chunk_id": 3, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E10", "target": "G14", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "막내가 열다섯 살이 되었다."}}
+{"kind": "event_flags", "event_id": "evt_fa852d6818568482", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_010fd7135fa08a55", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3e3a42775c5acf37", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6ed4b65e2271645a", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_e6da91d13b9b8437", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9e919d0fb268f5e9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_be3d6aff1034f5c0", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_02a2058cc2deb4ee", "flags": ["evidence_whitespace_normalized", "trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_87685eebb6419e72", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b05a1f6603d523f1", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4667d711ba7546fd", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_280b3135a90c5792", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f7901e46f8462e65", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b41c39adda188652", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1927b4d7c787039c", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_6377fc9f01513e09", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cd86f9eea4c7022f", "flags": ["evidence_edge_trimmed"]}
+{"kind": "event_flags", "event_id": "evt_a5117ccf741d766f", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_bda9adb48f96fc65", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_92d139e35eac9dac", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ebc79bf2f7526082", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2b1e507b68c0cc60", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_9e919d0fb268f5e9", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_be3d6aff1034f5c0", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_02a2058cc2deb4ee", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d007ab828a6c4816", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_9c9414a2b6f24f3e", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_22f3bc0c066eb6e3", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_87685eebb6419e72", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b05a1f6603d523f1", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4667d711ba7546fd", "flags": ["trigger_is_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_280b3135a90c5792", "flags": ["trigger_is_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f7901e46f8462e65", "flags": ["trigger_is_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b41c39adda188652", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6ae359d9a6be9d79", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_e77ec55e52d79b05", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_1927b4d7c787039c", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f503cf68929ccc59", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6377fc9f01513e09", "flags": ["trigger_is_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cd86f9eea4c7022f", "flags": ["evidence_edge_trimmed", "trigger_not_in_evidence"]}
+{"kind": "edge_flags", "edge_id": "ee_4566530aad968418", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_d7c6d9399beec69c", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_2fe47f651aec75c4", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_91f79b4ef243cd74", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_dc2bca15d684a8e4", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_185781ef290bf58e", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "extract", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E1", "label": "배가 폭풍을 만나다", "trigger": "배는 끔찍한 폭풍을 만났다", "event_type": "occurrence", "description": "배가 끔찍한 폭풍을 만났다.", "evidence": "아, 배는 끔찍한 폭풍을 만났다.", "participants": []}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "extract", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E2", "label": "선원들이 돛을 내리다", "trigger": "뱃사람들은 서둘러 돛을 내렸다", "event_type": "action", "description": "뱃사람들이 서둘러 돛을 내렸다.", "evidence": "뱃사람들은 서둘러 돛을 내렸다.", "participants": ["뱃사람들"]}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E1", "label": "배가 파도에 부서지다", "trigger": "배는 와지끈 갈라지고", "event_type": "occurrence", "description": "배가 와지끈 갈라지고 굵은 나무가 쿵 하고 떨어졌다.", "evidence": "배는 와지끈 갈라지고, 굵은 나무가 쿵 하고 떨어져 내렸다.", "participants": []}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E2", "label": "인어 공주가 위험을 알다", "trigger": "인어 공주는 사람들이 위험에 빠진 것을 알았다", "event_type": "occurrence", "description": "인어 공주가 사람들이 위험에 빠진 것을 알았다.", "evidence": "이제 인어 공주는 사람들이 위험에 빠진 것을 알았다.", "participants": ["인어 공주"]}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E3", "label": "인어 공주가 왕자를 구하다", "trigger": "공주는 물 밖으로 왕자의 머리를 올리고는", "event_type": "action", "description": "인어 공주가 물 밖으로 왕자의 머리를 올리고 파도가 가는 곳으로 몸을 맡겼다.", "evidence": "공주는 물 밖으로 왕자의 머리를 올리고는 파도가 가는 곳으로 몸을 맡겼다.", "participants": ["인어 공주", "왕자"]}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E4", "label": "왕자가 의식을 되찾다", "trigger": "왕자가 의식을 되찾는 것을", "event_type": "occurrence", "description": "왕자가 의식을 되찾았다.", "evidence": "인어는 왕자가 의식을 되찾는 것을, 주위의 모두를 향해 웃음 짓는 것을 지켜보았다.", "participants": ["왕자"]}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E5", "label": "인어 공주가 슬퍼하다", "trigger": "공주는 몹시 속이 상했다", "event_type": "occurrence", "description": "인어 공주가 왕자가 자신을 구했다는 사실을 알지 못해 몹시 속이 상했다.", "evidence": "공주는 몹시 속이 상했다.", "participants": ["인어 공주"]}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E6", "label": "인어 공주가 아버지의 성으로 돌아가다", "trigger": "물속으로 뛰어 들어가 아버지의 성으로 돌아갔다", "event_type": "action", "description": "인어 공주가 슬픈 마음으로 물속으로 뛰어 들어가 아버지의 성으로 돌아갔다.", "evidence": "사람들이 왕자를 그 커다란 건물로 이끌 때는 슬픈 마음으로 물속으로 뛰어 들어가 아버지의 성으로 돌아갔다.", "participants": ["인어 공주"]}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E7", "label": "인어 공주가 생각에 잠기다", "trigger": "공주는 언제나 조용하고 생각이 깊었다", "event_type": "occurrence", "description": "인어 공주가 조용하고 생각에 잠겼다.", "evidence": "공주는 언제나 조용하고 생각이 깊었다.", "participants": ["인어 공주"]}}
+{"kind": "event_rejected", "chunk_id": 5, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E8", "label": "인어 공주가 왕자를 떠나보내다", "trigger": "공주는 그 왕자를 떠나보냈던 곳에 다시 가보았다", "event_type": "action", "description": "인어 공주가 왕자를 떠나보냈던 곳에 다시 가보았다.", "evidence": "여러 날 저녁 그리고 여러 날 아침, 공주는 그 왕자를 떠나보냈던 곳에 다시 가보았다.", "participants": ["인어 공주"]}}
+{"kind": "event_flags", "event_id": "evt_a32088a6c2140e61", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_91557eb2cc64982b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_eb8d9cd16dcfeb06", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8c14bcc36f98b3e1", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9fe4886202e16d4c", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3bf1083144172bd1", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_53a75c3846e5918a", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_df1353f5cc66dd32", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fc8b8721db463d68", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_29478124d17878b0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_eb07ea758f581e4b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_91557eb2cc64982b", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c4731c2fd527ce2d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_c79dc344538b18ee", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ebe5115130eee3cf", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_54669cda600eec66", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f5dcb1cee433115b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2eb03c9b81f1a74a", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9840575a98c9139d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9d3d9bff811f95be", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e944fcb15a3dde31", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_df366de76f6615ff", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a6ef313e8d06a78a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3dc84f5fc7ca4d75", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 5, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E2", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "배가 폭풍을 만난 후 선원들이 돛을 내렸다."}}
+{"kind": "relation_rejected", "chunk_id": 5, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E3", "relation_type": "DURING", "cue": "", "evidence_kind": "implicit", "confidence": 0.8, "description": "배가 폭풍을 만나는 동안 배가 기울어졌다."}}
+{"kind": "relation_rejected", "chunk_id": 5, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E4", "relation_type": "DURING", "cue": "", "evidence_kind": "implicit", "confidence": 0.8, "description": "배가 폭풍을 만나는 동안 인어 공주가 위험을 알았다."}}
+{"kind": "event_removed_by_verify", "chunk_id": 6, "record": {"local_id": "G1", "key": "g:G1", "phase": "glean", "label": "공주가 언니들에게 물어봄", "trigger": "언니들은 물 위로 처음 올라가서 무엇을 보았느냐고 물었지만", "trigger_span": [8514, 8546], "event_type": "interaction", "description": "언니들이 공주에게 물 위로 올라가서 본 것을 물어보았지만, 공주는 대답하지 않았다.", "evidence": "언니들은 물 위로 처음 올라가서 무엇을 보았느냐고 물었지만 막내 공주는 조금도 말하려 들지 않았다.", "original_span": [8514, 8569], "chunk_span": [51, 106], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 6, "flags": [], "verify_reason": "이 사건은 공주가 대답하지 않은 상황을 설명하는 것이며, 특정 시점의 사건이 아니다.", "verdict": "not_event"}}
+{"kind": "event_removed_by_verify", "chunk_id": 6, "record": {"local_id": "G9", "key": "g:G9", "phase": "glean", "label": "언니들이 공주를 부름", "trigger": "언니 공주들이 말했다.", "trigger_span": [9033, 9045], "event_type": "interaction", "description": "언니들이 막내 공주를 부르며 말했다.", "evidence": "언니 공주들이 말했다.\n“어서, 막내야!”", "original_span": [9033, 9056], "chunk_span": [570, 593], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 6, "flags": [], "verify_reason": "이 사건은 언니들이 공주를 부른 상황을 설명하는 것이며, 특정 시점의 사건이 아니다.", "verdict": "not_event"}}
+{"kind": "event_removed_by_verify", "chunk_id": 6, "record": {"local_id": "G10", "key": "g:G10", "phase": "glean", "label": "언니들이 왕자의 성으로 감", "trigger": "서로 팔짱을 끼고 길게 한 줄로 서서 물 위로 올라가서 왕자의 성이 있다는 곳 바로 앞으로 갔다.", "trigger_span": [9057, 9111], "event_type": "action", "description": "언니들이 팔짱을 끼고 왕자의 성으로 갔다.", "evidence": "서로 팔짱을 끼고 길게 한 줄로 서서 물 위로 올라가서 왕자의 성이 있다는 곳 바로 앞으로 갔다.", "original_span": [9057, 9111], "chunk_span": [594, 648], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 6, "flags": ["trigger_is_evidence"], "verify_reason": "이 사건은 언니들이 왕자의 성으로 간 상황을 설명하는 것이며, 특정 시점의 사건이 아니다.", "verdict": "not_event"}}
+{"kind": "event_removed_by_verify", "chunk_id": 6, "record": {"local_id": "G17", "key": "g:G17", "phase": "glean", "label": "여왕이 인간의 수명에 대해 대답함", "trigger": "노부인 여왕이 대답했다.", "trigger_span": [10271, 10284], "event_type": "interaction", "description": "여왕이 공주에게 인간의 수명에 대해 대답했다.", "evidence": "노부인 여왕이 대답했다.\n“죽지. 인간들도 죽어. 인간의 수명은 우리보다 훨씬 짧아.", "original_span": [10271, 10318], "chunk_span": [1808, 1855], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 6, "flags": ["speech_tag_ambiguous"], "verify_reason": "이 사건은 여왕이 대답한 상황을 설명하는 것이며, 특정 시점의 사건이 아니다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_df366de76f6615ff", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d2671fbdd6a57a4c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c2e506fc51d4698f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1b292060bb081abe", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_58cc1802d784b4b7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_09503337fe525d05", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8db960201a1e428c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c27d8ff4af5d83b0", "flags": ["evidence_edge_trimmed", "speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_3553dc3fae93be06", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e7e958c36b298f84", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a34e5aaee25fd062", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5b4e4361807fba0d", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_259a1edf2fe965e0", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_95434358747a0ea2", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_1b292060bb081abe", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_67c44d9d91f9238a", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_58cc1802d784b4b7", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_09503337fe525d05", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8db960201a1e428c", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 6, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "공주가 생각에 잠긴 후 언니들이 물어보았다."}}
+{"kind": "relation_rejected", "chunk_id": 6, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E8", "target": "G10", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "언니들이 왕자의 성으로 간 후 공주가 왕자를 지켜보았다."}}
+{"kind": "relation_rejected", "chunk_id": 6, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E9", "target": "G11", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "공주가 왕자를 지켜본 후 왕자의 배를 보았다."}}
+{"kind": "relation_rejected", "chunk_id": 6, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E10", "target": "G12", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "공주가 왕자의 배를 본 후 왕자와의 기억을 떠올렸다."}}
+{"kind": "relation_rejected", "chunk_id": 6, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E14", "target": "G17", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "공주가 인간의 수명에 대해 질문한 후 여왕이 대답했다."}}
+{"kind": "event_flags", "event_id": "evt_4c7115b0a3ca8157", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_08e326d52a7ffabe", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_137245d51cf18ba4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a7e02305c4124ccf", "flags": ["evidence_edge_trimmed", "speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_ae208791be46803d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5096f588b72e60a3", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_464c9ac4113a26b2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d0a5aa565842481d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cf9293a72a9b636c", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5a7c64b6b6272c95", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8d262153507b05fb", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d783766ea3f4a03e", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9051cbbbc1b6c955", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ea6e22cf7a1c3969", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_be3ed34b5b09455a", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8f3cb0f9b1dd046b", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_676bf39daa5676f1", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6a8bf39d9a78e7b6", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5ad717e042db4882", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_767ac06c4289ac16", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f6f1d68e597d674a", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a806a6959eff27b3", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_dfd63d242ee4a2e9", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e0a30b944139a015", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9bf930b60e4d97a2", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_54b5372201373fd7", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5ca3d9cd7a1b730b", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cfebd10dea5d3364", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ae208791be46803d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_0258fe7fffb5d9cc", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ee4f1118e22a6544", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_08e0c256c4737cff", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7879b232060a6755", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6e7bf11e63ad3c2f", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_38a016734c9e9d11", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_24c614030767777c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_092f7cb1565ebd9b", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_464c9ac4113a26b2", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fb79a861933e42be", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d0a5aa565842481d", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6ada24cd1a5924e9", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 7, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E7", "target": "G21", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "무도회 개최가 무도회 화려함 설명보다 먼저 일어났다."}}
+{"kind": "event_flags", "event_id": "evt_6ada24cd1a5924e9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_dd7ce1d64055fd45", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_37329d26fc3d6b65", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_42c975e1961dec61", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_68f7433591ece65b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e711a33c8096852", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a0b54c77de71c858", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e04fa6d16533fa20", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7c91c3e0d7ca6d24", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_44770217f8b38192", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f6549897197e22da", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_42c975e1961dec61", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_68f7433591ece65b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e711a33c8096852", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a0b54c77de71c858", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e0da4ceb6f9fe19", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2626002d42da550e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_eaf3ee746ceb9f75", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6ad4b906f7dd74b6", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_1e0da4ceb6f9fe19", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2626002d42da550e", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 9, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E1", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "마녀의 약 조제가 시작되기 전에 마녀가 약을 끓이기 시작했다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"{": "E1", "target": "G1", "relation_type": "PRECEDES", "cue": "성의 모습이 보였다", "evidence_kind": "explicit", "confidence": 1.0, "description": "성의 모습이 보인 사건이 공주가 성에 가지 못한 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E2", "target": "G2", "relation_type": "PRECEDES", "cue": "꽃을 따서 입맞춤", "evidence_kind": "explicit", "confidence": 1.0, "description": "꽃을 따서 입맞춤한 사건이 공주가 고향을 떠나는 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E3", "target": "G3", "relation_type": "PRECEDES", "cue": "왕자의 성에 도착", "evidence_kind": "explicit", "confidence": 1.0, "description": "왕자의 성에 도착한 사건이 공주가 슬픔을 느끼는 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E4", "target": "G4", "relation_type": "PRECEDES", "cue": "약을 삼킴", "evidence_kind": "explicit", "confidence": 1.0, "description": "약을 삼킨 사건이 공주가 바다를 헤치는 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E5", "target": "G5", "relation_type": "PRECEDES", "cue": "정신을 잃고 쓰러짐", "evidence_kind": "explicit", "confidence": 1.0, "description": "정신을 잃고 쓰러진 사건이 공주가 대리석 계단을 올라가는 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E6", "target": "G6", "relation_type": "PRECEDES", "cue": "고통을 느끼며 깨어남", "evidence_kind": "explicit", "confidence": 1.0, "description": "고통을 느끼며 깨어난 사건이 공주가 꼬리가 사라진 것을 보는 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E7", "target": "G7", "relation_type": "PRECEDES", "cue": "왕자가 공주를 내려다봄", "evidence_kind": "explicit", "confidence": 1.0, "description": "왕자가 공주를 내려다본 사건이 공주가 몸을 감춘 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E8", "target": "G8", "relation_type": "PRECEDES", "cue": "왕자가 손을 잡음", "evidence_kind": "explicit", "confidence": 1.0, "description": "왕자가 공주의 손을 잡은 사건이 공주에게 질문한 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E9", "target": "G9", "relation_type": "PRECEDES", "cue": "공주가 슬픔을 느낌", "evidence_kind": "explicit", "confidence": 1.0, "description": "공주가 슬픔을 느낀 사건이 왕자가 공주에게 질문한 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E10", "target": "G10", "relation_type": "PRECEDES", "cue": "무희들이 노래를 부름", "evidence_kind": "explicit", "confidence": 1.0, "description": "무희들이 노래를 부른 사건이 왕자가 공주에게 질문한 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E11", "target": "G11", "relation_type": "PRECEDES", "cue": "공주가 춤을 추기 시작함", "evidence_kind": "explicit", "confidence": 1.0, "description": "공주가 춤을 추기 시작한 사건이 모두가 공주를 보고 놀라워한 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E12", "target": "G12", "relation_type": "PRECEDES", "cue": "모두가 공주를 보고 놀라워함", "evidence_kind": "explicit", "confidence": 1.0, "description": "모두가 공주를 보고 놀라워한 사건이 왕자가 공주를 부른 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E13", "target": "G13", "relation_type": "PRECEDES", "cue": "공주가 아름다운 의상을 입음", "evidence_kind": "explicit", "confidence": 1.0, "description": "공주가 아름다운 의상을 입은 사건이 왕자가 공주를 부른 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E14", "target": "G14", "relation_type": "PRECEDES", "cue": "왕자가 공주를 부름", "evidence_kind": "explicit", "confidence": 1.0, "description": "왕자가 공주를 부른 사건이 공주가 슬픔을 느낀 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E15", "target": "G15", "relation_type": "PRECEDES", "cue": "공주가 다시 춤을 추기 시작함", "evidence_kind": "explicit", "confidence": 1.0, "description": "공주가 다시 춤을 추기 시작한 사건이 왕자가 공주를 곁에 두겠다고 말한 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E16", "target": "G16", "relation_type": "PRECEDES", "cue": "왕자가 공주를 곁에 두겠다고 말함", "evidence_kind": "explicit", "confidence": 1.0, "description": "왕자가 공주를 곁에 두겠다고 말한 사건이 왕자가 시종의 옷을 만들어 준 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E17", "target": "G17", "relation_type": "PRECEDES", "cue": "공주가 발을 식힘", "evidence_kind": "explicit", "confidence": 1.0, "description": "공주가 발을 식힌 사건이 공주가 언니들을 떠올린 사건보다 먼저 일어났다."}}
+{"kind": "event_rejected", "chunk_id": 10, "phase": "glean", "reason": "local_id가 없거나 예시 문구입니다.", "raw": {"source": "E18", "target": "G18", "relation_type": "PRECEDES", "cue": "언니들이 슬프게 노래 부름", "evidence_kind": "explicit", "confidence": 1.0, "description": "언니들이 슬프게 노래 부른 사건이 공주가 언니들을 떠올린 사건보다 먼저 일어났다."}}
+{"kind": "event_flags", "event_id": "evt_cfb27842f02c2a19", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_bd2491f05dcdb9bc", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2c9372b843d5a00b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ee1db0f4379d6e45", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_8d469117d0ea28c5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ccfea8308a8d4650", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_97c62ad95c46c8cf", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e12300076c733200", "flags": ["participant_from_context", "label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_ac32798bed2793cc", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8ef5373dde676dab", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6f7b5f80a1d8577f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_32d7d621f58e2337", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_dcb52db4e86c1c1d", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_07ebd840cd5e558d", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_731406c999333610", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_92675eac5387f5d4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0bcec7ea26897493", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_89fc858ff811c13b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4ac6113fed9794e2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c468a9172b0f80c6", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fd7b714523f3859f", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_73f379b05b6f05fb", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_819a874fbb0f18c9", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_51068673ddd90887", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_8921a0ab2df306fe", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_9107108430e0adac", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_94a9336ca7897a10", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_c95748b55cd219e3", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f2dc6c43dee7764a", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d8576ed18c9d93f8", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2311da25c5f029b9", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b3afd5fe11b8c9ff", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_89fc858ff811c13b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4161795004fec742", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_9ceb2261b9e2e647", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6b3f59cc86b376e2", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_3396a5f587f22eb0", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4ac6113fed9794e2", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_95b72db46d28e966", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_fd7b714523f3859f", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_73f379b05b6f05fb", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_16573feb94301d2a", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_86a172cf51cad728", "flags": ["trigger_is_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 11, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E18", "target": "G13", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "왕자가 이웃 왕의 딸과 결혼할 소문이 돌기 시작한 사건이 왕자가 이웃 왕국으로 떠났다는 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 11, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E19", "target": "G14", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "왕자가 이웃 왕국으로 떠난 사건이 왕자가 이웃 왕의 딸과 결혼할 소문이 돌기 시작한 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 11, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E20", "target": "G15", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "공주가 왕자의 생각을 잘 알았다는 사건이 왕자가 공주에게 여행을 떠나야 한다고 말한 사건보다 먼저 일어났다."}}
+{"kind": "event_removed_by_verify", "chunk_id": 12, "record": {"local_id": "G3", "key": "g:G3", "phase": "glean", "label": "결혼식이 열리다", "trigger": null, "trigger_span": null, "event_type": "occurrence", "description": "교회의 종이 모두 울려 퍼지며 온 도시에 결혼식 소식이 전해졌다.", "evidence": "교회의 종이 모두 울려 퍼지며 온 도시에 결혼식 소식을 전했다.", "original_span": [19810, 19845], "chunk_span": [979, 1014], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 12, "flags": ["trigger_not_in_evidence"], "verify_reason": "이 사건은 결혼식이 열리는 과정이 아닌 결혼식 소식이 전해지는 배경 설명에 해당한다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_32b1a7596e91acbd", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_e9137bdc33c3355e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a44cedad512487ce", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_846a0ef71849bea6", "flags": ["trigger_is_evidence", "label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_f3ef6efff372d0a7", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_048253f389e40afd", "flags": ["trigger_is_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 12, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E5", "target": "G3", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "배가 항구에 들어선 후 결혼식 소식이 전해졌다."}}
+{"kind": "relation_rejected", "chunk_id": 12, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "G3", "target": "G4", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "결혼식 소식이 전해진 후 왕자가 신부를 안았다."}}
+{"kind": "event_flags", "event_id": "evt_6413f67068901ca0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_117846360691dd4d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b35363d74cc03163", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e79e87bf2e0c0d67", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_923afa5661624d29", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_732c35900451f652", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e055a0ff851af3e8", "flags": ["trigger_is_evidence", "verified_revised", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f809eb4c388e2a12", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2f8ac2b5d363ad39", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_f7e010f72a2e3322", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_2a3197f95d78f01e", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5fd585125d0cda8c", "flags": ["evidence_edge_trimmed"]}
+{"kind": "event_flags", "event_id": "evt_c3581028e9d3b575", "flags": ["evidence_fuzzy", "trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d732a9e2d97ca178", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_59d4bc4af9e93a11", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_3c96cb7d1b0c9660", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8ecd16051794d15a", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_511326af0722ce11", "ee_c24b96f0cd040bc0"], "labels": ["evt_7a7ec9106b7c53fd-PRECEDES->evt_9238a18a05d8d7dc", "evt_7a7ec9106b7c53fd-REVEALS->evt_9238a18a05d8d7dc"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_12caeaed7f0911c8", "ee_19e45cdb9a043ebf"], "labels": ["evt_d0a5aa565842481d-PRECEDES->evt_fb79a861933e42be", "evt_fb79a861933e42be-PRECEDES->evt_d0a5aa565842481d"]}
+{"kind": "against_narrative_order", "edge_id": "ee_c4f3ac4162800a3e", "label": "evt_1c773d73738c804f-PRECEDES->evt_67460534ccaed7e9"}
+{"kind": "against_narrative_order", "edge_id": "ee_a36be5aab128ccc2", "label": "evt_37329d26fc3d6b65-PRECEDES->evt_7c91c3e0d7ca6d24"}
+{"kind": "against_narrative_order", "edge_id": "ee_e365296165bd53e5", "label": "evt_010a257358fc793a-PRECEDES->evt_73ac011462b91aaf"}
+{"kind": "against_narrative_order", "edge_id": "ee_ddabec5c988c0df6", "label": "evt_6f7b5f80a1d8577f-PRECEDES->evt_51068673ddd90887"}
+{"kind": "against_narrative_order", "edge_id": "ee_d689b40542bf48e7", "label": "evt_92675eac5387f5d4-PRECEDES->evt_9107108430e0adac"}
+{"kind": "against_narrative_order", "edge_id": "ee_6bd54339518f7932", "label": "evt_e9db07b90fe95785-PRECEDES->evt_0b8309c0ff4cd012"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_19e45cdb9a043ebf", "label": "evt_d0a5aa565842481d-PRECEDES->evt_fb79a861933e42be"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_12caeaed7f0911c8", "label": "evt_fb79a861933e42be-PRECEDES->evt_d0a5aa565842481d"}

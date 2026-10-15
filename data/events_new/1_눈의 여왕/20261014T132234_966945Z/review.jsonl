@@ -1,0 +1,382 @@
+{"kind": "utf8_boundary", "chunk_id": 1, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 0, "chunk_char_end": 1909}
+{"kind": "utf8_boundary", "chunk_id": 16, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 1, "chunk_char_end": 1916}
+{"kind": "utf8_boundary", "chunk_id": 19, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 0, "chunk_char_end": 1859}
+{"kind": "event_flags", "event_id": "evt_e569bbbae088dbd0", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_c2d915ce39bc5758", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_84a866472b72819f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8dfdfe32ec1113b6", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_975f5ea03a53f034", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c2d915ce39bc5758", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b73d8b09f3b58eb3", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2b18f1711b0ac6b8", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5706df3d506bc99e", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_3f631ccb25ae49be", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f583066761466bb8", "flags": ["evidence_edge_trimmed"]}
+{"kind": "event_flags", "event_id": "evt_36cef3a10072d515", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_1f3cfcd7fade3bc8", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7b710333cc2a1f4d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_80c904ec96a89784", "flags": ["event_type_invalid", "trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_eba8cd7bbf23e4c7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7dd49cbba38d5e71", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fb9e88d88c3b1103", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_c06071a7c396f242", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_becb1fe1a112e1bc", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0781b8c60278b59d", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_6f18e02adcf2642b", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e78e88272edfcdd4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fb9e88d88c3b1103", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_becb1fe1a112e1bc", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e07c7a1df9f6362b", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_d868a2210e928299", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_66ca91e875017ca2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ec131ec3efb2d093", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_78781adcb5e02ed1", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fb7aa7ff3abbf7cf", "flags": ["evidence_whitespace_normalized", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_58689ef3bd6b1c82", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_66ca91e875017ca2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_768a8ddf2961cd04", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_78781adcb5e02ed1", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_669e40e988704aae", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_088388cac47117eb", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_fb7aa7ff3abbf7cf", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_40274e843e0d73b4", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_75e5746d036ebf29", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_cb163fcd6f18fd5f", "flags": ["trigger_is_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 4, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E20", "target": "G13", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "카이가 돌아오지 않았을 때 사람들이 슬퍼했다."}}
+{"kind": "relation_rejected", "chunk_id": 4, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E21", "target": "G14", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "사람들이 카이가 죽었다고 말한 후 슬퍼했다."}}
+{"kind": "event_flags", "event_id": "evt_5e90b785a891944a", "flags": ["trigger_not_in_evidence", "verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_d734cf27fe65602e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ae373ec826a24ae7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1b74b473ec63951b", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_f9f7bfd82e3691d5", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5040f97163183806", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ac96d8537b8efd3a", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_25b838d77ee6dfcd", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e54cf991c823f930", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6bff11eae9f3bdf0", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_83f5c261f170a718", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3126fab493651f7b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a700d0fbbaebd8ae", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4e5777031e66091e", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4f31a0ea67a0d3f4", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b420d13c2c82d4ae", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_fb57808c9b3ec7cc", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b882a3a3c5b03e75", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ae373ec826a24ae7", "flags": ["trigger_is_evidence"]}
+{"kind": "edge_flags", "edge_id": "ee_a04eefa5dc13b924", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_61d4515c14f32981", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_f106eff2abf66761", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_0f982c7aa96f7486", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ecf90ac093db9836", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3a87fe7cfd28dda0", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_aa1cb1fec7c62e7d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_eb837f132f3a29a7", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_05f6e502f3a22d1b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_372a2e8c26387e1c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0e1594bee3bb5f15", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5338d51516eef61f", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6066635ea31711e5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_57096cd2863a600f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d944c64ab6bc2cfe", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_59c293761ea20ccc", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_22454686b493519f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0e1594bee3bb5f15", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_57096cd2863a600f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d944c64ab6bc2cfe", "flags": ["participant_from_context"]}
+{"kind": "event_rejected", "chunk_id": 7, "phase": "glean", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "G6", "label": "참나리 꽃이 이야기하다", "trigger": "참나리 꽃은 뭐라고 말했을까?", "event_type": "interaction", "description": "참나리 꽃이 자신의 이야기를 했다.", "evidence": "참나리 꽃은 뭐라고 말했을까?\n“난 정말 모르겠어.”\n“그게 내 동화야.”", "participants": ["참나리 꽃"]}}
+{"kind": "event_rejected", "chunk_id": 7, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E1", "label": "장미가 대답하다", "trigger": "죽지 않았어", "event_type": "interaction", "description": "장미꽃이 게르다에게 카이에 대한 질문에 대답했다.", "evidence": "“그 애는 죽지 않았어. 우리는 죽은 사람들이 있는 땅속에 있었는데, 그곳에 카이는 없었어.”", "participants": ["장미꽃", "게르다"]}}
+{"kind": "event_rejected", "chunk_id": 7, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E2", "label": "꽃들이 대답하지 않다", "trigger": "아무것도 들을 수가 없었다", "event_type": "interaction", "description": "게르다가 많은 꽃들에게 카이에 대해 물었지만 아무 대답도 듣지 못했다.", "evidence": "게르다가 많은 꽃들에게 귀를 기울였지만 카이에 대한 얘기는 아무것도 들을 수가 없었다.", "participants": ["게르다"]}}
+{"kind": "event_rejected", "chunk_id": 7, "phase": "repair", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E3", "label": "참나리 꽃이 이야기하다", "trigger": "난 정말 모르겠어", "event_type": "interaction", "description": "참나리 꽃이 자신의 이야기를 했다.", "evidence": "참나리 꽃은 뭐라고 말했을까?\n“난 정말 모르겠어.”\n“그게 내 동화야.”", "participants": ["참나리 꽃"]}}
+{"kind": "event_rejected", "chunk_id": 7, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E4", "label": "나팔꽃이 이야기하다", "trigger": "내 자신의 꿈을", "event_type": "interaction", "description": "나팔꽃이 자신의 꿈에 대해 이야기했다.", "evidence": "“난 내 이야기를 하고 있는 거야, 내 자신의 꿈을.”", "participants": ["나팔꽃"]}}
+{"kind": "event_rejected", "chunk_id": 7, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E5", "label": "작은 스노드롭이 이야기하다", "trigger": "이게 나의 이야기야", "event_type": "interaction", "description": "작은 스노드롭이 자신의 이야기를 했다.", "evidence": "“이게 나의 이야기야.”", "participants": ["작은 스노드롭"]}}
+{"kind": "event_rejected", "chunk_id": 7, "phase": "repair", "reason": "재복사 결과가 거부된 사건과 일치하지 않습니다.", "raw": {"local_id": "E6", "label": "히아신스가 이야기하다", "trigger": "세 자매가 있었어", "event_type": "interaction", "description": "히아신스가 세 자매에 대한 이야기를 했다.", "evidence": "“세 자매가 있었어, 꽤 솔직하고 온화했어.”", "participants": ["히아신스"]}}
+{"kind": "event_flags", "event_id": "evt_d944c64ab6bc2cfe", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e7c3677e45096a5", "flags": ["evidence_edge_trimmed"]}
+{"kind": "event_flags", "event_id": "evt_312b71aae7fe8990", "flags": ["evidence_edge_trimmed"]}
+{"kind": "event_flags", "event_id": "evt_80bc07816ec757ad", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_095ba0983ad46fea", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f01445bee2550efb", "flags": ["speech_tag_ambiguous", "trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4b6114ca4ae3e314", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7fc6721f010ded05", "flags": ["speech_tag_ambiguous", "question_as_statement"]}
+{"kind": "event_flags", "event_id": "evt_312b71aae7fe8990", "flags": ["speech_tag_ambiguous"]}
+{"kind": "relation_rejected", "chunk_id": 7, "phase": "extract", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E1", "target": "E2", "relation_type": "CASES", "cue": "따뜻한 눈물이 땅을 촉촉이 적시자", "evidence_kind": "explicit", "confidence": 1.0, "description": "게르다가 눈물을 흘린 후 장미 덤불이 다시 올라와서 무성하게 피어났다."}}
+{"kind": "relation_rejected", "chunk_id": 7, "phase": "glean", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "G5", "target": "G6", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "게르다가 카이에 대한 얘기를 듣지 못한 후 참나리 꽃이 이야기했다."}}
+{"kind": "relation_rejected", "chunk_id": 7, "phase": "glean", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "G6", "target": "G7", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "참나리 꽃이 이야기한 후 나팔꽃이 이야기했다."}}
+{"kind": "event_flags", "event_id": "evt_643f5cdc32d757b5", "flags": ["speech_tag_ambiguous", "event_type_invalid"]}
+{"kind": "event_flags", "event_id": "evt_a75feccfeb5d4068", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_b47a2c6dbc48ae35", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_57b03b5869250127", "flags": ["evidence_partial", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_20ff589f76f25a79", "flags": ["event_type_invalid", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_715033e78e1819cb", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e705bdc3f859220a", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_33df3be64c61f699", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5536fbfed00b063a", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b37e5c36d4f20e13", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a7ddc41b9deb3a0b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_715033e78e1819cb", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 8, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E7", "target": "G5", "relation_type": "PRECEDES", "cue": "게르다는 재빨리 달아날 수 있게 치마를 걷어 올렸다.", "evidence_kind": "explicit", "confidence": 1.0, "description": "게르다가 도망치기 위해 치마를 걷어 올린 후 넓은 세상으로 도망쳐 나왔다."}}
+{"kind": "event_flags", "event_id": "evt_745d62185b010745", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_99a61772d6021a1e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8b3a31f4983968ac", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ad3584aad7d0a985", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d015e0c483142383", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1085e3425408ac03", "flags": ["evidence_whitespace_normalized", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_45a5b14bdc16b6df", "flags": ["evidence_whitespace_normalized", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b12c6c882dfd27e7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_715033e78e1819cb", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cef8537b01fc090c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f543dbe92d4c52e6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7ffacd01047d09e2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_532b545df7a7a9eb", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7927f239e464de69", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_864293b3af9499b0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ad3584aad7d0a985", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d015e0c483142383", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1085e3425408ac03", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a14b20a7829f61a7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3671b8bbdc0a30c4", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_553de51f6012ae26", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_45a5b14bdc16b6df", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b12c6c882dfd27e7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_09cdff692444fc58", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9ad924a436312d90", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_faeaea2bc3b7fe02", "flags": ["participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_37ff1ab28a59e6f7", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_ec4367aa0b4d6750", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_c7f7e374648914d6", "flags": ["question_as_statement"]}
+{"kind": "event_flags", "event_id": "evt_3deb9f45479b207f", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_29fe24cf7ca6372f", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_57a6286fa5c41bc9", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5982184f59d63ac3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_bb7e3cd45041a9dc", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_bc9ad44d840dcc3e", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a85be47295fa230d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4c141a35dc100b30", "flags": ["trigger_is_evidence"]}
+{"kind": "edge_flags", "edge_id": "ee_19652406457cf0de", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_eaddfbcc55db27fb", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_e2dd3bfe985965f8", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e1c80bf5baab46b9", "flags": ["speech_tag_ambiguous", "verified_revised"]}
+{"kind": "event_flags", "event_id": "evt_31573a2e62fde3c0", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6702696332612be6", "flags": ["evidence_partial", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0f7fb0df2e754844", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2c46bd7fcbb8d796", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5a7248de2f518b92", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6702696332612be6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_873d4bf501c343d1", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_772fab25cff23229", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a62e937ddeefd624", "flags": ["participant_from_context"]}
+{"kind": "event_removed_by_verify", "chunk_id": 12, "record": {"local_id": "E1", "key": "x:E1", "phase": "extract", "label": "꿈 그림자 등장", "trigger": "냥꾼의 그림자도 있었다.", "trigger_span": [18862, 18875], "event_type": "occurrence", "description": "냥꾼의 그림자가 나타났다.", "evidence": "냥꾼의 그림자도 있었다.", "original_span": [18862, 18875], "chunk_span": [0, 13], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 12, "flags": [], "verify_reason": "냥꾼의 그림자가 등장한 것은 사건이 아닌 배경 묘사에 해당한다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_a6d23f1a64708bbc", "flags": ["evidence_partial", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_426def9959cfb2ad", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_bf4f1a5b8d28cf51", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d22f86c40e340445", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_c955f604e51a2083", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d915728dc930559c", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_84fadc6bdac6309c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a1be4ffaf736b4f7", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a2231865b42a9375", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_56a3386d3ebe2d7d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a54ff581feefb908", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6ca8afaa228fd21c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6e6b1c265ba43bf6", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7edadcf16bb36aae", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_70d0037251668321", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5a33ed1976c2128d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2576ba720c980734", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5eb290c07915b336", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_40d4bc9b46dd193c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b40793716aaf14b9", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_570b6179eb08650b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_e7e308a22df2ad53", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_afbc8e2fcdf39705", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b27e033a368e59cb", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_29933cec008e8306", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d22f86c40e340445", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_c955f604e51a2083", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6e47dff978690917", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d915728dc930559c", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_84fadc6bdac6309c", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_24eb9b923db9d331", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a1be4ffaf736b4f7", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a2231865b42a9375", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_56a3386d3ebe2d7d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a54ff581feefb908", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6ca8afaa228fd21c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6e6b1c265ba43bf6", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7edadcf16bb36aae", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_70d0037251668321", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5a33ed1976c2128d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2576ba720c980734", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5eb290c07915b336", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_40d4bc9b46dd193c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b40793716aaf14b9", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_570b6179eb08650b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_e7e308a22df2ad53", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_3f3f4e0655dd67d7", "flags": ["trigger_is_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 12, "phase": "extract", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E2", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "냥꾼의 그림자가 나타난 후 궁의 까마귀가 대화를 시작했다."}}
+{"kind": "relation_rejected", "chunk_id": 12, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E6", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "왕실 침실에 이르렀던 사건이 일행이 방으로 들어간 사건 다음에 일어났다."}}
+{"kind": "event_flags", "event_id": "evt_3f3f4e0655dd67d7", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_ba40570f5e1fedfb", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_9c508460772ba292", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_047a06610c093bf8", "flags": ["description_term_not_in_text"]}
+{"kind": "event_flags", "event_id": "evt_4dbaf62fbd70631a", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_10772412f54f7ec2", "flags": ["evidence_fuzzy", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6ea44b7882816132", "flags": ["evidence_whitespace_normalized", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e7e308a22df2ad53", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_78fe27ed716cb103", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_3193b8f60e0738f9", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_0cfff2f33bd9818f", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_6bfb46aacaf955ec", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_9c508460772ba292", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4dbaf62fbd70631a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4618343e1afe0fa8", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_10772412f54f7ec2", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6ea44b7882816132", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fed47c4891b9b016", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_693e097523270bcc", "flags": ["evidence_exact_ambiguous", "participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_40deca484ff889ba", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_removed_by_verify", "chunk_id": 14, "record": {"local_id": "E1", "key": "x:E1", "phase": "extract", "label": "토끼고기가 익어감", "trigger": "토끼고기가 익어가고 있었다.", "trigger_span": [22198, 22213], "event_type": "occurrence", "description": "치에 토끼고기가 익어가고 있었다.", "evidence": "치에 토끼고기가 익어가고 있었다.", "original_span": [22195, 22213], "chunk_span": [0, 18], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 14, "flags": [], "verify_reason": "배경 묘사로 특정 시점의 사건이 아니다.", "verdict": "not_event"}}
+{"kind": "event_removed_by_verify", "chunk_id": 14, "record": {"local_id": "G1", "key": "g:G1", "phase": "glean", "label": "비둘기 꿈틀거림", "trigger": "비둘기들은 잠이 든 것처럼 보였지만, 어린 소녀 둘이 가까이 다가오자 꿈틀거렸다.", "trigger_span": [22333, 22378], "event_type": "occurrence", "description": "비둘기들은 잠이 든 것처럼 보였으나, 어린 소녀 둘이 가까이 다가오자 꿈틀거렸다.", "evidence": "비둘기들은 잠이 든 것처럼 보였지만, 어린 소녀 둘이 가까이 다가오자 꿈틀거렸다.", "original_span": [22333, 22378], "chunk_span": [138, 183], "participants": [], "dropped_participants": [], "narrative_level": "main", "chunk_id": 14, "flags": ["trigger_is_evidence"], "verify_reason": "배경 묘사로 특정 시점의 사건이 아니다.", "verdict": "not_event"}}
+{"kind": "event_flags", "event_id": "evt_3e6736a1f4b9bca6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b02d6f7d49e89cca", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e5e65159c493844", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9d8cd794ebdd6f0d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a523d024b98698db", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4db5283e1318de16", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_4c3ea0d214bb1788", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d125c6b3b66bafa7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4fd74408acf804d2", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6382dd2865d59562", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8467083e0effea13", "flags": ["trigger_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_0c55f79c7ce81d35", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e2156b22f30486b", "flags": ["evidence_edge_trimmed", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7de94b34554eb5fd", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5b1e96ae5f1f0692", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_74863e04cdf64626", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e2b9cd4935403ea", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_744bad230c4d3610", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b7289df0cfdfa998", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8d8422e2ba8b42e5", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_637f3ad0314f1391", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4d75b03077eb2f24", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d125c6b3b66bafa7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_859aa4d12bfaa02e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8e7612e548066299", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6382dd2865d59562", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3279b65289fd75eb", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_0c55f79c7ce81d35", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 14, "phase": "extract", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E2", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "토끼고기가 익어가는 사건이 산적 딸이 게르다에게 제안하는 사건보다 먼저 일어났다."}}
+{"kind": "edge_flags", "edge_id": "ee_f3118f103a1697c8", "flags": ["description_endpoint_mismatch"]}
+{"kind": "relation_rejected", "chunk_id": 14, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "토끼고기가 익어가는 사건이 비둘기가 꿈틀거리는 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 14, "phase": "glean", "reason": "검수에서 사건이 아니라고 판정된 사건을 가리킵니다.", "raw": {"source": "E4", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "비둘기들이 모인 사건이 비둘기가 꿈틀거리는 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 14, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E17", "target": "G9", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "게르다의 불안 사건이 산적 딸의 잠 사건보다 먼저 일어났다."}}
+{"kind": "relation_rejected", "chunk_id": 14, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E25", "target": "G17", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "산적 딸의 위협 사건이 게르다의 보고 사건보다 먼저 일어났다."}}
+{"kind": "event_flags", "event_id": "evt_3279b65289fd75eb", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_0458243b9920212d", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_a6a99cb76da78de6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5df31cd7ff63bb44", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6204ebe1beaaa05b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2d4f1c86a479e515", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_70910ad5d4b8ac2e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2643a2b0b86e155b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d1278be0ebaf3203", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_aeeb312098605b08", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0c55f79c7ce81d35", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5df31cd7ff63bb44", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_eadbc7eec1c7809b", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2d4f1c86a479e515", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_70910ad5d4b8ac2e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2643a2b0b86e155b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d1278be0ebaf3203", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_aeeb312098605b08", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a90a4853308cefcf", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_aeeb312098605b08", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a593c7dd50c16953", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_53f462d9421e45d0", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e80b74a133b416a8", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c6f7b029bcbc85a5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_38e0ff0b410d8634", "flags": ["evidence_gap_bridged", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2acc1e164aae8a4d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0610cc8071c858d0", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_648a7441b8ffcc1b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ffde2f92cf2045b6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4b937317ce07da34", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2acc1e164aae8a4d", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5beb99a09d0174f0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fe43721c5dac9ca5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3bc5c195a60111bf", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_180c674e0c5c5c77", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_54df2e047d3cbde5", "flags": ["trigger_not_in_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 17, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "G5", "target": "G6", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 1.0, "description": "게르다가 기도를 마치는 사건이 천사들이 게르다를 둘러싸는 사건보다 먼저 일어났다."}}
+{"kind": "event_flags", "event_id": "evt_fae691ca52c0647c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_5a618c43eb04c49b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_9eaaeadb014585ce", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a6ba24b52c7f2562", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7b2ce250436fefc6", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_25cf6f03de8a046c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4fc4e12c3622ca6b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ca5b6c53e4f4cc1e", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_49eff47c2ed425f5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ed527592d9fced60", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_11f595f179a454a7", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f04ec0055c45454b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f0a984f6df68cb2c", "flags": ["evidence_fuzzy", "trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2eab98494a5df826", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ad8eb4dca4e14a3e", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b9a64d7814ecdbe8", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d8a56dde04b3bff2", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_8a4d9224152ad908", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f8bf5994c3bd0538", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6b54ff0404c94d72", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0536b09944cd43ce", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4e4438322316c912", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ca5b6c53e4f4cc1e", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_49eff47c2ed425f5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ed527592d9fced60", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_11f595f179a454a7", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f04ec0055c45454b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f0a984f6df68cb2c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2eab98494a5df826", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ad8eb4dca4e14a3e", "flags": ["trigger_is_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 18, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E7", "target": "G7", "relation_type": "REVEALS", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "게르다의 등장 사건이 게르다가 성 안으로 걸어 들어왔다는 사실을 드러낸다."}}
+{"kind": "event_flags", "event_id": "evt_f2becbbf6136cb9f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_782f692f63996461", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b6ae33931ed5b5a7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_0b7babbaea0ba3fd", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_8492304858995877", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f2942a4323866709", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_614e541720ae9a93", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b6ae33931ed5b5a7", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7b165bbe67fd2d2f", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_47f9955a63f1dfda", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4991c3e7d05229e7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_89a342071c2ea54f", "flags": ["trigger_not_in_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4991c3e7d05229e7", "flags": ["trigger_not_in_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 20, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E4", "target": "G7", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "성가의 뜻을 깨달은 후 둘은 성가를 부르기 시작했다."}}
+{"kind": "edge_conflict", "edge_ids": ["ee_243576b718b45927", "ee_9e08f7034692aa76"], "labels": ["evt_c2d915ce39bc5758-CAUSES->evt_b73d8b09f3b58eb3", "evt_c2d915ce39bc5758-PRECEDES->evt_b73d8b09f3b58eb3"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_b6495fbebadaabba", "ee_f2998e6a16aa7fac"], "labels": ["evt_7b710333cc2a1f4d-DURING->evt_80c904ec96a89784", "evt_7b710333cc2a1f4d-PRECEDES->evt_80c904ec96a89784"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_1d012c0125fca39c", "ee_a04eefa5dc13b924"], "labels": ["evt_75e5746d036ebf29-PRECEDES->evt_cb163fcd6f18fd5f", "evt_cb163fcd6f18fd5f-PRECEDES->evt_75e5746d036ebf29"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_b43154dbecfdbba9", "ee_ea4f770b9e908ad9"], "labels": ["evt_b420d13c2c82d4ae-DURING->evt_fb57808c9b3ec7cc", "evt_b420d13c2c82d4ae-PRECEDES->evt_fb57808c9b3ec7cc"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_41b1fa56a3bfccb5", "ee_925ad727c9998e6d"], "labels": ["evt_1b74b473ec63951b-PRECEDES->evt_ae373ec826a24ae7", "evt_ae373ec826a24ae7-PRECEDES->evt_1b74b473ec63951b"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_00fd2f15a63c4108", "ee_1ba7950317f928fe"], "labels": ["evt_1b74b473ec63951b-PRECEDES->evt_bd346f0c6190bb68", "evt_bd346f0c6190bb68-PRECEDES->evt_1b74b473ec63951b"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_34c3e75f23393985", "ee_933071134b26e143"], "labels": ["evt_180c674e0c5c5c77-DURING->evt_12799054c69b7015", "evt_180c674e0c5c5c77-PRECEDES->evt_12799054c69b7015"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_b1e1d7140eeafd84", "ee_f9190f1286aec1c6"], "labels": ["evt_ed527592d9fced60-CAUSES->evt_11f595f179a454a7", "evt_ed527592d9fced60-PRECEDES->evt_11f595f179a454a7"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_bdc5b0d541558ce7", "ee_e62f9e32a4499b8f"], "labels": ["evt_11f595f179a454a7-PRECEDES->evt_2ced8fbd547e6c21", "evt_11f595f179a454a7-REVEALS->evt_2ced8fbd547e6c21"]}
+{"kind": "against_narrative_order", "edge_id": "ee_bd6dcb0795502c18", "label": "evt_2fb6d8e26a0e3cad-PRECEDES->evt_1f3cfcd7fade3bc8"}
+{"kind": "against_narrative_order", "edge_id": "ee_3b4c28a7b3d10fe7", "label": "evt_977e449f9830b30e-PRECEDES->evt_1b19fd03c7aece0b"}
+{"kind": "against_narrative_order", "edge_id": "ee_faa883ba1dc260ec", "label": "evt_279c62d6ee053224-PRECEDES->evt_088388cac47117eb"}
+{"kind": "against_narrative_order", "edge_id": "ee_09cf41394ed2286a", "label": "evt_d868a2210e928299-PRECEDES->evt_4a788d048076bbf7"}
+{"kind": "against_narrative_order", "edge_id": "ee_a04eefa5dc13b924", "label": "evt_cb163fcd6f18fd5f-PRECEDES->evt_75e5746d036ebf29"}
+{"kind": "against_narrative_order", "edge_id": "ee_41b1fa56a3bfccb5", "label": "evt_1b74b473ec63951b-PRECEDES->evt_ae373ec826a24ae7"}
+{"kind": "against_narrative_order", "edge_id": "ee_1ba7950317f928fe", "label": "evt_bd346f0c6190bb68-PRECEDES->evt_1b74b473ec63951b"}
+{"kind": "against_narrative_order", "edge_id": "ee_4f44cbdcfe9eebfb", "label": "evt_3a87fe7cfd28dda0-PRECEDES->evt_22454686b493519f"}
+{"kind": "against_narrative_order", "edge_id": "ee_58a237919d6adaf9", "label": "evt_745d62185b010745-PRECEDES->evt_715033e78e1819cb"}
+{"kind": "against_narrative_order", "edge_id": "ee_224d147f2b0e4c43", "label": "evt_f2becbbf6136cb9f-CAUSES->evt_3ed7d8311e958e33"}
+{"kind": "against_narrative_order", "edge_id": "ee_56f623670b2ff00c", "label": "evt_ed08dda72ca8fb68-PRECEDES->evt_b3c2862bc54c8065"}
+{"kind": "against_narrative_order", "edge_id": "ee_448fe8dfd8dc389d", "label": "evt_4991c3e7d05229e7-PRECEDES->evt_7ff60d6c00af0e46"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_9e08f7034692aa76", "label": "evt_c2d915ce39bc5758-PRECEDES->evt_b73d8b09f3b58eb3"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_f2998e6a16aa7fac", "label": "evt_7b710333cc2a1f4d-DURING->evt_80c904ec96a89784"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_ea4f770b9e908ad9", "label": "evt_b420d13c2c82d4ae-PRECEDES->evt_fb57808c9b3ec7cc"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_933071134b26e143", "label": "evt_180c674e0c5c5c77-PRECEDES->evt_12799054c69b7015"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_34c3e75f23393985", "label": "evt_180c674e0c5c5c77-DURING->evt_12799054c69b7015"}
+{"kind": "temporal_pair_conflict", "edge_id": "ee_b1e1d7140eeafd84", "label": "evt_ed527592d9fced60-PRECEDES->evt_11f595f179a454a7"}

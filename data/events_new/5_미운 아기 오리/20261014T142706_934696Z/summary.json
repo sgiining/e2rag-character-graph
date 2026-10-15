@@ -1,0 +1,83 @@
+{
+  "status": "completed_with_review",
+  "extractor_version": "event.v7",
+  "model": "gpt-4o-mini",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\5_미운 아기 오리.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\5_미운 아기 오리.jsonl",
+  "gleaning": true,
+  "repair": true,
+  "verify": true,
+  "cross_chunk": false,
+  "stats": {
+    "raw_events": 163,
+    "events_rejected": 3,
+    "events_recovered_by_code": 5,
+    "events_repaired": 0,
+    "events_removed_by_verify": 0,
+    "events_revised_by_verify": 0,
+    "events_refixed_by_verify": 0,
+    "events_verify_unfixed": 0,
+    "events_verify_rejected": 0,
+    "verify_failed_chunks": 0,
+    "id_collisions": 0,
+    "events_new": 111,
+    "events_overlap_merged": 49,
+    "raw_relations": 151,
+    "relations_rejected": 4,
+    "edges": 110,
+    "api_calls": 21,
+    "failed_requests": 0,
+    "input_tokens": 108451,
+    "output_tokens": 41821,
+    "chunks_completed": 6,
+    "chunks_failed": 0
+  },
+  "work_id": "5_미운 아기 오리",
+  "input_chunks": 6,
+  "document_sha256": "e0b30f46027998085727434cb38a6ee607c9e8a1aa7db3ea92558884b1aeccab",
+  "chunks_sha256": "1a7fc9f95ea0586863c71b8787a0e44f19e27d16e9808de5870bd27131ae664b",
+  "events": 111,
+  "event_edges": 110,
+  "failed_units": [],
+  "event_type_counts": {
+    "occurrence": 50,
+    "interaction": 31,
+    "action": 22,
+    "conflict": 4,
+    "support": 2,
+    "other": 2
+  },
+  "narrative_level_counts": {
+    "main": 111
+  },
+  "verdict_counts": {
+    "supported": 111
+  },
+  "relation_type_counts": {
+    "PRECEDES": 110
+  },
+  "edge_scope_counts": {
+    "intra_chunk": 110
+  },
+  "event_flag_counts": {
+    "participant_from_context": 39,
+    "trigger_is_evidence": 8,
+    "trigger_not_in_evidence": 11,
+    "participant_not_in_chunk": 1,
+    "speech_tag_ambiguous": 2,
+    "event_type_invalid": 1,
+    "trigger_ambiguous": 1,
+    "evidence_whitespace_normalized": 7,
+    "evidence_exact_ambiguous": 2,
+    "evidence_edge_trimmed": 3,
+    "participant_not_in_description": 1,
+    "question_as_statement": 1
+  },
+  "edge_flag_counts": {
+    "against_narrative_order": 6,
+    "description_endpoint_mismatch": 3
+  },
+  "temporal_invalid_edges": 6,
+  "flagged_events": 56,
+  "flagged_edges": 9
+}

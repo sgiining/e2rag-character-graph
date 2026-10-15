@@ -1,0 +1,94 @@
+{
+  "status": "completed_with_review",
+  "extractor_version": "event.v7",
+  "model": "gpt-4o-mini",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\1_눈의 여왕.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\1_눈의 여왕.jsonl",
+  "gleaning": true,
+  "repair": true,
+  "verify": true,
+  "cross_chunk": false,
+  "stats": {
+    "raw_events": 528,
+    "events_rejected": 7,
+    "events_recovered_by_code": 13,
+    "events_repaired": 0,
+    "events_removed_by_verify": 3,
+    "events_revised_by_verify": 1,
+    "events_refixed_by_verify": 1,
+    "events_verify_unfixed": 0,
+    "events_verify_rejected": 0,
+    "verify_failed_chunks": 0,
+    "id_collisions": 0,
+    "events_new": 384,
+    "events_overlap_merged": 134,
+    "raw_relations": 475,
+    "relations_rejected": 16,
+    "edges": 399,
+    "api_calls": 62,
+    "failed_requests": 0,
+    "input_tokens": 351943,
+    "output_tokens": 136532,
+    "chunks_completed": 20,
+    "chunks_failed": 0
+  },
+  "work_id": "1_눈의 여왕",
+  "input_chunks": 20,
+  "document_sha256": "bc978ce84c84e15ab3582290841c2c3eef44fe16ca05204b1165a3b71fd134ff",
+  "chunks_sha256": "1bcdf9358d07f2f590ed2cee28499b5a72c20a05ab5763a5be55cd04a7ae1b0a",
+  "events": 384,
+  "event_edges": 399,
+  "failed_units": [],
+  "event_type_counts": {
+    "action": 103,
+    "other": 14,
+    "occurrence": 159,
+    "interaction": 99,
+    "support": 8,
+    "conflict": 1
+  },
+  "narrative_level_counts": {
+    "main": 384
+  },
+  "verdict_counts": {
+    "supported": 382,
+    "revise": 2
+  },
+  "relation_type_counts": {
+    "PRECEDES": 369,
+    "REVEALS": 15,
+    "CAUSES": 4,
+    "DURING": 11
+  },
+  "edge_scope_counts": {
+    "intra_chunk": 399
+  },
+  "event_flag_counts": {
+    "participant_from_context": 131,
+    "evidence_whitespace_normalized": 7,
+    "trigger_is_evidence": 86,
+    "participant_not_in_description": 12,
+    "evidence_edge_trimmed": 6,
+    "speech_tag_ambiguous": 12,
+    "trigger_not_in_evidence": 16,
+    "verified_revised": 2,
+    "question_as_statement": 2,
+    "event_type_invalid": 2,
+    "evidence_partial": 3,
+    "narrative_level_invalid": 4,
+    "description_term_not_in_text": 1,
+    "evidence_fuzzy": 2,
+    "evidence_exact_ambiguous": 1,
+    "trigger_ambiguous": 1,
+    "evidence_gap_bridged": 1
+  },
+  "edge_flag_counts": {
+    "conflicting_pair": 18,
+    "temporal_pair_conflict": 6,
+    "against_narrative_order": 12,
+    "description_endpoint_mismatch": 8
+  },
+  "temporal_invalid_edges": 18,
+  "flagged_events": 221,
+  "flagged_edges": 34
+}
