@@ -1,0 +1,22 @@
+{"kind": "event_flags", "event_id": "evt_e316515452d68f1d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e99cae920735f287", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_48e99d609a445878", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ab0edba2c4582108", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6d7d76f5dad0029d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_975478a24d641103", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_84b027a3f134e84e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_97fd73274f330dd9", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_3b27b8495def1f26", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_8c27089146144635", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_ab0edba2c4582108", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_7cc927f191141886", "flags": ["trigger_is_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 1, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E5", "target": "G5", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "소녀가 성냥을 꺼낸 후 성냥갑에서 성냥 하나를 꺼냈다."}}
+{"kind": "event_flags", "event_id": "evt_fb43b6f985f85462", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_ef2705fb7922a190", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fb31114070f88ddb", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1b79466128e72330", "flags": ["trigger_not_in_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fb31114070f88ddb", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b2dbe36621d5ec16", "flags": ["trigger_not_in_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E1", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "성냥이 꺼진 후 성냥이 꺼졌다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "G5", "target": "E17", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "소녀가 벽에 기대어 앉아 묵은 해의 마지막 밤에 얼어 죽은 후 소녀의 모습이 얼어 뻣뻣하게 앉아 있었다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "G6", "target": "E19", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "소녀가 얼어 뻣뻣하게 앉아 있었고, 그 후 거의 다 타버린 성냥 꾸러미를 움켜쥔 채로 있었다."}}

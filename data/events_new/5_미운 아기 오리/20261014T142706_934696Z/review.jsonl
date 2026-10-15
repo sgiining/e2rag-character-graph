@@ -1,0 +1,97 @@
+{"kind": "event_flags", "event_id": "evt_5d2322dd4b53444c", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e2185b2f981e335b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f9e3c018f240f1ad", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_79758ae663417968", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_rejected", "chunk_id": 2, "phase": "extract", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E1", "label": "오리 가족이 호수에 들어감", "trigger": "물속으로 들어갔다", "event_type": "occurrence", "description": "어미 오리가 성을 둘러싸고 있는 호수로 가족을 이끌고 물속으로 들어갔다.", "evidence": "어미 오리는 성을 둘러싸고 있는 호수로 가족을 모두 이끌었다. 첨벙! 어미가 물속으로 들어갔다.", "participants": ["어미 오리", "아기 오리"]}}
+{"kind": "event_rejected", "chunk_id": 2, "phase": "extract", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E2", "label": "아기 오리들이 물에 들어감", "trigger": "물에 들어갔다", "event_type": "occurrence", "description": "아기 오리들이 어미의 뒤를 따라 물에 들어갔다.", "evidence": "아기 오리가 한 마리, 한 마리씩 물에 들어갔다.", "participants": ["아기 오리"]}}
+{"kind": "event_rejected", "chunk_id": 2, "phase": "extract", "reason": "evidence가 chunk 원문에 없습니다.", "raw": {"local_id": "E8", "label": "다른 오리들이 아기 오리를 놀림", "trigger": "놀림을 당했다", "event_type": "conflict", "description": "다른 오리들이 못생긴 아기 오리를 놀렸다.", "evidence": "가엾은 아기 오리는 다른 오리 그리고 닭들한테 이리저리 쪼이고 밀리고 놀림을 당했다.", "participants": ["아기 오리", "다른 오리", "닭들"]}}
+{"kind": "event_flags", "event_id": "evt_0457bfaccc0fd0c5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5c1bd4debde0079d", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_97fb9cd86aea2d08", "flags": ["trigger_not_in_evidence", "participant_not_in_chunk", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_76f6bcacd711c163", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_396b75e741f7b61b", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_cd3943d7e71afcca", "flags": ["trigger_is_evidence"]}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E1", "target": "E2", "relation_type": "DURING", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "어미 오리가 물속으로 들어간 동안 아기 오리들이 물에 들어갔다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E2", "target": "E3", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.8, "description": "아기 오리들이 물에 들어간 후 오리 가족이 둥둥 떠다녔다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E7", "target": "E8", "relation_type": "DURING", "cue": "", "evidence_kind": "implicit", "confidence": 0.8, "description": "어미 오리가 아기 오리들에게 교육하는 동안 다른 오리들이 아기 오리를 놀렸다."}}
+{"kind": "relation_rejected", "chunk_id": 2, "phase": "extract", "reason": "원문 근거가 확인되지 않아 거부된 사건을 가리킵니다.", "raw": {"source": "E8", "target": "E9", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "다른 오리들이 아기 오리를 놀린 후 아기 오리가 슬퍼했다."}}
+{"kind": "event_flags", "event_id": "evt_a02942fbd484523c", "flags": ["speech_tag_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_50f0c630a5471d27", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_92e328c647b63d4d", "flags": ["trigger_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_064932b35d25f7ee", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_584da88f5c8fd411", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_d2a2db387c2c3a9f", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2a44ec1969895743", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_4c6bc84ff4fba903", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_a01615a1da1f591c", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_f4c547cd48d7750b", "flags": ["event_type_invalid"]}
+{"kind": "event_flags", "event_id": "evt_2a44ec1969895743", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_c4eeff632c58792c", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_bdaf76a74444b300", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ce40c79cc4bac294", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9b4c4ddfb69e1062", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9be0c6d24ea724bf", "flags": ["evidence_whitespace_normalized", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3a11a25af3e6f580", "flags": ["evidence_whitespace_normalized", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cb1ffa5e851f09ff", "flags": ["evidence_exact_ambiguous", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f806a2fb4e9a263f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31afc563824c950e", "flags": ["evidence_whitespace_normalized", "speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3cd2455da25781d1", "flags": ["evidence_exact_ambiguous", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5daae0dd14bda5b4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d3ebb985d1cc5b9a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e307ebfb45155e3", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31c0cc0b1434562b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4bbded2ecfc6fab5", "flags": ["evidence_edge_trimmed", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_699c12f12e012401", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8e606532614c65d8", "flags": ["evidence_whitespace_normalized", "participant_not_in_description", "participant_from_context", "question_as_statement"]}
+{"kind": "event_flags", "event_id": "evt_ad96b9cbf2640cc3", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d9749b09cd6a6eef", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_33bf19a516838dea", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_53ef09f7c727e981", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_80814504dcb3d9ea", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_bdaf76a74444b300", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_ce40c79cc4bac294", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9b4c4ddfb69e1062", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9be0c6d24ea724bf", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3a11a25af3e6f580", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_cb1ffa5e851f09ff", "flags": ["evidence_exact_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f806a2fb4e9a263f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31afc563824c950e", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3cd2455da25781d1", "flags": ["evidence_exact_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5daae0dd14bda5b4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d3ebb985d1cc5b9a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1e307ebfb45155e3", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31c0cc0b1434562b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4bbded2ecfc6fab5", "flags": ["evidence_edge_trimmed", "trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_699c12f12e012401", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8e606532614c65d8", "flags": ["participant_not_in_description", "participant_from_context", "question_as_statement"]}
+{"kind": "edge_flags", "edge_id": "ee_872567768aaf9900", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_ed7b451dac4cf978", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_633db7b57aa1d33b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e5475fbf5cfd1c9e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_00037e2d46497784", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_09ea6b33db256dd6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1eb1f4e19c9fbfd9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_07d0c6d73bf93c18", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d91c4ebd6f41a253", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_558a0024e64298d0", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_944865ac13b4403b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1eb1f4e19c9fbfd9", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_624b2adc596acbb6", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_3b018b463948afc7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4d3d60c986b7a03f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_90d047aca293db2b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_632e211c0dee37b7", "flags": ["evidence_whitespace_normalized"]}
+{"kind": "event_flags", "event_id": "evt_88c59ab9662c1266", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1adb9d6f7b7a93d3", "flags": ["evidence_whitespace_normalized", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_30e2bd8e12afb88a", "flags": ["evidence_edge_trimmed", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_1005ed5398f773e9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b70ff724ac8ec3ad", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3b018b463948afc7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_73adf1b826db20d7", "flags": ["participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_c2267d55d442f684", "flags": ["description_endpoint_mismatch"]}
+{"kind": "against_narrative_order", "edge_id": "ee_6b90f96b5df208eb", "label": "evt_0457bfaccc0fd0c5-PRECEDES->evt_25d12e3a549d184c"}
+{"kind": "against_narrative_order", "edge_id": "ee_457a37bf69be60f6", "label": "evt_76f6bcacd711c163-PRECEDES->evt_5145803c147f2410"}
+{"kind": "against_narrative_order", "edge_id": "ee_e0397f383f9f8ea1", "label": "evt_594a3d54026e8f1a-PRECEDES->evt_8d0e47c1710b1cd5"}
+{"kind": "against_narrative_order", "edge_id": "ee_5d86546c27087946", "label": "evt_a526fcf866e469a2-PRECEDES->evt_4c6bc84ff4fba903"}
+{"kind": "against_narrative_order", "edge_id": "ee_f5de9b27081ae7b9", "label": "evt_07d0c6d73bf93c18-PRECEDES->evt_944865ac13b4403b"}
+{"kind": "against_narrative_order", "edge_id": "ee_16a8202156a9d655", "label": "evt_53ca10915a3f09bd-PRECEDES->evt_c72eb40aeededfa1"}

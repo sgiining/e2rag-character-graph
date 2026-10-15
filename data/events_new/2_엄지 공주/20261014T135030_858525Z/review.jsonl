@@ -1,0 +1,124 @@
+{"kind": "utf8_boundary", "chunk_id": 2, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 0, "chunk_char_end": 1690}
+{"kind": "utf8_boundary", "chunk_id": 7, "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외", "chunk_char_start": 1, "chunk_char_end": 1323}
+{"kind": "event_flags", "event_id": "evt_b4226d6403e5ba9f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c445afa667f9518a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fed0fd87f91e115b", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_da25311fe6ec5655", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5d18e738be3e1e4c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_2367d1ea06ab022a", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 1, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E14", "target": "G5", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "implicit", "confidence": 0.9, "description": "어미 두꺼비가 주의를 준 후, 어미 두꺼비가 방을 꾸민다."}}
+{"kind": "event_flags", "event_id": "evt_e30c79af85f709d7", "flags": ["trigger_not_in_evidence", "participant_not_in_description", "participant_from_context", "label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_4fde1d795ce6504d", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f4e09e3a2c55a2a4", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_87e32d7ce56c379d", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_b25be1bc29294bb3", "flags": ["trigger_ambiguous"]}
+{"kind": "event_flags", "event_id": "evt_f8d852c02dcda81d", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_039f216959caaae8", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c66cd0d72320db56", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_82fce5e8c5350458", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f6e286ab0128f884", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_312c5b6e2ca2d2a9", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f066c69304c8cf8f", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c286443f6038199b", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6090981f57942bc7", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8223a9bc35167fbc", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_553cd867333b9266", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_231ea95195b8f857", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_822c6f5a66d28464", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_b044d3aed708008e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f45d3e7830c7b6ce", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_2444879cea4ec533", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_312c5b6e2ca2d2a9", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c286443f6038199b", "flags": ["participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_835fde51b5abc31c", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_b7a609214271735a", "flags": ["description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_e8e5fde0beb7e901", "flags": ["trigger_not_in_evidence"]}
+{"kind": "event_flags", "event_id": "evt_d29e02dac3b91082", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_28ce80d1803b0dab", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_832ce20fdcc298c4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3702483a9203429b", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_9fcb70de10e57bf3", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e8f298094971e01d", "flags": ["evidence_gap_bridged"]}
+{"kind": "event_flags", "event_id": "evt_f1fbf442562b33d0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_7f0c67f7f2c3eca6", "flags": ["trigger_not_in_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_342af6c0939cbec6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_fae7fd6632e3811e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_914c45bace738e08", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d4e92d90045f4343", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a7b8ee70de2063a0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_c237047b2e113e6e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f8a3b29e04e1dc5a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_30e2b6743bdb051a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a1547031765f6975", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6c924fd499eeeb9a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5d9f882eb306aa32", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_a7b8ee70de2063a0", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_f8a3b29e04e1dc5a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a1547031765f6975", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6c924fd499eeeb9a", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d968fe2d7d57391c", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_754be37a721fd426", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_011133174469c5e5", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_c1d120f1bf5590a4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3f73f0d6f035faa5", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_4bc9a5945c7575ed", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d0aaaba938562b3f", "flags": ["participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_761ed79441005edc", "flags": ["participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_bd0ed5b423195c34", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_96a765de1a872541", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_6cac4939c252b1e9", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_011133174469c5e5", "flags": ["trigger_is_evidence", "participant_not_in_description"]}
+{"kind": "event_flags", "event_id": "evt_745f3139ea9739f4", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_fe87edc9f3c143fa", "flags": ["trigger_is_evidence", "participant_from_context", "label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_25a9e51fa00eaefb", "flags": ["trigger_is_evidence", "participant_from_context", "label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_c1d120f1bf5590a4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3f73f0d6f035faa5", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "edge_flags", "edge_id": "ee_501d5b9f89ebdaab", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_b8863f30cd6a6b78", "flags": ["description_endpoint_mismatch"]}
+{"kind": "edge_flags", "edge_id": "ee_880176184accc1dd", "flags": ["cue_not_in_text", "description_endpoint_mismatch"]}
+{"kind": "event_flags", "event_id": "evt_2b44dd8f3d448ae4", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_828e0a288e7cf643", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31ac7feb3ed9e990", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_398a01750ca0df30", "flags": ["participant_from_context", "question_as_statement"]}
+{"kind": "event_flags", "event_id": "evt_91b0f6996c9f3951", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5c0e4d07e6ac496e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_57d7d122fb8d7561", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_78620d13ffba4335", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_dff16ffa8a59e241", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_89e278c7426df1f6", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_828e0a288e7cf643", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_31ac7feb3ed9e990", "flags": ["label_name_not_grounded"]}
+{"kind": "event_flags", "event_id": "evt_db5feaf6bcae89bf", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_398a01750ca0df30", "flags": ["participant_from_context", "question_as_statement"]}
+{"kind": "event_flags", "event_id": "evt_91b0f6996c9f3951", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_5c0e4d07e6ac496e", "flags": ["trigger_not_in_evidence", "participant_not_in_description", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_8ee06b66eb83140e", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_a620703778da8f6d", "flags": ["trigger_is_evidence"]}
+{"kind": "event_flags", "event_id": "evt_57d7d122fb8d7561", "flags": ["participant_from_context"]}
+{"kind": "relation_rejected", "chunk_id": 6, "phase": "glean", "reason": "자기 자신을 가리키는 관계입니다.", "raw": {"source": "E2", "target": "G1", "relation_type": "PRECEDES", "cue": "", "evidence_kind": "explicit", "confidence": 1.0, "description": "결혼식이 4주 남았다는 언급이 두더지의 결혼식 준비에 앞선다."}}
+{"kind": "event_flags", "event_id": "evt_e6bc404350ab0f95", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_279481c2d116235e", "flags": ["speech_tag_ambiguous", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_d780eae38b5f797f", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_e2df8abc30ca9883", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_6bda8a23304a93aa", "flags": ["trigger_is_evidence", "participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_952bb8dfe36446dd", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_3e9cbbfa6a5fed98", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_608e0dbec4a563b6", "flags": ["participant_from_context"]}
+{"kind": "event_flags", "event_id": "evt_401c2c108b99bc65", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_4610a408bb1da83b", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_89735c350c80af7b", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_1643df42d28d493d", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_bd513c0296392716", "flags": ["trigger_is_evidence", "narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_59e0ca1955cbd159", "flags": ["narrative_level_invalid"]}
+{"kind": "event_flags", "event_id": "evt_98b0d2ebd73c3189", "flags": ["narrative_level_invalid"]}
+{"kind": "edge_conflict", "edge_ids": ["ee_5a6d76112db0a533", "ee_e28a44644862719c"], "labels": ["evt_745f3139ea9739f4-PRECEDES->evt_b3f1512ec18c32b2", "evt_b3f1512ec18c32b2-PRECEDES->evt_745f3139ea9739f4"]}
+{"kind": "against_narrative_order", "edge_id": "ee_68087287edba6800", "label": "evt_64d4b76332907268-PRECEDES->evt_c5d020036ff4ada5"}
+{"kind": "against_narrative_order", "edge_id": "ee_4ca51bafc593bd96", "label": "evt_2367d1ea06ab022a-PRECEDES->evt_332bc0072e8f43fc"}
+{"kind": "against_narrative_order", "edge_id": "ee_690f4e21bd259de7", "label": "evt_b4226d6403e5ba9f-PRECEDES->evt_720ffea7a3a30c4a"}
+{"kind": "against_narrative_order", "edge_id": "ee_6ba048ff8b30fda4", "label": "evt_c286443f6038199b-PRECEDES->evt_d1fe0842b8942663"}
+{"kind": "against_narrative_order", "edge_id": "ee_0c21df7d0546b4d6", "label": "evt_c286443f6038199b-PRECEDES->evt_6a4a0e3af5a22294"}
+{"kind": "against_narrative_order", "edge_id": "ee_c3eaee94e1fc1d88", "label": "evt_761ed79441005edc-PRECEDES->evt_bd0ed5b423195c34"}
+{"kind": "against_narrative_order", "edge_id": "ee_c48c8f1c1c0f554e", "label": "evt_011133174469c5e5-PRECEDES->evt_745f3139ea9739f4"}
+{"kind": "against_narrative_order", "edge_id": "ee_5a6d76112db0a533", "label": "evt_745f3139ea9739f4-PRECEDES->evt_b3f1512ec18c32b2"}
+{"kind": "against_narrative_order", "edge_id": "ee_75449b86c9c38ff2", "label": "evt_e6bc404350ab0f95-PRECEDES->evt_401c2c108b99bc65"}
+{"kind": "against_narrative_order", "edge_id": "ee_1750cfddb67fb4be", "label": "evt_89735c350c80af7b-PRECEDES->evt_1643df42d28d493d"}

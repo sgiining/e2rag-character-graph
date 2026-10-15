@@ -1,0 +1,87 @@
+{
+  "status": "completed_with_review",
+  "extractor_version": "event.v7",
+  "model": "gpt-4o-mini",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\3_인어 공주.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\3_인어 공주.jsonl",
+  "gleaning": true,
+  "repair": true,
+  "verify": true,
+  "cross_chunk": false,
+  "stats": {
+    "raw_events": 454,
+    "events_rejected": 28,
+    "events_recovered_by_code": 6,
+    "events_repaired": 0,
+    "events_removed_by_verify": 5,
+    "events_revised_by_verify": 0,
+    "events_refixed_by_verify": 1,
+    "events_verify_unfixed": 0,
+    "events_verify_rejected": 0,
+    "verify_failed_chunks": 0,
+    "id_collisions": 0,
+    "events_new": 333,
+    "events_overlap_merged": 88,
+    "raw_relations": 354,
+    "relations_rejected": 23,
+    "edges": 298,
+    "api_calls": 44,
+    "failed_requests": 0,
+    "input_tokens": 289932,
+    "output_tokens": 111029,
+    "chunks_completed": 14,
+    "chunks_failed": 0
+  },
+  "work_id": "3_인어 공주",
+  "input_chunks": 14,
+  "document_sha256": "3f27a0d1e7ed38a4cad1b3c6c54c1a0d452cd8787bcb4e2ba8fc4c8c3bc5ba07",
+  "chunks_sha256": "aa57a0b77f98948ff0b4229feb9f4a5b56b0e761adcd0b1bc9c2d75612b87631",
+  "events": 333,
+  "event_edges": 298,
+  "failed_units": [],
+  "event_type_counts": {
+    "occurrence": 189,
+    "interaction": 66,
+    "support": 11,
+    "action": 51,
+    "other": 16
+  },
+  "narrative_level_counts": {
+    "main": 333
+  },
+  "verdict_counts": {
+    "supported": 332,
+    "revise": 1
+  },
+  "relation_type_counts": {
+    "PRECEDES": 278,
+    "DURING": 4,
+    "REVEALS": 15,
+    "COUNTERACTS": 1
+  },
+  "edge_scope_counts": {
+    "intra_chunk": 298
+  },
+  "event_flag_counts": {
+    "trigger_is_evidence": 97,
+    "trigger_not_in_evidence": 6,
+    "participant_from_context": 123,
+    "narrative_level_invalid": 13,
+    "evidence_whitespace_normalized": 2,
+    "label_name_not_grounded": 5,
+    "participant_not_in_description": 8,
+    "evidence_edge_trimmed": 4,
+    "speech_tag_ambiguous": 4,
+    "verified_revised": 1,
+    "evidence_fuzzy": 1
+  },
+  "edge_flag_counts": {
+    "conflicting_pair": 4,
+    "description_endpoint_mismatch": 6,
+    "against_narrative_order": 6,
+    "temporal_pair_conflict": 2
+  },
+  "temporal_invalid_edges": 8,
+  "flagged_events": 193,
+  "flagged_edges": 15
+}
