@@ -1,0 +1,67 @@
+{
+  "status": "completed_with_review",
+  "extractor_version": "relation.v1",
+  "model": "gpt-4o-mini",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\4_성냥팔이 소녀.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\4_성냥팔이 소녀.jsonl",
+  "entities": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_observation\\4_성냥팔이 소녀.entities.jsonl",
+  "gleaning": true,
+  "evidence_repair": true,
+  "context_before": 3,
+  "context_after": 1,
+  "stats": {
+    "raw_relations": 6,
+    "relations_rejected": 0,
+    "relations_uncertain": 0,
+    "relations_kept": 4,
+    "relations_merged": 1,
+    "relations_duplicate_in_chunk": 1,
+    "relations_multi_type_flagged": 0,
+    "evidence_repair_requested": 0,
+    "evidence_repair_recovered": 0,
+    "api_calls": 4,
+    "failed_requests": 0,
+    "input_tokens": 13423,
+    "output_tokens": 1689,
+    "chunks_completed": 2,
+    "chunks_failed": 0,
+    "glean_failed": 0,
+    "repair_failed": 0,
+    "chunks_without_candidates": 0
+  },
+  "work_id": "4_성냥팔이 소녀",
+  "input_chunks": 2,
+  "document_sha256": "ee4219fa811613b9d94093c36b5846f2251744c3cbb9e06b64c12643d00add9b",
+  "chunks_sha256": "22c49a5ba7b90340e926f0effea9d71eba7d07790226550b755021d15234fd09",
+  "entity_observations": 24,
+  "relation_observations": 4,
+  "uncertain_relations": 0,
+  "failed_units": [],
+  "glean_failed_units": [],
+  "repair_failed_units": [],
+  "relation_type_counts": {
+    "family": 1,
+    "care": 2,
+    "longing": 1
+  },
+  "modality_counts": {
+    "factual": 4
+  },
+  "narrative_level_counts": {
+    "main": 4
+  },
+  "polarity_counts": {
+    "positive": 4
+  },
+  "grounding_counts": {
+    "ref_mention|ref_mention": 4
+  },
+  "flag_counts": {
+    "evidence_in_chunk_edge_fragment": 1,
+    "evidence_long": 1
+  },
+  "rejected_counts": {},
+  "uncertain_counts": {},
+  "flagged_relations": 1,
+  "entities_sha256": "67b39c617f196f5b186a9d488edc050cf2ae07a779b68d2526600e14f9ab8c6f"
+}

@@ -1,0 +1,99 @@
+{
+  "status": "completed_with_review",
+  "extractor_version": "relation.v1",
+  "model": "gpt-4o-mini",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\1_눈의 여왕.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\1_눈의 여왕.jsonl",
+  "entities": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_observation\\1_눈의 여왕.entities.jsonl",
+  "gleaning": true,
+  "evidence_repair": true,
+  "context_before": 3,
+  "context_after": 1,
+  "stats": {
+    "raw_relations": 99,
+    "relations_rejected": 12,
+    "relations_uncertain": 28,
+    "relations_kept": 53,
+    "relations_merged": 2,
+    "relations_duplicate_in_chunk": 1,
+    "relations_multi_type_flagged": 0,
+    "evidence_repair_requested": 0,
+    "evidence_repair_recovered": 0,
+    "api_calls": 40,
+    "failed_requests": 0,
+    "input_tokens": 159877,
+    "output_tokens": 15732,
+    "chunks_completed": 20,
+    "chunks_failed": 0,
+    "glean_failed": 0,
+    "repair_failed": 0,
+    "chunks_without_candidates": 0,
+    "uncertain:endpoint_not_agent_type": 9,
+    "rejected:target_endpoint_not_grounded": 6,
+    "uncertain:endpoint_outside_evidence": 18,
+    "uncertain_duplicate_in_chunk": 3,
+    "rejected:source_endpoint_not_grounded": 3,
+    "rejected:evidence_not_found": 3,
+    "uncertain:direction_conflicts_with_description": 2,
+    "uncertain:description_uses_replaced_name": 2
+  },
+  "work_id": "1_눈의 여왕",
+  "input_chunks": 20,
+  "document_sha256": "bc978ce84c84e15ab3582290841c2c3eef44fe16ca05204b1165a3b71fd134ff",
+  "chunks_sha256": "1bcdf9358d07f2f590ed2cee28499b5a72c20a05ab5763a5be55cd04a7ae1b0a",
+  "entity_observations": 482,
+  "relation_observations": 53,
+  "uncertain_relations": 28,
+  "failed_units": [],
+  "glean_failed_units": [],
+  "repair_failed_units": [],
+  "relation_type_counts": {
+    "authority": 2,
+    "family": 2,
+    "friendship": 6,
+    "care": 12,
+    "hostility": 3,
+    "acquaintance": 14,
+    "longing": 8,
+    "romance": 4,
+    "other": 2
+  },
+  "modality_counts": {
+    "factual": 53
+  },
+  "narrative_level_counts": {
+    "main": 53
+  },
+  "polarity_counts": {
+    "neutral": 17,
+    "positive": 30,
+    "negative": 6
+  },
+  "grounding_counts": {
+    "ref_mention|ref_mention": 50,
+    "name_in_evidence|ref_mention": 2,
+    "ref_mention|name_in_evidence": 1
+  },
+  "flag_counts": {
+    "evidence_whitespace_normalized": 2,
+    "source_endpoint_without_mention": 2,
+    "endpoint_type_unverified": 5,
+    "evidence_in_chunk_edge_fragment": 2,
+    "evidence_edge_trimmed": 1,
+    "target_endpoint_without_mention": 1,
+    "evidence_fuzzy": 1
+  },
+  "rejected_counts": {
+    "target_endpoint_not_grounded": 6,
+    "source_endpoint_not_grounded": 3,
+    "evidence_not_found": 3
+  },
+  "uncertain_counts": {
+    "endpoint_not_agent_type": 9,
+    "endpoint_outside_evidence": 18,
+    "direction_conflicts_with_description": 2,
+    "description_uses_replaced_name": 2
+  },
+  "flagged_relations": 12,
+  "entities_sha256": "c2dee1fa0d48195bf145434e0f58a5a90d492429e7c7f25a2a889f5900bf1555"
+}
