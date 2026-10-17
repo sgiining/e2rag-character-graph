@@ -1,0 +1,113 @@
+{
+  "status": "completed_with_review",
+  "extractor_version": "relation.v5",
+  "model": "gpt-4o-mini",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\2_엄지 공주.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\2_엄지 공주.jsonl",
+  "entities": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_observation\\2_엄지 공주.entities.jsonl",
+  "gleaning": true,
+  "window_chars": 800,
+  "window_overlap_sentences": 2,
+  "context_sentences": 3,
+  "max_evidence_sentences": 6,
+  "ground_before": 3,
+  "ground_after": 1,
+  "stats": {
+    "raw_relations": 65,
+    "relations_rejected": 20,
+    "relations_uncertain": 16,
+    "relations_kept": 25,
+    "relations_merged": 1,
+    "relations_duplicate_in_chunk": 1,
+    "relations_multi_type_flagged": 0,
+    "api_calls": 34,
+    "failed_requests": 0,
+    "input_tokens": 118720,
+    "output_tokens": 9009,
+    "chunks_completed": 7,
+    "chunks_failed": 0,
+    "glean_failed": 0,
+    "chunks_without_candidates": 0,
+    "windows": 20,
+    "windows_skipped": 0,
+    "rejected:target_endpoint_not_grounded": 7,
+    "uncertain:endpoint_not_agent_type": 3,
+    "uncertain:endpoint_by_coreference": 3,
+    "uncertain_duplicate_in_chunk": 2,
+    "uncertain:endpoint_outside_evidence": 10,
+    "rejected:trigger_not_in_evidence": 6,
+    "uncertain:endpoint_type_other": 1,
+    "uncertain:relation_inside_quoted_speech": 1,
+    "uncertain:speaker_ref_inside_quote": 1,
+    "rejected:source_endpoint_not_grounded": 7,
+    "uncertain:target_only_mentioned_in_speech": 1
+  },
+  "work_id": "2_엄지 공주",
+  "input_chunks": 7,
+  "document_sha256": "e52818a8b2da6befb579b31d8d4ae2023803cf3cdae15540786640543b6c44cc",
+  "chunks_sha256": "7c78eeb33f4c57795b1e42999c0ff7f6dac3c644f7b05338ff027937b7009349",
+  "entity_observations": 176,
+  "relation_observations": 25,
+  "uncertain_relations": 16,
+  "failed_units": [],
+  "glean_failed_units": [],
+  "relation_type_counts": {
+    "acquaintance": 3,
+    "exchange": 1,
+    "family": 2,
+    "hostility": 5,
+    "care": 4,
+    "longing": 4,
+    "friendship": 1,
+    "romance": 3,
+    "authority": 2
+  },
+  "modality_counts": {
+    "factual": 25
+  },
+  "narrative_level_counts": {
+    "main": 25
+  },
+  "polarity_counts": {
+    "neutral": 5,
+    "positive": 11,
+    "negative": 9
+  },
+  "grounding_counts": {
+    "ref_mention|ref_mention": 17,
+    "ref_mention_reassigned|ref_mention": 3,
+    "ref_mention_reassigned|name_ref": 1,
+    "ref_mention|name_ref": 1,
+    "topic_continuation|name_ref": 1,
+    "name_ref|ref_mention": 1,
+    "topic_continuation|ref_mention": 1
+  },
+  "flag_counts": {
+    "evidence_trimmed_to_trigger_run": 6,
+    "evidence_in_chunk_edge_fragment": 1,
+    "source_endpoint_reassigned_to_ref_mention": 4,
+    "evidence_sentences_filled": 3,
+    "addressee_without_quote": 3,
+    "speaker_without_quote": 3,
+    "target_endpoint_without_mention": 3,
+    "source_evidence_extended_to_topic": 2,
+    "source_ref_not_in_evidence": 2,
+    "source_endpoint_without_mention": 1
+  },
+  "rejected_counts": {
+    "target_endpoint_not_grounded": 7,
+    "trigger_not_in_evidence": 6,
+    "source_endpoint_not_grounded": 7
+  },
+  "uncertain_counts": {
+    "endpoint_not_agent_type": 3,
+    "endpoint_by_coreference": 3,
+    "endpoint_outside_evidence": 10,
+    "endpoint_type_other": 1,
+    "relation_inside_quoted_speech": 1,
+    "speaker_ref_inside_quote": 1,
+    "target_only_mentioned_in_speech": 1
+  },
+  "flagged_relations": 15,
+  "entities_sha256": "8e26a70a43196121a46b86833b5897c48561ca6a0c5d3d16ae64d5b5fbf40a02"
+}

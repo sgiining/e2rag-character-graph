@@ -1,0 +1,77 @@
+{
+  "status": "completed_with_review",
+  "extractor_version": "relation.v4",
+  "model": "gpt-4o-mini",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\4_성냥팔이 소녀.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\4_성냥팔이 소녀.jsonl",
+  "entities": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_observation\\4_성냥팔이 소녀.entities.jsonl",
+  "gleaning": true,
+  "window_chars": 800,
+  "window_overlap_sentences": 2,
+  "context_sentences": 3,
+  "max_evidence_sentences": 6,
+  "ground_before": 3,
+  "ground_after": 1,
+  "stats": {
+    "raw_relations": 9,
+    "relations_rejected": 3,
+    "relations_uncertain": 2,
+    "relations_kept": 3,
+    "relations_merged": 1,
+    "relations_duplicate_in_chunk": 0,
+    "relations_multi_type_flagged": 0,
+    "api_calls": 7,
+    "failed_requests": 0,
+    "input_tokens": 22078,
+    "output_tokens": 1143,
+    "chunks_completed": 2,
+    "chunks_failed": 0,
+    "glean_failed": 0,
+    "chunks_without_candidates": 0,
+    "windows": 3,
+    "windows_skipped": 0,
+    "uncertain:endpoint_not_agent_type": 2,
+    "uncertain:endpoint_outside_evidence": 1,
+    "rejected:target_endpoint_not_grounded": 2,
+    "rejected:trigger_not_in_evidence": 1
+  },
+  "work_id": "4_성냥팔이 소녀",
+  "input_chunks": 2,
+  "document_sha256": "ee4219fa811613b9d94093c36b5846f2251744c3cbb9e06b64c12643d00add9b",
+  "chunks_sha256": "22c49a5ba7b90340e926f0effea9d71eba7d07790226550b755021d15234fd09",
+  "entity_observations": 24,
+  "relation_observations": 3,
+  "uncertain_relations": 2,
+  "failed_units": [],
+  "glean_failed_units": [],
+  "relation_type_counts": {
+    "longing": 2,
+    "care": 1
+  },
+  "modality_counts": {
+    "factual": 3
+  },
+  "narrative_level_counts": {
+    "main": 3
+  },
+  "polarity_counts": {
+    "positive": 3
+  },
+  "grounding_counts": {
+    "ref_mention|ref_mention": 3
+  },
+  "flag_counts": {
+    "evidence_in_chunk_edge_fragment": 1,
+    "evidence_trimmed_to_trigger_run": 1
+  },
+  "rejected_counts": {
+    "target_endpoint_not_grounded": 2,
+    "trigger_not_in_evidence": 1
+  },
+  "uncertain_counts": {
+    "endpoint_not_agent_type": 2,
+    "endpoint_outside_evidence": 1
+  },
+  "flagged_relations": 2,
+  "entities_sha256": "67b39c617f196f5b186a9d488edc050cf2ae07a779b68d2526600e14f9ab8c6f"
+}
