@@ -1,0 +1,27 @@
+{
+  "work_id": "1_눈의 여왕",
+  "version": "relation_event_stage2.entity_event_screen.v1",
+  "model": "gpt-4o-mini",
+  "dry_run": false,
+  "comparison_fields": [
+    "relation.description",
+    "event.evidence"
+  ],
+  "relevance_threshold": 60,
+  "input_stage1": "data\\event_relation\\1_눈의 여왕.relation_event_stage1.jsonl",
+  "input_events": "data\\events_new\\1_눈의 여왕\\20261014T132234_966945Z\\events.jsonl",
+  "input_chunks": "data\\chunk\\1_눈의 여왕.jsonl",
+  "selected_output": "data\\event_relation\\1_눈의 여왕.relation_event_stage2.jsonl",
+  "audit_output": "data\\event_relation\\1_눈의 여왕.relation_event_stage2.audit.jsonl",
+  "stage2_is_final_link": false,
+  "counts": {
+    "status_llm_evaluated": 1100,
+    "relations_processed": 70,
+    "fully_evaluated_relations": 58,
+    "selected_candidates": 195,
+    "relations_with_candidates": 68,
+    "status_quote_validation_error": 4,
+    "status_api_or_validation_error": 62,
+    "stage1_candidates_total": 1166
+  }
+}

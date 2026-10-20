@@ -1,0 +1,8 @@
+{
+  "relations_total": 3,
+  "source_edge_references": 19,
+  "target_edge_references": 36,
+  "unique_relation_event_pairs": 42,
+  "relations_with_events": 3,
+  "entity_event_edges_input": 73
+}

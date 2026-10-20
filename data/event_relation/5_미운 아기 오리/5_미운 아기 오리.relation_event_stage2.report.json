@@ -1,0 +1,26 @@
+{
+  "work_id": "5_미운 아기 오리",
+  "version": "relation_event_stage2.entity_event_screen.v1",
+  "model": "gpt-4o-mini",
+  "dry_run": false,
+  "comparison_fields": [
+    "relation.description",
+    "event.evidence"
+  ],
+  "relevance_threshold": 60,
+  "input_stage1": "data\\event_relation\\5_미운 아기 오리.relation_event_stage1.jsonl",
+  "input_events": "data\\events_new\\5_미운 아기 오리\\20261014T142706_934696Z\\events.jsonl",
+  "input_chunks": "data\\chunk\\5_미운 아기 오리.jsonl",
+  "selected_output": "data\\event_relation\\5_미운 아기 오리.relation_event_stage2.jsonl",
+  "audit_output": "data\\event_relation\\5_미운 아기 오리.relation_event_stage2.audit.jsonl",
+  "stage2_is_final_link": false,
+  "counts": {
+    "status_llm_evaluated": 133,
+    "relations_processed": 11,
+    "fully_evaluated_relations": 7,
+    "selected_candidates": 21,
+    "relations_with_candidates": 9,
+    "status_chunk_or_input_error": 4,
+    "stage1_candidates_total": 137
+  }
+}

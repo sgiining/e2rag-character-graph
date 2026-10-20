@@ -1,0 +1,42 @@
+{
+  "version": "relation_event_stage3.integrated.v2",
+  "work_id": "1_눈의 여왕",
+  "status": "completed_with_review",
+  "stage2_candidates": 195,
+  "stage2_total_candidates": 1166,
+  "stage2_error_candidates": 66,
+  "selected_after_error_retry": 13,
+  "total_candidates_entering_stage3": 208,
+  "unique_relations_evaluated": 69,
+  "final_approved_links": 120,
+  "audit_status_counts": {
+    "approved": 120,
+    "stage2_rejected": 905,
+    "rejected_link": 34,
+    "review": 21,
+    "rejected_relation": 34,
+    "stage2_rejected_after_retry": 52
+  },
+  "link_type_counts": {
+    "FORMATION_CAUSE": 5,
+    "STATE_EVIDENCE": 107,
+    "CHANGE_CAUSE": 8
+  },
+  "model": "gpt-4o-mini",
+  "model_usage": {
+    "api_calls": 150,
+    "input_tokens": 349964,
+    "output_tokens": 22372
+  },
+  "inputs": {
+    "stage1": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕.relation_event_stage1.jsonl",
+    "stage2": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕.relation_event_stage2.jsonl",
+    "audit": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕.relation_event_stage2.audit.jsonl",
+    "stage2_report": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕.relation_event_stage2.report.json",
+    "events": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\1_눈의 여왕\\20261014T132234_966945Z\\events.jsonl",
+    "entities": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_observation\\1_눈의 여왕.entities.jsonl",
+    "chunks": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\1_눈의 여왕.jsonl"
+  },
+  "note": "Stage 3는 Stage 2 정상 미선정 905건의 재발견을 보장하지 않는다. 승인된 연결만 최종 파일에 포함한다.",
+  "generated_at_utc": "2026-10-18T07:40:24.469392+00:00"
+}
