@@ -1,0 +1,46 @@
+{
+  "finalizer_version": "qa_finalize.v1",
+  "command": "export",
+  "runs": {
+    "1_눈의 여왕": [
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\1_눈의 여왕\\20261018T112632_405725Z",
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\1_눈의 여왕\\20261018T134937_274123Z"
+    ],
+    "2_엄지 공주": [
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\2_엄지 공주\\20261018T113015_542967Z",
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\2_엄지 공주\\20261018T140910_077273Z"
+    ],
+    "3_인어 공주": [
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\3_인어 공주\\20261018T113141_720903Z",
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\3_인어 공주\\20261018T141306_495345Z"
+    ],
+    "4_성냥팔이 소녀": [
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\4_성냥팔이 소녀\\20261018T113411_571151Z",
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\4_성냥팔이 소녀\\20261018T142433_145687Z"
+    ],
+    "5_미운 아기 오리": [
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\5_미운 아기 오리\\20261018T113437_158537Z",
+      "D:\\26_capstone\\e2rag-character-graph\\data\\qa_candidates\\5_미운 아기 오리\\20261018T142614_140916Z"
+    ]
+  },
+  "items": 141,
+  "second_review_items": 38,
+  "second_ratio": 0.25,
+  "seed": 0,
+  "counts": {
+    "1_눈의 여왕|answerable": 31,
+    "1_눈의 여왕|relation_change": 14,
+    "1_눈의 여왕|unanswerable_future": 15,
+    "2_엄지 공주|answerable": 11,
+    "2_엄지 공주|relation_change": 4,
+    "2_엄지 공주|unanswerable_future": 5,
+    "3_인어 공주|answerable": 21,
+    "3_인어 공주|relation_change": 10,
+    "3_인어 공주|unanswerable_future": 10,
+    "4_성냥팔이 소녀|answerable": 3,
+    "4_성냥팔이 소녀|unanswerable_future": 1,
+    "5_미운 아기 오리|answerable": 9,
+    "5_미운 아기 오리|relation_change": 4,
+    "5_미운 아기 오리|unanswerable_future": 3
+  }
+}
