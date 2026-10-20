@@ -1,0 +1,67 @@
+{
+  "work_id": "3_인어 공주",
+  "status": "PASS",
+  "checked_chunks": 14,
+  "checkpoints": [
+    {
+      "p": 1,
+      "nodes": {
+        "entity": 35,
+        "event": 21,
+        "relation": 1
+      },
+      "edges": {
+        "entity_event": 55,
+        "event_event": 18,
+        "entity_relation_source": 1,
+        "entity_relation_target": 1,
+        "relation_event": 1
+      }
+    },
+    {
+      "p": 3,
+      "nodes": {
+        "entity": 112,
+        "event": 63,
+        "relation": 5
+      },
+      "edges": {
+        "entity_event": 216,
+        "event_event": 54,
+        "entity_relation_source": 5,
+        "entity_relation_target": 5,
+        "relation_event": 6
+      }
+    },
+    {
+      "p": 7,
+      "nodes": {
+        "entity": 237,
+        "event": 187,
+        "relation": 14
+      },
+      "edges": {
+        "entity_event": 596,
+        "event_event": 175,
+        "entity_relation_source": 14,
+        "entity_relation_target": 14,
+        "relation_event": 55
+      }
+    },
+    {
+      "p": 14,
+      "nodes": {
+        "entity": 394,
+        "event": 333,
+        "relation": 37
+      },
+      "edges": {
+        "entity_event": 999,
+        "event_event": 298,
+        "entity_relation_source": 37,
+        "entity_relation_target": 37,
+        "relation_event": 149
+      }
+    }
+  ]
+}

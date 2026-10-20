@@ -1,0 +1,63 @@
+{
+  "work_id": "4_성냥팔이 소녀",
+  "status": "OK",
+  "fatal_count": 0,
+  "issues_by_category": {
+    "evidence_not_exact_match": 1
+  },
+  "stage3_approved_count": 5,
+  "input_manifest": {
+    "chunk": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\4_성냥팔이 소녀.jsonl",
+      "sha256": "22c49a5ba7b90340e926f0effea9d71eba7d07790226550b755021d15234fd09",
+      "count": 2
+    },
+    "entity": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_observation\\4_성냥팔이 소녀.entities.jsonl",
+      "sha256": "67b39c617f196f5b186a9d488edc050cf2ae07a779b68d2526600e14f9ab8c6f",
+      "count": 24
+    },
+    "entity_event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_event_new\\4_성냥팔이 소녀.entity_event_edges.jsonl",
+      "sha256": "5dd87d9fc2cbbad9dbefc2e7686d087ad7b561dee764ae4b79f337a3fe43ae96",
+      "count": 73
+    },
+    "event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\4_성냥팔이 소녀\\20261014T142430_285681Z\\events.jsonl",
+      "sha256": "ac5367047b0c7a07ae2c548e72082c4a423d554a49d3da34daee5751a22dcc5b",
+      "count": 35
+    },
+    "event_event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\4_성냥팔이 소녀\\20261014T142430_285681Z\\event_edges.jsonl",
+      "sha256": "64aece7e8f10f6c3205824f04e734d1ea85ae61ceda626bfc3710f3bc7a0e55c",
+      "count": 36
+    },
+    "relation": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\relation_observation\\4_성냥팔이 소녀\\20261016T135438_878777Z\\relation_observations.jsonl",
+      "sha256": "a2cfc754126a14f3b503caf04b76ffa7850bdfb5b69c12ed3f340d8cabc7113b",
+      "count": 3
+    },
+    "stage3": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\4_성냥팔이 소녀\\4_성냥팔이 소녀.relation_event_stage3.jsonl",
+      "sha256": "a458c8b0df5ceac5f9acc1ce014234ab4b6b452d441ae76f7a97259f3c0c18ff",
+      "count": 5
+    }
+  },
+  "issues": [
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_5f112c96dc6f21dd",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    }
+  ],
+  "source_record_counts": {
+    "chunk": 2,
+    "entity": 24,
+    "entity_event": 73,
+    "event": 35,
+    "event_event": 36,
+    "relation": 3,
+    "stage3": 5
+  }
+}

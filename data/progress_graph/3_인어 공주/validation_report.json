@@ -1,0 +1,135 @@
+{
+  "work_id": "3_인어 공주",
+  "status": "OK",
+  "fatal_count": 0,
+  "issues_by_category": {
+    "evidence_not_exact_match": 13
+  },
+  "stage3_approved_count": 149,
+  "input_manifest": {
+    "chunk": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\3_인어 공주.jsonl",
+      "sha256": "aa57a0b77f98948ff0b4229feb9f4a5b56b0e761adcd0b1bc9c2d75612b87631",
+      "count": 14
+    },
+    "entity": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_observation\\3_인어 공주.entities.jsonl",
+      "sha256": "d4a31faa30f42c3d17f3eb7afe23ff64066e4c04027c5a78c90e78ff6b6f715e",
+      "count": 394
+    },
+    "entity_event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_event_new\\3_인어 공주.entity_event_edges.jsonl",
+      "sha256": "48e3f666ec2760165d7fd8a3701230db32f2b48a099f7b7cb374c4ecbd742802",
+      "count": 999
+    },
+    "event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\3_인어 공주\\20261014T140109_113538Z\\events.jsonl",
+      "sha256": "dc7d066c13599764dfd1a8b54f15e84732e0b9f24b26b2e762dae7f4b3c4032b",
+      "count": 333
+    },
+    "event_event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\3_인어 공주\\20261014T140109_113538Z\\event_edges.jsonl",
+      "sha256": "755fc7e4173cdbf2e668db7559b8b216a46c772fa8ab3f05c62a935a70aca643",
+      "count": 298
+    },
+    "relation": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\relation_observation\\3_인어 공주\\20261016T135146_360318Z\\relation_observations.jsonl",
+      "sha256": "f3d435f336aeb9b8810ca2de12db7fbcc972f0f13ce6c2f7f52f09df0c417146",
+      "count": 37
+    },
+    "stage3": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\3_인어 공주\\3_인어 공주.relation_event_stage3.jsonl",
+      "sha256": "8a2249c5e9d3939f85857be8348e1aa7d0105521019f13618661d29b7eb275d4",
+      "count": 149
+    }
+  },
+  "issues": [
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_04590e4d4ea9517e",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_c9c3dd43d862d777",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_5cfed5531ad9394c",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_77cca9a7d8941da5",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_77a27610136f543a",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_904756c62697be6c",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_873b2fe8afecc15d",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_cf479afcd9187cbc",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_6b636b99b4a69a5e",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_f71dc9eec060ae39",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_0913a1349d0b08cf",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_f6f77baeff65b1a8",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    },
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_914e57266f4bc686",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    }
+  ],
+  "source_record_counts": {
+    "chunk": 14,
+    "entity": 394,
+    "entity_event": 999,
+    "event": 333,
+    "event_event": 298,
+    "relation": 37,
+    "stage3": 149
+  }
+}
