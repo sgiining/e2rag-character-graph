@@ -1,0 +1,42 @@
+{
+  "general_1": {
+    "question": "소녀는 왜 맨발로 다녀?",
+    "cues": {
+      "entity": "소녀",
+      "event": "맨발로 다니다",
+      "relation": "이유"
+    }
+  },
+  "general_2": {
+    "question": "소녀는 왜 집에 안 들어가?",
+    "cues": {
+      "entity": "소녀",
+      "event": "집에 안 들어가",
+      "relation": "이유"
+    }
+  },
+  "general_3": {
+    "question": "소녀는 왜 성냥을 켰어?",
+    "cues": {
+      "entity": "소녀",
+      "event": "성냥을 켰어",
+      "relation": "이유"
+    }
+  },
+  "relation_1": {
+    "question": "소녀한테 할머니는 어떤 사람이야?",
+    "cues": {
+      "entity": "소녀",
+      "event": "할머니는 어떤 사람",
+      "relation": "할머니"
+    }
+  },
+  "spoiler_1": {
+    "question": "소녀는 마지막에 어떻게 돼?",
+    "cues": {
+      "entity": "소녀",
+      "event": "마지막에 어떻게 돼",
+      "relation": "소녀는 마지막에 어떻게 돼?"
+    }
+  }
+}

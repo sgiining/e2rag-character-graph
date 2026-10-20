@@ -1,0 +1,42 @@
+{
+  "general_1": {
+    "question": "엄지공주는 어디서 태어났어?",
+    "cues": {
+      "entity": "엄지공주",
+      "event": "태어났다",
+      "relation": "어디서"
+    }
+  },
+  "general_2": {
+    "question": "두꺼비는 왜 엄지공주를 데려갔어?",
+    "cues": {
+      "entity": "두꺼비",
+      "event": "엄지공주를 데려갔다",
+      "relation": "이유"
+    }
+  },
+  "general_3": {
+    "question": "엄지공주는 제비를 어떻게 도와줬어?",
+    "cues": {
+      "entity": "엄지공주",
+      "event": "제비를 도와줬다",
+      "relation": "어떻게"
+    }
+  },
+  "relation_1": {
+    "question": "엄지공주랑 제비는 어떤 사이야?",
+    "cues": {
+      "entity": "엄지공주",
+      "event": "제비와의 관계",
+      "relation": "어떤 사이"
+    }
+  },
+  "spoiler_1": {
+    "question": "엄지공주는 마지막에 누구랑 결혼해?",
+    "cues": {
+      "entity": "엄지공주",
+      "event": "결혼",
+      "relation": "누구랑"
+    }
+  }
+}

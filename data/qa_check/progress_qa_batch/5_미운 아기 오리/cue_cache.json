@@ -1,0 +1,42 @@
+{
+  "general_1": {
+    "question": "새끼 오리는 왜 따돌림을 당해?",
+    "cues": {
+      "entity": "새끼 오리",
+      "event": "따돌림",
+      "relation": "당하다"
+    }
+  },
+  "general_2": {
+    "question": "새끼 오리는 왜 집을 나갔어?",
+    "cues": {
+      "entity": "새끼 오리",
+      "event": "집을 나갔어",
+      "relation": "왜"
+    }
+  },
+  "general_3": {
+    "question": "얼음에 갇힌 새끼 오리를 누가 구해줬어?",
+    "cues": {
+      "entity": "새끼 오리",
+      "event": "구해줬어",
+      "relation": "얼음에 갇힌"
+    }
+  },
+  "relation_1": {
+    "question": "다른 오리들은 새끼 오리를 어떻게 대해?",
+    "cues": {
+      "entity": "오리",
+      "event": "새끼 오리",
+      "relation": "대하다"
+    }
+  },
+  "spoiler_1": {
+    "question": "새끼 오리는 자기가 백조라는 걸 언제 알아?",
+    "cues": {
+      "entity": "새끼 오리",
+      "event": "자기가 백조라는 걸 알아",
+      "relation": "언제"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "general_1": {
+    "question": "카이 눈에 뭐가 들어간 거야?",
+    "cues": {
+      "entity": "카이",
+      "event": "눈에 들어간 것",
+      "relation": "무엇"
+    }
+  },
+  "general_2": {
+    "question": "게르다는 왜 카이를 찾으러 떠났어?",
+    "cues": {
+      "entity": "게르다",
+      "event": "카이를 찾으러 떠났다",
+      "relation": "이유"
+    }
+  },
+  "general_3": {
+    "question": "카이는 누구 썰매를 따라간 거야?",
+    "cues": {
+      "entity": "카이",
+      "event": "썰매를 따라간",
+      "relation": "누구"
+    }
+  },
+  "relation_1": {
+    "question": "카이랑 게르다는 어떤 사이야?",
+    "cues": {
+      "entity": "카이, 게르다",
+      "event": "사이",
+      "relation": "어떤"
+    }
+  },
+  "spoiler_1": {
+    "question": "게르다는 결국 카이를 찾아?",
+    "cues": {
+      "entity": "게르다",
+      "event": "카이를 찾아",
+      "relation": "결국"
+    }
+  }
+}

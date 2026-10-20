@@ -1,0 +1,42 @@
+{
+  "general_1": {
+    "question": "인어공주는 왕자를 어떻게 구했어?",
+    "cues": {
+      "entity": "인어공주",
+      "event": "왕자를 구하다",
+      "relation": "어떻게"
+    }
+  },
+  "general_2": {
+    "question": "인어공주는 어떻게 사람이 됐어?",
+    "cues": {
+      "entity": "인어공주",
+      "event": "사람이 됐어",
+      "relation": "어떻게"
+    }
+  },
+  "general_3": {
+    "question": "인어공주는 왜 말을 못 해?",
+    "cues": {
+      "entity": "인어공주",
+      "event": "말을 못 해",
+      "relation": "이유"
+    }
+  },
+  "relation_1": {
+    "question": "왕자는 인어공주를 어떻게 생각해?",
+    "cues": {
+      "entity": "인어공주",
+      "event": "왕자의 생각",
+      "relation": "왕자는 인어공주를 어떻게 생각해?"
+    }
+  },
+  "spoiler_1": {
+    "question": "인어공주는 결국 왕자랑 결혼해?",
+    "cues": {
+      "entity": "인어공주",
+      "event": "결혼",
+      "relation": "왕자"
+    }
+  }
+}
