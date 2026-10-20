@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "work_id": "2_엄지 공주",
+  "build_id": "9a86497708b4084b9be7d350c362ee78c47664ad964ff49884b0259617aef666",
+  "counts": {
+    "entity": 176,
+    "event": 131,
+    "relation": 26,
+    "chunk": 7
+  },
+  "boundary_stats": {
+    "all_mention_evidence_crossings": 1,
+    "representative_crossings": 1,
+    "alternative_evidence": 0,
+    "description_removed": 1,
+    "entity_partial": 1,
+    "event_partial": 0,
+    "relation_partial": 0,
+    "chunk_partial": 0
+  },
+  "all_progress_searches": {
+    "entity": 1232,
+    "event": 917,
+    "relation": 182,
+    "chunk": 49
+  },
+  "self_similarity_tie_accepted": {
+    "entity": 176,
+    "event": 131,
+    "relation": 26,
+    "chunk": 7
+  },
+  "checks": [
+    "input_hashes",
+    "original_ids_and_tau",
+    "metadata_source_rebuild",
+    "coordinates",
+    "description_source_boundary",
+    "finite_unit_vectors",
+    "all_progress_prefilter",
+    "work_isolation",
+    "e2rag_chunk_separation",
+    "file_integrity"
+  ],
+  "limitations": [
+    "설명의 의미적 근거 충분성은 재판정하지 않음. 기존 추출 결과를 사용함.",
+    "구조 검증 통과는 자연어 검색 품질 또는 최종 QA의 스포일러 차단 평가가 아님."
+  ]
+}

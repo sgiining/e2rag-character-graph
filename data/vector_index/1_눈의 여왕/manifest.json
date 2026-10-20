@@ -1,0 +1,122 @@
+{
+  "version": "embedding.v1",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "work_id": "1_눈의 여왕",
+  "stores": [
+    "entity",
+    "event",
+    "relation",
+    "chunk"
+  ],
+  "e2rag_stores": [
+    "entity",
+    "event",
+    "relation"
+  ],
+  "chunk_role": "vanilla_rag_baseline_only",
+  "coordinate_unit": "cleaned_python_char_half_open",
+  "progress_unit": "completed_chunk",
+  "inputs": {
+    "cleaned": {
+      "path": "data/cleaned/1_눈의 여왕.txt",
+      "sha256": "8f9dbdda07b6959970df34305dd9268c98349026ed8387d4f11f17380a225121"
+    },
+    "chunk": {
+      "path": "data/chunk/1_눈의 여왕.jsonl",
+      "sha256": "1bcdf9358d07f2f590ed2cee28499b5a72c20a05ab5763a5be55cd04a7ae1b0a"
+    },
+    "entity": {
+      "path": "data/entity_observation/1_눈의 여왕.entities.jsonl",
+      "sha256": "c2dee1fa0d48195bf145434e0f58a5a90d492429e7c7f25a2a889f5900bf1555"
+    },
+    "event": {
+      "path": "data/events_new/1_눈의 여왕/20261014T132234_966945Z/events.jsonl",
+      "sha256": "9b762c5702f8c6397225e2f3538ff8707b803dbd40dc6e73fef4266ce548f96c"
+    },
+    "relation": {
+      "path": "data/relation_observation/1_눈의 여왕/20261016T134524_574877Z/relation_observations.jsonl",
+      "sha256": "72ef44cbef9e08e4aebd760d95686b88ef91da4cfba54f97db348eab5574f6c1"
+    },
+    "coordinate_code": {
+      "path": "src/extraction/extract_entity_mentions_v5.py",
+      "sha256": "9fa969d482002203da5d9530b4fe8ea91019e52ff234a15609a32e3f69167200"
+    }
+  },
+  "read_end_char": [
+    1909,
+    3622,
+    5307,
+    6974,
+    8663,
+    10384,
+    12054,
+    13753,
+    15478,
+    17243,
+    19020,
+    20754,
+    22347,
+    23959,
+    25589,
+    27345,
+    29018,
+    30716,
+    32423,
+    32854
+  ],
+  "counts": {
+    "entity": 482,
+    "event": 384,
+    "relation": 70,
+    "chunk": 20
+  },
+  "boundary_stats": {
+    "all_mention_evidence_crossings": 1,
+    "representative_crossings": 1,
+    "alternative_evidence": 0,
+    "description_removed": 1,
+    "entity_partial": 1,
+    "event_partial": 0,
+    "relation_partial": 0,
+    "chunk_partial": 0
+  },
+  "utf8_boundary_notices": [
+    {
+      "kind": "utf8_boundary",
+      "chunk_id": 1,
+      "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외",
+      "chunk_char_start": 0,
+      "chunk_char_end": 1909
+    },
+    {
+      "kind": "utf8_boundary",
+      "chunk_id": 16,
+      "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외",
+      "chunk_char_start": 1,
+      "chunk_char_end": 1916
+    },
+    {
+      "kind": "utf8_boundary",
+      "chunk_id": 19,
+      "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외",
+      "chunk_char_start": 0,
+      "chunk_char_end": 1859
+    }
+  ],
+  "code_sha256": {
+    "build_vector_index.py": "7189d784d89532a4c96dfecf4f71d02e86955fd9292ceac895ce87f6ae613836",
+    "vector_index.py": "2192da31d07f40436cc9d36ea3bdc2da163039800bb29ff5abb22570fe4d4a87"
+  },
+  "build_id": "dea1989d058fad599a51ad0e90a9755ddc1f766c64a627f482e5aa3643f6f386",
+  "outputs": {
+    "entity.npy": "5b41cf4ff9285b3e97aed9b93b64994aaf7a9eb915bd3c363127c71ad9024dc8",
+    "entity.meta.jsonl": "77053d567d2e6546ddb63c13f5014e006082bc59213e151914bf7f228b1deb6c",
+    "event.npy": "0a1dfec3e76db3d0e8736c7a505552d2183f43abdf127c559217ef9a2377d913",
+    "event.meta.jsonl": "88e83fa2fd6c4cc91b8f196eac7326f9c5c78868695538f71d7ba598cfcffd9e",
+    "relation.npy": "b911945344756fcbd1223d47e79c656096795f3e409f776a067d912a0297b25e",
+    "relation.meta.jsonl": "a7c1ce37a89386ae011d20e244c637f30eaf1766461f99faf1a7e39f587c4486",
+    "chunk.npy": "f5583ea7b3b429134d572a2a95c9636dfa4386325db4cc30ebe5f011ff666277",
+    "chunk.meta.jsonl": "33f4268ea3ddac5b285eee93aace00cae5b4116a61885489273fc8a3cb62236f"
+  }
+}
