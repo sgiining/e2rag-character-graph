@@ -1,0 +1,189 @@
+{
+  "status": "completed_targets_not_met",
+  "builder_version": "qa_build.v8",
+  "prompt_version": "qa.v5",
+  "schema_version": "qa.v1",
+  "work_id": "1_눈의 여왕",
+  "batch": "dev",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\1_눈의 여왕.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\1_눈의 여왕.jsonl",
+  "generator_model": "gpt-4o-mini",
+  "verifier_model": "gpt-5.4-mini",
+  "reasoning_effort": "medium",
+  "hard_generator_model": "gpt-6.1-sol",
+  "hard_reasoning_effort": "medium",
+  "answerable_generator": "sol",
+  "targets": {
+    "answerable": 6,
+    "unanswerable_future": 3,
+    "relation_change_pairs": 2
+  },
+  "questions_per_call": 2,
+  "pairs_per_call": 3,
+  "dup_similarity": 0.7,
+  "context_parts": 3,
+  "max_generation_calls": {
+    "answerable": 18,
+    "unanswerable_future": 9,
+    "relation_change": 6
+  },
+  "exclude_runs": [
+    "data\\qa_candidates\\1_눈의 여왕\\20261018T134937_274123Z"
+  ],
+  "stats": {
+    "previous_candidates_loaded": 57,
+    "hard_generator_api_calls": 13,
+    "hard_generator_input_tokens": 104987,
+    "hard_generator_output_tokens": 5002,
+    "hard_generator_reasoning_tokens": 2039,
+    "verifier_api_calls": 38,
+    "verifier_input_tokens": 400230,
+    "verifier_output_tokens": 37230,
+    "verifier_reasoning_tokens": 28959,
+    "answerable:verifier_accepted": 6,
+    "unanswerable_future:verifier_rejected": 4,
+    "unanswerable_future:verifier_accepted": 3,
+    "relation_change:verifier_accepted": 2,
+    "relation_pairs:verifier_accepted": 1,
+    "relation_change:verifier_rejected": 6,
+    "relation_pairs:verifier_rejected": 3
+  },
+  "document_sha256": "bc978ce84c84e15ab3582290841c2c3eef44fe16ca05204b1165a3b71fd134ff",
+  "chunks_sha256": "1bcdf9358d07f2f590ed2cee28499b5a72c20a05ab5763a5be55cd04a7ae1b0a",
+  "document_characters": 32854,
+  "input_chunks": 20,
+  "sentences": 1244,
+  "boundary_warnings": 3,
+  "progress_points": [
+    {
+      "p": 1,
+      "read_end_char": 1909,
+      "visible_sentences": 49
+    },
+    {
+      "p": 2,
+      "read_end_char": 3622,
+      "visible_sentences": 112
+    },
+    {
+      "p": 3,
+      "read_end_char": 5307,
+      "visible_sentences": 172
+    },
+    {
+      "p": 4,
+      "read_end_char": 6974,
+      "visible_sentences": 239
+    },
+    {
+      "p": 5,
+      "read_end_char": 8663,
+      "visible_sentences": 296
+    },
+    {
+      "p": 6,
+      "read_end_char": 10384,
+      "visible_sentences": 357
+    },
+    {
+      "p": 7,
+      "read_end_char": 12054,
+      "visible_sentences": 424
+    },
+    {
+      "p": 8,
+      "read_end_char": 13753,
+      "visible_sentences": 496
+    },
+    {
+      "p": 9,
+      "read_end_char": 15478,
+      "visible_sentences": 575
+    },
+    {
+      "p": 10,
+      "read_end_char": 17243,
+      "visible_sentences": 643
+    },
+    {
+      "p": 11,
+      "read_end_char": 19020,
+      "visible_sentences": 717
+    },
+    {
+      "p": 12,
+      "read_end_char": 20754,
+      "visible_sentences": 779
+    },
+    {
+      "p": 13,
+      "read_end_char": 22347,
+      "visible_sentences": 843
+    },
+    {
+      "p": 14,
+      "read_end_char": 23959,
+      "visible_sentences": 912
+    },
+    {
+      "p": 15,
+      "read_end_char": 25589,
+      "visible_sentences": 981
+    },
+    {
+      "p": 16,
+      "read_end_char": 27345,
+      "visible_sentences": 1040
+    },
+    {
+      "p": 17,
+      "read_end_char": 29018,
+      "visible_sentences": 1098
+    },
+    {
+      "p": 18,
+      "read_end_char": 30716,
+      "visible_sentences": 1163
+    },
+    {
+      "p": 19,
+      "read_end_char": 32423,
+      "visible_sentences": 1228
+    },
+    {
+      "p": 20,
+      "read_end_char": 32854,
+      "visible_sentences": 1244
+    }
+  ],
+  "progress_points_cutting_sentence": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "verifier_accepted": {
+    "answerable": 6,
+    "unanswerable_future": 3,
+    "relation_change_pairs": 1
+  },
+  "targets_met": {
+    "answerable": true,
+    "unanswerable_future": true,
+    "relation_change_pairs": false
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "status": "completed_targets_met",
+  "builder_version": "qa_build.v8",
+  "prompt_version": "qa.v5",
+  "schema_version": "qa.v1",
+  "work_id": "5_미운 아기 오리",
+  "batch": "dev",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\5_미운 아기 오리.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\5_미운 아기 오리.jsonl",
+  "generator_model": "gpt-4o-mini",
+  "verifier_model": "gpt-5.4-mini",
+  "reasoning_effort": "medium",
+  "hard_generator_model": "gpt-6.1-sol",
+  "hard_reasoning_effort": "medium",
+  "answerable_generator": "sol",
+  "targets": {
+    "answerable": 2,
+    "unanswerable_future": 1,
+    "relation_change_pairs": 0
+  },
+  "questions_per_call": 2,
+  "pairs_per_call": 3,
+  "dup_similarity": 0.7,
+  "context_parts": 3,
+  "max_generation_calls": {
+    "answerable": 6,
+    "unanswerable_future": 3,
+    "relation_change": 0
+  },
+  "exclude_runs": [
+    "data\\qa_candidates\\5_미운 아기 오리\\20261018T142614_140916Z"
+  ],
+  "stats": {
+    "previous_candidates_loaded": 16,
+    "hard_generator_api_calls": 2,
+    "hard_generator_input_tokens": 13427,
+    "hard_generator_output_tokens": 489,
+    "hard_generator_reasoning_tokens": 190,
+    "verifier_api_calls": 6,
+    "verifier_input_tokens": 16930,
+    "verifier_output_tokens": 2635,
+    "verifier_reasoning_tokens": 1613,
+    "answerable:verifier_accepted": 2,
+    "unanswerable_future:verifier_accepted": 1
+  },
+  "document_sha256": "e0b30f46027998085727434cb38a6ee607c9e8a1aa7db3ea92558884b1aeccab",
+  "chunks_sha256": "1a7fc9f95ea0586863c71b8787a0e44f19e27d16e9808de5870bd27131ae664b",
+  "document_characters": 9873,
+  "input_chunks": 6,
+  "sentences": 407,
+  "boundary_warnings": 0,
+  "progress_points": [
+    {
+      "p": 1,
+      "read_end_char": 1794,
+      "visible_sentences": 86
+    },
+    {
+      "p": 2,
+      "read_end_char": 3505,
+      "visible_sentences": 164
+    },
+    {
+      "p": 3,
+      "read_end_char": 5108,
+      "visible_sentences": 235
+    },
+    {
+      "p": 4,
+      "read_end_char": 6796,
+      "visible_sentences": 302
+    },
+    {
+      "p": 5,
+      "read_end_char": 8483,
+      "visible_sentences": 357
+    },
+    {
+      "p": 6,
+      "read_end_char": 9873,
+      "visible_sentences": 407
+    }
+  ],
+  "progress_points_cutting_sentence": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "verifier_accepted": {
+    "answerable": 2,
+    "unanswerable_future": 1,
+    "relation_change_pairs": 0
+  },
+  "targets_met": {
+    "answerable": true,
+    "unanswerable_future": true,
+    "relation_change_pairs": true
+  }
+}

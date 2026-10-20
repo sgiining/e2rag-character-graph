@@ -1,0 +1,110 @@
+{
+  "status": "completed_targets_met",
+  "builder_version": "qa_build.v8",
+  "prompt_version": "qa.v5",
+  "schema_version": "qa.v1",
+  "work_id": "2_엄지 공주",
+  "batch": "main",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\2_엄지 공주.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\2_엄지 공주.jsonl",
+  "generator_model": "gpt-4o-mini",
+  "verifier_model": "gpt-5.4-mini",
+  "reasoning_effort": "medium",
+  "hard_generator_model": "gpt-6.1-sol",
+  "hard_reasoning_effort": "medium",
+  "answerable_generator": "sol",
+  "targets": {
+    "answerable": 9,
+    "unanswerable_future": 4,
+    "relation_change_pairs": 2
+  },
+  "questions_per_call": 2,
+  "pairs_per_call": 3,
+  "dup_similarity": 0.7,
+  "context_parts": 3,
+  "max_generation_calls": {
+    "answerable": 27,
+    "unanswerable_future": 12,
+    "relation_change": 6
+  },
+  "exclude_runs": [
+    "data\\qa_candidates\\2_엄지 공주\\20261018T113015_542967Z"
+  ],
+  "stats": {
+    "previous_candidates_loaded": 11,
+    "hard_generator_api_calls": 12,
+    "hard_generator_input_tokens": 72337,
+    "hard_generator_output_tokens": 3813,
+    "hard_generator_reasoning_tokens": 1373,
+    "verifier_api_calls": 34,
+    "verifier_input_tokens": 218966,
+    "verifier_output_tokens": 19783,
+    "verifier_reasoning_tokens": 12818,
+    "answerable:verifier_accepted": 9,
+    "unanswerable_future:verifier_accepted": 4,
+    "unanswerable_future:verifier_rejected": 1,
+    "relation_change:verifier_accepted": 4,
+    "relation_pairs:verifier_accepted": 2
+  },
+  "document_sha256": "e52818a8b2da6befb579b31d8d4ae2023803cf3cdae15540786640543b6c44cc",
+  "chunks_sha256": "7c78eeb33f4c57795b1e42999c0ff7f6dac3c644f7b05338ff027937b7009349",
+  "document_characters": 11036,
+  "input_chunks": 7,
+  "sentences": 383,
+  "boundary_warnings": 2,
+  "progress_points": [
+    {
+      "p": 1,
+      "read_end_char": 1787,
+      "visible_sentences": 63
+    },
+    {
+      "p": 2,
+      "read_end_char": 3333,
+      "visible_sentences": 120
+    },
+    {
+      "p": 3,
+      "read_end_char": 4940,
+      "visible_sentences": 171
+    },
+    {
+      "p": 4,
+      "read_end_char": 6592,
+      "visible_sentences": 228
+    },
+    {
+      "p": 5,
+      "read_end_char": 8249,
+      "visible_sentences": 287
+    },
+    {
+      "p": 6,
+      "read_end_char": 9865,
+      "visible_sentences": 342
+    },
+    {
+      "p": 7,
+      "read_end_char": 11036,
+      "visible_sentences": 383
+    }
+  ],
+  "progress_points_cutting_sentence": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "verifier_accepted": {
+    "answerable": 9,
+    "unanswerable_future": 4,
+    "relation_change_pairs": 2
+  },
+  "targets_met": {
+    "answerable": true,
+    "unanswerable_future": true,
+    "relation_change_pairs": true
+  }
+}

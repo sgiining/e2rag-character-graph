@@ -1,0 +1,152 @@
+{
+  "status": "completed_targets_met",
+  "builder_version": "qa_build.v8",
+  "prompt_version": "qa.v5",
+  "schema_version": "qa.v1",
+  "work_id": "3_인어 공주",
+  "batch": "dev",
+  "cleaned": "D:\\26_capstone\\e2rag-character-graph\\data\\cleaned\\3_인어 공주.txt",
+  "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\3_인어 공주.jsonl",
+  "generator_model": "gpt-4o-mini",
+  "verifier_model": "gpt-5.4-mini",
+  "reasoning_effort": "medium",
+  "hard_generator_model": "gpt-6.1-sol",
+  "hard_reasoning_effort": "medium",
+  "answerable_generator": "sol",
+  "targets": {
+    "answerable": 4,
+    "unanswerable_future": 2,
+    "relation_change_pairs": 1
+  },
+  "questions_per_call": 2,
+  "pairs_per_call": 3,
+  "dup_similarity": 0.7,
+  "context_parts": 3,
+  "max_generation_calls": {
+    "answerable": 12,
+    "unanswerable_future": 6,
+    "relation_change": 3
+  },
+  "exclude_runs": [
+    "data\\qa_candidates\\3_인어 공주\\20261018T141306_495345Z"
+  ],
+  "stats": {
+    "previous_candidates_loaded": 47,
+    "hard_generator_api_calls": 9,
+    "hard_generator_input_tokens": 64743,
+    "hard_generator_output_tokens": 3116,
+    "hard_generator_reasoning_tokens": 1504,
+    "verifier_api_calls": 25,
+    "verifier_input_tokens": 132131,
+    "verifier_output_tokens": 17614,
+    "verifier_reasoning_tokens": 12361,
+    "answerable:verifier_accepted": 4,
+    "unanswerable_future:verifier_rejected": 5,
+    "unanswerable_future:verifier_accepted": 2,
+    "relation_change:verifier_accepted": 2,
+    "relation_pairs:verifier_accepted": 1
+  },
+  "document_sha256": "3f27a0d1e7ed38a4cad1b3c6c54c1a0d452cd8787bcb4e2ba8fc4c8c3bc5ba07",
+  "chunks_sha256": "aa57a0b77f98948ff0b4229feb9f4a5b56b0e761adcd0b1bc9c2d75612b87631",
+  "document_characters": 23196,
+  "input_chunks": 14,
+  "sentences": 673,
+  "boundary_warnings": 2,
+  "progress_points": [
+    {
+      "p": 1,
+      "read_end_char": 1809,
+      "visible_sentences": 40
+    },
+    {
+      "p": 2,
+      "read_end_char": 3574,
+      "visible_sentences": 85
+    },
+    {
+      "p": 3,
+      "read_end_char": 5244,
+      "visible_sentences": 131
+    },
+    {
+      "p": 4,
+      "read_end_char": 6907,
+      "visible_sentences": 180
+    },
+    {
+      "p": 5,
+      "read_end_char": 8637,
+      "visible_sentences": 228
+    },
+    {
+      "p": 6,
+      "read_end_char": 10425,
+      "visible_sentences": 282
+    },
+    {
+      "p": 7,
+      "read_end_char": 12220,
+      "visible_sentences": 332
+    },
+    {
+      "p": 8,
+      "read_end_char": 13767,
+      "visible_sentences": 369
+    },
+    {
+      "p": 9,
+      "read_end_char": 15439,
+      "visible_sentences": 431
+    },
+    {
+      "p": 10,
+      "read_end_char": 17171,
+      "visible_sentences": 481
+    },
+    {
+      "p": 11,
+      "read_end_char": 18981,
+      "visible_sentences": 542
+    },
+    {
+      "p": 12,
+      "read_end_char": 20735,
+      "visible_sentences": 591
+    },
+    {
+      "p": 13,
+      "read_end_char": 22412,
+      "visible_sentences": 652
+    },
+    {
+      "p": 14,
+      "read_end_char": 23196,
+      "visible_sentences": 673
+    }
+  ],
+  "progress_points_cutting_sentence": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "verifier_accepted": {
+    "answerable": 4,
+    "unanswerable_future": 2,
+    "relation_change_pairs": 1
+  },
+  "targets_met": {
+    "answerable": true,
+    "unanswerable_future": true,
+    "relation_change_pairs": true
+  }
+}

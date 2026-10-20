@@ -1,0 +1,131 @@
+{
+  "finalizer_version": "qa_finalize.v1",
+  "command": "build",
+  "review_dir": "D:\\26_capstone\\e2rag-character-graph\\data\\qa\\review\\20261018T151406_463751Z",
+  "created_at": "2026-10-18T15:15:56.736558+00:00",
+  "items": 134,
+  "dropped": [
+    {
+      "qa_id": "qa_03f38d5b235944aa",
+      "reason": "human_drop"
+    },
+    {
+      "qa_id": "qa_4164f00e4d862173",
+      "reason": "human_drop"
+    },
+    {
+      "qa_id": "qa_2647b1a12a64cea0",
+      "reason": "human_drop"
+    },
+    {
+      "qa_id": "qa_28afaa60c9435db4",
+      "reason": "human_drop"
+    },
+    {
+      "qa_id": "qa_3d685601a2d6400a",
+      "reason": "human_drop"
+    },
+    {
+      "qa_id": "qa_a7725db11b6ce867",
+      "reason": "human_drop"
+    },
+    {
+      "qa_id": "qa_6987672066c27c77",
+      "reason": "human_drop"
+    },
+    {
+      "qa_id": "qa_e15e736e0d3f0c98",
+      "reason": "human_drop"
+    }
+  ],
+  "by_split_type": {
+    "test|answerable": 60,
+    "dev|answerable": 15,
+    "test|relation_change": 22,
+    "dev|relation_change": 4,
+    "test|unanswerable_future": 26,
+    "dev|unanswerable_future": 7
+  },
+  "by_work_type": {
+    "1_눈의 여왕|answerable": 31,
+    "1_눈의 여왕|relation_change": 12,
+    "1_눈의 여왕|unanswerable_future": 15,
+    "2_엄지 공주|answerable": 11,
+    "2_엄지 공주|relation_change": 2,
+    "2_엄지 공주|unanswerable_future": 4,
+    "3_인어 공주|answerable": 21,
+    "3_인어 공주|relation_change": 8,
+    "3_인어 공주|unanswerable_future": 10,
+    "4_성냥팔이 소녀|answerable": 3,
+    "4_성냥팔이 소녀|unanswerable_future": 1,
+    "5_미운 아기 오리|answerable": 9,
+    "5_미운 아기 오리|relation_change": 4,
+    "5_미운 아기 오리|unanswerable_future": 3
+  },
+  "relation_change_pairs_by_split": {
+    "test": 11,
+    "dev": 2
+  },
+  "decisions": {
+    "keep": 131,
+    "fix": 3,
+    "drop": 8
+  },
+  "similarity_threshold": 0.5,
+  "split_groups": [
+    [
+      "qa_6bfe64d7d4632483",
+      "qa_5f67581ce860bbda"
+    ],
+    [
+      "qa_dd735226e46174f9",
+      "qa_6f907395aa8fd598"
+    ],
+    [
+      "qa_9afd939022faa834",
+      "qa_e668a64d1f697072"
+    ],
+    [
+      "qa_fe2232725df04298",
+      "qa_51f966830892d3a8"
+    ],
+    [
+      "qa_03ff0454538c2648",
+      "qa_8441df236760666b"
+    ],
+    [
+      "qa_022a5f23fefc5c80",
+      "qa_16cb13e2b27940d6"
+    ],
+    [
+      "qa_f5afe38301c0e119",
+      "qa_d56a9ee2a82f4f75"
+    ],
+    [
+      "qa_77e9440b324fd8fa",
+      "qa_3c35ce3c2b7ff89a"
+    ],
+    [
+      "qa_e06a87aa93239953",
+      "qa_1f5d762833a30530"
+    ],
+    [
+      "qa_3231d54d6233159a",
+      "qa_8237bb8e51c48016"
+    ],
+    [
+      "qa_f7d180297a7a7d47",
+      "qa_d88f9684abc4b937"
+    ],
+    [
+      "qa_28b05713dddd8fc2",
+      "qa_78a5ed8ff3f1cd81"
+    ],
+    [
+      "qa_026d1026ed731989",
+      "qa_3557bf5174754d9b"
+    ]
+  ],
+  "qa_sha256": "cbf9fa3dc9fd08e36d393568761a22b55e6428a59d5b4db8bd3a341c41c92c4c",
+  "qa_inputs_sha256": "0a8825fe6b072e43c8a3d4250a426bb9786b3e1af6f9d03dad576bbcb57e68a2"
+}
