@@ -1,0 +1,27 @@
+{
+  "work_id": "3_인어 공주",
+  "version": "relation_event_stage2.entity_event_screen.v1",
+  "model": "gpt-4o-mini",
+  "dry_run": false,
+  "comparison_fields": [
+    "relation.description",
+    "event.evidence"
+  ],
+  "relevance_threshold": 60,
+  "input_stage1": "data\\event_relation\\3_인어 공주.relation_event_stage1.jsonl",
+  "input_events": "data\\events_new\\3_인어 공주\\20261014T140109_113538Z\\events.jsonl",
+  "input_chunks": "data\\chunk\\3_인어 공주.jsonl",
+  "selected_output": "data\\event_relation\\3_인어 공주.relation_event_stage2.jsonl",
+  "audit_output": "data\\event_relation\\3_인어 공주.relation_event_stage2.audit.jsonl",
+  "stage2_is_final_link": false,
+  "counts": {
+    "status_llm_evaluated": 664,
+    "relations_processed": 37,
+    "fully_evaluated_relations": 27,
+    "selected_candidates": 170,
+    "relations_with_candidates": 36,
+    "status_api_or_validation_error": 38,
+    "status_chunk_or_input_error": 5,
+    "stage1_candidates_total": 707
+  }
+}
