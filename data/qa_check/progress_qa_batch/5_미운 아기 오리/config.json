@@ -1,0 +1,38 @@
+{
+  "batch_version": "progress_qa_batch.v1",
+  "work_id": "5_미운 아기 오리",
+  "model": "gpt-4o-mini",
+  "top_k": 5,
+  "passage_k": 8,
+  "use_cues": true,
+  "last_chunk": 6,
+  "index_build_id": "68143f25e5f417907a61515ade6abcf5d49d70652d14abcbaf24e5a78e46ea07",
+  "qa_engine_sha256": "ccc6b972c38c539838709a8fcc99651b840210834e7fee1ba32a4960f2770b5c",
+  "questions": [
+    {
+      "qa_id": "general_1",
+      "category": "일반",
+      "question": "새끼 오리는 왜 따돌림을 당해?"
+    },
+    {
+      "qa_id": "general_2",
+      "category": "일반",
+      "question": "새끼 오리는 왜 집을 나갔어?"
+    },
+    {
+      "qa_id": "general_3",
+      "category": "일반",
+      "question": "얼음에 갇힌 새끼 오리를 누가 구해줬어?"
+    },
+    {
+      "qa_id": "relation_1",
+      "category": "관계",
+      "question": "다른 오리들은 새끼 오리를 어떻게 대해?"
+    },
+    {
+      "qa_id": "spoiler_1",
+      "category": "스포일러",
+      "question": "새끼 오리는 자기가 백조라는 걸 언제 알아?"
+    }
+  ]
+}

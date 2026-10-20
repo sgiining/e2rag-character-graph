@@ -1,0 +1,38 @@
+{
+  "batch_version": "progress_qa_batch.v1",
+  "work_id": "2_엄지 공주",
+  "model": "gpt-4o-mini",
+  "top_k": 5,
+  "passage_k": 8,
+  "use_cues": true,
+  "last_chunk": 7,
+  "index_build_id": "9a86497708b4084b9be7d350c362ee78c47664ad964ff49884b0259617aef666",
+  "qa_engine_sha256": "ccc6b972c38c539838709a8fcc99651b840210834e7fee1ba32a4960f2770b5c",
+  "questions": [
+    {
+      "qa_id": "general_1",
+      "category": "일반",
+      "question": "엄지공주는 어디서 태어났어?"
+    },
+    {
+      "qa_id": "general_2",
+      "category": "일반",
+      "question": "두꺼비는 왜 엄지공주를 데려갔어?"
+    },
+    {
+      "qa_id": "general_3",
+      "category": "일반",
+      "question": "엄지공주는 제비를 어떻게 도와줬어?"
+    },
+    {
+      "qa_id": "relation_1",
+      "category": "관계",
+      "question": "엄지공주랑 제비는 어떤 사이야?"
+    },
+    {
+      "qa_id": "spoiler_1",
+      "category": "스포일러",
+      "question": "엄지공주는 마지막에 누구랑 결혼해?"
+    }
+  ]
+}
