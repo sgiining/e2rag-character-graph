@@ -1,0 +1,36 @@
+{
+  "work_id": "4_성냥팔이 소녀",
+  "status": "PASS",
+  "checked_chunks": 2,
+  "checkpoints": [
+    {
+      "p": 1,
+      "nodes": {
+        "entity": 15,
+        "event": 18,
+        "relation": 1
+      },
+      "edges": {
+        "entity_event": 39,
+        "event_event": 18,
+        "entity_relation_source": 1,
+        "entity_relation_target": 1
+      }
+    },
+    {
+      "p": 2,
+      "nodes": {
+        "entity": 24,
+        "event": 35,
+        "relation": 3
+      },
+      "edges": {
+        "entity_event": 73,
+        "event_event": 36,
+        "entity_relation_source": 3,
+        "entity_relation_target": 3,
+        "relation_event": 5
+      }
+    }
+  ]
+}

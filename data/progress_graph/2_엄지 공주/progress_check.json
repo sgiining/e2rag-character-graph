@@ -1,0 +1,52 @@
+{
+  "work_id": "2_엄지 공주",
+  "status": "PASS",
+  "checked_chunks": 7,
+  "checkpoints": [
+    {
+      "p": 1,
+      "nodes": {
+        "entity": 25,
+        "event": 20,
+        "relation": 5
+      },
+      "edges": {
+        "entity_event": 60,
+        "event_event": 19,
+        "entity_relation_source": 5,
+        "entity_relation_target": 5,
+        "relation_event": 14
+      }
+    },
+    {
+      "p": 3,
+      "nodes": {
+        "entity": 81,
+        "event": 58,
+        "relation": 10
+      },
+      "edges": {
+        "entity_event": 187,
+        "event_event": 59,
+        "entity_relation_source": 10,
+        "entity_relation_target": 10,
+        "relation_event": 29
+      }
+    },
+    {
+      "p": 7,
+      "nodes": {
+        "entity": 176,
+        "event": 131,
+        "relation": 26
+      },
+      "edges": {
+        "entity_event": 419,
+        "event_event": 142,
+        "entity_relation_source": 26,
+        "entity_relation_target": 26,
+        "relation_event": 74
+      }
+    }
+  ]
+}

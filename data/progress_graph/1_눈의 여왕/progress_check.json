@@ -1,0 +1,67 @@
+{
+  "work_id": "1_눈의 여왕",
+  "status": "PASS",
+  "checked_chunks": 20,
+  "checkpoints": [
+    {
+      "p": 1,
+      "nodes": {
+        "entity": 29,
+        "event": 11,
+        "relation": 2
+      },
+      "edges": {
+        "entity_event": 32,
+        "event_event": 13,
+        "entity_relation_source": 2,
+        "entity_relation_target": 2,
+        "relation_event": 4
+      }
+    },
+    {
+      "p": 3,
+      "nodes": {
+        "entity": 76,
+        "event": 45,
+        "relation": 9
+      },
+      "edges": {
+        "entity_event": 105,
+        "event_event": 49,
+        "entity_relation_source": 9,
+        "entity_relation_target": 9,
+        "relation_event": 11
+      }
+    },
+    {
+      "p": 7,
+      "nodes": {
+        "entity": 175,
+        "event": 127,
+        "relation": 25
+      },
+      "edges": {
+        "entity_event": 290,
+        "event_event": 135,
+        "entity_relation_source": 25,
+        "entity_relation_target": 25,
+        "relation_event": 66
+      }
+    },
+    {
+      "p": 20,
+      "nodes": {
+        "entity": 482,
+        "event": 384,
+        "relation": 70
+      },
+      "edges": {
+        "entity_event": 987,
+        "event_event": 399,
+        "entity_relation_source": 70,
+        "entity_relation_target": 70,
+        "relation_event": 154
+      }
+    }
+  ]
+}

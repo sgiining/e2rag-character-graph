@@ -1,0 +1,63 @@
+{
+  "work_id": "5_미운 아기 오리",
+  "status": "OK",
+  "fatal_count": 0,
+  "issues_by_category": {
+    "evidence_not_exact_match": 1
+  },
+  "stage3_approved_count": 15,
+  "input_manifest": {
+    "chunk": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\5_미운 아기 오리.jsonl",
+      "sha256": "1a7fc9f95ea0586863c71b8787a0e44f19e27d16e9808de5870bd27131ae664b",
+      "count": 6
+    },
+    "entity": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_observation\\5_미운 아기 오리.entities.jsonl",
+      "sha256": "616edcd9ca9f98ecc93577a6f54e4ab031bec725affc7a4c344088b93c041792",
+      "count": 131
+    },
+    "entity_event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_event_new\\5_미운 아기 오리.entity_event_edges.jsonl",
+      "sha256": "92c1dcf40825ccdb5df79b0862d5d3450933c5ee4bdbd6dbb756d3dfea57414b",
+      "count": 332
+    },
+    "event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\5_미운 아기 오리\\20261014T142706_934696Z\\events.jsonl",
+      "sha256": "859d32de8bd2dc91a7a94cd20a6ae39c71618897c27e7f0ff975013277a1fd19",
+      "count": 111
+    },
+    "event_event": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\5_미운 아기 오리\\20261014T142706_934696Z\\event_edges.jsonl",
+      "sha256": "cb399fd5e918c9517e45d3c4828105418327dc6e53ab04de561c2b39a8540264",
+      "count": 110
+    },
+    "relation": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\relation_observation\\5_미운 아기 오리\\20261016T135932_759642Z\\relation_observations.jsonl",
+      "sha256": "90e27bd934ff15f382e37f42bf190a0dd29c6073e6bdc968ae5a8a0113c54a5c",
+      "count": 11
+    },
+    "stage3": {
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\5_미운 아기 오리\\5_미운 아기 오리.relation_event_stage3.jsonl",
+      "sha256": "04937e4e86a8d31629b469a2aa4e9514936e914493a669a41f17faf1d8c5709e",
+      "count": 15
+    }
+  },
+  "issues": [
+    {
+      "category": "evidence_not_exact_match",
+      "dataset": "entity",
+      "id": "eobs_4f9b962795e6a821",
+      "message": "해당 chunk와 정확 일치하지 않음 (검토 필요)"
+    }
+  ],
+  "source_record_counts": {
+    "chunk": 6,
+    "entity": 131,
+    "entity_event": 332,
+    "event": 111,
+    "event_event": 110,
+    "relation": 11,
+    "stage3": 15
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "work_id": "5_미운 아기 오리",
+  "status": "PASS",
+  "checked_chunks": 6,
+  "checkpoints": [
+    {
+      "p": 1,
+      "nodes": {
+        "entity": 30,
+        "event": 10,
+        "relation": 1
+      },
+      "edges": {
+        "entity_event": 43,
+        "event_event": 12,
+        "entity_relation_source": 1,
+        "entity_relation_target": 1,
+        "relation_event": 1
+      }
+    },
+    {
+      "p": 3,
+      "nodes": {
+        "entity": 74,
+        "event": 53,
+        "relation": 4
+      },
+      "edges": {
+        "entity_event": 156,
+        "event_event": 52,
+        "entity_relation_source": 4,
+        "entity_relation_target": 4,
+        "relation_event": 5
+      }
+    },
+    {
+      "p": 6,
+      "nodes": {
+        "entity": 131,
+        "event": 111,
+        "relation": 11
+      },
+      "edges": {
+        "entity_event": 332,
+        "event_event": 110,
+        "entity_relation_source": 11,
+        "entity_relation_target": 11,
+        "relation_event": 15
+      }
+    }
+  ]
+}
