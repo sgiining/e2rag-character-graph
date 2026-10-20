@@ -1,0 +1,82 @@
+{
+  "version": "embedding.v1",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "work_id": "4_성냥팔이 소녀",
+  "stores": [
+    "entity",
+    "event",
+    "relation",
+    "chunk"
+  ],
+  "e2rag_stores": [
+    "entity",
+    "event",
+    "relation"
+  ],
+  "chunk_role": "vanilla_rag_baseline_only",
+  "coordinate_unit": "cleaned_python_char_half_open",
+  "progress_unit": "completed_chunk",
+  "inputs": {
+    "cleaned": {
+      "path": "data/cleaned/4_성냥팔이 소녀.txt",
+      "sha256": "a09e26e91bb8724adf1b75a53d72d909deac411d159fb9d8faada1eb408111f2"
+    },
+    "chunk": {
+      "path": "data/chunk/4_성냥팔이 소녀.jsonl",
+      "sha256": "22c49a5ba7b90340e926f0effea9d71eba7d07790226550b755021d15234fd09"
+    },
+    "entity": {
+      "path": "data/entity_observation/4_성냥팔이 소녀.entities.jsonl",
+      "sha256": "67b39c617f196f5b186a9d488edc050cf2ae07a779b68d2526600e14f9ab8c6f"
+    },
+    "event": {
+      "path": "data/events_new/4_성냥팔이 소녀/20261014T142430_285681Z/events.jsonl",
+      "sha256": "ac5367047b0c7a07ae2c548e72082c4a423d554a49d3da34daee5751a22dcc5b"
+    },
+    "relation": {
+      "path": "data/relation_observation/4_성냥팔이 소녀/20261016T135438_878777Z/relation_observations.jsonl",
+      "sha256": "a2cfc754126a14f3b503caf04b76ffa7850bdfb5b69c12ed3f340d8cabc7113b"
+    },
+    "coordinate_code": {
+      "path": "src/extraction/extract_entity_mentions_v5.py",
+      "sha256": "9fa969d482002203da5d9530b4fe8ea91019e52ff234a15609a32e3f69167200"
+    }
+  },
+  "read_end_char": [
+    1793,
+    2345
+  ],
+  "counts": {
+    "entity": 24,
+    "event": 35,
+    "relation": 3,
+    "chunk": 2
+  },
+  "boundary_stats": {
+    "all_mention_evidence_crossings": 2,
+    "representative_crossings": 1,
+    "alternative_evidence": 0,
+    "description_removed": 1,
+    "entity_partial": 1,
+    "event_partial": 0,
+    "relation_partial": 0,
+    "chunk_partial": 0
+  },
+  "utf8_boundary_notices": [],
+  "code_sha256": {
+    "build_vector_index.py": "7189d784d89532a4c96dfecf4f71d02e86955fd9292ceac895ce87f6ae613836",
+    "vector_index.py": "2192da31d07f40436cc9d36ea3bdc2da163039800bb29ff5abb22570fe4d4a87"
+  },
+  "build_id": "e312b89f3787ecf87e7a49dfd10d4d8ff1534ba5cad6c2a497f0cbc26796824a",
+  "outputs": {
+    "entity.npy": "d4e12ea1bf33c0cf4350772039f81229465ed3568da7165b58ddbe173d72b985",
+    "entity.meta.jsonl": "5c247eebdccc488be5b16fc277e2538a092c51013bd27578845b47983029726c",
+    "event.npy": "5aab695fadb96177ce959f8b4129481d7b75fdec51becce68d9755813e645c0e",
+    "event.meta.jsonl": "86c71a06e246f4e1845861080f479f57636a15fe293bd4e45d7fed5e7c017c62",
+    "relation.npy": "e63a63207ade097c2a26a000ba28ead9e209f8d07f99d8b68f42d8324f8f5960",
+    "relation.meta.jsonl": "edde6e11c6d7e14406bee1e12fdc296a3d278828f7a057653e0e301271fdd154",
+    "chunk.npy": "cd69452b0bf9007599aacfe90c0dfb64e447560f0879599f6856cfc6140ea793",
+    "chunk.meta.jsonl": "5ddf25daaa704bfe7e7e4cafa0776af11a1231a6e925ee57d89894bd901b32c7"
+  }
+}

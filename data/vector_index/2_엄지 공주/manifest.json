@@ -1,0 +1,102 @@
+{
+  "version": "embedding.v1",
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "work_id": "2_엄지 공주",
+  "stores": [
+    "entity",
+    "event",
+    "relation",
+    "chunk"
+  ],
+  "e2rag_stores": [
+    "entity",
+    "event",
+    "relation"
+  ],
+  "chunk_role": "vanilla_rag_baseline_only",
+  "coordinate_unit": "cleaned_python_char_half_open",
+  "progress_unit": "completed_chunk",
+  "inputs": {
+    "cleaned": {
+      "path": "data/cleaned/2_엄지 공주.txt",
+      "sha256": "49a372a1fce2fab33ce8d32cea6e648bf2d81999beb4632cde6bd15ab301ff5a"
+    },
+    "chunk": {
+      "path": "data/chunk/2_엄지 공주.jsonl",
+      "sha256": "7c78eeb33f4c57795b1e42999c0ff7f6dac3c644f7b05338ff027937b7009349"
+    },
+    "entity": {
+      "path": "data/entity_observation/2_엄지 공주.entities.jsonl",
+      "sha256": "8e26a70a43196121a46b86833b5897c48561ca6a0c5d3d16ae64d5b5fbf40a02"
+    },
+    "event": {
+      "path": "data/events_new/2_엄지 공주/20261014T135030_858525Z/events.jsonl",
+      "sha256": "dfb2e35b331bed2b855a22e42c3089b83f0a7ab3104eb2fb8174505a4369058e"
+    },
+    "relation": {
+      "path": "data/relation_observation/2_엄지 공주/20261016T134942_396776Z/relation_observations.jsonl",
+      "sha256": "0f21165b5118446edb8081e909b24747f0e22dbc434edd867479987525eac839"
+    },
+    "coordinate_code": {
+      "path": "src/extraction/extract_entity_mentions_v5.py",
+      "sha256": "9fa969d482002203da5d9530b4fe8ea91019e52ff234a15609a32e3f69167200"
+    }
+  },
+  "read_end_char": [
+    1787,
+    3333,
+    4940,
+    6592,
+    8249,
+    9865,
+    11036
+  ],
+  "counts": {
+    "entity": 176,
+    "event": 131,
+    "relation": 26,
+    "chunk": 7
+  },
+  "boundary_stats": {
+    "all_mention_evidence_crossings": 1,
+    "representative_crossings": 1,
+    "alternative_evidence": 0,
+    "description_removed": 1,
+    "entity_partial": 1,
+    "event_partial": 0,
+    "relation_partial": 0,
+    "chunk_partial": 0
+  },
+  "utf8_boundary_notices": [
+    {
+      "kind": "utf8_boundary",
+      "chunk_id": 2,
+      "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외",
+      "chunk_char_start": 0,
+      "chunk_char_end": 1690
+    },
+    {
+      "kind": "utf8_boundary",
+      "chunk_id": 7,
+      "reason": "토큰 경계의 불완전한 문자만 분석 구간에서 제외",
+      "chunk_char_start": 1,
+      "chunk_char_end": 1323
+    }
+  ],
+  "code_sha256": {
+    "build_vector_index.py": "7189d784d89532a4c96dfecf4f71d02e86955fd9292ceac895ce87f6ae613836",
+    "vector_index.py": "2192da31d07f40436cc9d36ea3bdc2da163039800bb29ff5abb22570fe4d4a87"
+  },
+  "build_id": "9a86497708b4084b9be7d350c362ee78c47664ad964ff49884b0259617aef666",
+  "outputs": {
+    "entity.npy": "9b39c43641334e4ef801d98ba8a3e940e48dfb7fcd5bdb14b2c7d5a3d9237d50",
+    "entity.meta.jsonl": "dcccc00a47aec34a742b86ab2ba0d97ddc36c0398716edf553047dc6475adf8e",
+    "event.npy": "607f18719a9931c724bfdaa80573fad4bcd2cfab80e9e242a4a2a0abc9174d4b",
+    "event.meta.jsonl": "ec9531a0389aff58e92b2b31eaddaf94d0adc1ee4a7eefb23fbf3cf1b84d419e",
+    "relation.npy": "5ac2aefa2effc58f1fb14319f78291ba6dc2d8d86c5d8a72bae9044732018658",
+    "relation.meta.jsonl": "c5b9f8e370e83c28b5fffd4a6609aa05ca7111c8aec9d2f3aed761a2c0729188",
+    "chunk.npy": "1926280a808198bcd16456e93e4a4a5d87895c2de451c0ba62a8c42825d86797",
+    "chunk.meta.jsonl": "17b9b0d8121ee2185138bc089b0650068d8913a1408340f408ef344600003182"
+  }
+}

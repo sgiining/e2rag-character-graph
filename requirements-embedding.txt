@@ -1,0 +1,4 @@
+numpy>=1.26,<3
+tiktoken>=0.7,<1
+openai>=1.30,<4
+python-dotenv>=1,<2
