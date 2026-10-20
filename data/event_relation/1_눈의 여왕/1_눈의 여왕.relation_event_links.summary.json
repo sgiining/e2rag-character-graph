@@ -1,0 +1,32 @@
+{
+  "version": "relation_event_finalize.v1",
+  "work_id": "1_눈의 여왕",
+  "rule": "keep link only if both relation endpoints have an Entity–Event edge to the event",
+  "link_role": "relation_evidence",
+  "llm_link_type_is_reference": true,
+  "relation_type_null_policy": "kept_and_flagged (relation_type_missing)",
+  "relations_total": 70,
+  "relations_with_links": 60,
+  "relations_without_links": 10,
+  "counts": {
+    "input_links": 154,
+    "excluded_one_endpoint_only": 44,
+    "kept": 110,
+    "kept_llm_type:STATE_EVIDENCE": 102,
+    "kept_llm_type:CHANGE_CAUSE": 3,
+    "kept_llm_type:FORMATION_CAUSE": 5,
+    "kept_relation_type_missing": 1
+  },
+  "inputs": {
+    "stage1": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕\\1_눈의 여왕.relation_event_stage1.jsonl",
+    "stage3": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕\\1_눈의 여왕.relation_event_stage3.jsonl",
+    "stage3_version": "relation_event_stage3.integrated.v3",
+    "entity_event_edges": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_event_new\\1_눈의 여왕.entity_event_edges.jsonl",
+    "events": "D:\\26_capstone\\e2rag-character-graph\\data\\events_new\\1_눈의 여왕\\20261014T132234_966945Z\\events.jsonl"
+  },
+  "outputs": {
+    "links": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕\\1_눈의 여왕.relation_event_links.jsonl",
+    "excluded": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕\\1_눈의 여왕.relation_event_links.excluded.jsonl"
+  },
+  "generated_at_utc": "2026-10-20T05:58:34.728305+00:00"
+}

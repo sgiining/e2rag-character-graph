@@ -1,0 +1,31 @@
+{
+  "version": "relation_event_finalize.v1",
+  "work_id": "2_엄지 공주",
+  "rule": "keep link only if both relation endpoints have an Entity–Event edge to the event",
+  "link_role": "relation_evidence",
+  "llm_link_type_is_reference": true,
+  "relation_type_null_policy": "kept_and_flagged (relation_type_missing)",
+  "relations_total": 26,
+  "relations_with_links": 23,
+  "relations_without_links": 3,
+  "counts": {
+    "input_links": 74,
+    "excluded_one_endpoint_only": 34,
+    "kept": 40,
+    "kept_llm_type:STATE_EVIDENCE": 36,
+    "kept_llm_type:CHANGE_CAUSE": 1,
+    "kept_llm_type:FORMATION_CAUSE": 3
+  },
+  "inputs": {
+    "stage1": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_stage1.jsonl",
+    "stage3": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_stage3.jsonl",
+    "stage3_version": "relation_event_stage3.integrated.v3",
+    "entity_event_edges": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_event_new\\2_엄지 공주.entity_event_edges.jsonl",
+    "events": "D:\\26_capstone\\e2rag-character-graph\\data\\events_new\\2_엄지 공주\\20261014T135030_858525Z\\events.jsonl"
+  },
+  "outputs": {
+    "links": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_links.jsonl",
+    "excluded": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_links.excluded.jsonl"
+  },
+  "generated_at_utc": "2026-10-20T05:58:41.008626+00:00"
+}

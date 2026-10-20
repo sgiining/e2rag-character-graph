@@ -1,42 +1,46 @@
 {
-  "version": "relation_event_stage3.integrated.v2",
+  "version": "relation_event_stage3.integrated.v3",
   "work_id": "2_엄지 공주",
   "status": "completed_with_review",
+  "relation_self_verification": false,
   "stage2_candidates": 77,
   "stage2_total_candidates": 374,
   "stage2_error_candidates": 37,
   "selected_after_error_retry": 7,
   "total_candidates_entering_stage3": 84,
-  "unique_relations_evaluated": 26,
-  "final_approved_links": 61,
+  "relations_total": 26,
+  "relations_with_event_judgment": 26,
+  "relations_with_approved_links": 25,
+  "final_approved_links": 74,
   "audit_status_counts": {
     "stage2_rejected": 260,
-    "review": 12,
-    "approved": 61,
-    "rejected_link": 5,
-    "rejected_relation": 6,
-    "stage2_rejected_after_retry": 30
+    "approved": 74,
+    "rejected_link": 8,
+    "stage2_rejected_after_retry": 30,
+    "review": 2
   },
   "link_type_counts": {
-    "STATE_EVIDENCE": 54,
-    "FORMATION_CAUSE": 4,
-    "CHANGE_CAUSE": 3
+    "FORMATION_CAUSE": 6,
+    "STATE_EVIDENCE": 64,
+    "CHANGE_CAUSE": 4
   },
   "model": "gpt-4o-mini",
+  "cache_key_version": "relation_event_stage3.integrated.v2",
   "model_usage": {
-    "api_calls": 63,
-    "input_tokens": 138116,
-    "output_tokens": 10382
+    "cache_hit": 37,
+    "api_calls": 8,
+    "input_tokens": 19653,
+    "output_tokens": 1544
   },
   "inputs": {
-    "stage1": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주.relation_event_stage1.jsonl",
-    "stage2": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주.relation_event_stage2.jsonl",
-    "audit": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주.relation_event_stage2.audit.jsonl",
-    "stage2_report": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주.relation_event_stage2.report.json",
-    "events": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\events_new\\2_엄지 공주\\20261014T135030_858525Z\\events.jsonl",
-    "entities": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\entity_observation\\2_엄지 공주.entities.jsonl",
-    "chunks": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\2_엄지 공주.jsonl"
+    "stage1": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_stage1.jsonl",
+    "stage2": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_stage2.jsonl",
+    "audit": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_stage2.audit.jsonl",
+    "stage2_report": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\2_엄지 공주\\2_엄지 공주.relation_event_stage2.report.json",
+    "events": "D:\\26_capstone\\e2rag-character-graph\\data\\events_new\\2_엄지 공주\\20261014T135030_858525Z\\events.jsonl",
+    "entities": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_observation\\2_엄지 공주.entities.jsonl",
+    "chunks": "D:\\26_capstone\\e2rag-character-graph\\data\\chunk\\2_엄지 공주.jsonl"
   },
-  "note": "Stage 3는 Stage 2 정상 미선정 905건의 재발견을 보장하지 않는다. 승인된 연결만 최종 파일에 포함한다.",
-  "generated_at_utc": "2026-10-18T11:45:05.459968+00:00"
+  "note": "Stage 3는 Stage 2 정상 미선정 260건의 재발견을 보장하지 않는다. 승인된 연결만 최종 파일에 포함한다.",
+  "generated_at_utc": "2026-10-20T05:45:11.945844+00:00"
 }
