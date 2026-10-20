@@ -17616,121 +17616,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_3d1780afb9bfeb9d",
-      "type": "relation_event",
-      "source": "relation:robs_a7962bf4e5eb8689",
-      "target": "event:evt_12dc97c85431b193",
-      "tau": 2,
-      "data": {
-        "relation_event_edge_id": "rel_ev_3d1780afb9bfeb9d",
-        "work_id": "5_미운 아기 오리",
-        "relation_observation_id": "robs_a7962bf4e5eb8689",
-        "event_id": "evt_12dc97c85431b193",
-        "source_observation_id": "eobs_61ba4f1ebd249869",
-        "target_observation_id": "eobs_af0f1ca7bd5de2e1",
-        "source_name": "어미",
-        "target_name": "부인",
-        "relation_type": "acquaintance",
-        "relation_description": "어미가 부인에게 자신의 아기에 대해 설명했다.",
-        "relation_evidence": "어미가 되받아쳤다.\n“그건 어쩔 수 없는 거예요, 부인. 이 애는 그렇게 잘생기지는 못했어요. 하지만 아주 착하고 다른 아이들만큼 헤엄도 잘 쳐요. 아니, 조금 더 잘 친다고 말해야겠군요. 나이가 들면 외모가 좀 나아질 거예요.",
-        "event_evidence": "이 애는 그렇게 잘생기지는 못했어요. 하지만 아주 착하고 다른 아이들만큼 헤엄도 잘 쳐요.",
-        "evidence_quote": "이 애는 그렇게 잘생기지는 못했어요. 하지만 아주 착하고 다른 아이들만큼 헤엄도 잘 쳐요.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "어미 오리가 아기 오리의 외모에 대해 변명하는 장면이 어미와 아기 오리 간의 관계를 직접적으로 보여주고 있다.",
-        "entity_event_edge_ids": [
-          "evlink_4a502781fb40ce08"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 2,
-        "available_at_chunk": 2,
-        "tau": 2,
-        "stage2_relevance_score": 80,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_61c3d431410466f8",
-      "type": "relation_event",
-      "source": "relation:robs_a7962bf4e5eb8689",
-      "target": "event:evt_396b75e741f7b61b",
-      "tau": 2,
-      "data": {
-        "relation_event_edge_id": "rel_ev_61c3d431410466f8",
-        "work_id": "5_미운 아기 오리",
-        "relation_observation_id": "robs_a7962bf4e5eb8689",
-        "event_id": "evt_396b75e741f7b61b",
-        "source_observation_id": "eobs_61ba4f1ebd249869",
-        "target_observation_id": "eobs_af0f1ca7bd5de2e1",
-        "source_name": "어미",
-        "target_name": "부인",
-        "relation_type": "acquaintance",
-        "relation_description": "어미가 부인에게 자신의 아기에 대해 설명했다.",
-        "relation_evidence": "어미가 되받아쳤다.\n“그건 어쩔 수 없는 거예요, 부인. 이 애는 그렇게 잘생기지는 못했어요. 하지만 아주 착하고 다른 아이들만큼 헤엄도 잘 쳐요. 아니, 조금 더 잘 친다고 말해야겠군요. 나이가 들면 외모가 좀 나아질 거예요.",
-        "event_evidence": "엄마가 세상으로 데리고 가서 오리 농장을 보여줄게.",
-        "evidence_quote": "엄마가 세상으로 데리고 가서 오리 농장을 보여줄게.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "어미 오리가 아기 오리에게 세상을 소개하겠다고 말하는 장면이 어미와 아기 오리 간의 관계를 직접적으로 보여주고 있다.",
-        "entity_event_edge_ids": [
-          "evlink_68738feb7f47ad3b"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 2,
-        "available_at_chunk": 2,
-        "tau": 2,
-        "stage2_relevance_score": 60,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_243a772376115386",
-      "type": "relation_event",
-      "source": "relation:robs_fdbe973392a3e76e",
-      "target": "event:evt_2eda0d8f72319a74",
-      "tau": 3,
-      "data": {
-        "relation_event_edge_id": "rel_ev_243a772376115386",
-        "work_id": "5_미운 아기 오리",
-        "relation_observation_id": "robs_fdbe973392a3e76e",
-        "event_id": "evt_2eda0d8f72319a74",
-        "source_observation_id": "eobs_609367db06e6b5e0",
-        "target_observation_id": "eobs_0e7a08230c9f3c57",
-        "source_name": "커다란 개",
-        "target_name": "아기 오리",
-        "relation_type": "hostility",
-        "relation_description": "커다란 개가 아기 오리를 노려보았다.",
-        "relation_evidence": "하지만 바로 이 순간에 무시무시한 커다란 개 한 마리가 아기 오리 바로 앞에 나타났다. 혀를 주둥이 밖으로 쑥 내밀고 그 사악한 눈동자로 끔찍하게 노려보았다. 커다란 주둥이를 벌려 날카로운 이빨을 번쩍 드러냈다. 철퍽, 철퍽. 사냥개는 아기 오리를 건드리지 않고 계속 걸어갔다.\n아기 오리는 한숨을 푹 내쉬었다.",
-        "event_evidence": "아기 오리는 한숨을 푹 내쉬었다.\n“천만다행이야. 내가 엄청나게 못생겨서 저 개도 굳이 나를 물려고 들지 않네.”",
-        "evidence_quote": "아기 오리는 한숨을 푹 내쉬었다.\n“천만다행이야. 내가 엄청나게 못생겨서 저 개도 굳이 나를 물려고 들지 않네.”",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "아기 오리가 천만다행이라고 한숨을 내쉬었다는 사건이 hostility 관계의 감정을 직접적으로 보여준다.",
-        "entity_event_edge_ids": [
-          "evlink_a92dbd927eb2210d"
-        ],
-        "matched_sides": [
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
           "target"
         ],
-        "chunk_id": 3,
-        "available_at_chunk": 3,
-        "tau": 3,
-        "stage2_relevance_score": 80,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -17770,7 +17664,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     }
   ]

@@ -5,7 +5,7 @@
   "issues_by_category": {
     "evidence_not_exact_match": 13
   },
-  "stage3_approved_count": 149,
+  "stage3_approved_count": 110,
   "input_manifest": {
     "chunk": {
       "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\3_인어 공주.jsonl",
@@ -38,9 +38,9 @@
       "count": 37
     },
     "stage3": {
-      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\3_인어 공주\\3_인어 공주.relation_event_stage3.jsonl",
-      "sha256": "8a2249c5e9d3939f85857be8348e1aa7d0105521019f13618661d29b7eb275d4",
-      "count": 149
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\3_인어 공주\\3_인어 공주.relation_event_links.jsonl",
+      "sha256": "302ea185913a41f946ed01b5edce562cc52a5d876c6e0881178816c8353a6e6d",
+      "count": 110
     }
   },
   "issues": [
@@ -130,6 +130,6 @@
     "event": 333,
     "event_event": 298,
     "relation": 37,
-    "stage3": 149
+    "stage3": 110
   }
 }

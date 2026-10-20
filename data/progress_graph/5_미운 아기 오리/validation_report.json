@@ -5,7 +5,7 @@
   "issues_by_category": {
     "evidence_not_exact_match": 1
   },
-  "stage3_approved_count": 15,
+  "stage3_approved_count": 7,
   "input_manifest": {
     "chunk": {
       "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\5_미운 아기 오리.jsonl",
@@ -38,9 +38,9 @@
       "count": 11
     },
     "stage3": {
-      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\5_미운 아기 오리\\5_미운 아기 오리.relation_event_stage3.jsonl",
-      "sha256": "04937e4e86a8d31629b469a2aa4e9514936e914493a669a41f17faf1d8c5709e",
-      "count": 15
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\5_미운 아기 오리\\5_미운 아기 오리.relation_event_links.jsonl",
+      "sha256": "764503cdc08473a435c701b17e6639ff75a479448a1800da74c73d9814622fc7",
+      "count": 7
     }
   },
   "issues": [
@@ -58,6 +58,6 @@
     "event": 111,
     "event_event": 110,
     "relation": 11,
-    "stage3": 15
+    "stage3": 7
   }
 }

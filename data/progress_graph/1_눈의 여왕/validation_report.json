@@ -5,7 +5,7 @@
   "issues_by_category": {
     "evidence_not_exact_match": 17
   },
-  "stage3_approved_count": 154,
+  "stage3_approved_count": 110,
   "input_manifest": {
     "chunk": {
       "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\chunk\\1_눈의 여왕.jsonl",
@@ -38,9 +38,9 @@
       "count": 70
     },
     "stage3": {
-      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕\\1_눈의 여왕.relation_event_stage3.jsonl",
-      "sha256": "8ce4f34e592a1884b0d42a4234993379d00832ff597bdd58579490d8bd170af7",
-      "count": 154
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\1_눈의 여왕\\1_눈의 여왕.relation_event_links.jsonl",
+      "sha256": "3f4cc7c8a278c68a95db0082605d06988820078c7c011439aeecfd5e6934f2d3",
+      "count": 110
     }
   },
   "issues": [
@@ -154,6 +154,6 @@
     "event": 384,
     "event_event": 399,
     "relation": 70,
-    "stage3": 154
+    "stage3": 110
   }
 }
