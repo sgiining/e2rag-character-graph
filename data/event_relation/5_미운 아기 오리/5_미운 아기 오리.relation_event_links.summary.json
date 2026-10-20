@@ -1,0 +1,30 @@
+{
+  "version": "relation_event_finalize.v1",
+  "work_id": "5_미운 아기 오리",
+  "rule": "keep link only if both relation endpoints have an Entity–Event edge to the event",
+  "link_role": "relation_evidence",
+  "llm_link_type_is_reference": true,
+  "relation_type_null_policy": "kept_and_flagged (relation_type_missing)",
+  "relations_total": 11,
+  "relations_with_links": 6,
+  "relations_without_links": 5,
+  "counts": {
+    "input_links": 15,
+    "kept": 7,
+    "kept_llm_type:STATE_EVIDENCE": 6,
+    "excluded_one_endpoint_only": 8,
+    "kept_llm_type:FORMATION_CAUSE": 1
+  },
+  "inputs": {
+    "stage1": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\5_미운 아기 오리\\5_미운 아기 오리.relation_event_stage1.jsonl",
+    "stage3": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\5_미운 아기 오리\\5_미운 아기 오리.relation_event_stage3.jsonl",
+    "stage3_version": "relation_event_stage3.integrated.v3",
+    "entity_event_edges": "D:\\26_capstone\\e2rag-character-graph\\data\\entity_event_new\\5_미운 아기 오리.entity_event_edges.jsonl",
+    "events": "D:\\26_capstone\\e2rag-character-graph\\data\\events_new\\5_미운 아기 오리\\20261014T142706_934696Z\\events.jsonl"
+  },
+  "outputs": {
+    "links": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\5_미운 아기 오리\\5_미운 아기 오리.relation_event_links.jsonl",
+    "excluded": "D:\\26_capstone\\e2rag-character-graph\\data\\event_relation\\5_미운 아기 오리\\5_미운 아기 오리.relation_event_links.excluded.jsonl"
+  },
+  "generated_at_utc": "2026-10-20T05:59:01.211604+00:00"
+}
