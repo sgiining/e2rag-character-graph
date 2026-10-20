@@ -22736,120 +22736,6 @@
       }
     },
     {
-      "id": "relation_event:rel_ev_0c7af2fc92d26e35",
-      "type": "relation_event",
-      "source": "relation:robs_88426327a0e4e521",
-      "target": "event:evt_ca346d9d8119a5c4",
-      "tau": 1,
-      "data": {
-        "relation_event_edge_id": "rel_ev_0c7af2fc92d26e35",
-        "work_id": "3_인어 공주",
-        "relation_observation_id": "robs_88426327a0e4e521",
-        "event_id": "evt_ca346d9d8119a5c4",
-        "source_observation_id": "eobs_fa07bd901ba48367",
-        "target_observation_id": "eobs_f52e8908141bdd4d",
-        "source_name": "노모",
-        "target_name": "손녀들",
-        "relation_type": "family",
-        "relation_description": "노모는 손녀들을 지극히 좋아했다.",
-        "relation_evidence": "노모는 현명한 여인이지만, 자신의 귀족 태생에 자부심이 강했다. 그리하여 자기 꼬리에 굴 열두 개를 달아 과시하면서도 궁정의 다른 부인들에게는 오직 여섯 개만 달고 다니게 했다. 이것만 빼고는 대체적으로 칭찬할만한 사람이었다, 특히 손녀들, 어린 바다 공주들을 지극히 좋아했기 때문에 칭찬할만했다.",
-        "event_evidence": "노모가 아들을 대신해 가정을 돌보았다.",
-        "evidence_quote": "노모가 아들을 대신해 가정을 돌보았다.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "노모가 아들을 대신해 가정을 돌보고 있다는 내용이 노모와 손녀들 간의 가족 관계를 직접적으로 보여준다.",
-        "entity_event_edge_ids": [
-          "evlink_7cbf324430136612"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 1,
-        "available_at_chunk": 1,
-        "tau": 1,
-        "stage2_relevance_score": 60,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_944ff78db9083d8b",
-      "type": "relation_event",
-      "source": "relation:robs_69db2e429545ceb5",
-      "target": "event:evt_dced0a8f6bf54615",
-      "tau": 2,
-      "data": {
-        "relation_event_edge_id": "rel_ev_944ff78db9083d8b",
-        "work_id": "3_인어 공주",
-        "relation_observation_id": "robs_69db2e429545ceb5",
-        "event_id": "evt_dced0a8f6bf54615",
-        "source_observation_id": "eobs_e4692861f00c72cd",
-        "target_observation_id": "eobs_ced1be33f4de8127",
-        "source_name": "맏이",
-        "target_name": "동생들",
-        "relation_type": "care",
-        "relation_description": "맏이는 동생들에게 물 밖으로 올라갈 수 있는 허락을 받았다.",
-        "relation_evidence": "맏이 공주가 열다섯 생일을 맞았다. 그래서 이제 물 밖으로 올라갈 수 있는 허락을 받았다. 맏이가 돌아왔을 때 동생들에게 들려줄 이야기가 백 가지나 되었다.",
-        "event_evidence": "맏이 공주가 열다섯 생일을 맞았다. 그래서 이제 물 밖으로 올라갈 수 있는 허락을 받았다.",
-        "evidence_quote": "맏이 공주가 열다섯 생일을 맞았다. 그래서 이제 물 밖으로 올라갈 수 있는 허락을 받았다.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "맏이 공주가 열다섯 생일을 맞아 물 밖으로 올라갈 수 있는 허락을 받았다는 내용이 직접적으로 관계의 상태를 보여주고 있다.",
-        "entity_event_edge_ids": [
-          "evlink_0522a1e01cc41efb"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 2,
-        "available_at_chunk": 2,
-        "tau": 2,
-        "stage2_relevance_score": 80,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_6cb3e8f53a891daf",
-      "type": "relation_event",
-      "source": "relation:robs_8c72b985a38a18a8",
-      "target": "event:evt_f8a773c5f6359096",
-      "tau": 3,
-      "data": {
-        "relation_event_edge_id": "rel_ev_6cb3e8f53a891daf",
-        "work_id": "3_인어 공주",
-        "relation_observation_id": "robs_8c72b985a38a18a8",
-        "event_id": "evt_f8a773c5f6359096",
-        "source_observation_id": "eobs_3f26aa3b8f344598",
-        "target_observation_id": "eobs_eda38c5ec38c82e2",
-        "source_name": "공주들",
-        "target_name": "사람들",
-        "relation_type": "acquaintance",
-        "relation_description": "공주들이 사람들에게 노래를 불렀다.",
-        "relation_evidence": "폭풍이 불자 공주들은 조난 사고가 있으리라 예상하고 배 앞으로 헤엄쳐 가서 바다 밑이 얼마나 아름다운지, 선원들에게 전해져 내려온 편견을 깨기 위해 유혹적으로 노래를 불렀다. 하지만 사람들은 그 노래를 이해하지 못하고 폭풍 소리로 착각했다.",
-        "event_evidence": "폭풍이 불자 공주들은 조난 사고가 있으리라 예상하고 배 앞으로 헤엄쳐 가서 바다 밑이 얼마나 아름다운지, 선원들에게 전해져 내려온 편견을 깨기 위해 유혹적으로 노래를 불렀다.",
-        "evidence_quote": "유혹적으로 노래를 불렀다.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "공주들이 노래를 부른 행동이 관계의 직접적인 증거로 제시되었으며, '유혹적으로 노래를 불렀다'라는 인용이 포함되어 있어 관계의 상태를 보여준다.",
-        "entity_event_edge_ids": [
-          "evlink_06d0e2d1fa81ece5"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 3,
-        "available_at_chunk": 3,
-        "tau": 3,
-        "stage2_relevance_score": 80,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
       "id": "relation_event:rel_ev_5d0ad7722c15617e",
       "type": "relation_event",
       "source": "relation:robs_a533f3f906e845b9",
@@ -22886,7 +22772,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -22926,7 +22820,15 @@
         "stage2_relevance_score": 100,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -22966,7 +22868,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     }
   ]

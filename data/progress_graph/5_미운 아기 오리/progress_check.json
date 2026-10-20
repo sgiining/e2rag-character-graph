@@ -30,7 +30,7 @@
         "event_event": 52,
         "entity_relation_source": 4,
         "entity_relation_target": 4,
-        "relation_event": 5
+        "relation_event": 2
       }
     },
     {
@@ -45,7 +45,7 @@
         "event_event": 110,
         "entity_relation_source": 11,
         "entity_relation_target": 11,
-        "relation_event": 15
+        "relation_event": 7
       }
     }
   ]

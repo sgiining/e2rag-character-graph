@@ -89,7 +89,7 @@ def load_source(root: Path, work: str, stage_dir: Path,
         root, "relation_observation", work, "relation_observations.jsonl", relation_run
     )
 
-    stage_name = f"{work}.relation_event_stage3.jsonl"
+    stage_name = f"{work}.relation_event_links.jsonl"
     stage_candidates = [
         stage_dir / work / stage_name,
         stage_dir / "event_relation" / work / stage_name,

@@ -18019,82 +18019,6 @@
       }
     },
     {
-      "id": "relation_event:rel_ev_c08dfc8784a03107",
-      "type": "relation_event",
-      "source": "relation:robs_aea80290fd238597",
-      "target": "event:evt_310f7704f6a33037",
-      "tau": 1,
-      "data": {
-        "relation_event_edge_id": "rel_ev_c08dfc8784a03107",
-        "work_id": "1_눈의 여왕",
-        "relation_observation_id": "robs_aea80290fd238597",
-        "event_id": "evt_310f7704f6a33037",
-        "source_observation_id": "eobs_2ec92716981490a6",
-        "target_observation_id": "eobs_24662fbb4ef8bdb5",
-        "source_name": "악마",
-        "target_name": "호브고블린",
-        "relation_type": "authority",
-        "relation_description": "악마가 호브고블린 학교 학생 악마들을 가르친다.",
-        "relation_evidence": "악마는 이 독창적인 발명품에 크게 웃음을 터뜨렸다.\n이 악마가 가르치는 호브고블린 학교 학생 악마들은 기적이 일어났다고 모두에게 알렸다.",
-        "event_evidence": "이 악마가 요상한 힘이 있는 거울을 마침내 완성해기분이 무척 좋았다.",
-        "evidence_quote": "이 악마가 요상한 힘이 있는 거울을 마침내 완성해기분이 무척 좋았다.",
-        "relation_event_link_type": "FORMATION_CAUSE",
-        "verification_status": "approved",
-        "verification_reason": "악마가 요상한 힘이 있는 거울을 완성한 사건은 악마가 호브고블린 학생들을 가르치는 관계의 형성을 직접적으로 보여준다.",
-        "entity_event_edge_ids": [
-          "evlink_d5f643cacc0b60a4"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 1,
-        "available_at_chunk": 1,
-        "tau": 1,
-        "stage2_relevance_score": 60,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_df50f584793572c7",
-      "type": "relation_event",
-      "source": "relation:robs_de00ebdf40117c6c",
-      "target": "event:evt_84a866472b72819f",
-      "tau": 1,
-      "data": {
-        "relation_event_edge_id": "rel_ev_df50f584793572c7",
-        "work_id": "1_눈의 여왕",
-        "relation_observation_id": "robs_de00ebdf40117c6c",
-        "event_id": "evt_84a866472b72819f",
-        "source_observation_id": "eobs_2ec92716981490a6",
-        "target_observation_id": "eobs_863ac694585fb20f",
-        "source_name": "악마",
-        "target_name": "사람",
-        "relation_type": "acquaintance",
-        "relation_description": "악마들이 사람들에게 기적이 일어났다고 알린다.",
-        "relation_evidence": "이 악마가 가르치는 호브고블린 학교 학생 악마들은 기적이 일어났다고 모두에게 알렸다. 이제 이 악마들은 처음으로 이 세상과 세상 사람들이 진짜로 어떻게 보이는지 알 수 있다며 떠들어댔다.",
-        "event_evidence": "이 거울은 선하거나 아름다운 것을 비추면 쪼그라들어 거의 보이지 않고, 반면에 아무짝에 쓸모없고 추한 것은 도드라지면서 훨씬 더 추하게 보였다.",
-        "evidence_quote": "이 거울은 선하거나 아름다운 것을 비추면 쪼그라들어 거의 보이지 않고, 반면에 아무짝에 쓸모없고 추한 것은 도드라지면서 훨씬 더 추하게 보였다.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "거울의 기능에 대한 설명이 관계의 상태를 직접 보여준다.",
-        "entity_event_edge_ids": [
-          "evlink_c2775c21ca7ab731"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 1,
-        "available_at_chunk": 1,
-        "tau": 1,
-        "stage2_relevance_score": 60,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
       "id": "relation_event:rel_ev_dcbeb5b159497851",
       "type": "relation_event",
       "source": "relation:robs_de00ebdf40117c6c",
@@ -18131,7 +18055,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -18171,7 +18103,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -18211,7 +18151,15 @@
         "stage2_relevance_score": 90,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -18251,7 +18199,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -18291,83 +18247,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_5a0fa5aded9fd336",
-      "type": "relation_event",
-      "source": "relation:robs_7b1db541b2a1f47c",
-      "target": "event:evt_4be990774c34a52e",
-      "tau": 3,
-      "data": {
-        "relation_event_edge_id": "rel_ev_5a0fa5aded9fd336",
-        "work_id": "1_눈의 여왕",
-        "relation_observation_id": "robs_7b1db541b2a1f47c",
-        "event_id": "evt_4be990774c34a52e",
-        "source_observation_id": "eobs_49eaf5c86dee7536",
-        "target_observation_id": "eobs_825d7441a6a21848",
-        "source_name": "카이",
-        "target_name": "게르다",
-        "relation_type": "friendship",
-        "relation_description": "카이가 게르다에게 눈송이를 보여주며 이야기했다.",
-        "relation_evidence": "카이가 게르다에게 말했다.\n눈송이 하나, 하나가 훨씬 더 커 보이면서 마치 거대한 십각형의 별처럼 보였다. 놀라웠다.",
-        "event_evidence": "카이는 집 밖으로 커다란 돋보기를 가져와서 파란 코트 자락을 펼치고는 거기에 눈송이가 떨어지게 했다.",
-        "evidence_quote": "카이는 집 밖으로 커다란 돋보기를 가져와서 파란 코트 자락을 펼치고는 거기에 눈송이가 떨어지게 했다.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "카이가 돋보기를 사용하여 눈송이를 관찰하는 행동은 친구 관계의 일환으로, 카이가 게르다와 함께 놀고 있는 상황을 보여준다.",
-        "entity_event_edge_ids": [
-          "evlink_e982d16224553a6f"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
         ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 3,
-        "available_at_chunk": 3,
-        "tau": 3,
-        "stage2_relevance_score": 80,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_ce10dd0102e4cedd",
-      "type": "relation_event",
-      "source": "relation:robs_7d4b753721464a06",
-      "target": "event:evt_977e449f9830b30e",
-      "tau": 3,
-      "data": {
-        "relation_event_edge_id": "rel_ev_ce10dd0102e4cedd",
-        "work_id": "1_눈의 여왕",
-        "relation_observation_id": "robs_7d4b753721464a06",
-        "event_id": "evt_977e449f9830b30e",
-        "source_observation_id": "eobs_49eaf5c86dee7536",
-        "target_observation_id": "eobs_825d7441a6a21848",
-        "source_name": "카이",
-        "target_name": "게르다",
-        "relation_type": "hostility",
-        "relation_description": "카이는 게르다에게 자신의 가슴이 아프다고 말했다.",
-        "relation_evidence": "내 가슴이 아파. 눈에도 뭐가 있어.”\n카이는 눈을 깜빡였다. 게르다는 카이의 목을 잡고 들여다보았지만 아무것도 보이지 않았다.\n카이가 말했다.\n“없어진 것 같아.”",
-        "event_evidence": "카이가 소리쳤다.\n“아! 내 가슴이 아파. 눈에도 뭐가 있어.”",
-        "evidence_quote": "카이가 소리쳤다.\n“아! 내 가슴이 아파. 눈에도 뭐가 있어.”",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "카이가 가슴이 아프다고 말한 것은 카이의 감정 상태를 직접적으로 보여주며, 이는 카이와 게르다 간의 적대적인 관계를 뒷받침하는 증거가 된다.",
-        "entity_event_edge_ids": [
-          "evlink_f0075b0018e97b5a"
-        ],
-        "matched_sides": [
-          "source"
-        ],
-        "chunk_id": 3,
-        "available_at_chunk": 3,
-        "tau": 3,
-        "stage2_relevance_score": 100,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -18407,45 +18295,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
-      }
-    },
-    {
-      "id": "relation_event:rel_ev_c2b5fb7027287513",
-      "type": "relation_event",
-      "source": "relation:robs_96b78f1c0e46e69c",
-      "target": "event:evt_977e449f9830b30e",
-      "tau": 3,
-      "data": {
-        "relation_event_edge_id": "rel_ev_c2b5fb7027287513",
-        "work_id": "1_눈의 여왕",
-        "relation_observation_id": "robs_96b78f1c0e46e69c",
-        "event_id": "evt_977e449f9830b30e",
-        "source_observation_id": "eobs_825d7441a6a21848",
-        "target_observation_id": "eobs_49eaf5c86dee7536",
-        "source_name": "게르다",
-        "target_name": "카이",
-        "relation_type": "friendship",
-        "relation_description": "게르다가 카이에게 소리쳤다.",
-        "relation_evidence": "“카이! 너 무슨 짓이야?”\n게르다가 소리쳤다. 카이는 게르다가 화를 내자 꽃 한 송이를 더 꺾고는 사랑스러운 게르다만 혼자 남겨 놓은 채, 자기 집 창문으로 펄쩍 뛰어 들어가 버렸다.",
-        "event_evidence": "카이가 소리쳤다.\n“아! 내 가슴이 아파. 눈에도 뭐가 있어.”",
-        "evidence_quote": "아! 내 가슴이 아파. 눈에도 뭐가 있어.",
-        "relation_event_link_type": "STATE_EVIDENCE",
-        "verification_status": "approved",
-        "verification_reason": "카이가 가슴이 아프다고 소리쳤다는 내용이 직접적으로 증명되었기 때문에 승인합니다.",
-        "entity_event_edge_ids": [
-          "evlink_f0075b0018e97b5a"
-        ],
-        "matched_sides": [
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
           "target"
         ],
-        "chunk_id": 3,
-        "available_at_chunk": 3,
-        "tau": 3,
-        "stage2_relevance_score": 80,
-        "final_relation_event_link": true,
-        "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     }
   ]

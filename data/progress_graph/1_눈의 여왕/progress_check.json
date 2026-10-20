@@ -15,7 +15,7 @@
         "event_event": 13,
         "entity_relation_source": 2,
         "entity_relation_target": 2,
-        "relation_event": 4
+        "relation_event": 2
       }
     },
     {
@@ -30,7 +30,7 @@
         "event_event": 49,
         "entity_relation_source": 9,
         "entity_relation_target": 9,
-        "relation_event": 11
+        "relation_event": 6
       }
     },
     {
@@ -45,7 +45,7 @@
         "event_event": 135,
         "entity_relation_source": 25,
         "entity_relation_target": 25,
-        "relation_event": 66
+        "relation_event": 43
       }
     },
     {
@@ -60,7 +60,7 @@
         "event_event": 399,
         "entity_relation_source": 70,
         "entity_relation_target": 70,
-        "relation_event": 154
+        "relation_event": 110
       }
     }
   ]

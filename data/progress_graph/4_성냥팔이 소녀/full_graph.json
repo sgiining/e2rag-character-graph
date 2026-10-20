@@ -9605,7 +9605,15 @@
         "stage2_relevance_score": 100,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9645,7 +9653,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9685,7 +9701,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9725,7 +9749,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9765,7 +9797,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     }
   ],
@@ -9801,8 +9841,8 @@
       "count": 3
     },
     "stage3": {
-      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\4_성냥팔이 소녀\\4_성냥팔이 소녀.relation_event_stage3.jsonl",
-      "sha256": "a458c8b0df5ceac5f9acc1ce014234ab4b6b452d441ae76f7a97259f3c0c18ff",
+      "path": "C:\\Users\\bh711\\Desktop\\대학교\\4-2\\캡스톤\\code\\e2rag-character-graph\\data\\event_relation\\4_성냥팔이 소녀\\4_성냥팔이 소녀.relation_event_links.jsonl",
+      "sha256": "f2b142f3530f3d836a6eac63904446a6799cb72f0c999c062d9728913b0b17d8",
       "count": 5
     }
   }

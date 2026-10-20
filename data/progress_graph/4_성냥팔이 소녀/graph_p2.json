@@ -9606,7 +9606,15 @@
         "stage2_relevance_score": 100,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9646,7 +9654,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9686,7 +9702,15 @@
         "stage2_relevance_score": 60,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9726,7 +9750,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     },
     {
@@ -9766,7 +9798,15 @@
         "stage2_relevance_score": 80,
         "final_relation_event_link": true,
         "link_stage": 3,
-        "version": "relation_event_stage3.integrated.v3"
+        "version": "relation_event_stage3.integrated.v3",
+        "matched_sides_verified": [
+          "source",
+          "target"
+        ],
+        "link_role": "relation_evidence",
+        "llm_link_type_is_reference": true,
+        "relation_type_missing": false,
+        "finalize_version": "relation_event_finalize.v1"
       }
     }
   ]
