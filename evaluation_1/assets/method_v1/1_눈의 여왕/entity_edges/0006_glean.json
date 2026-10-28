@@ -1,0 +1,61 @@
+{
+  "request_hash": "984b5fcc44d8768acc345c191ca8323e013319d16ae627331e4c26b4fe127c91",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_8e5bbf9e55454751",
+        "target": "entity:eobs_5cecbd8bbc59561d",
+        "description": "노파는 마법을 부리는 재주가 있었다.",
+        "keywords": "노파, 마법",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S30"
+        ]
+      },
+      {
+        "source": "entity:eobs_2988a9a775562c3e",
+        "target": "entity:eobs_5a439ab89806da84",
+        "description": "게르다는 장미꽃을 떠올리며 카이를 생각했다.",
+        "keywords": "게르다, 장미꽃, 카이",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S63"
+        ]
+      },
+      {
+        "source": "entity:eobs_5cecbd8bbc59561d",
+        "target": "entity:eobs_2758bf524ac57760",
+        "description": "마법을 부리는 노파는 장미 덤불에 지팡이를 가리켰다.",
+        "keywords": "노파, 마법, 장미 덤불",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOf9AG2nMJUH7mSIKsdinlNYtrVP",
+    "usage": {
+      "completion_tokens": 231,
+      "prompt_tokens": 5113,
+      "total_tokens": 5344,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

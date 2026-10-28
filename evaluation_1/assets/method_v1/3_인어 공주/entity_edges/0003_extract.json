@@ -1,0 +1,182 @@
+{
+  "request_hash": "4afd5be5e55e6774f030362d80a1f948a8e0a0087a0387e7c1a2b7db8549e3f7",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_07cc055b5afd9bae",
+        "description": "셋째 공주가 큰 바다로 흐르는 넓은 강으로 헤엄쳐 올라갔다.",
+        "keywords": "셋째 공주, 큰 바다",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_f626b03b9d2ce30f",
+        "target": "entity:eobs_4c956ae9babe3d84",
+        "description": "공주가 셋째 공주로 등장한다.",
+        "keywords": "공주, 셋째 공주",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_5ae7d22b42fee3fc",
+        "description": "셋째 공주가 개를 보고 겁을 집어먹고 바다로 달아났다.",
+        "keywords": "셋째 공주, 개",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_f626b03b9d2ce30f",
+        "target": "entity:eobs_4a6b73a39ffa629d",
+        "description": "공주가 배를 보았다.",
+        "keywords": "공주, 배",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_4a6b73a39ffa629d",
+        "target": "entity:eobs_f76ce950c7bc04ca",
+        "description": "공주가 배를 보았지만 너무 멀리 있었기에 갈매기처럼 보였다.",
+        "keywords": "배, 갈매기",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_3d8afbebbf54a1d0",
+        "description": "셋째 공주가 화려한 초록의 언덕을 보았다.",
+        "keywords": "셋째 공주, 화려한 초록의 언덕",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_771383d6ebc39078",
+        "description": "셋째 공주가 성을 보았다.",
+        "keywords": "셋째 공주, 성",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_2af463607a5293c9",
+        "description": "셋째 공주가 영주의 저택을 보았다.",
+        "keywords": "셋째 공주, 영주의 저택",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_a33b7cedd444d4f5",
+        "description": "셋째 공주가 작은 만에서 인간 어린이들을 보았다.",
+        "keywords": "셋째 공주, 인간 어린이들",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_6d586cff3d95f880",
+        "description": "셋째 공주가 자그마한 검은 동물을 보았다.",
+        "keywords": "셋째 공주, 자그마한 검은 동물",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_5ae7d22b42fee3fc",
+        "description": "셋째 공주가 개를 보았다.",
+        "keywords": "셋째 공주, 개",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S11"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_3fe8a033e188399a",
+        "description": "셋째 공주가 폭풍을 예상하고 배 앞으로 헤엄쳐 갔다.",
+        "keywords": "셋째 공주, 폭풍",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S41"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_92dfc23b8c8f2beb",
+        "description": "셋째 공주가 배가 가라앉았을 때 사람들을 보았다.",
+        "keywords": "셋째 공주, 바다 왕의 성",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_51c03e7a7f2583bd",
+        "description": "셋째 공주가 인어들을 보았다.",
+        "keywords": "셋째 공주, 인어들",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S46"
+        ]
+      },
+      {
+        "source": "entity:eobs_4c956ae9babe3d84",
+        "target": "entity:eobs_3088ca2f733a18c7",
+        "description": "셋째 공주가 세상을 좋아하게 될 것 같다고 말했다.",
+        "keywords": "셋째 공주, 세상",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S50"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOjcHFYTea63nCNMKLFetnCq6Lp3",
+    "usage": {
+      "completion_tokens": 1155,
+      "prompt_tokens": 5025,
+      "total_tokens": 6180,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

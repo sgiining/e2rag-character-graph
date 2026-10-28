@@ -1,0 +1,61 @@
+{
+  "request_hash": "3984a3763dfd94b6a373f3eba3ed4524e2a211f2074988bf76a355e85260d1d9",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_3bb049e9b0415ee5",
+        "target": "entity:eobs_3d685f6cd6f8f4b9",
+        "description": "제비는 숲 위로, 호수 위로, 거대한 산맥 위로 날아올랐다.",
+        "keywords": "제비, 숲, 호수, 산맥",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S46"
+        ]
+      },
+      {
+        "source": "entity:eobs_50245061dcd72565",
+        "target": "entity:eobs_ebf30be260fd51c6",
+        "description": "오래된 성은 웅장한 초록 숲 아래에 위치해 있다.",
+        "keywords": "오래된 성, 숲",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      },
+      {
+        "source": "entity:eobs_8c1c5a346c1a47a1",
+        "target": "entity:eobs_ddc446601a95c1c9",
+        "description": "포도 덩굴은 기둥에 감겨 있다.",
+        "keywords": "포도 덩굴, 기둥",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S58"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOikS3DXKetVLhtBOAsveH5L7BzN",
+    "usage": {
+      "completion_tokens": 247,
+      "prompt_tokens": 6099,
+      "total_tokens": 6346,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

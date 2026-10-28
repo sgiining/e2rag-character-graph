@@ -1,0 +1,185 @@
+{
+  "request_hash": "52dc41ac6dad26437a018109034202874d7e1ac57aad12039915118634dda324",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_b3c09b18f3c50a17",
+        "target": "entity:eobs_7bc02108ddd798b7",
+        "description": "까마귀는 신문에 등장하는 애인을 언급하고 있다.",
+        "keywords": "까마귀, 신문",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S1",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_4cb5eb0a17170581",
+        "target": "entity:eobs_7bc02108ddd798b7",
+        "description": "공주는 신문에 등장하는 인물이다.",
+        "keywords": "공주, 신문",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_e38a138b53827215",
+        "target": "entity:eobs_7bc02108ddd798b7",
+        "description": "젊은 남자는 신문에 언급된 인물이다.",
+        "keywords": "젊은 남자, 신문",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_88a083956bf15161",
+        "target": "entity:eobs_7bc02108ddd798b7",
+        "description": "궁정은 신문에 등장하는 장소이다.",
+        "keywords": "궁정, 신문",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_4b8c18c6b4faded8",
+        "target": "entity:eobs_7bc02108ddd798b7",
+        "description": "성은 신문에 등장하는 장소이다.",
+        "keywords": "성, 신문",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_de76d7affb70f46d",
+        "target": "entity:eobs_88a083956bf15161",
+        "description": "보초들은 궁정 문을 지키고 있다.",
+        "keywords": "보초들, 궁정",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_c0ae5b74d4075fd2",
+        "target": "entity:eobs_88a083956bf15161",
+        "description": "신하들은 궁정에서 중요한 역할을 한다.",
+        "keywords": "신하들, 궁정",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_28e9076b26478858",
+        "target": "entity:eobs_4cb5eb0a17170581",
+        "description": "왕좌는 공주가 앉아 있는 자리이다.",
+        "keywords": "왕좌, 공주",
+        "strength": 10,
+        "evidence_sentence_ids": [
+          "S15"
+        ]
+      },
+      {
+        "source": "entity:eobs_5cebb28b98d322be",
+        "target": "entity:eobs_88a083956bf15161",
+        "description": "지원자는 궁정에서 공주와 대화하기 위해 모인 사람들이다.",
+        "keywords": "지원자, 궁정",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_4acacbe7cafcda26",
+        "target": "entity:eobs_36a5cf67e2ebf94c",
+        "description": "카이는 그 아이를 지칭하는 표현으로 사용된다.",
+        "keywords": "카이, 그 아이",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S31",
+          "S37"
+        ]
+      },
+      {
+        "source": "entity:eobs_18a8bd56a71e4aee",
+        "target": "entity:eobs_4acacbe7cafcda26",
+        "description": "게르다는 카이를 찾고 기뻐한다.",
+        "keywords": "게르다, 카이",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_141ec51bd06407d7",
+        "target": "entity:eobs_c8cde6299b308aed",
+        "description": "배낭은 그 아이의 소유물이다.",
+        "keywords": "배낭, 그 아이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S43"
+        ]
+      },
+      {
+        "source": "entity:eobs_e53c8f75bc124bec",
+        "target": "entity:eobs_c8cde6299b308aed",
+        "description": "신발은 그 아이의 소유물이다.",
+        "keywords": "신발, 그 아이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S60",
+          "S63"
+        ]
+      },
+      {
+        "source": "entity:eobs_53f98def421f46f4",
+        "target": "entity:eobs_5a5a40ffab628a09",
+        "description": "국무 대신은 궁에서 중요한 역할을 하는 인물들이다.",
+        "keywords": "국무 대신, 궁",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      },
+      {
+        "source": "entity:eobs_53f98def421f46f4",
+        "target": "entity:eobs_abcc70f898a7a094",
+        "description": "고문관은 궁에서 중요한 역할을 하는 인물들이다.",
+        "keywords": "고문관, 궁",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfggF81XmwADYTUNAd6xtNXN7uo",
+    "usage": {
+      "completion_tokens": 1035,
+      "prompt_tokens": 4351,
+      "total_tokens": 5386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

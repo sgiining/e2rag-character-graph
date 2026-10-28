@@ -1,0 +1,115 @@
+{
+  "request_hash": "d2172cc80c24602ad240239dbdc643723d5ae469199a7d3d592eaec4932949f5",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_6cdd07a8bc08bee3",
+        "target": "entity:eobs_7b93c769e73ee454",
+        "description": "호수는 오리 가족이 떠 있는 장소이다.",
+        "keywords": "호수, 오리 가족",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S4",
+          "S15"
+        ]
+      },
+      {
+        "source": "entity:eobs_73bafdfe7da7a895",
+        "target": "entity:eobs_14f71058f0be539f",
+        "description": "회색 오리는 커다랗고 못생긴 오리로, 오리의 일종이다.",
+        "keywords": "회색 오리, 오리",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_2d9c779b2a25f793",
+        "target": "entity:eobs_8dac42b75e733461",
+        "description": "엄마는 아기들에게 지시를 내리는 존재이다.",
+        "keywords": "엄마, 아기들",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S11",
+          "S37"
+        ]
+      },
+      {
+        "source": "entity:eobs_1e37a3f7fb5057fa",
+        "target": "entity:eobs_fd3c74e9aefbe8ef",
+        "description": "사람은 짐승에게 특별한 관심을 끌어야 하는 대상을 지칭한다.",
+        "keywords": "사람, 짐승",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_518b659f5f0296cb",
+        "target": "entity:eobs_9e29c8e87bffb54d",
+        "description": "이 애는 새끼 오리로, 어미에게 돌봄을 받는 존재이다.",
+        "keywords": "새끼 오리, 어미",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S61",
+          "S70"
+        ]
+      },
+      {
+        "source": "entity:eobs_8595ff8dc3855d16",
+        "target": "entity:eobs_14f71058f0be539f",
+        "description": "나이 든 오리는 회색 오리와 관련이 있다.",
+        "keywords": "나이 든 오리, 회색 오리",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S54"
+        ]
+      },
+      {
+        "source": "entity:eobs_34f40fd00ffbb319",
+        "target": "entity:eobs_7ddf99424614385b",
+        "description": "아기 오리는 농장에서 비웃음거리가 되었다.",
+        "keywords": "아기 오리, 농장",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S78"
+        ]
+      },
+      {
+        "source": "entity:eobs_7b93c769e73ee454",
+        "target": "entity:eobs_6694c246644c4327",
+        "description": "오리 가족은 장어 대가리를 두고 싸움을 벌였다.",
+        "keywords": "오리 가족, 장어 대가리",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S15",
+          "S17"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOnbOudmLqn9UnO2cPhitkeXhtEp",
+    "usage": {
+      "completion_tokens": 618,
+      "prompt_tokens": 4206,
+      "total_tokens": 4824,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

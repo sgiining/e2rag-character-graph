@@ -1,0 +1,51 @@
+{
+  "request_hash": "c663d7f384f7df01edcf3834b225733664371a4af66f88b159df60bbd19a2d71",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_1d5f7615aa6db2ae",
+        "target": "entity:eobs_981ed84fa043e794",
+        "description": "어미 두꺼비는 진흙으로 방을 만든다.",
+        "keywords": "어미 두꺼비, 진흙, 방",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S55"
+        ]
+      },
+      {
+        "source": "entity:eobs_1c1ed6aaee936aa1",
+        "target": "entity:eobs_06fe7fb506b44f0d",
+        "description": "두꺼비와 아들이 엄지 공주가 서 있는 이파리로 헤엄쳐 왔다.",
+        "keywords": "두꺼비, 아들, 이파리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S56"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOi4ZW03Tr46YV19ZK9huxzKEfN3",
+    "usage": {
+      "completion_tokens": 166,
+      "prompt_tokens": 7254,
+      "total_tokens": 7420,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

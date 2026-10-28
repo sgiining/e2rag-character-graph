@@ -1,0 +1,136 @@
+{
+  "request_hash": "348f88235442588fe966f6942efb6afa531ef8d0e4cc8a5aeea3489f783af876",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_cf479afcd9187cbc",
+        "target": "entity:eobs_7e0d4e875f1b8a92",
+        "description": "인간은 노부인 여왕에게 죽음에 대한 질문을 한다.",
+        "keywords": "인간, 노부인 여왕, 질문, 죽음",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1",
+          "S2",
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_671b7bff4e1f0d4c",
+        "target": "entity:eobs_e9d2c7b8df572bd8",
+        "description": "우리는 삼백 살까지 살 수 있지만, 결국 바다의 거품으로 변한다.",
+        "keywords": "삼백 살, 바다의 거품, 죽음",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S6",
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_d13d674e4e387fab",
+        "target": "entity:eobs_cd1d40904b990257",
+        "description": "사랑하는 사람들 사이에는 무덤이 없다.",
+        "keywords": "사랑하는 사람들, 무덤, 죽음",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_b31e597d658b8cce",
+        "target": "entity:eobs_42e58380aa277b55",
+        "description": "우리는 불멸의 영혼이 없다는 언급이 있다.",
+        "keywords": "불멸의 영혼, 언급",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S9"
+        ]
+      },
+      {
+        "source": "entity:eobs_f3868364c298526d",
+        "target": "entity:eobs_0e737062ad2366d0",
+        "description": "인어 공주는 할머니에게 불멸의 영혼에 대해 질문한다.",
+        "keywords": "인어 공주, 할머니, 질문, 불멸의 영혼",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S18",
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e696aada0964654",
+        "target": "entity:eobs_f3f05c2a22bd453c",
+        "description": "천사의 왕국은 인어가 꿈꾸는 장소로 언급된다.",
+        "keywords": "천사의 왕국, 인어, 꿈",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_3399b5f7e4da074b",
+        "target": "entity:eobs_80edabbe4d5a5456",
+        "description": "무도회는 연회장에서 열리는 행사이다.",
+        "keywords": "무도회, 연회장, 행사",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S41",
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_afdc3f00342997f6",
+        "target": "entity:eobs_4cae11af263146a4",
+        "description": "무도회장에서 인어들이 춤을 춘다.",
+        "keywords": "무도회, 인어, 춤",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S48"
+        ]
+      },
+      {
+        "source": "entity:eobs_2e52b3ec9b85a418",
+        "target": "entity:eobs_08254a5fd944e7a0",
+        "description": "막내 공주는 매력적인 왕자에 대해 생각한다.",
+        "keywords": "막내 공주, 왕자, 생각",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S53"
+        ]
+      },
+      {
+        "source": "entity:eobs_4536fff43655d364",
+        "target": "entity:eobs_f3868364c298526d",
+        "description": "인어 공주는 아버지의 성에서 몰래 빠져나온다.",
+        "keywords": "아버지의 성, 인어 공주, 몰래 빠져나오다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S54"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkO9Wyi0jfpSjXV5XNQxLlwPxdG",
+    "usage": {
+      "completion_tokens": 795,
+      "prompt_tokens": 3803,
+      "total_tokens": 4598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

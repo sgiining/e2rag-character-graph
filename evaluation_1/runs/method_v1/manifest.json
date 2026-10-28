@@ -1,0 +1,55 @@
+{
+  "mode": "new_method",
+  "config": {
+    "version": "evaluation_1.fresh.sentence_ids.v2",
+    "generation_model": "gpt-4o-mini",
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "top_k": 5,
+    "passage_k": 5,
+    "context_tokens": 8000,
+    "answer_tokens": 700,
+    "propagation_decay": 0.85,
+    "shuffle_seed": 20261021,
+    "judges": [
+      {
+        "model": "gpt-4.1-mini",
+        "temperature": 0,
+        "max_output_tokens": 6000
+      },
+      {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "max_output_tokens": 12000
+      },
+      {
+        "model": "gpt-5.4-mini",
+        "reasoning_effort": "medium",
+        "max_output_tokens": 12000
+      }
+    ],
+    "graph_context_tokens": 4000,
+    "extraction_tokens": 12000,
+    "embedding_batch_size": 32
+  },
+  "dataset_hash": "b251ed8ab569464646ea7a436a0657953ceff87dd590df2043d3da17348cacb5",
+  "assets": {
+    "1_눈의 여왕": "1bb752751bd784a332e118793c11a3e8a79a6965d6c3e59a1bcd502e808a5525",
+    "2_엄지 공주": "7c385be6ebb8199dd7d87f511df4326c5a429e0757fe57bd0748c31173eb47b5",
+    "3_인어 공주": "765219228d3c39d2c52dec3c7283f0aefad5546bb5f952e9334b6def7c8d19c6",
+    "4_성냥팔이 소녀": "4333c86029355d69f15f5bc08b64ba21ddb862131e30a8efaeb441ac46c264b5",
+    "5_미운 아기 오리": "ecea19672ba534153d0945ea616e53224f336818cce936feb71e111cad454c09"
+  },
+  "assets_name": "method_v1",
+  "generation_code": {
+    "common.py": "5a2ba20e430310f60a7ea5f3c8e22e360f3486ed3ab653e74a1e55dba8f8223f",
+    "prepare.py": "ed36f94468d50fd34188f44457933d79e3c6504756298b7e51256808c0ac9398",
+    "retrieval.py": "22163546eb4ea983bd2901361e5fa0693c1d1126c563a1e10b2cee71fc2dd96c",
+    "run.py": "1152d6f667c2e7a00e176e4fe20e3c5754380fad90e10fc2dceed8dedd68f364",
+    "systems/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "systems/e2rag.py": "c51039b53fd4f8e249e233995e30b5dffc275c14690805d868d0eab405c30504",
+    "systems/proposed.py": "e5cd938a32c4edc63974bebe20d2fdf967a7649b383e890ad73c1327153043a5",
+    "systems/vanilla.py": "88edc3290e6127377f1fa8c951e143a2cd2c2621995af94e93d66134a23e5d2d"
+  },
+  "run_fingerprint": "2bb71ea93005aecf594552a4a12b632636dd4957f6774a8ce52100d9712bd1a0"
+}

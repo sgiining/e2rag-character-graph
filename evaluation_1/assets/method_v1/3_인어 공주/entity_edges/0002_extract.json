@@ -1,0 +1,111 @@
+{
+  "request_hash": "d866e79134973a323790d7bba861a6afbd2a0fb6ea0131e0e16ffaaecc6807aa",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_04590e4d4ea9517e",
+        "target": "entity:eobs_c9c3dd43d862d777",
+        "description": "나무는 동상에 그늘을 드리운다.",
+        "keywords": "나무, 동상, 그늘",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1"
+        ]
+      },
+      {
+        "source": "entity:eobs_e7584c6014407f03",
+        "target": "entity:eobs_483ed82f0f988a0f",
+        "description": "나뭇가지가 흔들리면 그림자가 보랏빛을 띤다.",
+        "keywords": "나뭇가지, 그림자, 보랏빛",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_d9d12396e817bd53",
+        "target": "entity:eobs_c88896a02d861f74",
+        "description": "막내 공주는 위쪽 인간 세상의 이야기를 가장 흥미롭게 들었다.",
+        "keywords": "막내 공주, 인간 세상, 이야기",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_1cd27b27f8816613",
+        "target": "entity:eobs_79645d1e068bc1ae",
+        "description": "사람들은 할머니에게서 배와 도시 그리고 동물에 대한 이야기를 들었다.",
+        "keywords": "할머니, 사람들, 이야기",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_9dd82602ac9ad114",
+        "target": "entity:eobs_11a09baef8123199",
+        "description": "막내 공주는 마을을 나가서 보게 될 것이다.",
+        "keywords": "막내 공주, 마을, 나가다",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S15"
+        ]
+      },
+      {
+        "source": "entity:eobs_91d969e0d614bc56",
+        "target": "entity:eobs_8b4604d6b10fa675",
+        "description": "공주는 물고기를 바라보며 상상한다.",
+        "keywords": "공주, 물고기, 상상",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_d740b8354342930d",
+        "target": "entity:eobs_f98a78366c93d001",
+        "description": "둘째 공주는 물 위로 올라가는 허락을 받았다.",
+        "keywords": "둘째 공주, 올라가다, 허락",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S36"
+        ]
+      },
+      {
+        "source": "entity:eobs_f98a78366c93d001",
+        "target": "entity:eobs_cde710ea1ed60f72",
+        "description": "셋째 공주는 큰 바다로 흐르는 넓은 강으로 헤엄쳐 올라갔다.",
+        "keywords": "셋째 공주, 큰 바다, 헤엄치다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S45"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOjTS1IUKrPe2uVaAG5LNuKbF7j7",
+    "usage": {
+      "completion_tokens": 620,
+      "prompt_tokens": 4766,
+      "total_tokens": 5386,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

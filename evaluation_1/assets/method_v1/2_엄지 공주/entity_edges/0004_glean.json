@@ -1,0 +1,41 @@
+{
+  "request_hash": "c75d2da6dec3b0afc578a959616608eef1cd0dcb46bb5cba9ac49d91476882c1",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_fb23f37c891b6a61",
+        "target": "entity:eobs_4211cd67494798af",
+        "description": "소녀는 박하 나뭇잎으로 새를 덮어 주었다.",
+        "keywords": "소녀, 박하 나뭇잎, 새",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S59"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOiUZs8iXFi2XUWLVyXwtNFJinrN",
+    "usage": {
+      "completion_tokens": 86,
+      "prompt_tokens": 5475,
+      "total_tokens": 5561,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 1920,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

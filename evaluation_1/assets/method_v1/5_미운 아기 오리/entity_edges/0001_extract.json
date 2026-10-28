@@ -1,0 +1,181 @@
+{
+  "request_hash": "2af569e1598f3b9717d636581a09d0fe882874d7636c935f28f89419a8f337e6",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_369e3d20edeaa409",
+        "target": "entity:eobs_a66e6529dbb19fb3",
+        "description": "시골의 밀밭은 황금빛으로 물들어 있다.",
+        "keywords": "시골, 밀밭",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_369e3d20edeaa409",
+        "target": "entity:eobs_1d9a3231d3cd5b37",
+        "description": "시골의 푸른 초원에는 건초더미가 쌓여 있다.",
+        "keywords": "시골, 초원",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_1d9a3231d3cd5b37",
+        "target": "entity:eobs_b27e10d3c72d7a6f",
+        "description": "푸른 초원 주위로 너른 숲이 우거져 있다.",
+        "keywords": "푸른 초원, 숲",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_bcf6c49cad004970",
+        "target": "entity:eobs_3f1ace1627bbcc50",
+        "description": "붉은 다리 황새는 어미 황새에게서 이집트 말을 배운다.",
+        "keywords": "붉은 다리 황새, 어미 황새",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_738947298523b9b8",
+        "target": "entity:eobs_2ed02786171ec41b",
+        "description": "영주의 저택은 호수에 둘러싸여 있다.",
+        "keywords": "영주, 저택",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_2ed02786171ec41b",
+        "target": "entity:eobs_50afa3424522bc11",
+        "description": "영주의 저택은 호수에 둘러싸인 오래된 건물이다.",
+        "keywords": "저택, 호수",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_a3b0f10e7ad600c8",
+        "target": "entity:eobs_0775560345807880",
+        "description": "어린아이들은 우엉 잎 위에 올라갈 수 있다.",
+        "keywords": "우엉 잎, 어린아이들",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_c9a0eeeb568f1cf4",
+        "target": "entity:eobs_179677f1b67aadd7",
+        "description": "오리는 새끼 오리를 낳는다.",
+        "keywords": "오리, 새끼 오리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S9"
+        ]
+      },
+      {
+        "source": "entity:eobs_179677f1b67aadd7",
+        "target": "entity:eobs_12b2928e3a92f356",
+        "description": "새끼 오리는 알에서 태어난다.",
+        "keywords": "새끼 오리, 알",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_fad749bfb89b29b1",
+        "target": "entity:eobs_eae9206d8a6c9470",
+        "description": "엄마는 아기 오리들의 어미이다.",
+        "keywords": "엄마, 아기 오리들",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_eae9206d8a6c9470",
+        "target": "entity:eobs_1a81f59bf8aea2be",
+        "description": "아기 오리들은 초록 세상을 본다.",
+        "keywords": "아기 오리들, 초록 세상",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_1a81f59bf8aea2be",
+        "target": "entity:eobs_c6f6fb1a03dfeb73",
+        "description": "초록 세상은 아기 오리들이 느끼는 넓은 공간이다.",
+        "keywords": "초록 세상, 세상",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_2b326574ccffbb74",
+        "target": "entity:eobs_99e3dedfe9da740a",
+        "description": "녀석들은 아기 오리들이 물에 대한 두려움을 가진 존재를 지칭한다.",
+        "keywords": "녀석들, 아기",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S53"
+        ]
+      },
+      {
+        "source": "entity:eobs_2b326574ccffbb74",
+        "target": "entity:eobs_d983284d9a32bbe6",
+        "description": "녀석들은 아기의 어미를 지칭한다.",
+        "keywords": "녀석들, 어미",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S53"
+        ]
+      },
+      {
+        "source": "entity:eobs_eaf613ed13360bf8",
+        "target": "entity:eobs_1a81f59bf8aea2be",
+        "description": "회색 오리는 아기 오리들과 함께 물속에서 헤엄친다.",
+        "keywords": "회색 오리, 아기 오리들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S83"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOnQx0D2FMxT0CobAMmI3ySqo7GA",
+    "usage": {
+      "completion_tokens": 1102,
+      "prompt_tokens": 4521,
+      "total_tokens": 5623,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

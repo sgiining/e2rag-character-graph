@@ -1,0 +1,132 @@
+{
+  "request_hash": "25fc11bc1933237f941ca8035fc8074ba37abbae0c55cac921fc4e7c7333214c",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_7c794ca29d2cc883",
+        "target": "entity:eobs_ccd4a8ff291bec17",
+        "description": "까마귀는 부엌에서 너무 많이 먹어 배가 아파 따라오지 않았다.",
+        "keywords": "까마귀, 부엌",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6b2a678cc984729",
+        "target": "entity:eobs_489caa0412639338",
+        "description": "마차 안에는 달콤한 과자가 나란히 준비되어 있었다.",
+        "keywords": "마차, 과자",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_a7d73cd5559f522c",
+        "target": "entity:eobs_34eef9ae89aba1a4",
+        "description": "좌석에는 과일과 진저브레드가 한가득 놓여 있었다.",
+        "keywords": "과일, 진저브레드",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_62520beae97ed60a",
+        "target": "entity:eobs_de53ed3cbc746d29",
+        "description": "왕자와 공주가 크게 외쳤다.",
+        "keywords": "왕자, 공주",
+        "strength": 10,
+        "evidence_sentence_ids": [
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_8a71b6361a417fa4",
+        "target": "entity:eobs_99c1bf58fb82c280",
+        "description": "게르다가 사랑스러운 카이를 얼마나 걱정하는지도 말해줬다.",
+        "keywords": "게르다, 카이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S56"
+        ]
+      },
+      {
+        "source": "entity:eobs_2b8072a8448ea73c",
+        "target": "entity:eobs_9b0cc10755a8b72c",
+        "description": "산적의 딸이 등장했다.",
+        "keywords": "산적, 산적의 딸",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_c52ac8cbc17be364",
+        "target": "entity:eobs_7a095d2f6c785e6d",
+        "description": "나이 든 여자 산적이 소리치며 산적이 꺼낸 칼을 언급했다.",
+        "keywords": "나이 든 여자 산적, 칼",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S26",
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_5bcc1ced70bdd511",
+        "target": "entity:eobs_070a35f2eace9e1f",
+        "description": "마침내 마차가 산적이 사는 성 마당에 멈추었다.",
+        "keywords": "마차, 성",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_c3bf002fda6331c1",
+        "target": "entity:eobs_8eab6f1788909d40",
+        "description": "까마귀와 갈까마귀들이 성벽에 뚫린 총구멍 사이로 날아다니고, 사람도 잡아먹을 정도로 커다란 개들이 공중에 펄쩍펄쩍 뛰었다.",
+        "keywords": "까마귀, 개들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S63"
+        ]
+      },
+      {
+        "source": "entity:eobs_afb73101f29518f0",
+        "target": "entity:eobs_fb24eb93f6556a44",
+        "description": "커다란 가마솥에는 수프가 펄펄 끓고, 꼬치에 토끼고기가 익어가고 있었다.",
+        "keywords": "수프, 토끼고기",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S67"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOg8jXEZqDSbzLB5wBIFM6cT9Qhn",
+    "usage": {
+      "completion_tokens": 801,
+      "prompt_tokens": 4367,
+      "total_tokens": 5168,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

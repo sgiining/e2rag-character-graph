@@ -1,0 +1,47 @@
+{
+  "work_id": "4_성냥팔이 소녀",
+  "read_end_char": [
+    1793,
+    2345
+  ],
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "counts": {
+    "entity": 24,
+    "event": 35,
+    "relation": 3,
+    "chunk": 2
+  },
+  "edge_counts_before": {
+    "entity_event": 73,
+    "event_event": 36,
+    "entity_relation_source": 3,
+    "entity_relation_target": 3,
+    "relation_event": 5
+  },
+  "edge_counts": {
+    "entity_event": 65,
+    "event_event": 36,
+    "entity_relation_source": 3,
+    "entity_relation_target": 3,
+    "relation_event": 5,
+    "entity_entity": 19
+  },
+  "entity_event_policy": "paper_description_same_chunk.v1",
+  "entity_event_removed": 8,
+  "outputs": {
+    "graph.json": "cc95a0834474461015cc368866118d1df231560c603db3a7286cdc766f142b69",
+    "entity.npy": "9fd8419a70ed1ccbe67124eabd214062b9a05eaa1d74449bf5ca659430c146cd",
+    "entity.meta.jsonl": "b1f1ab8e923ee93b45cff3b77071b6467e16144b1f52ee276a6b4b706023d45f",
+    "event.npy": "9b1605f5e60a9cc3f736303a52e370d59c4040c6ace13e33103daa4822fa36df",
+    "event.meta.jsonl": "e3db9624ea157875c69b2bd35c9a574b9ab04e266122adc33418ae6371341cae",
+    "relation.npy": "e63a63207ade097c2a26a000ba28ead9e209f8d07f99d8b68f42d8324f8f5960",
+    "relation.meta.jsonl": "1513b2a9d1a3674b5b7be169a8fa39fb4abbd527d8c9be047f22867aa34363a8",
+    "chunk.npy": "cd69452b0bf9007599aacfe90c0dfb64e447560f0879599f6856cfc6140ea793",
+    "chunk.meta.jsonl": "53f875e5407d7520529be00a1f24b8bdd9c4b785137d939ed853762e8dabaa58"
+  },
+  "source_signature": "76843df12a3729766efd1bc0f0346cdef137b8448fef383e15065385745d45d9",
+  "embedding_policy": "entity/event=name+safe description; relation/chunk=original",
+  "event_merge_policy": "reuse existing span-overlap deduplication",
+  "build_id": "324eb2deb64ca7e9d357248e75445fc9c4216b44fa6df94d3756131b5b830584"
+}

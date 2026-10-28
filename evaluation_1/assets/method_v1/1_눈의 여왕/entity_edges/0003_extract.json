@@ -1,0 +1,104 @@
+{
+  "request_hash": "c3a7d368ef7c163ffd66a5e7a3612cae441bce9825c6eeee85c1a1e66f6e2db5",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_825d7441a6a21848",
+        "target": "entity:eobs_49eaf5c86dee7536",
+        "description": "게르다는 카이와 함께 그림책을 보고 있다.",
+        "keywords": "그림책, 함께",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1"
+        ]
+      },
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_70e75f839683429a",
+        "description": "카이는 눈이 아프다고 느끼고 있다.",
+        "keywords": "눈, 아픔",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S5",
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_62bd31c05401270d",
+        "description": "카이는 마법의 유리에서 나온 유리 조각에 의해 심장이 뚫렸다.",
+        "keywords": "마법의 유리, 심장",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S12",
+          "S16"
+        ]
+      },
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_da03498baae267a7",
+        "description": "카이는 벌레가 뜯어 먹은 장미를 보았다.",
+        "keywords": "장미, 벌레",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      },
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_0e10c26b89f4c095",
+        "description": "카이는 장미와 상자를 비교하며 비유를 했다.",
+        "keywords": "비유, 상자",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S27",
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_6676ba556ea45086",
+        "description": "카이는 마부와 친근하게 소통하고 있다.",
+        "keywords": "마부, 소통",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S65"
+        ]
+      },
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_9ce7719298e2d97c",
+        "description": "카이는 마을 광장에서 다른 남자아이들과 놀 수 있다고 말했다.",
+        "keywords": "마을 광장, 놀이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOebBnElrZ95Ophq6lupoR2gkVDf",
+    "usage": {
+      "completion_tokens": 507,
+      "prompt_tokens": 3553,
+      "total_tokens": 4060,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

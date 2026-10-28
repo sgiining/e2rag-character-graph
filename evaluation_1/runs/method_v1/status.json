@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "answer_counts": {
+    "vanilla": 134,
+    "e2rag": 134,
+    "proposed": 134
+  },
+  "judge_counts": {
+    "gpt-4.1-mini": 134,
+    "gpt-6.1-sol": 134,
+    "gpt-5.4-mini": 134
+  },
+  "missing_answers": {
+    "vanilla": [],
+    "e2rag": [],
+    "proposed": []
+  },
+  "missing_judgments": {
+    "gpt-4.1-mini": [],
+    "gpt-6.1-sol": [],
+    "gpt-5.4-mini": []
+  },
+  "future_score_policy": "null excluded from mean; abstention+spoiler separately",
+  "mode": "new_method"
+}

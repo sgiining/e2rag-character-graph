@@ -1,0 +1,95 @@
+{
+  "request_hash": "67da6294718c037f3b8eb2b7f17f5d6d23dc685c99c58839a9a972cc7692e619",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_4dbd9e5868f145ce",
+        "target": "entity:eobs_0d5d516688cd917f",
+        "description": "게르다는 신발을 던지기 위해 배에 올라간다.",
+        "keywords": "신발, 게르다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S33",
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_4dd50c533a07bfbf",
+        "target": "entity:eobs_4dbd9e5868f145ce",
+        "description": "빨간 구두는 게르다가 신는 신발이다.",
+        "keywords": "빨간 구두, 신발",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S20",
+          "S24"
+        ]
+      },
+      {
+        "source": "entity:eobs_6b828c6c9590d28b",
+        "target": "entity:eobs_f540bca353f636c1",
+        "description": "소년들은 카이가 사용한 마차를 끌고 갔다.",
+        "keywords": "마차, 소년들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_6dc2754e8a8f6236",
+        "target": "entity:eobs_6b828c6c9590d28b",
+        "description": "썰매는 마차에 매달린 물체이다.",
+        "keywords": "썰매, 마차",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_1d6a9c7cc0b38c84",
+        "target": "entity:eobs_2502e3d2325c7862",
+        "description": "강둑은 강의 경치를 지칭한다.",
+        "keywords": "강둑, 강",
+        "strength": 4,
+        "evidence_sentence_ids": [
+          "S46",
+          "S52"
+        ]
+      },
+      {
+        "source": "entity:eobs_5286be60537cf34f",
+        "target": "entity:eobs_4d36bb6455b40a27",
+        "description": "병정은 게르다와 마주치는 생물이다.",
+        "keywords": "병정, 참새",
+        "strength": 3,
+        "evidence_sentence_ids": [
+          "S54",
+          "S55"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOezTyhPJidFbEasDUw9j874qA1B",
+    "usage": {
+      "completion_tokens": 453,
+      "prompt_tokens": 6293,
+      "total_tokens": 6746,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,74 @@
+{
+  "request_hash": "adb722c56adfc2889da5b3b4b80b344d295e6152a87c42d511e730f3fd337c28",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_047c9061606a03a1",
+        "target": "entity:eobs_e14815d6fce0ce80",
+        "description": "소녀는 할머니와의 기억을 떠올리며 생각했다.",
+        "keywords": "소녀, 할머니, 기억",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S5",
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_e14815d6fce0ce80",
+        "target": "entity:eobs_875ab6767487bd81",
+        "description": "할머니는 소녀를 사랑했던 인물로, 소녀와의 관계가 깊다.",
+        "keywords": "할머니, 어린 소녀, 사랑",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S7",
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_34f67345a44be86b",
+        "target": "entity:eobs_3169c1910539bfce",
+        "description": "소녀는 할머니와 함께 있고 싶어서 성냥 꾸러미를 밝혔다.",
+        "keywords": "소녀, 성냥 꾸러미, 할머니",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S17"
+        ]
+      },
+      {
+        "source": "entity:eobs_756e01a285422f18",
+        "target": "entity:eobs_875ab6767487bd81",
+        "description": "두 사람은 하느님과 함께 있었고, 어린 소녀는 그 장면을 목격했다.",
+        "keywords": "하느님, 어린 소녀, 함께",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S24",
+          "S25"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOn6A1fnDERmi28KpPmjpd82Rpfj",
+    "usage": {
+      "completion_tokens": 321,
+      "prompt_tokens": 1737,
+      "total_tokens": 2058,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

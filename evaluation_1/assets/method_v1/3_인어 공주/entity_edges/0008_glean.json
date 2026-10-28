@@ -1,0 +1,61 @@
+{
+  "request_hash": "c4c1ed4993ec1c51c07e013bb2d0a9d3cc5d0ed8de0e8a33fba6303dcc6e220c",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_5343cdfd79b1c823",
+        "target": "entity:eobs_5a763358ce288c86",
+        "description": "인어 공주가 왕자와 인간들이 갖고 있는 영혼을 떠올리고 용기를 그러모았다.",
+        "keywords": "인어 공주, 인간, 영혼, 용기",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_5343cdfd79b1c823",
+        "target": "entity:eobs_8ff062b8e37842d6",
+        "description": "인어 공주가 바다 마녀에게 슬픔을 얻게 될 것이라는 예언을 듣는다.",
+        "keywords": "인어 공주, 공주, 슬픔, 예언",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_54f9b972a7a3025d",
+        "target": "entity:eobs_4369eac519a2b72f",
+        "description": "바다 마녀가 인어 공주에게 약을 만들기 위해 물가로 헤엄쳐 가야 한다고 말한다.",
+        "keywords": "바다 마녀, 약, 물가",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S39"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkdNZkpvmPj6Y3eXzarnpmdWEpH",
+    "usage": {
+      "completion_tokens": 271,
+      "prompt_tokens": 5283,
+      "total_tokens": 5554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2048,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

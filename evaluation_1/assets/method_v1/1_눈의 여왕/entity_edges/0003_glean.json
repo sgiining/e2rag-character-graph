@@ -1,0 +1,51 @@
+{
+  "request_hash": "8a08321ffeca8bf16482930c28fe7c75800d26e89ba386ec006209b843a0500e",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_6676ba556ea45086",
+        "description": "카이는 마부와 친근하게 소통하고 있다.",
+        "keywords": "마부, 소통",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S65"
+        ]
+      },
+      {
+        "source": "entity:eobs_49eaf5c86dee7536",
+        "target": "entity:eobs_9ce7719298e2d97c",
+        "description": "카이는 마을 광장에서 다른 남자아이들과 놀 수 있다고 말했다.",
+        "keywords": "마을 광장, 놀이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOeg6KpEbNOIFKP63ylNFStQahHo",
+    "usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 4840,
+      "total_tokens": 4985,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE",
+  "works": {
+    "1_눈의 여왕": {
+      "entity": 482,
+      "event": 384,
+      "relation": 70,
+      "chunk": 20
+    },
+    "2_엄지 공주": {
+      "entity": 176,
+      "event": 131,
+      "relation": 26,
+      "chunk": 7
+    },
+    "3_인어 공주": {
+      "entity": 394,
+      "event": 333,
+      "relation": 37,
+      "chunk": 14
+    },
+    "4_성냥팔이 소녀": {
+      "entity": 24,
+      "event": 35,
+      "relation": 3,
+      "chunk": 2
+    },
+    "5_미운 아기 오리": {
+      "entity": 131,
+      "event": 111,
+      "relation": 11,
+      "chunk": 6
+    }
+  },
+  "missing": [],
+  "source_signature": "76843df12a3729766efd1bc0f0346cdef137b8448fef383e15065385745d45d9"
+}

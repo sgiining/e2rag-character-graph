@@ -1,0 +1,82 @@
+{
+  "request_hash": "b67aed654cba4fff1b87047673df69ec3af68ae46d2602fe4d11531af0a75ea8",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_2b8072a8448ea73c",
+        "target": "entity:eobs_9b0cc10755a8b72c",
+        "description": "산적의 딸이 등장했다.",
+        "keywords": "산적, 산적의 딸",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_c52ac8cbc17be364",
+        "target": "entity:eobs_7a095d2f6c785e6d",
+        "description": "나이 든 여자 산적이 소리치며 산적이 꺼낸 칼을 언급했다.",
+        "keywords": "나이 든 여자 산적, 칼",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S26",
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_5bcc1ced70bdd511",
+        "target": "entity:eobs_070a35f2eace9e1f",
+        "description": "마침내 마차가 산적이 사는 성 마당에 멈추었다.",
+        "keywords": "마차, 성",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_c3bf002fda6331c1",
+        "target": "entity:eobs_8eab6f1788909d40",
+        "description": "까마귀와 갈까마귀들이 성벽에 뚫린 총구멍 사이로 날아다니고, 사람도 잡아먹을 정도로 커다란 개들이 공중에 펄쩍펄쩍 뛰었다.",
+        "keywords": "까마귀, 개들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S63"
+        ]
+      },
+      {
+        "source": "entity:eobs_afb73101f29518f0",
+        "target": "entity:eobs_fb24eb93f6556a44",
+        "description": "커다란 가마솥에는 수프가 펄펄 끓고, 꼬치에 토끼고기가 익어가고 있었다.",
+        "keywords": "수프, 토끼고기",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S67"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgE639Ki4pFMYQtozaRAVVGXV2u",
+    "usage": {
+      "completion_tokens": 438,
+      "prompt_tokens": 6193,
+      "total_tokens": 6631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

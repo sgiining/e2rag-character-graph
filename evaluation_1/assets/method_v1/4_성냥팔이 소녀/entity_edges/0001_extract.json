@@ -1,0 +1,172 @@
+{
+  "request_hash": "f08b6650ffcdfa22c04de1000890086a82ff4632bb839d27bab016eaaecf0624",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_98852c15117975a9",
+        "description": "소녀는 집을 나설 때 신발을 신고 있었지만 지금은 아무 소용이 없었다.",
+        "keywords": "소녀, 집",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_3b7e186aa067b19e",
+        "description": "소녀는 신발이 엄마의 것이었기에 너무 컸다.",
+        "keywords": "소녀, 엄마의 것",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_90c533e0cf3b47e9",
+        "description": "소녀는 길을 뛰어 건너다가 신발 한 짝을 잃어버렸다.",
+        "keywords": "소녀, 신발 한 짝",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_e349d93fe0f1fbb3",
+        "description": "소년이 나머지 신발 한 짝을 가지고 달아나버렸다.",
+        "keywords": "소녀, 소년",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_70adb63e134cd73a",
+        "description": "소녀는 성냥갑 몇 개를 들고 있었다.",
+        "keywords": "소녀, 성냥갑",
+        "strength": 4,
+        "evidence_sentence_ids": [
+          "S11"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_acfa3f07d9fc41f9",
+        "description": "소녀는 성냥 하나를 손으로 들어 내밀었다.",
+        "keywords": "소녀, 성냥",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S12"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_65c472083d3a81c2",
+        "description": "소녀는 창문으로 새어 나오는 불빛을 보았다.",
+        "keywords": "소녀, 창문",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_927a647a9ea07135",
+        "description": "소녀는 난로 앞에 앉아 있는 것 같았다.",
+        "keywords": "소녀, 난로",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S36"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_0cd898a8141f8642",
+        "description": "소녀는 식탁보 위에 차려진 저녁 식사를 보았다.",
+        "keywords": "소녀, 식탁보",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S45"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_36718e043c973326",
+        "description": "소녀는 구운 거위에서 김이 모락모락 피어오르는 것을 보았다.",
+        "keywords": "소녀, 거위",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S46"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_bc0cb78d80ec33c3",
+        "description": "소녀는 크리스마스트리 아래 앉아 있었다.",
+        "keywords": "소녀, 크리스마스트리",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S51"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_341b8c392288960c",
+        "description": "소녀는 크리스마스 불빛을 보았다.",
+        "keywords": "소녀, 크리스마스 불빛",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S56"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_96a595d3e3e66d4a",
+        "description": "소녀는 별을 보며 생각했다.",
+        "keywords": "소녀, 별",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6971c98bd037a6b",
+        "target": "entity:eobs_5f112c96dc6f21dd",
+        "description": "소녀는 할머니를 생각했다.",
+        "keywords": "소녀, 할머니",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S60"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOmplpEtClkXACfuSIsLYO714hxB",
+    "usage": {
+      "completion_tokens": 1018,
+      "prompt_tokens": 3369,
+      "total_tokens": 4387,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

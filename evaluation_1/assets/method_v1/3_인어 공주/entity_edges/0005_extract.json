@@ -1,0 +1,105 @@
+{
+  "request_hash": "5cf4fa61604b3e279e85364a81f991a1a71c39ce4c099ce502a616ada2013cce",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_565f3b375c816f4d",
+        "target": "entity:eobs_3faef0ec337d2233",
+        "description": "인어 공주는 상황을 놀이처럼 보고 있었지만, 선원들은 이를 좋지 않게 느끼고 있었다.",
+        "keywords": "인어 공주, 선원, 상황 인식",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_e4b2735d4d54b3ec",
+        "target": "entity:eobs_1a661d4ffbcb00b5",
+        "description": "인어 공주는 사람들이 위험에 빠진 것을 알았고, 배가 파도에 의해 위험에 처해 있었다.",
+        "keywords": "위험, 배, 인어 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S7",
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_7a3bc75ee9a38bfa",
+        "target": "entity:eobs_a7631396c0891783",
+        "description": "젊은 왕자는 성난 바다에서 더 이상 헤엄칠 수 없었고, 공주가 도와주지 않았다면 죽었을 것이다.",
+        "keywords": "젊은 왕자, 성난 바다, 공주",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S20",
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_3b6b042f18f519cd",
+        "target": "entity:eobs_613625312e9ec829",
+        "description": "푸르른 산이 솟아난 육지에는 성당인지 수도원인지 알 수 없는 건물이 있었다.",
+        "keywords": "푸르른 산, 건물, 성당",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S29",
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_8be6093c96701d80",
+        "target": "entity:eobs_76b6bd203fc9fa06",
+        "description": "바다는 작은 항구를 이루고 있으며, 조용하고 깊었다.",
+        "keywords": "바다, 작은 항구, 조용함",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S33"
+        ]
+      },
+      {
+        "source": "entity:eobs_6809a40f6223d20d",
+        "target": "entity:eobs_a7631396c0891783",
+        "description": "인어는 왕자가 의식을 되찾는 것을 지켜보았고, 왕자는 여전히 눈을 감고 있었다.",
+        "keywords": "인어, 왕자, 의식 회복",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S43",
+          "S25"
+        ]
+      },
+      {
+        "source": "entity:eobs_f095e8dca33ded41",
+        "target": "entity:eobs_8c38609041044237",
+        "description": "막내 공주는 언니들이 물어보았지만 조금도 말하려 들지 않았다.",
+        "keywords": "막내 공주, 언니들, 침묵",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S50"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOk2vlW991LgGAdhrqNYyZtsQZza",
+    "usage": {
+      "completion_tokens": 616,
+      "prompt_tokens": 4614,
+      "total_tokens": 5230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,92 @@
+{
+  "request_hash": "9c4ac4e3f522bde6ccda386fcf60f5183c18b70306737ae6812be5071357b58b",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_8e5bbf9e55454751",
+        "target": "entity:eobs_2988a9a775562c3e",
+        "description": "노파는 게르다에게 카이를 보았는지 물었다.",
+        "keywords": "노파, 게르다, 카이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S13",
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_8e5bbf9e55454751",
+        "target": "entity:eobs_447eba928c10d02a",
+        "description": "노파는 게르다를 작은 집으로 이끌었다.",
+        "keywords": "노파, 게르다, 작은 집",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_8e5bbf9e55454751",
+        "target": "entity:eobs_d4469586fcec21a5",
+        "description": "노파는 게르다의 머리를 황금빛 머리빗으로 빗어주었다.",
+        "keywords": "노파, 게르다, 머리빗",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S24"
+        ]
+      },
+      {
+        "source": "entity:eobs_8e5bbf9e55454751",
+        "target": "entity:eobs_5cecbd8bbc59561d",
+        "description": "노파는 마법을 부리는 재주가 있었다.",
+        "keywords": "노파, 마법",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S30"
+        ]
+      },
+      {
+        "source": "entity:eobs_2988a9a775562c3e",
+        "target": "entity:eobs_5a439ab89806da84",
+        "description": "게르다는 장미꽃을 떠올리며 카이를 생각했다.",
+        "keywords": "게르다, 장미꽃, 카이",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S63"
+        ]
+      },
+      {
+        "source": "entity:eobs_5cecbd8bbc59561d",
+        "target": "entity:eobs_2758bf524ac57760",
+        "description": "마법을 부리는 노파는 장미 덤불에 지팡이를 가리켰다.",
+        "keywords": "노파, 마법, 장미 덤불",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOf4gFPgY6RrEAqKFRokZ7s6We4b",
+    "usage": {
+      "completion_tokens": 468,
+      "prompt_tokens": 4030,
+      "total_tokens": 4498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

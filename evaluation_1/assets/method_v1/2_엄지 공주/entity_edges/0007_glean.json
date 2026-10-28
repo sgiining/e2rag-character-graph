@@ -1,0 +1,72 @@
+{
+  "request_hash": "f01cf8014341b3024a3b3cfe40293334f0b3a4322700779d44620e205f81c719",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_722da47e9ea31dd7",
+        "target": "entity:eobs_e3f14ecb84e0e577",
+        "description": "기둥은 포도 덩굴이 감겨 있는 구조물이다.",
+        "keywords": "기둥, 포도",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_27ba5e020157eae1",
+        "target": "entity:eobs_722da47e9ea31dd7",
+        "description": "포도 덩굴은 기둥에 감겨 있는 식물이다.",
+        "keywords": "포도 덩굴, 기둥",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1"
+        ]
+      },
+      {
+        "source": "entity:eobs_85dff86404997726",
+        "target": "entity:eobs_f7f3553ea29804f5",
+        "description": "왕은 제비가 두려웠다고 언급된다.",
+        "keywords": "제비, 왕",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_12c6f5514e064721",
+        "target": "entity:eobs_4e5f2890c4ee218d",
+        "description": "왕이 엄지 공주의 이름을 마야로 바꾸겠다고 말했다.",
+        "keywords": "꽃의 여왕, 마야",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S36"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOiqub77fRrLuMhEJPFawQOW3vkF",
+    "usage": {
+      "completion_tokens": 299,
+      "prompt_tokens": 4515,
+      "total_tokens": 4814,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,51 @@
+{
+  "request_hash": "ce68ec620e2846bed63126adb006b90730f9081c09ffe53b4858fa55195681d7",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_00576b33802784bd",
+        "target": "entity:eobs_ffd405c0df7e40a4",
+        "description": "인어 공주는 인간의 사랑을 얻지 못하면 영혼을 가질 수 없다는 사실을 알고 있다.",
+        "keywords": "인어 공주, 인간",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_760f79e62f609b73",
+        "target": "entity:eobs_d0b1912096deecef",
+        "description": "할머니는 슬픔에 빠져 하얀 머리카락이 계속 빠지고 있다고 언급된다.",
+        "keywords": "할머니, 공주",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S27"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOlQhIK2uf95CTpAWr6zFhBYqRPI",
+    "usage": {
+      "completion_tokens": 164,
+      "prompt_tokens": 5943,
+      "total_tokens": 6107,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,42 @@
+{
+  "request_hash": "0d63027935701ee031f4063dad4ac2abdc982bf6dff2f6920a4f344cb6878387",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_26686402b18ce010",
+        "target": "entity:eobs_db3e03c45a8a4aad",
+        "description": "눈은 카이가 아프다고 느끼는 신체 부위를 지칭한다.",
+        "keywords": "눈, 카이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S62",
+          "S63"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOeZd0yA9InNYQGvRirTZvzCYWhV",
+    "usage": {
+      "completion_tokens": 79,
+      "prompt_tokens": 6220,
+      "total_tokens": 6299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

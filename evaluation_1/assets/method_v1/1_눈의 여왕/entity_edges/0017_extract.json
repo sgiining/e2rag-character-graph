@@ -1,0 +1,112 @@
+{
+  "request_hash": "34603aaac5b012ca81c69cc34c57e7eca5e919dcb8accf76cb7682fa9019f7c3",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_76003930d8c7b84b",
+        "target": "entity:eobs_bd6a72bd8db3083a",
+        "description": "인간과 짐승들이 저 아이를 도우려 하는 모습이 언급된다.",
+        "keywords": "도움, 아이, 인간과 짐승들",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_76003930d8c7b84b",
+        "target": "entity:eobs_0612a7d938640b0e",
+        "description": "저 아이가 눈의 여왕에게 가야 한다는 언급이 있다.",
+        "keywords": "아이, 눈의 여왕",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_6a9c1954da316213",
+        "target": "entity:eobs_b6e8b18b35ce0afb",
+        "description": "핀족 여인이 어린 게르다를 순록 위에 들어 올렸다는 언급이 있다.",
+        "keywords": "핀족 여인, 게르다",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_b6e8b18b35ce0afb",
+        "target": "entity:eobs_4a13598d13cb8287",
+        "description": "게르다가 신발과 장갑을 깜빡하고 놓고 왔다는 언급이 있다.",
+        "keywords": "게르다, 신발과 장갑",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_4a13598d13cb8287",
+        "target": "entity:eobs_90f018e2cc56da4d",
+        "description": "게르다가 신발과 장갑도 없이 얼음처럼 차가운 핀마크 한가운데 서 있었다.",
+        "keywords": "신발과 장갑, 핀마크",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_8371b7276348bb72",
+        "target": "entity:eobs_fc1a63b14ab971bb",
+        "description": "게르다가 눈의 여왕의 궁전으로 힘차게 걸어갔다는 언급이 있다.",
+        "keywords": "눈의 여왕의 궁전, 카이",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S47"
+        ]
+      },
+      {
+        "source": "entity:eobs_0043ab3b393a45d3",
+        "target": "entity:eobs_3ee622f434d8b7a8",
+        "description": "성벽은 휘몰아치는 눈으로, 성에는 백 개도 넘는 방이 있었다는 언급이 있다.",
+        "keywords": "성벽, 방",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S54",
+          "S55"
+        ]
+      },
+      {
+        "source": "entity:eobs_4aed05062f91354e",
+        "target": "entity:eobs_5603a7300b88385d",
+        "description": "천사들이 눈송이들을 찌르고 베어버린 장면이 언급된다.",
+        "keywords": "천사들, 눈송이들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgrkfl0dq71JSBqWCqTDZDIXk58",
+    "usage": {
+      "completion_tokens": 661,
+      "prompt_tokens": 4463,
+      "total_tokens": 5124,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,65 @@
+{
+  "work_id": "1_눈의 여왕",
+  "read_end_char": [
+    1909,
+    3622,
+    5307,
+    6974,
+    8663,
+    10384,
+    12054,
+    13753,
+    15478,
+    17243,
+    19020,
+    20754,
+    22347,
+    23959,
+    25589,
+    27345,
+    29018,
+    30716,
+    32423,
+    32854
+  ],
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "counts": {
+    "entity": 482,
+    "event": 384,
+    "relation": 70,
+    "chunk": 20
+  },
+  "edge_counts_before": {
+    "entity_event": 987,
+    "event_event": 399,
+    "entity_relation_source": 70,
+    "entity_relation_target": 70,
+    "relation_event": 110
+  },
+  "edge_counts": {
+    "entity_event": 908,
+    "event_event": 399,
+    "entity_relation_source": 70,
+    "entity_relation_target": 70,
+    "relation_event": 110,
+    "entity_entity": 187
+  },
+  "entity_event_policy": "paper_description_same_chunk.v1",
+  "entity_event_removed": 79,
+  "outputs": {
+    "graph.json": "acf39f3c976d658a8afe7dd5d7e2090a925dc730375630e89564853b66298f71",
+    "entity.npy": "43722ef35ba1ca590f58967601d21ea0992580dc9feb50e1257db746e1831901",
+    "entity.meta.jsonl": "a7d7720eed78c22b08ab65f8127de0c865f53acaf367cf0bebdee8c6ebbd0451",
+    "event.npy": "8dfda8760a43944f81e94636a53c8130ef0b3fee71fd79cdfe9f5a9b2a088e97",
+    "event.meta.jsonl": "8fa55a148ec706a972fcf0c89f6be3c97e9c580912eed32011aa8babcf065f17",
+    "relation.npy": "b911945344756fcbd1223d47e79c656096795f3e409f776a067d912a0297b25e",
+    "relation.meta.jsonl": "340bc8c487399c25a0c81765b5dc1db1d99fc2f41ffa1368d6f94be4474eb127",
+    "chunk.npy": "f5583ea7b3b429134d572a2a95c9636dfa4386325db4cc30ebe5f011ff666277",
+    "chunk.meta.jsonl": "e5225192edbd245169f29f657fe05a6bb68c7dfad4199a4c8d6be16e48415f84"
+  },
+  "source_signature": "76843df12a3729766efd1bc0f0346cdef137b8448fef383e15065385745d45d9",
+  "embedding_policy": "entity/event=name+safe description; relation/chunk=original",
+  "event_merge_policy": "reuse existing span-overlap deduplication",
+  "build_id": "54e494d94301f9fa996e77093a73fcc5c986ee3a8555b7d87ecde317735c2e80"
+}

@@ -1,0 +1,124 @@
+{
+  "request_hash": "85e6ab3fa20524e98be68cf4cb990c05f1d9dbeb025b36e98022f7272275b0f5",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_238eaf5428a05115",
+        "target": "entity:eobs_3b21d0250a2cdc7b",
+        "description": "세 자매는 관 세 개와 관련이 있으며, 이들은 함께 등장한다.",
+        "keywords": "세 자매, 관 세 개",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2",
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_9e42e806e66846dd",
+        "target": "entity:eobs_6ca29eee6c9b1c35",
+        "description": "게르다는 할머니의 손녀로, 할머니와의 관계가 있다.",
+        "keywords": "게르다, 할머니",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_6ca29eee6c9b1c35",
+        "target": "entity:eobs_2e99e01cd7432a8c",
+        "description": "할머니는 손녀를 기다리고 있으며, 손녀가 집에 들르러 왔다.",
+        "keywords": "할머니, 손녀",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S27",
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_6c7cf2dc2ad37821",
+        "target": "entity:eobs_9e42e806e66846dd",
+        "description": "수선화는 게르다의 다리를 건드리며 그녀와 상호작용하고 있다.",
+        "keywords": "수선화, 게르다",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      },
+      {
+        "source": "entity:eobs_6eb402a70faa75b1",
+        "target": "entity:eobs_6e4daff8e4e4a939",
+        "description": "주전자는 무희가 손에 들고 있는 물건이다.",
+        "keywords": "주전자, 무희",
+        "strength": 4,
+        "evidence_sentence_ids": [
+          "S56"
+        ]
+      },
+      {
+        "source": "entity:eobs_6e4daff8e4e4a939",
+        "target": "entity:eobs_07c7ebc3ba97a708",
+        "description": "무희는 사프란색 스카프를 둘러서 옷을 돋보이게 하고 있다.",
+        "keywords": "무희, 스카프",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S60"
+        ]
+      },
+      {
+        "source": "entity:eobs_07c7ebc3ba97a708",
+        "target": "entity:eobs_d71dde0321c2bd4a",
+        "description": "사프란색 스카프는 무희의 옷을 더 희게 돋보이게 한다.",
+        "keywords": "사프란색 스카프, 스카프",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S60"
+        ]
+      },
+      {
+        "source": "entity:eobs_cc3c133c0c4cc177",
+        "target": "entity:eobs_47563a71af96825f",
+        "description": "게르다는 넓은 세상으로 도망쳐 나와 커다란 바위에 앉아 쉬었다.",
+        "keywords": "넓은 세상, 바위",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S70",
+          "S73"
+        ]
+      },
+      {
+        "source": "entity:eobs_80fa3dea9de18f5f",
+        "target": "entity:eobs_5638ccd3c5a5057d",
+        "description": "여름이 지나고 늦가을이 되었다는 시간의 흐름을 나타낸다.",
+        "keywords": "여름, 늦가을",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S74"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfTLXgVnG3UqNfiF6S4HAtSovmU",
+    "usage": {
+      "completion_tokens": 735,
+      "prompt_tokens": 6486,
+      "total_tokens": 7221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

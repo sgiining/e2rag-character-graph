@@ -1,0 +1,83 @@
+{
+  "request_hash": "d725b360774451fad97778a433a2fc5a7e9dd6df7ebc4cac995f1c630132407f",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f3868364c298526d",
+        "target": "entity:eobs_0e696aada0964654",
+        "description": "인어 공주는 할머니에게 불멸의 영혼에 대해 질문한다.",
+        "keywords": "인어 공주, 할머니, 질문, 불멸의 영혼",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S18",
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_3399b5f7e4da074b",
+        "target": "entity:eobs_80edabbe4d5a5456",
+        "description": "무도회는 연회장에서 열리는 행사이다.",
+        "keywords": "무도회, 연회장, 행사",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S41",
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_afdc3f00342997f6",
+        "target": "entity:eobs_4cae11af263146a4",
+        "description": "무도회장에서 인어들이 춤을 춘다.",
+        "keywords": "무도회, 인어, 춤",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S48"
+        ]
+      },
+      {
+        "source": "entity:eobs_2e52b3ec9b85a418",
+        "target": "entity:eobs_08254a5fd944e7a0",
+        "description": "막내 공주는 매력적인 왕자에 대해 생각한다.",
+        "keywords": "막내 공주, 왕자, 생각",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S53"
+        ]
+      },
+      {
+        "source": "entity:eobs_f3868364c298526d",
+        "target": "entity:eobs_4536fff43655d364",
+        "description": "인어 공주는 아버지의 성에서 몰래 빠져나온다.",
+        "keywords": "아버지의 성, 인어 공주, 몰래 빠져나오다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S54"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkVk7K4xef11m7BnbbqIsFnytO7",
+    "usage": {
+      "completion_tokens": 396,
+      "prompt_tokens": 5651,
+      "total_tokens": 6047,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2048,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

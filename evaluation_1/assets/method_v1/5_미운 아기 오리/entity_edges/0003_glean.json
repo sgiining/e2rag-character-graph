@@ -1,0 +1,61 @@
+{
+  "request_hash": "9e24727e154943ef6357187b8e685a1a1954fae19dd80a1eaf050567b56b94c9",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_4a6762ea5b24f575",
+        "description": "사냥꾼들이 늪지 주위를 에워싸고 아기 오리를 위협했다.",
+        "keywords": "아기 오리, 사냥꾼들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S55"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_539369d4beb0769b",
+        "description": "아기 오리 앞에 무시무시한 커다란 개가 나타났다.",
+        "keywords": "아기 오리, 커다란 개",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_e0c897493b5ef976",
+        "description": "아기 오리는 저녁 늦게 작고 허름한 가축우리에 도착했다.",
+        "keywords": "아기 오리, 가축우리",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S77"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOntllHjWAbYW2pwDPIJIComxxSJ",
+    "usage": {
+      "completion_tokens": 255,
+      "prompt_tokens": 5586,
+      "total_tokens": 5841,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

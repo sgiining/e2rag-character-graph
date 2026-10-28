@@ -1,0 +1,41 @@
+{
+  "request_hash": "94acd684bf4f5c049ee42f3f151a3e9be0f5f99b2341cbff37c674bd0bdd9254",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_555e609c9109d345",
+        "target": "entity:eobs_0b56ca76a062f1fa",
+        "description": "눈물이 카이의 몸에 떨어져 심장으로 들어갔다.",
+        "keywords": "눈물, 카이",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S50"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOh4CTrI1NPMwKYWpnJ1MVbNnW12",
+    "usage": {
+      "completion_tokens": 76,
+      "prompt_tokens": 5640,
+      "total_tokens": 5716,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

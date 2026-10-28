@@ -1,0 +1,42 @@
+{
+  "request_hash": "cbebb3826b2c958ce280460e4a84e631beb6b57547565a6bca026cad56d13e47",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_9c1c4aa8fa5cc696",
+        "target": "entity:eobs_5346bc1398b66296",
+        "description": "공주는 숲과 습지를 지나 아버지의 성이 보인다.",
+        "keywords": "습지, 아버지의 성",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S63",
+          "S64"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkncXMlO5MrulEiBISJaEG1J00r",
+    "usage": {
+      "completion_tokens": 85,
+      "prompt_tokens": 5874,
+      "total_tokens": 5959,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

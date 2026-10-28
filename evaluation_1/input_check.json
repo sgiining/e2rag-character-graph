@@ -1,0 +1,62 @@
+{
+  "status": "OK",
+  "qa": 134,
+  "types": {
+    "answerable": 75,
+    "relation_change": 26,
+    "unanswerable_future": 33
+  },
+  "dataset_hash": "b251ed8ab569464646ea7a436a0657953ceff87dd590df2043d3da17348cacb5",
+  "works": {
+    "1_눈의 여왕": {
+      "chunks": 20,
+      "nodes": {
+        "entity": 482,
+        "event": 384,
+        "relation": 70
+      },
+      "paper_entity_event": 908,
+      "multi_occurrence_events": 16
+    },
+    "2_엄지 공주": {
+      "chunks": 7,
+      "nodes": {
+        "entity": 176,
+        "event": 131,
+        "relation": 26
+      },
+      "paper_entity_event": 360,
+      "multi_occurrence_events": 6
+    },
+    "3_인어 공주": {
+      "chunks": 14,
+      "nodes": {
+        "entity": 394,
+        "event": 333,
+        "relation": 37
+      },
+      "paper_entity_event": 896,
+      "multi_occurrence_events": 13
+    },
+    "4_성냥팔이 소녀": {
+      "chunks": 2,
+      "nodes": {
+        "entity": 24,
+        "event": 35,
+        "relation": 3
+      },
+      "paper_entity_event": 65,
+      "multi_occurrence_events": 2
+    },
+    "5_미운 아기 오리": {
+      "chunks": 6,
+      "nodes": {
+        "entity": 131,
+        "event": 111,
+        "relation": 11
+      },
+      "paper_entity_event": 304,
+      "multi_occurrence_events": 7
+    }
+  }
+}

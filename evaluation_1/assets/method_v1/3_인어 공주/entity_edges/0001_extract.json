@@ -1,0 +1,124 @@
+{
+  "request_hash": "b15faa520d591a46535cf031a47366c93ca4e67c2f10a24c2f4496c69606d03e",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_19a8d1c347cc7e4e",
+        "target": "entity:eobs_d61902782c76ecf1",
+        "description": "바다 아래에 인어들이 살고 있다.",
+        "keywords": "바다, 인어들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1",
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_40a29f45e78ae0ee",
+        "target": "entity:eobs_47683c68d97ffcee",
+        "description": "바다 왕의 궁전은 성벽으로 둘러싸여 있다.",
+        "keywords": "바다 왕의 궁전, 성벽",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S9",
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_63e5330907c8f323",
+        "target": "entity:eobs_951579d8f4920ae7",
+        "description": "조개는 여왕이 쓰는 왕관의 자랑거리가 될 만한 진주를 품고 있다.",
+        "keywords": "조개, 여왕",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S12"
+        ]
+      },
+      {
+        "source": "entity:eobs_fa07bd901ba48367",
+        "target": "entity:eobs_f52e8908141bdd4d",
+        "description": "노모는 손녀들을 지극히 좋아했다.",
+        "keywords": "노모, 손녀들",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S17"
+        ]
+      },
+      {
+        "source": "entity:eobs_1d32a66150f31503",
+        "target": "entity:eobs_5bb282e28081b68c",
+        "description": "막내는 막내 공주로서 가장 아름답다.",
+        "keywords": "막내, 막내 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_1d32a66150f31503",
+        "target": "entity:eobs_89e869d044ff9da3",
+        "description": "막내는 동상 옆에 붉은 버드나무를 심었다.",
+        "keywords": "막내, 동상",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S36",
+          "S37"
+        ]
+      },
+      {
+        "source": "entity:eobs_22c87ab05acc9b9e",
+        "target": "entity:eobs_8bb4adcd1fe92b3b",
+        "description": "공주들은 각각 자기들만의 작은 꽃밭을 가지고 있다.",
+        "keywords": "공주들, 꽃밭",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_8bb4adcd1fe92b3b",
+        "target": "entity:eobs_f0b870e5ffd298f6",
+        "description": "공주 하나는 고래 모양 속에 꽃 침대를 만들었다.",
+        "keywords": "공주, 고래 모양",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S32"
+        ]
+      },
+      {
+        "source": "entity:eobs_40a29f45e78ae0ee",
+        "target": "entity:eobs_ea3b0f5d9feb1f64",
+        "description": "바다 왕의 궁전 밖에는 정원이 있다.",
+        "keywords": "바다 왕의 궁전, 정원",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOjJH7fH6B8DSwbuBv83tUujeCZh",
+    "usage": {
+      "completion_tokens": 674,
+      "prompt_tokens": 4825,
+      "total_tokens": 5499,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

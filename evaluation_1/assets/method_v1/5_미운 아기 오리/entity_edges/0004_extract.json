@@ -1,0 +1,122 @@
+{
+  "request_hash": "66cf1f08b0a009e6167d383965e2da9729c91f89dd27cab69b5136408861afa5",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_4f9b962795e6a821",
+        "target": "entity:eobs_4ac1d543108d3001",
+        "description": "아기 오리는 늪지에서 도망쳤다.",
+        "keywords": "아기 오리, 늪지, 도망",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S1",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_4f9b962795e6a821",
+        "target": "entity:eobs_635e9c7243dba548",
+        "description": "아기 오리는 들판과 초원을 지나갔다.",
+        "keywords": "아기 오리, 들판과 초원, 이동",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_4f9b962795e6a821",
+        "target": "entity:eobs_b16d2c47758bdf07",
+        "description": "아기 오리는 가축우리에 도착했다.",
+        "keywords": "아기 오리, 가축우리, 도착",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_b16d2c47758bdf07",
+        "target": "entity:eobs_374bf753726854dd",
+        "description": "가축우리에는 노파가 살고 있었다.",
+        "keywords": "가축우리, 노파, 거주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_374bf753726854dd",
+        "target": "entity:eobs_ea7325137de3e9df",
+        "description": "노파는 고양이와 함께 살고 있었다.",
+        "keywords": "노파, 고양이, 동거",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_374bf753726854dd",
+        "target": "entity:eobs_e3ad05d6c428336e",
+        "description": "노파는 암탉과 함께 살고 있었다.",
+        "keywords": "노파, 암탉, 동거",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_ea7325137de3e9df",
+        "target": "entity:eobs_fc88b9b4ffa6eebc",
+        "description": "고양이는 아기 오리를 알아차렸다.",
+        "keywords": "고양이, 아기 오리, 인식",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S17"
+        ]
+      },
+      {
+        "source": "entity:eobs_e3ad05d6c428336e",
+        "target": "entity:eobs_fc88b9b4ffa6eebc",
+        "description": "암탉은 아기 오리를 알아차렸다.",
+        "keywords": "암탉, 아기 오리, 인식",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S17"
+        ]
+      },
+      {
+        "source": "entity:eobs_fc88b9b4ffa6eebc",
+        "target": "entity:eobs_d533b502997165f9",
+        "description": "아기 오리는 할머니에게 물어보았다.",
+        "keywords": "아기 오리, 할머니, 질문",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S63"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOnw08FW1yzkHsmUt3nmx2q5ZP4b",
+    "usage": {
+      "completion_tokens": 653,
+      "prompt_tokens": 3264,
+      "total_tokens": 3917,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

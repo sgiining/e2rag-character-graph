@@ -1,0 +1,61 @@
+{
+  "request_hash": "0ccea5fdc3d492b235d49073af5a07ddbaca2b9d851b7d48fba1510ebdef574b",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_98bb05e2818b73ab",
+        "target": "entity:eobs_4d226ea2f8ff9d10",
+        "description": "눈의 여왕은 라플란드로 갔을 것이라고 언급되었다.",
+        "keywords": "눈의 여왕, 라플란드, 언급하다",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S54"
+        ]
+      },
+      {
+        "source": "entity:eobs_98bb05e2818b73ab",
+        "target": "entity:eobs_1b7e0d66417deb51",
+        "description": "눈의 여왕의 본거지는 북극 근처에 있는 성이다.",
+        "keywords": "눈의 여왕, 본거지, 북극",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_1b7e0d66417deb51",
+        "target": "entity:eobs_dd6f854ea9ac3193",
+        "description": "여왕의 본거지는 스핏스베르겐이라고 부르는 섬에 있다.",
+        "keywords": "여왕의 본거지, 스핏스베르겐, 섬",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S62"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgP50echGYuGPjNvhALiiK9heiK",
+    "usage": {
+      "completion_tokens": 257,
+      "prompt_tokens": 5426,
+      "total_tokens": 5683,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2048,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

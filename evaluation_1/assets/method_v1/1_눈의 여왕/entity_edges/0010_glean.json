@@ -1,0 +1,62 @@
+{
+  "request_hash": "b171ff76358e75e190d6cd32476df141cf5cf2657c559826faf7b52f950c7b7f",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_4b8c18c6b4faded8",
+        "target": "entity:eobs_88a083956bf15161",
+        "description": "성은 궁정에 사람들이 몰려드는 장소이다.",
+        "keywords": "성, 궁정",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S10",
+          "S11"
+        ]
+      },
+      {
+        "source": "entity:eobs_5cebb28b98d322be",
+        "target": "entity:eobs_4b8c18c6b4faded8",
+        "description": "지원자는 성으로 몰려드는 사람들이다.",
+        "keywords": "지원자, 성",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_5a5a40ffab628a09",
+        "target": "entity:eobs_abcc70f898a7a094",
+        "description": "국무 대신과 고문관은 궁에서 중요한 역할을 하는 인물들이다.",
+        "keywords": "국무 대신, 고문관",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfobP2paOJDoHY9A3ta3hkilmeG",
+    "usage": {
+      "completion_tokens": 219,
+      "prompt_tokens": 7110,
+      "total_tokens": 7329,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

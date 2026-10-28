@@ -1,0 +1,132 @@
+{
+  "request_hash": "9dd20fe82dcc7a368aaa9ea7b997fd7351a7532d42a6af58cd3a05d100bb8eda",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_ecff46983e6bd264",
+        "description": "아기 오리는 자신이 못생겼다고 느끼며 슬퍼하고, 오리는 가엾은 아기 오리를 지칭한다.",
+        "keywords": "아기 오리, 오리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_0d06844d97f2d2d4",
+        "description": "아기 오리는 농장에서 비웃음거리가 되어 슬퍼하고 있다.",
+        "keywords": "아기 오리, 농장",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_a20bec3cd5fa2142",
+        "description": "형제자매조차 아기 오리에게 못되게 굴었다.",
+        "keywords": "아기 오리, 형제자매",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_b12e9bd29825307a",
+        "description": "농장에 모이를 주는 소녀가 아기 오리를 발로 찼다.",
+        "keywords": "아기 오리, 소녀",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_6b6f4ec37899fb6d",
+        "description": "아기 오리는 들오리들이 사는 커다란 늪지에 이르렀다.",
+        "keywords": "아기 오리, 늪지",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_47cf6010bb87fb60",
+        "description": "아기 오리는 좀 뻔뻔스러운 수컷 기러기 두 마리를 만났다.",
+        "keywords": "아기 오리, 수컷 기러기 두 마리",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_00e7f820e237d9aa",
+        "description": "아기 오리는 허공에 울려 퍼진 총소리에 두려움을 느꼈다.",
+        "keywords": "아기 오리, 총소리",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S47"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_4a6762ea5b24f575",
+        "description": "사냥꾼들이 늪지 주위를 에워싸고 아기 오리를 위협했다.",
+        "keywords": "아기 오리, 사냥꾼들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S55"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_539369d4beb0769b",
+        "description": "아기 오리 앞에 무시무시한 커다란 개가 나타났다.",
+        "keywords": "아기 오리, 커다란 개",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_0e7a08230c9f3c57",
+        "target": "entity:eobs_e0c897493b5ef976",
+        "description": "아기 오리는 저녁 늦게 작고 허름한 가축우리에 도착했다.",
+        "keywords": "아기 오리, 가축우리",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S77"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOnnwgbZCAjeNu5u8TdGIkKJfB9p",
+    "usage": {
+      "completion_tokens": 846,
+      "prompt_tokens": 3719,
+      "total_tokens": 4565,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

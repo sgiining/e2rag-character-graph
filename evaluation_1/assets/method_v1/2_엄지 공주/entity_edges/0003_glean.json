@@ -1,0 +1,61 @@
+{
+  "request_hash": "8c61b587d691cfae5aca4c5631af7932c055dab525acf173c81863b06149c17e",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_131e6521ee607edd",
+        "target": "entity:eobs_55d573eef1c12e41",
+        "description": "소녀는 들쥐에게 보리를 달라고 애원했다.",
+        "keywords": "애원, 도움",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S36"
+        ]
+      },
+      {
+        "source": "entity:eobs_55d573eef1c12e41",
+        "target": "entity:eobs_448e8a66cf7a7227",
+        "description": "들쥐는 두더지와 이웃 관계에 있다.",
+        "keywords": "이웃, 두더지",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S48"
+        ]
+      },
+      {
+        "source": "entity:eobs_448e8a66cf7a7227",
+        "target": "entity:eobs_62f70efb7e4ca445",
+        "description": "두더지는 태양과 꽃에 대해 전혀 알지 못한다.",
+        "keywords": "무지, 태양과 꽃",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S58"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOiMdDGLrOlOZYNfmELKv3tmhkn7",
+    "usage": {
+      "completion_tokens": 220,
+      "prompt_tokens": 5782,
+      "total_tokens": 6002,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

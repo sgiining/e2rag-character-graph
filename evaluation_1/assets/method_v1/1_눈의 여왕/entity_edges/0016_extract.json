@@ -1,0 +1,119 @@
+{
+  "request_hash": "ecaabb9b4bef010dae690b94dcbf7bbefbd2d47b799560385c13ba18e377ee00",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_9af3ec170e2548c8",
+        "target": "entity:eobs_e0e0621856591e08",
+        "description": "라프족 여인이 고래 기름 등잔에 생선을 굽고 있는 장면에서, 여인이 집에 혼자 있는 상황을 나타낸다.",
+        "keywords": "라프족 여인, 고래 기름 등잔",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_7067a0a7dace82da",
+        "target": "entity:eobs_0e2447cf5be26890",
+        "description": "순록이 라프족 여인에게 게르다의 이야기를 들려주는 장면에서, 순록과 게르다의 관계가 드러난다.",
+        "keywords": "순록, 게르다",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S4",
+          "S30"
+        ]
+      },
+      {
+        "source": "entity:eobs_f69a3f8e8331b3a7",
+        "target": "entity:eobs_7d3db2346deef203",
+        "description": "핀마크로 가기 위해 순록이 핀족 여인에게 전갈을 전달하라는 지시를 하는 장면에서, 핀마크와 핀족 여인의 관계가 나타난다.",
+        "keywords": "핀마크, 핀족 여인",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S9",
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_e6be70df7db0f23b",
+        "target": "entity:eobs_3de0b1a0e77872af",
+        "description": "여자가 순록의 머리 위에 얼음조각을 올려놓고 대구에 적힌 글을 읽는 장면에서, 대구와 수프 냄비의 관계가 드러난다.",
+        "keywords": "대구, 수프 냄비",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S26",
+          "S27"
+        ]
+      },
+      {
+        "source": "entity:eobs_e2bb94f8c1d138a6",
+        "target": "entity:eobs_bc77b0337c0ce1bd",
+        "description": "여자가 어린 소녀에게 마실 것을 주고 싶어하는 장면에서, 어린 소녀와 남자 열두 명의 관계가 나타난다.",
+        "keywords": "어린 소녀, 남자 열두 명",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S37",
+          "S38"
+        ]
+      },
+      {
+        "source": "entity:eobs_99c44544ebd670e1",
+        "target": "entity:eobs_5486679c5d0707b8",
+        "description": "여자가 카이에 대해 언급하며 눈의 여왕과의 관계를 설명하는 장면에서, 눈의 여왕과 카이의 관계가 드러난다.",
+        "keywords": "눈의 여왕, 카이",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S51",
+          "S54"
+        ]
+      },
+      {
+        "source": "entity:eobs_f89e017863093b82",
+        "target": "entity:eobs_62606a605491705a",
+        "description": "여자가 저 애에게 힘을 줄 수 없다고 말하는 장면에서, 아이와 저 애의 관계가 나타난다.",
+        "keywords": "아이, 저 애",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S59",
+          "S60"
+        ]
+      },
+      {
+        "source": "entity:eobs_b33c6d75768750dc",
+        "target": "entity:eobs_ad61275e49c09244",
+        "description": "여자가 인간과 짐승들이 저 아이를 도우려 한다고 언급하는 장면에서, 인간과 짐승들과 세상의 관계가 드러난다.",
+        "keywords": "인간과 짐승들, 세상",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S60",
+          "S61"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOghmIZt8qVAOWJj54wh9XMyH4z1",
+    "usage": {
+      "completion_tokens": 799,
+      "prompt_tokens": 3849,
+      "total_tokens": 4648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

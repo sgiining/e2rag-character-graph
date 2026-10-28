@@ -1,0 +1,52 @@
+{
+  "request_hash": "8e6aafdfaacf6ae4a232dc0bc011b46b745cf049be59df88b7f0203a35b7edb0",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f1f50d3cfac6bd60",
+        "target": "entity:eobs_9e9ce4eab5f11fd4",
+        "description": "크리스마스 불빛은 하늘에 환한 별처럼 보였다는 묘사를 통해 두 개체 간의 시각적 유사성을 나타낸다.",
+        "keywords": "크리스마스 불빛, 별, 시각적 유사성",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_34f67345a44be86b",
+        "target": "entity:eobs_3169c1910539bfce",
+        "description": "소녀는 할머니와 함께 있고 싶어서 성냥 꾸러미를 밝혔다.",
+        "keywords": "소녀, 성냥 꾸러미, 할머니",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S17"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOnAQ5IRvdu8svDJw1c9GUywGSR7",
+    "usage": {
+      "completion_tokens": 191,
+      "prompt_tokens": 2757,
+      "total_tokens": 2948,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

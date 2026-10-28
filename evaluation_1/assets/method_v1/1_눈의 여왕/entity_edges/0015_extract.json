@@ -1,0 +1,163 @@
+{
+  "request_hash": "8aadc68e054b47da9df1b26d8e8b841591f5d33bed810c2812933a5b56ddba95",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_d4a2e72a9ee418d2",
+        "target": "entity:eobs_34b6d13ae0b8b0d2",
+        "description": "게르다는 숲에 사는 비둘기들이 해준 말을 모두 산적 딸에게 들려줬다.",
+        "keywords": "정보 전달, 대화",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_36817b24bf3c70b9",
+        "description": "산적 딸은 순록에게 라플란드에 대해 물었다.",
+        "keywords": "질문, 대화",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S7",
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_4d2eb76e51177405",
+        "description": "산적 딸은 엄마에 대해 이야기하며, 엄마가 병을 마실 것이라고 말했다.",
+        "keywords": "가족, 이야기",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S16",
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_c6b8bac2c31343fe",
+        "description": "산적 딸은 게르다에게 빵을 주었다.",
+        "keywords": "음식, 나눔",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S51"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_da4609fbceadaef2",
+        "description": "산적 딸은 게르다에게 햄을 주었다.",
+        "keywords": "음식, 나눔",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S51"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_3ad88305a2f23b78",
+        "description": "산적 딸은 게르다에게 거지 같은 털신발을 주었다.",
+        "keywords": "물건, 나눔",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S39"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_cbdc5902c0ddb77e",
+        "description": "산적 딸은 게르다에게 엄마 장갑을 주었다.",
+        "keywords": "물건, 나눔",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_80b7385bf1ba8554",
+        "description": "산적 딸은 칼을 언급했다.",
+        "keywords": "도구, 언급",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_40f1d86b160e4bd9",
+        "description": "산적 딸은 밧줄을 언급했다.",
+        "keywords": "도구, 언급",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_66228d40684c64e7",
+        "description": "산적 딸은 눈의 여왕의 성을 언급했다.",
+        "keywords": "장소, 언급",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S33"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_8dd69d4b33ab5e05",
+        "description": "산적 딸은 개들을 불러들였다.",
+        "keywords": "동물, 행동",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S54"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_6d124fe7388c37df",
+        "description": "산적 딸이 있는 곳에서 늑대가 짖어댔다.",
+        "keywords": "동물, 상황",
+        "strength": 4,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_34b6d13ae0b8b0d2",
+        "target": "entity:eobs_462213b4a503ff18",
+        "description": "산적 딸이 있는 곳에서 갈까마귀가 울어댔다.",
+        "keywords": "동물, 상황",
+        "strength": 4,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgS7tW58dppAWn1sAcicIH3IZ33",
+    "usage": {
+      "completion_tokens": 1006,
+      "prompt_tokens": 3899,
+      "total_tokens": 4905,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

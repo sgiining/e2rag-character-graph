@@ -1,0 +1,53 @@
+{
+  "request_hash": "14433d52e965ef042c4834ac2dcfa297e7c92911ad9ea715f2fb48ef6e68bff3",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_db1cd594d994b607",
+        "target": "entity:eobs_162cc7886ce83ef8",
+        "description": "결혼식이 4주 남았다고 언급되었고, 소녀는 두더지를 남편으로 삼을 수 없다고 말했다.",
+        "keywords": "결혼식, 소녀, 두더지",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S60",
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_db1cd594d994b607",
+        "target": "entity:eobs_19a4d32d883d0ecc",
+        "description": "결혼식이 4주 남았다고 언급되었고, 소녀는 두더지를 남편으로 삼을 수 없다고 말했다.",
+        "keywords": "결혼식, 소녀, 들쥐",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S60",
+          "S61"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOicVQdP3lSTlQcM8Q3ZSMUHMqrU",
+    "usage": {
+      "completion_tokens": 192,
+      "prompt_tokens": 4946,
+      "total_tokens": 5138,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,149 @@
+{
+  "request_hash": "f2c85d5a3bc7c4f1277a21ffee61b89696f5a2980b3e1bf43611a3391946a790",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_00d7b1afc8ebcbc5",
+        "target": "entity:eobs_48f6082fd79dbc12",
+        "description": "화자는 '꼬맹아'라는 표현으로 상대방에게 말을 걸며, 이 아늑한 방에서 대화하고 있다.",
+        "keywords": "대화, 방",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S3",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_c36c1ca638d287be",
+        "target": "entity:eobs_8eaae106e25b6f12",
+        "description": "주인공인 아기 오리는 '오리'라는 표현으로 지칭되며, 아기 오리와 동일한 존재를 나타낸다.",
+        "keywords": "주인공, 아기 오리",
+        "strength": 10,
+        "evidence_sentence_ids": [
+          "S15",
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_c36c1ca638d287be",
+        "target": "entity:eobs_84c19df30215ee57",
+        "description": "아기 오리는 자신을 못생겼다고 무시하는 동물들 속에서 살아가고 있으며, 그들은 아기 오리와 대조되는 아름다움을 지닌 새들이다.",
+        "keywords": "아기 오리, 새",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S15",
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_c36c1ca638d287be",
+        "target": "entity:eobs_03b25b332482e430",
+        "description": "아기 오리는 우아하고 긴 목을 가진 백조를 보며 자신과의 차이를 느끼고 있다.",
+        "keywords": "아기 오리, 백조",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S25",
+          "S29"
+        ]
+      },
+      {
+        "source": "entity:eobs_8eaae106e25b6f12",
+        "target": "entity:eobs_84c19df30215ee57",
+        "description": "아기 오리는 자신을 못생겼다고 무시하는 동물들 속에서 살아가고 있으며, 그들은 아기 오리와 대조되는 아름다움을 지닌 새들이다.",
+        "keywords": "아기 오리, 새",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S15",
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_8eaae106e25b6f12",
+        "target": "entity:eobs_03b25b332482e430",
+        "description": "아기 오리는 우아하고 긴 목을 가진 백조를 보며 자신과의 차이를 느끼고 있다.",
+        "keywords": "아기 오리, 백조",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S25",
+          "S29"
+        ]
+      },
+      {
+        "source": "entity:eobs_ab7978012c560261",
+        "target": "entity:eobs_8eaae106e25b6f12",
+        "description": "농부는 아기 오리를 발견하고 아내가 있는 집으로 데려가며, 아기 오리의 운명을 바꾼다.",
+        "keywords": "농부, 아기 오리",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S48"
+        ]
+      },
+      {
+        "source": "entity:eobs_a42a85f053d24916",
+        "target": "entity:eobs_8eaae106e25b6f12",
+        "description": "아이들은 아기 오리와 놀려고 하지만, 아기 오리는 자신을 해치는 줄 알고 놀라서 도망친다.",
+        "keywords": "아이들, 아기 오리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S49"
+        ]
+      },
+      {
+        "source": "entity:eobs_a7081be09e835b88",
+        "target": "entity:eobs_8eaae106e25b6f12",
+        "description": "여인은 아기 오리를 비명을 지르며 후려치고, 아기 오리는 이를 피하기 위해 도망친다.",
+        "keywords": "여인, 아기 오리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S52",
+          "S56"
+        ]
+      },
+      {
+        "source": "entity:eobs_9c9fe7fe2173c3fe",
+        "target": "entity:eobs_8eaae106e25b6f12",
+        "description": "오리는 수풀 속으로 달아나며 자신을 피하는 상황에서 벗어나려 한다.",
+        "keywords": "수풀, 아기 오리",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S56"
+        ]
+      },
+      {
+        "source": "entity:eobs_fae16db119fc42c0",
+        "target": "entity:eobs_8eaae106e25b6f12",
+        "description": "겨울이 점점 추워지면서 아기 오리는 생존을 위해 힘겨운 시간을 보내고 있다.",
+        "keywords": "겨울, 아기 오리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S43",
+          "S44"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOo4LE0Fjm3YXAvRkTSM0lal1y4a",
+    "usage": {
+      "completion_tokens": 988,
+      "prompt_tokens": 3847,
+      "total_tokens": 4835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

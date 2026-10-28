@@ -1,0 +1,81 @@
+{
+  "request_hash": "81146574352b8d4a331fbd55d50c43903c4ccad04ec5d5b7b73738267ab31300",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_91d969e0d614bc56",
+        "target": "entity:eobs_e49db9076dd66e2c",
+        "description": "공주는 많은 사람들을 싣고 가는 배를 지켜본다.",
+        "keywords": "공주, 배, 지켜보다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_91d969e0d614bc56",
+        "target": "entity:eobs_baaf4771b55e0e52",
+        "description": "공주는 물가의 불빛 수백 개가 반짝거리는 도시를 바라본다.",
+        "keywords": "공주, 도시, 바라보다",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_91d969e0d614bc56",
+        "target": "entity:eobs_eefaf295a8ce0f5e",
+        "description": "공주는 교회의 높은 첨탑을 보고 종소리를 듣는다.",
+        "keywords": "공주, 교회, 종소리",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_d740b8354342930d",
+        "target": "entity:eobs_f98a78366c93d001",
+        "description": "둘째 공주는 셋째 공주와 함께 등장한다.",
+        "keywords": "둘째 공주, 셋째 공주, 등장",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S36"
+        ]
+      },
+      {
+        "source": "entity:eobs_f98a78366c93d001",
+        "target": "entity:eobs_cde710ea1ed60f72",
+        "description": "셋째 공주는 큰 바다로 흐르는 넓은 강으로 헤엄쳐 올라간다.",
+        "keywords": "셋째 공주, 큰 바다, 헤엄치다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S45"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOjZHr0SN2nKpvLCw7Kbeg9rP2GW",
+    "usage": {
+      "completion_tokens": 394,
+      "prompt_tokens": 6206,
+      "total_tokens": 6600,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 3072,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,103 @@
+{
+  "request_hash": "e05630b121e5dc0c4650f1844e1761270a26e4584ced324395eb8ab2677912f9",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_09205cba1c7947d4",
+        "target": "entity:eobs_819ef7218d88fdcd",
+        "description": "눈먼 곰의 가죽은 눈먼 곰의 가죽 또는 새끼들을 위해 수건을 숨기는 놀이와 관련이 있다.",
+        "keywords": "눈먼 곰의 가죽, 새끼들, 놀이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_51c53950f7a311c3",
+        "target": "entity:eobs_e7f1fb76f2d1310c",
+        "description": "눈의 여왕의 방에는 꽁꽁 언 호수가 하나 있었다.",
+        "keywords": "눈의 여왕의 방, 호수",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S4",
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_501958829b3b9953",
+        "target": "entity:eobs_9646eab100077106",
+        "description": "얼음처럼 차가운 이성은 이성의 거울 위에 앉는다고 언급되었다.",
+        "keywords": "얼음처럼 차가운 이성, 이성의 거울",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S10",
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_a9cac22e4342322b",
+        "target": "entity:eobs_f58c25441a5443cb",
+        "description": "눈의 여왕은 카이에게 말을 건 초자연적 존재이다.",
+        "keywords": "눈의 여왕, 카이",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_832828652dd38b68",
+        "target": "entity:eobs_e79665342480fcd5",
+        "description": "게르다는 저녁 기도를 읊었다.",
+        "keywords": "게르다, 저녁 기도",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S40"
+        ]
+      },
+      {
+        "source": "entity:eobs_0b56ca76a062f1fa",
+        "target": "entity:eobs_a9cac22e4342322b",
+        "description": "게르다가 카이를 품에 안고 울부짖었다.",
+        "keywords": "눈물, 카이",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S45"
+        ]
+      },
+      {
+        "source": "entity:eobs_555e609c9109d345",
+        "target": "entity:eobs_0b56ca76a062f1fa",
+        "description": "눈물이 카이의 몸에 떨어져 심장으로 들어갔다.",
+        "keywords": "예수의 아이, 눈물",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S50"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgzzrwOdAjbSFRQ2L9Rua7FQdVi",
+    "usage": {
+      "completion_tokens": 553,
+      "prompt_tokens": 4192,
+      "total_tokens": 4745,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}
