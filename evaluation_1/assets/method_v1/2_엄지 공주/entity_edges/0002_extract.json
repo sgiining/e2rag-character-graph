@@ -1,0 +1,122 @@
+{
+  "request_hash": "4afd011c563b2fef962f315dbc76aa004a30ef70ae6c279e8d962b26eef2ae0c",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_0917d336df51c3fd",
+        "target": "entity:eobs_f90a0c55ed46c621",
+        "description": "어미 두꺼비는 방을 꾸미기 위해 초록 등심초를 사용했다.",
+        "keywords": "방 꾸미기, 초록 등심초",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_0917d336df51c3fd",
+        "target": "entity:eobs_c39709ce8b959bee",
+        "description": "어미 두꺼비는 방을 꾸미기 위해 노란 수련을 사용했다.",
+        "keywords": "방 꾸미기, 노란 수련",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_0917d336df51c3fd",
+        "target": "entity:eobs_7fe228f61953e9e8",
+        "description": "어미 두꺼비는 못생긴 아들과 함께 등장한다.",
+        "keywords": "가족 관계, 등장",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_7fe228f61953e9e8",
+        "target": "entity:eobs_868180173f3d5a83",
+        "description": "못생긴 아들은 어미 두꺼비의 아들이다.",
+        "keywords": "가족 관계, 아들",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_868180173f3d5a83",
+        "target": "entity:eobs_cd9b62dffb42489e",
+        "description": "아들은 엄지 공주가 서 있는 이파리로 헤엄쳐 갔다.",
+        "keywords": "이동, 엄지 공주",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_cd9b62dffb42489e",
+        "target": "entity:eobs_70454c6cf818e29d",
+        "description": "엄지 공주는 신혼 방으로 가기 위해 예쁜 침대를 가지러 온 두꺼비들을 보았다.",
+        "keywords": "신혼 방, 침대",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_bcf710f0f7790acc",
+        "target": "entity:eobs_88778d0bf9555bfd",
+        "description": "물고기들은 소녀의 말을 들었다.",
+        "keywords": "소통, 물고기",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_bcd15badc1ab6c94",
+        "target": "entity:eobs_7fe228f61953e9e8",
+        "description": "못생긴 아들은 이파리로 헤엄쳐 오는 장면에서 등장한다.",
+        "keywords": "이동, 등장",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_0917d336df51c3fd",
+        "target": "entity:eobs_a9bc72540cc6cf46",
+        "description": "어미 두꺼비는 두꺼비 집에서 살고 싶지 않다고 생각한다.",
+        "keywords": "거주지, 두꺼비 집",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S12"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOi73AhJL9UvdfLtogwEasNmgSxC",
+    "usage": {
+      "completion_tokens": 682,
+      "prompt_tokens": 4343,
+      "total_tokens": 5025,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

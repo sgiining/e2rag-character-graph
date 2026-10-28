@@ -1,0 +1,92 @@
+{
+  "request_hash": "9981c33e4779f46a1b2bbd0c8738afa232c83448c552016787bba84433428330",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_c619e97d98a7d2a8",
+        "target": "entity:eobs_3c9622a560398b61",
+        "description": "따뜻한 눈물이 땅을 적시자 장미 덤불이 무성하게 피어났다.",
+        "keywords": "눈물, 장미 덤불, 감정의 표현",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_a6b67518f7c291ce",
+        "target": "entity:eobs_280c89bc42116e32",
+        "description": "게르다가 장미를 품에 안고 입을 맞추었다.",
+        "keywords": "게르다, 장미, 사랑",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_c90437508d039208",
+        "target": "entity:eobs_ecb15348e849756b",
+        "description": "게르다가 자신의 예쁜 장미꽃을 떠올리며 카이를 생각했다.",
+        "keywords": "장미꽃, 카이, 기억",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_1f69326e79612c1b",
+        "target": "entity:eobs_b99c2a148234ca25",
+        "description": "여자 힌두교 신도가 살아있는 남자를 생각하며 장례식 장작더미 위에 서 있다.",
+        "keywords": "여자 힌두교 신도, 남자, 장례식",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      },
+      {
+        "source": "entity:eobs_f41450670be6a6ae",
+        "target": "entity:eobs_24643fcf13b2eaf5",
+        "description": "아름다운 젊은 여인이 성에서 신부로서 난간 너머로 몸을 기울이고 있다.",
+        "keywords": "여인, 신부, 성",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S35",
+          "S36"
+        ]
+      },
+      {
+        "source": "entity:eobs_f2e328762931ec22",
+        "target": "entity:eobs_b77850e881c73c40",
+        "description": "세 자매가 누운 관 세 개가 숲에서 미끄러지듯 나와 호수를 가로질러.",
+        "keywords": "세 자매, 관, 호수",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S70"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfGiRDYTuN3efDm5TdGl2pcgSi9",
+    "usage": {
+      "completion_tokens": 498,
+      "prompt_tokens": 5674,
+      "total_tokens": 6172,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

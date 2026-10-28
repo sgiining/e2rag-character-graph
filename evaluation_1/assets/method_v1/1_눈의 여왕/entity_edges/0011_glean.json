@@ -1,0 +1,61 @@
+{
+  "request_hash": "4c2883ea76e38f74358194c8cda4944d7804b07fbfd8c117415d87e1f78ca5ba",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_1b445deb1a0cc01c",
+        "target": "entity:eobs_b159413c58736b80",
+        "description": "시종이 성에 대해 언급했다.",
+        "keywords": "시종, 성",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S22"
+        ]
+      },
+      {
+        "source": "entity:eobs_a60be154a2c46eea",
+        "target": "entity:eobs_0d547d9a4ed7e757",
+        "description": "까마귀가 왕실 주인들에 대해 이야기했다.",
+        "keywords": "까마귀, 왕실 주인들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S75"
+        ]
+      },
+      {
+        "source": "entity:eobs_1a2d6437ea6a4795",
+        "target": "entity:eobs_0a0d50ce2d5e979e",
+        "description": "카이가 왕실 주인들과 관련이 있다.",
+        "keywords": "카이, 왕실 주인들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfv6LKQpvlQ06KqxLBwASYcGEpJ",
+    "usage": {
+      "completion_tokens": 217,
+      "prompt_tokens": 5920,
+      "total_tokens": 6137,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,51 @@
+{
+  "request_hash": "32e591c8648d0b3f8fbea1ab2e9c45376e88de3145db2951b72fb8a3daec9af0",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_86f3acec99195d25",
+        "description": "공주는 왕자가 이웃 왕국으로 떠나는 이유가 왕의 딸을 보기 위한 것이라고 알고 있다.",
+        "keywords": "이웃 왕국, 왕자, 떠남",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_ceb553f8ba19a9de",
+        "description": "공주는 왕자가 이웃 왕의 아름다운 딸과 결혼할 것이라는 소문을 듣고 있다.",
+        "keywords": "소문, 결혼, 이웃 왕",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOl71cnaLjXG2BR3aSAL1DQUSSdN",
+    "usage": {
+      "completion_tokens": 174,
+      "prompt_tokens": 5748,
+      "total_tokens": 5922,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

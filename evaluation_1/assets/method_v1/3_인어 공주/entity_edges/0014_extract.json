@@ -1,0 +1,96 @@
+{
+  "request_hash": "dedc685545f09a5cbce5aea97d8ea0cec05d6ac53002e8f45b2f1c5530c01773",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_6eff96167c2dd0f0",
+        "target": "entity:eobs_96e7971489d6cd48",
+        "description": "인간의 사랑을 얻지 못하면 인어는 영혼을 가질 수 없다는 점에서 인간과 인어는 서로의 존재에 영향을 미친다.",
+        "keywords": "사랑, 영혼, 존재",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_411267ec087ece30",
+        "target": "entity:eobs_16524fbe9008d110",
+        "description": "공기의 딸들은 불멸의 영혼이 없으며, 남쪽으로 날아가려는 방향으로 언급된다.",
+        "keywords": "불멸, 방향",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S3",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_1c0cb40b8c5c59ba",
+        "target": "entity:eobs_80c9ae755c9fed04",
+        "description": "차가운 바람은 인간에게 영향을 미치며, 뜨거운 공기는 해로운 영향을 미친다.",
+        "keywords": "영향, 해로움",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_32148f11077766d5",
+        "target": "entity:eobs_90602cb512802a62",
+        "description": "인어 공주는 왕자와 그 아름다운 신부를 바라보며 감정적으로 연결된다.",
+        "keywords": "감정, 연결",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S15",
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_5be47b9e6ae8f153",
+        "target": "entity:eobs_49791fd8f774d5ad",
+        "description": "아이들은 부모님을 기쁘게 하고 사랑받을 자격이 있는 착한 아이를 찾는 과정에서 언급된다.",
+        "keywords": "아이들, 부모님, 착한 아이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21",
+          "S22"
+        ]
+      },
+      {
+        "source": "entity:eobs_22be2719ca08f8e2",
+        "target": "entity:eobs_3a20bad7a39d1ce5",
+        "description": "착한 아이와 버릇없는 아이는 부모님을 기쁘게 하는 것과 관련하여 대조적으로 언급된다.",
+        "keywords": "착한 아이, 버릇없는 아이",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S22",
+          "S26"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOlSlKEAr26WsrFhC4jIAePWYqML",
+    "usage": {
+      "completion_tokens": 531,
+      "prompt_tokens": 2364,
+      "total_tokens": 2895,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

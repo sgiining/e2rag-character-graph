@@ -1,0 +1,59 @@
+{
+  "work_id": "3_인어 공주",
+  "read_end_char": [
+    1809,
+    3574,
+    5244,
+    6907,
+    8637,
+    10425,
+    12220,
+    13767,
+    15439,
+    17171,
+    18981,
+    20735,
+    22412,
+    23196
+  ],
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "counts": {
+    "entity": 394,
+    "event": 333,
+    "relation": 37,
+    "chunk": 14
+  },
+  "edge_counts_before": {
+    "entity_event": 999,
+    "event_event": 298,
+    "entity_relation_source": 37,
+    "entity_relation_target": 37,
+    "relation_event": 110
+  },
+  "edge_counts": {
+    "entity_event": 896,
+    "event_event": 298,
+    "entity_relation_source": 37,
+    "entity_relation_target": 37,
+    "relation_event": 110,
+    "entity_entity": 144
+  },
+  "entity_event_policy": "paper_description_same_chunk.v1",
+  "entity_event_removed": 103,
+  "outputs": {
+    "graph.json": "a80cdcc80443416830179aaa0f737c7f61f4440fe6c7e4719d5718b3e2e81ac2",
+    "entity.npy": "a53c2991b98d1ed2b73c58de2fa8d82c8a045fa05d7ab91dfcbacee3cf005a1c",
+    "entity.meta.jsonl": "59eae8c764fd363df180a9db9f0590c4e790956a73044b299332cf097e6ddc0c",
+    "event.npy": "51120c136a84a597c1f9d05c0c9f7ddbbffaa52e171c7a279125629772c859d7",
+    "event.meta.jsonl": "b18a7260c87e3c1a2a10a9bd497009379d6080d4af74c5ef0ba5e153edf220e6",
+    "relation.npy": "15d70ece2e2f74c4b5d2657ca19a7715091ebfa7fca80ac9af340507f3ed5416",
+    "relation.meta.jsonl": "b1d96ed82cbe8ba25bab028190e2dcbdc8ae43128b1e1653dda04e9bde7596c8",
+    "chunk.npy": "679c6b0a1aa527cf52751826ab456f871fc0a37e340ac01f40c26f94630eafcc",
+    "chunk.meta.jsonl": "a8a5f7a419cea55b481de0d7118d4bb9275eba1bee53c714d06f72a43d35e100"
+  },
+  "source_signature": "76843df12a3729766efd1bc0f0346cdef137b8448fef383e15065385745d45d9",
+  "embedding_policy": "entity/event=name+safe description; relation/chunk=original",
+  "event_merge_policy": "reuse existing span-overlap deduplication",
+  "build_id": "32b222666935c5b7ef99c5fabc0fb281734a6108520b2afb41ab2e25a4400afe"
+}

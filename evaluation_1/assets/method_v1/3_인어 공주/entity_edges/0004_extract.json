@@ -1,0 +1,125 @@
+{
+  "request_hash": "5efeb035ca3d10a46d492036ea2250088054be4d7abdb18afe25612ee93a9269",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_87866c7c43f8dd0a",
+        "target": "entity:eobs_a9c969616c5f9fed",
+        "description": "막내는 저기 위 세상과 저기에 사는 사람들을 좋아하게 될 것 같다고 말했다.",
+        "keywords": "막내, 세상, 사람들",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S3",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_2fac799055c7f632",
+        "target": "entity:eobs_87866c7c43f8dd0a",
+        "description": "노부인 여왕은 막내에게 말을 건넨다.",
+        "keywords": "노부인 여왕, 막내",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S7",
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_211cde3e557ab06c",
+        "target": "entity:eobs_2fac799055c7f632",
+        "description": "할머니는 노부인 여왕을 지칭하는 표현이다.",
+        "keywords": "할머니, 노부인 여왕",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_fa37f206a5d16c52",
+        "target": "entity:eobs_83456fde41c17617",
+        "description": "막내 공주는 높은 지위의 표시로 굴 여덟 개를 달라고 했다.",
+        "keywords": "막내 공주, 굴 여덟 개",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_5d381cf5faeea065",
+        "target": "entity:eobs_fa37f206a5d16c52",
+        "description": "막내는 저기에 사는 사람들을 좋아하게 될 것 같다고 말했다.",
+        "keywords": "사람들, 막내 공주",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_9338321c59ae32ce",
+        "target": "entity:eobs_0fcc506c1b124b4d",
+        "description": "사랑스러운 인어 공주는 젊은 왕자를 바라보았다.",
+        "keywords": "인어 공주, 젊은 왕자",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S29",
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_cd45c19aeb28b126",
+        "target": "entity:eobs_0fcc506c1b124b4d",
+        "description": "왕자의 생일이었기에 축하를 하는 자리였다.",
+        "keywords": "왕자의 생일, 축하",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S33"
+        ]
+      },
+      {
+        "source": "entity:eobs_0b287b54d9c211d0",
+        "target": "entity:eobs_0fcc506c1b124b4d",
+        "description": "하늘에는 저녁별이 투명하게 빛나고 있었다.",
+        "keywords": "저녁별, 젊은 왕자",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_7262afd786be5e25",
+        "target": "entity:eobs_e4d3d14694dddc6f",
+        "description": "배가 성난 바다를 헤치고 나아가는 장면이 묘사되었다.",
+        "keywords": "성난 바다, 백조",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S53",
+          "S55"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOjtYDacE8zxNnqzOwoDhgqFmZMe",
+    "usage": {
+      "completion_tokens": 708,
+      "prompt_tokens": 4617,
+      "total_tokens": 5325,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,71 @@
+{
+  "request_hash": "e811b5a5cf95f6281d4b65bca9cd61d46b59289e9913bb04e31f437db1518137",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_21cf5dc6608ade37",
+        "target": "entity:eobs_1b3605ee602f14ee",
+        "description": "막내 공주는 할머니를 찾아가서 '물 위 세상'에 대해 물었다.",
+        "keywords": "막내 공주, 할머니, 물 위 세상",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S47"
+        ]
+      },
+      {
+        "source": "entity:eobs_1b3605ee602f14ee",
+        "target": "entity:eobs_f07f8a719b169a36",
+        "description": "할머니는 인간의 죽음에 대해 대답하는 인물이다.",
+        "keywords": "할머니, 노부인 여왕, 대화",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S52"
+        ]
+      },
+      {
+        "source": "entity:eobs_f07f8a719b169a36",
+        "target": "entity:eobs_b80424580b42f4e5",
+        "description": "노부인 여왕은 사랑하는 사람들 사이에 무덤이 없다고 말했다.",
+        "keywords": "노부인 여왕, 사랑하는 사람들, 무덤",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S58"
+        ]
+      },
+      {
+        "source": "entity:eobs_f07f8a719b169a36",
+        "target": "entity:eobs_b27d5707c9811350",
+        "description": "노부인 여왕은 불멸의 영혼이 없다고 설명했다.",
+        "keywords": "노부인 여왕, 불멸의 영혼, 설명",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S59"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkL3gcIUaQasv6UBZ4m1XH5f8Uy",
+    "usage": {
+      "completion_tokens": 327,
+      "prompt_tokens": 6239,
+      "total_tokens": 6566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

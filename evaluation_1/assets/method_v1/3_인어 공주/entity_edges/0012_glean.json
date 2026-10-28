@@ -1,0 +1,83 @@
+{
+  "request_hash": "f2517128b4b313d566731c6310c61b1882323ea23ed9a2c6f84f46776608f7c7",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_fad5b8ac89ec4286",
+        "target": "entity:eobs_9f7640c30d96d23f",
+        "description": "사람은 공주가 배 한쪽에 앉아 있는 상황에서 언급되었다.",
+        "keywords": "사람, 공주, 언급",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_1edcdbe6fc763da7",
+        "target": "entity:eobs_4dab2e967dd8f392",
+        "description": "언니들은 공주가 마지막 밤을 보내는 동안 안타까운 마음으로 바라보고 있다.",
+        "keywords": "언니들, 마지막 밤, 안타까움",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4",
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_1edcdbe6fc763da7",
+        "target": "entity:eobs_9f7640c30d96d23f",
+        "description": "언니들은 공주를 안타깝게 쳐다보며 서로 하얀 손을 움켜잡았다.",
+        "keywords": "언니들, 공주, 안타까움",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_9f7640c30d96d23f",
+        "target": "entity:eobs_4dab2e967dd8f392",
+        "description": "공주는 이 땅에서의 마지막 밤에 죽음의 생각을 하고 있다.",
+        "keywords": "공주, 마지막 밤, 죽음의 생각",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_17a1a0e107f751cc",
+        "target": "entity:eobs_4dab2e967dd8f392",
+        "description": "인어 공주는 이 땅에서의 마지막 밤을 보내고 있다.",
+        "keywords": "인어 공주, 마지막 밤, 공주",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOlE8mYJdmzVN09tGAbfGh64yPKu",
+    "usage": {
+      "completion_tokens": 422,
+      "prompt_tokens": 5105,
+      "total_tokens": 5527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2048,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

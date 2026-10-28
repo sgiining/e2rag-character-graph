@@ -1,0 +1,62 @@
+{
+  "request_hash": "43ede7f3d9f9ff248356674d00c311695b307b4479160ebbdb8a19f5f1756453",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_4bf8f9f26a84ba5a",
+        "target": "entity:eobs_c40dcd09ec714556",
+        "description": "공주는 신문을 읽고 모든 것을 기억하는 똑똑한 인물이다.",
+        "keywords": "공주, 신문, 똑똑함",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S60",
+          "S62"
+        ]
+      },
+      {
+        "source": "entity:eobs_c40dcd09ec714556",
+        "target": "entity:eobs_dd019f4bb2398b39",
+        "description": "부인들은 공주의 생각을 듣고 기뻐했다.",
+        "keywords": "부인들, 공주, 기쁨",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S72"
+        ]
+      },
+      {
+        "source": "entity:eobs_6b1e5695919bb7a4",
+        "target": "entity:eobs_aeaaba0ba0a86878",
+        "description": "마디는 궁정을 마음대로 돌아다니는 유순한 사랑을 언급했다.",
+        "keywords": "마디, 궁정, 사랑",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S78"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfdywao5t59PAfpKLkFfwyfDhQk",
+    "usage": {
+      "completion_tokens": 240,
+      "prompt_tokens": 4930,
+      "total_tokens": 5170,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 1920,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

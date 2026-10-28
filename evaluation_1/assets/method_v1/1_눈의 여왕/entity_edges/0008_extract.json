@@ -1,0 +1,144 @@
+{
+  "request_hash": "f18c7ecf2a367e50552896528a699934f477797bad7e694b2e5eb1d222404394",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_238eaf5428a05115",
+        "target": "entity:eobs_e34890f4a7b2e2b7",
+        "description": "세 자매가 누운 관은 세 자매와 관련이 있다.",
+        "keywords": "세 자매, 관",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2",
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_e34890f4a7b2e2b7",
+        "target": "entity:eobs_c899026f75618542",
+        "description": "관은 호수와 연결되어 있으며, 관이 호수를 가로지르는 장면이 있다.",
+        "keywords": "관, 호수",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_d67529ed0de59790",
+        "target": "entity:eobs_9e42e806e66846dd",
+        "description": "미나리아재비는 게르다를 올려다보며 빛을 뿜고 있다.",
+        "keywords": "미나리아재비, 게르다",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_9e42e806e66846dd",
+        "target": "entity:eobs_6ca29eee6c9b1c35",
+        "description": "게르다는 할머니의 손녀로, 할머니와의 관계가 있다.",
+        "keywords": "게르다, 할머니",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_6ca29eee6c9b1c35",
+        "target": "entity:eobs_2e99e01cd7432a8c",
+        "description": "할머니는 손녀를 기다리고 있으며, 손녀가 집에 들르러 왔다.",
+        "keywords": "할머니, 손녀",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S27",
+          "S28"
+        ]
+      },
+      {
+        "source": "entity:eobs_6c7cf2dc2ad37821",
+        "target": "entity:eobs_9e42e806e66846dd",
+        "description": "수선화는 게르다의 다리를 건드리며 그녀와 상호작용하고 있다.",
+        "keywords": "수선화, 게르다",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      },
+      {
+        "source": "entity:eobs_6eb402a70faa75b1",
+        "target": "entity:eobs_6e4daff8e4e4a939",
+        "description": "주전자는 무희가 손에 들고 있는 물건이다.",
+        "keywords": "주전자, 무희",
+        "strength": 4,
+        "evidence_sentence_ids": [
+          "S56"
+        ]
+      },
+      {
+        "source": "entity:eobs_6e4daff8e4e4a939",
+        "target": "entity:eobs_07c7ebc3ba97a708",
+        "description": "무희는 사프란색 스카프를 둘러서 옷을 돋보이게 하고 있다.",
+        "keywords": "무희, 스카프",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S60"
+        ]
+      },
+      {
+        "source": "entity:eobs_07c7ebc3ba97a708",
+        "target": "entity:eobs_d71dde0321c2bd4a",
+        "description": "사프란색 스카프는 무희의 옷을 더 희게 돋보이게 한다.",
+        "keywords": "사프란색 스카프, 스카프",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S60"
+        ]
+      },
+      {
+        "source": "entity:eobs_cc3c133c0c4cc177",
+        "target": "entity:eobs_47563a71af96825f",
+        "description": "게르다는 넓은 세상으로 도망쳐 나와 커다란 바위에 앉아 쉬었다.",
+        "keywords": "넓은 세상, 바위",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S70",
+          "S73"
+        ]
+      },
+      {
+        "source": "entity:eobs_80fa3dea9de18f5f",
+        "target": "entity:eobs_5638ccd3c5a5057d",
+        "description": "여름이 지나고 늦가을이 되었다는 시간의 흐름을 나타낸다.",
+        "keywords": "여름, 늦가을",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S74"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfLvPrRBs27ZydrxLQjUi8uVOPm",
+    "usage": {
+      "completion_tokens": 889,
+      "prompt_tokens": 4341,
+      "total_tokens": 5230,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,101 @@
+{
+  "request_hash": "a28707d61a59801e5ce5283622b573e364b56ac3967d584a92d9f3395c7bb6d7",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_9f7640c30d96d23f",
+        "target": "entity:eobs_0be82fd1a02c3e85",
+        "description": "공주가 투명한 바다를 들여다보며 아버지의 성을 상상하고 있다.",
+        "keywords": "공주, 바다, 상상",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_3fa4595217ca366e",
+        "target": "entity:eobs_b98732e755dffd51",
+        "description": "할머니가 은색 왕관을 쓰고 성의 탑 맨 위에 서 있다.",
+        "keywords": "할머니, 은색 왕관, 성",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_1edcdbe6fc763da7",
+        "target": "entity:eobs_9f7640c30d96d23f",
+        "description": "공주의 언니들이 공주를 안타깝게 쳐다보고 있다.",
+        "keywords": "언니들, 공주, 안타까움",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_17a1a0e107f751cc",
+        "target": "entity:eobs_e169cc61e75434ef",
+        "description": "인어 공주가 왕자를 구해준 사람이라고 인식하고 있다.",
+        "keywords": "인어 공주, 왕자, 인식",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_e169cc61e75434ef",
+        "target": "entity:eobs_401062aa6ea5861a",
+        "description": "왕자가 신부를 두 팔로 안고 있다.",
+        "keywords": "왕자, 신부, 포옹",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_9c5ad155a53476e2",
+        "target": "entity:eobs_85d4d5aa74f8b94d",
+        "description": "사제들이 향로를 흔들고 교황이 신랑과 신부에게 축성을 내리고 있다.",
+        "keywords": "사제들, 교황, 축성",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_4dab2e967dd8f392",
+        "target": "entity:eobs_05c3f803092f2572",
+        "description": "공주가 이 땅에서의 마지막 밤에 죽음의 생각을 하고 있다.",
+        "keywords": "마지막 밤, 죽음의 생각, 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOl94cXiUnislhZf87H84hhFoAIA",
+    "usage": {
+      "completion_tokens": 562,
+      "prompt_tokens": 3796,
+      "total_tokens": 4358,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

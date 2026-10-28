@@ -1,0 +1,121 @@
+{
+  "request_hash": "7c9e21c79b330cf5a88780da0b6ff66cc31e8fd362b711eb389a33ffe816e8ee",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_21cf5dc6608ade37",
+        "target": "entity:eobs_681d8de6b76e6864",
+        "description": "막내 공주는 언니들이 물 위로 올라가서 무엇을 보았는지 물었지만, 언니들에게 말하려 하지 않았다.",
+        "keywords": "막내 공주, 언니들, 대화",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_21cf5dc6608ade37",
+        "target": "entity:eobs_d1bcd4c16ab89390",
+        "description": "막내 공주는 왕자를 떠나보냈던 곳에 다시 가보았다.",
+        "keywords": "막내 공주, 왕자, 장소",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_9b4dcb7a27493869",
+        "target": "entity:eobs_efe35d1aef0fab6d",
+        "description": "공주는 대리석 동상을 감싸 안는 것이 위안이 되었다.",
+        "keywords": "공주, 대리석 동상, 위안",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_21cf5dc6608ade37",
+        "target": "entity:eobs_3a2c40aed8b5065e",
+        "description": "막내 공주는 왕자의 축하 파티를 보았다.",
+        "keywords": "막내 공주, 왕자의 축하 파티, 관찰",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S17"
+        ]
+      },
+      {
+        "source": "entity:eobs_21cf5dc6608ade37",
+        "target": "entity:eobs_8d197e1be20fe5b7",
+        "description": "막내 공주는 인어 공주로서 왕자를 지켜보았다.",
+        "keywords": "막내 공주, 인어 공주, 왕자",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S30"
+        ]
+      },
+      {
+        "source": "entity:eobs_21cf5dc6608ade37",
+        "target": "entity:eobs_1b3605ee602f14ee",
+        "description": "막내 공주는 할머니를 찾아가서 '물 위 세상'에 대해 물었다.",
+        "keywords": "막내 공주, 할머니, 물 위 세상",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S47"
+        ]
+      },
+      {
+        "source": "entity:eobs_1b3605ee602f14ee",
+        "target": "entity:eobs_f07f8a719b169a36",
+        "description": "할머니는 인간의 죽음에 대해 대답하는 인물이다.",
+        "keywords": "할머니, 노부인 여왕, 대화",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S52"
+        ]
+      },
+      {
+        "source": "entity:eobs_f07f8a719b169a36",
+        "target": "entity:eobs_b80424580b42f4e5",
+        "description": "노부인 여왕은 사랑하는 사람들 사이에 무덤이 없다고 말했다.",
+        "keywords": "노부인 여왕, 사랑하는 사람들, 무덤",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S58"
+        ]
+      },
+      {
+        "source": "entity:eobs_f07f8a719b169a36",
+        "target": "entity:eobs_b27d5707c9811350",
+        "description": "노부인 여왕은 불멸의 영혼이 없다고 설명했다.",
+        "keywords": "노부인 여왕, 불멸의 영혼, 설명",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S59"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkENGcScnVxNipNbyhEcBnmNOCE",
+    "usage": {
+      "completion_tokens": 735,
+      "prompt_tokens": 4636,
+      "total_tokens": 5371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,51 @@
+{
+  "request_hash": "fa26566d7fa001c4603381c04bbc1b5eb055dea28d67fbe4f43efcf00713e11d",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_4a13598d13cb8287",
+        "target": "entity:eobs_90f018e2cc56da4d",
+        "description": "신발과 장갑은 게르다가 핀마크 한가운데 서 있을 때 필요하다는 언급이 있다.",
+        "keywords": "신발과 장갑, 핀마크",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_4aed05062f91354e",
+        "target": "entity:eobs_5603a7300b88385d",
+        "description": "천사들이 눈송이들을 찌르고 베어버린 장면이 언급된다.",
+        "keywords": "천사들, 눈송이들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgx14z02I0XQr8HqKNJKtMkBSTB",
+    "usage": {
+      "completion_tokens": 171,
+      "prompt_tokens": 5952,
+      "total_tokens": 6123,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

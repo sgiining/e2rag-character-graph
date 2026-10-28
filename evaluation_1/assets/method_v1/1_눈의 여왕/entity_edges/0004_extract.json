@@ -1,0 +1,156 @@
+{
+  "request_hash": "3df31e2f8192e55748a7c28a3a50723c67d9b8b458fd0b940b47765573defeee",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_a541d9de72ae9070",
+        "target": "entity:eobs_c6cedfb12e1e0783",
+        "description": "마부는 카이에게 친근하게 고개를 끄덕였다.",
+        "keywords": "마부, 카이, 친근함",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6cedfb12e1e0783",
+        "target": "entity:eobs_888e1874a2fa015e",
+        "description": "카이는 자신의 작은 썰매를 풀려고 했다.",
+        "keywords": "카이, 썰매, 행동",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S3",
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6cedfb12e1e0783",
+        "target": "entity:eobs_eb173e8d7db4a4ec",
+        "description": "카이는 마을 입구까지 내달렸다.",
+        "keywords": "카이, 마을, 이동",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6cedfb12e1e0783",
+        "target": "entity:eobs_f3988bc422d79847",
+        "description": "여왕의 곰털 코트는 카이를 감싸주었다.",
+        "keywords": "카이, 여왕, 곰털 코트",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S25",
+          "S27"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6cedfb12e1e0783",
+        "target": "entity:eobs_73725f8d3c2e6ec8",
+        "description": "카이는 눈의 여왕에게 입맞춤을 받았다.",
+        "keywords": "카이, 눈의 여왕, 입맞춤",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S31",
+          "S41"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6cedfb12e1e0783",
+        "target": "entity:eobs_077263ddf0f3eac6",
+        "description": "카이는 사랑스러운 게르다를 잊었다.",
+        "keywords": "카이, 게르다, 잊음",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6cedfb12e1e0783",
+        "target": "entity:eobs_458d96e98369825d",
+        "description": "카이는 할머니를 잊었다.",
+        "keywords": "카이, 할머니, 잊음",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_c6cedfb12e1e0783",
+        "target": "entity:eobs_e91896b48d657210",
+        "description": "카이는 집에 있는 모두를 잊었다.",
+        "keywords": "카이, 집, 잊음",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_73725f8d3c2e6ec8",
+        "target": "entity:eobs_450fe24d7328f4ca",
+        "description": "눈의 여왕은 키가 크고 몸매가 가냘프고 눈이 부시게 희었다.",
+        "keywords": "눈의 여왕, 외모, 묘사",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S19",
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_73725f8d3c2e6ec8",
+        "target": "entity:eobs_e584764d9005739d",
+        "description": "눈의 여왕은 여왕으로 언급되었다.",
+        "keywords": "눈의 여왕, 여왕, 정체성",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_eb173e8d7db4a4ec",
+        "target": "entity:eobs_7d226838481dcf4e",
+        "description": "소년들은 카이가 멋진 마차에 썰매를 매달고 따라갔다고 말했다.",
+        "keywords": "소년들, 카이, 마차",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S69"
+        ]
+      },
+      {
+        "source": "entity:eobs_eb173e8d7db4a4ec",
+        "target": "entity:eobs_e1f43a1c69f48b26",
+        "description": "사람들은 카이에 대한 소식을 듣고 반응했다.",
+        "keywords": "사람들, 카이, 반응",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S71"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOeinailUvkXkJ02lBD3TA8R4PTQ",
+    "usage": {
+      "completion_tokens": 920,
+      "prompt_tokens": 3733,
+      "total_tokens": 4653,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

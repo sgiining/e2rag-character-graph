@@ -1,0 +1,111 @@
+{
+  "request_hash": "a98f2d2aca5eaf4466cd17522d741b4476430a5388b8a309c0e33b7c3d405ec7",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_ac27c96da6d82ea4",
+        "target": "entity:eobs_cf346256d0660f58",
+        "description": "교회 종소리가 울리고 있는 상황에서 교회가 존재하고 있다.",
+        "keywords": "종소리, 교회",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_b3def8ea732aaa74",
+        "target": "entity:eobs_ce0272a5fd904f6b",
+        "description": "게르다가 할머니 집으로 걸어가고 있는 장면에서 할머니가 등장한다.",
+        "keywords": "게르다, 할머니",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_39cbd5b59531860e",
+        "target": "entity:eobs_ce0272a5fd904f6b",
+        "description": "카이가 할머니 집으로 걸어가고 있는 장면에서 할머니가 등장한다.",
+        "keywords": "카이, 할머니",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_ce0272a5fd904f6b",
+        "target": "entity:eobs_90515ee575865e23",
+        "description": "할머니가 성서를 읽어주는 장면에서 할머니와 성서가 연결된다.",
+        "keywords": "할머니, 성서",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_39cbd5b59531860e",
+        "target": "entity:eobs_a1520585e6b27e17",
+        "description": "카이가 할머니 집으로 걸어가는 장면에서 할머니 집이 언급된다.",
+        "keywords": "카이, 할머니 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_b3def8ea732aaa74",
+        "target": "entity:eobs_a1520585e6b27e17",
+        "description": "게르다가 할머니 집으로 걸어가는 장면에서 할머니 집이 언급된다.",
+        "keywords": "게르다, 할머니 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_38e0a70d52425e69",
+        "target": "entity:eobs_b3def8ea732aaa74",
+        "description": "눈의 여왕이 살던 궁정의 기억을 잊은 게르다와 카이의 관계가 드러난다.",
+        "keywords": "눈의 여왕, 게르다",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S12"
+        ]
+      },
+      {
+        "source": "entity:eobs_38e0a70d52425e69",
+        "target": "entity:eobs_39cbd5b59531860e",
+        "description": "눈의 여왕이 살던 궁정의 기억을 잊은 게르다와 카이의 관계가 드러난다.",
+        "keywords": "눈의 여왕, 카이",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S12"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOhCgfosTB8UkdcawdUYpIiWRcJR",
+    "usage": {
+      "completion_tokens": 624,
+      "prompt_tokens": 1691,
+      "total_tokens": 2315,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

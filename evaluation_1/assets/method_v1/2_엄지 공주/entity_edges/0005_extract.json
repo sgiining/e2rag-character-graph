@@ -1,0 +1,105 @@
+{
+  "request_hash": "945209aa27e09a652c625f68542b68ee287da4ceaef1eb7b2ff6f42e3f3ea124",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_1a129d3971ee4822",
+        "target": "entity:eobs_a94ff923b65d253c",
+        "description": "소녀는 제비를 보살펴 주었고, 제비는 소녀에게 고마움을 표현했다.",
+        "keywords": "소녀, 제비, 보살핌, 고마움",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S3",
+          "S9"
+        ]
+      },
+      {
+        "source": "entity:eobs_a94ff923b65d253c",
+        "target": "entity:eobs_3d167d4e93bbd8ef",
+        "description": "제비는 엄지 공주에게 친절하게 보살펴 주었다.",
+        "keywords": "제비, 엄지 공주, 보살핌",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_3d167d4e93bbd8ef",
+        "target": "entity:eobs_19a4d32d883d0ecc",
+        "description": "엄지 공주는 제비를 보살펴 주었지만, 들쥐는 제비를 좋아하지 않았다.",
+        "keywords": "엄지 공주, 제비, 들쥐, 보살핌, 반감",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S21",
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_3d167d4e93bbd8ef",
+        "target": "entity:eobs_162cc7886ce83ef8",
+        "description": "엄지 공주는 제비를 보살펴 주었지만, 두더지는 제비를 좋아하지 않았다.",
+        "keywords": "엄지 공주, 제비, 두더지, 보살핌, 반감",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S21",
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_0cd1966b1944a3f0",
+        "target": "entity:eobs_03b26cc5956bd0ef",
+        "description": "들쥐 집 위 밭에 심은 곡식이 어린 소녀에게는 깊디깊은 숲과 같았다.",
+        "keywords": "들쥐 집, 곡식, 어린 소녀, 깊은 숲",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S41"
+        ]
+      },
+      {
+        "source": "entity:eobs_3bb9566c54f2cd14",
+        "target": "entity:eobs_9dc8648930f577df",
+        "description": "봄이 오고 태양이 땅을 따뜻하게 덮어주자 제비는 작별 인사를 할 때라고 말했다.",
+        "keywords": "봄, 태양, 제비, 작별 인사",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S24"
+        ]
+      },
+      {
+        "source": "entity:eobs_db1cd594d994b607",
+        "target": "entity:eobs_1a129d3971ee4822",
+        "description": "결혼식이 4주 남았다고 언급되었고, 소녀는 두더지를 남편으로 삼을 수 없다고 말했다.",
+        "keywords": "결혼식, 소녀, 두더지",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S60",
+          "S61"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOiVlfldVXUbhOIOukUAqiEb4QTd",
+    "usage": {
+      "completion_tokens": 663,
+      "prompt_tokens": 3341,
+      "total_tokens": 4004,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

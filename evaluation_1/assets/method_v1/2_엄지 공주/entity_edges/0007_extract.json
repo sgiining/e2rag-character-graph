@@ -1,0 +1,75 @@
+{
+  "request_hash": "61a3d82d9b00dcdaa4a8151752282893f1c83ef6d681f037c4da1208bdeb88ad",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_71700faeadc4e7a9",
+        "target": "entity:eobs_85dff86404997726",
+        "description": "엄지 공주는 제비에 의해 데려온 인물이다.",
+        "keywords": "엄지 공주, 제비",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2",
+          "S11"
+        ]
+      },
+      {
+        "source": "entity:eobs_17d83396990572e4",
+        "target": "entity:eobs_51b10c854a166116",
+        "description": "꽃의 영혼은 머리에 자그마한 황금 왕관을 쓰고 있다.",
+        "keywords": "꽃의 영혼, 황금 왕관",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S14",
+          "S16"
+        ]
+      },
+      {
+        "source": "entity:eobs_12c6f5514e064721",
+        "target": "entity:eobs_555f481d3d8495f7",
+        "description": "소녀는 모든 꽃의 여왕이 될 것이라고 언급되며, 왕은 황금 왕관을 소녀의 머리에 얹었다.",
+        "keywords": "꽃의 여왕, 황금 왕관",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S24",
+          "S25"
+        ]
+      },
+      {
+        "source": "entity:eobs_5e2139fcada8d051",
+        "target": "entity:eobs_a73b87cc67dd2b0b",
+        "description": "요정의 이야기는 제비가 돌아간 덴마크와 관련이 있다.",
+        "keywords": "요정의 이야기, 덴마크",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S41",
+          "S42"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOinkK15Z77V4I5q9yuq9JMWau6c",
+    "usage": {
+      "completion_tokens": 337,
+      "prompt_tokens": 3522,
+      "total_tokens": 3859,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

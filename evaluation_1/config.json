@@ -1,0 +1,32 @@
+{
+  "version": "evaluation_1.fresh.sentence_ids.v2",
+  "generation_model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "top_k": 5,
+  "passage_k": 5,
+  "context_tokens": 8000,
+  "answer_tokens": 700,
+  "propagation_decay": 0.85,
+  "shuffle_seed": 20261021,
+  "judges": [
+    {
+      "model": "gpt-4.1-mini",
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "max_output_tokens": 12000
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "max_output_tokens": 12000
+    }
+  ],
+  "graph_context_tokens": 4000,
+  "extraction_tokens": 12000,
+  "embedding_batch_size": 32
+}

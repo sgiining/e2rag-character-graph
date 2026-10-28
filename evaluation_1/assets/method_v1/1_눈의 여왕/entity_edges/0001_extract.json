@@ -1,0 +1,137 @@
+{
+  "request_hash": "e0a322348f33f4635f645980600e3ceee835c39d9de9b1dd30532eff0ca307ab",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f3c7e5c0c1e198c7",
+        "target": "entity:eobs_24662fbb4ef8bdb5",
+        "description": "거울은 호브고블린이 만든 독창적인 발명품으로, 호브고블린의 성격과 관련이 있다.",
+        "keywords": "거울, 호브고블린, 발명품",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S9",
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_f3c7e5c0c1e198c7",
+        "target": "entity:eobs_2ec92716981490a6",
+        "description": "거울은 악마의 성격을 드러내는 도구로 사용되며, 악마의 사악함을 강조한다.",
+        "keywords": "거울, 악마, 사악함",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S10",
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_24662fbb4ef8bdb5",
+        "target": "entity:eobs_84aa4ff35269c207",
+        "description": "호브고블린은 악마와 유사한 성격을 지닌 존재로, 악마들과 함께 행동한다.",
+        "keywords": "호브고블린, 악마들, 유사성",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S8",
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_2ec92716981490a6",
+        "target": "entity:eobs_84aa4ff35269c207",
+        "description": "악마들은 자신들의 힘을 과시하며, 거울을 통해 세상을 조롱하고 싶어한다.",
+        "keywords": "악마, 거울, 조롱",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S22",
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_863ac694585fb20f",
+        "target": "entity:eobs_f3c7e5c0c1e198c7",
+        "description": "사람은 거울에 비춰지는 존재로, 거울을 통해 자신의 모습을 왜곡된 형태로 보게 된다.",
+        "keywords": "사람, 거울, 왜곡",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S10",
+          "S29"
+        ]
+      },
+      {
+        "source": "entity:eobs_fb00b34b7afccda6",
+        "target": "entity:eobs_f3c7e5c0c1e198c7",
+        "description": "지구상에 살아있는 사람들은 거울로 인해 수난을 당하게 된다.",
+        "keywords": "지구상, 거울, 수난",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S21",
+          "S29"
+        ]
+      },
+      {
+        "source": "entity:eobs_18afa4b795bf5e52",
+        "target": "entity:eobs_7b20fa7aebf7c92c",
+        "description": "안경은 유리 조각으로 만들어진 물건으로, 거울의 영향을 받는다.",
+        "keywords": "안경, 유리 조각, 거울",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_262de3e6097831c0",
+        "target": "entity:eobs_c28a11f6f69609b0",
+        "description": "어린 소녀와 어린 소년은 서로를 아끼며, 함께 이야기를 나눈다.",
+        "keywords": "어린 소녀, 어린 소년, 관계",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_6aa1095177e9376e",
+        "target": "entity:eobs_e67bdd2014e94f82",
+        "description": "부모님들은 다락방이 가까이 붙어 있는 집에 살며, 두 아이의 생활에 영향을 미친다.",
+        "keywords": "부모님들, 집, 영향",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S43"
+        ]
+      },
+      {
+        "source": "entity:eobs_a7bdaadd3fd13f9c",
+        "target": "entity:eobs_7c1920a2982fdc77",
+        "description": "가난한 두 아이는 화분보다 큰 텃밭에서 자라며, 서로를 아끼는 관계를 형성한다.",
+        "keywords": "텃밭, 화분, 관계",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S41"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOeGLTRF3tZp51Gt14qJEjaVPObp",
+    "usage": {
+      "completion_tokens": 897,
+      "prompt_tokens": 4170,
+      "total_tokens": 5067,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

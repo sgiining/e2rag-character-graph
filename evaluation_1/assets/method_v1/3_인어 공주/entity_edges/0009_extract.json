@@ -1,0 +1,124 @@
+{
+  "request_hash": "f9eac59bac1d49ce663a85a20da6b5dc6b9fbcef039d995ffa66a4c4ac6446a8",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_df8ef4a2844a4809",
+        "target": "entity:eobs_8f2f7a0a85d80ee0",
+        "description": "마녀는 태양이 내일 떠오르면 도와줄 수 없다고 말하며, 공주에게 약을 만들어 주겠다고 제안한다.",
+        "keywords": "마녀, 태양, 약",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_df8ef4a2844a4809",
+        "target": "entity:eobs_21c66eacb71b92aa",
+        "description": "마녀는 공주에게 한 번 먹을 약을 만들어 주겠다고 제안한다.",
+        "keywords": "마녀, 약",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_df8ef4a2844a4809",
+        "target": "entity:eobs_7aa476e8c4e0c7d3",
+        "description": "마녀는 공주에게 약을 가지고 물가로 헤엄쳐 가야 한다고 말한다.",
+        "keywords": "마녀, 물가",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_b3dc522608ec4556",
+        "target": "entity:eobs_15a6f276a45833a9",
+        "description": "공주는 왕자와 인간의 영혼을 얻는다는 생각을 하며 떨리는 목소리로 대답한다.",
+        "keywords": "공주, 왕자",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S16"
+        ]
+      },
+      {
+        "source": "entity:eobs_fd2d45997c1f9ace",
+        "target": "entity:eobs_9eabe2ef0dae6eeb",
+        "description": "마녀는 공주에게 언니들과 아버지의 성으로 돌아올 수 없다고 경고한다.",
+        "keywords": "언니들, 아버지",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_c260b5b7cbe276f3",
+        "target": "entity:eobs_8ff18c056a5d9bff",
+        "description": "마녀는 공주가 왕자의 사랑을 얻지 못하면 심장이 산산조각이 나고 바다의 물거품이 될 것이라고 경고한다.",
+        "keywords": "사제, 바다",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S22"
+        ]
+      },
+      {
+        "source": "entity:eobs_df8ef4a2844a4809",
+        "target": "entity:eobs_31cf814d40b3a3ab",
+        "description": "마녀는 가마솥에 약을 끓이며 공주에게 필요한 재료를 준비한다.",
+        "keywords": "마녀, 가마솥",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S43"
+        ]
+      },
+      {
+        "source": "entity:eobs_855b339654e64a6d",
+        "target": "entity:eobs_6ea400a43a4f909a",
+        "description": "마녀는 인어 공주의 혀를 잘라내어 공주가 더 이상 말을 할 수 없게 만든다.",
+        "keywords": "인어 공주, 꽃밭",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S53",
+          "S54"
+        ]
+      },
+      {
+        "source": "entity:eobs_9c1c4aa8fa5cc696",
+        "target": "entity:eobs_5346bc1398b66296",
+        "description": "공주는 숲과 습지를 지나 아버지의 성이 보인다.",
+        "keywords": "습지, 아버지의 성",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S63",
+          "S64"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkgNr2yY2ntmra5OqdjaneMRCfI",
+    "usage": {
+      "completion_tokens": 767,
+      "prompt_tokens": 4179,
+      "total_tokens": 4946,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

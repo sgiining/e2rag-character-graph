@@ -1,0 +1,206 @@
+{
+  "request_hash": "19c55f6c5e930e3f70f4a71757b04f7441c557a85fdf503c8fe3089b32febf55",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_d49e84931fb4f7da",
+        "target": "entity:eobs_38550be48ccfb670",
+        "description": "여인은 아이를 갖고 싶어 마녀에게 도움을 요청했다.",
+        "keywords": "여인, 마녀, 도움 요청",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S1",
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_38550be48ccfb670",
+        "target": "entity:eobs_9bf570b64a98a287",
+        "description": "마녀는 여인에게 보리 씨앗을 주었다.",
+        "keywords": "마녀, 보리 씨앗, 제공",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S6",
+          "S9"
+        ]
+      },
+      {
+        "source": "entity:eobs_9bf570b64a98a287",
+        "target": "entity:eobs_ca291dc6537c7911",
+        "description": "보리 씨앗이 자라서 꽃이 피었다.",
+        "keywords": "보리 씨앗, 꽃, 성장",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S12",
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_ca291dc6537c7911",
+        "target": "entity:eobs_160d181d6258638e",
+        "description": "꽃의 한가운데에 소녀가 앉아 있었다.",
+        "keywords": "꽃, 소녀, 위치",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_160d181d6258638e",
+        "target": "entity:eobs_926cec7b2f32a59c",
+        "description": "여인은 소녀를 엄지 공주라고 불렀다.",
+        "keywords": "소녀, 엄지 공주, 이름",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S24"
+        ]
+      },
+      {
+        "source": "entity:eobs_926cec7b2f32a59c",
+        "target": "entity:eobs_dce28d673e0c8e9f",
+        "description": "엄지 공주는 호두 껍데기를 요람으로 삼았다.",
+        "keywords": "엄지 공주, 호두 껍데기, 요람",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      },
+      {
+        "source": "entity:eobs_dce28d673e0c8e9f",
+        "target": "entity:eobs_398abe51f98121fd",
+        "description": "엄지 공주는 이부자리를 바이올렛 꽃잎으로 만들었다.",
+        "keywords": "호두 껍데기, 이부자리, 바이올렛 꽃잎",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S26"
+        ]
+      },
+      {
+        "source": "entity:eobs_398abe51f98121fd",
+        "target": "entity:eobs_74cdcb49420bd684",
+        "description": "이부자리는 장미 꽃잎으로 덮여 있었다.",
+        "keywords": "이부자리, 장미 꽃잎, 덮다",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S26"
+        ]
+      },
+      {
+        "source": "entity:eobs_160d181d6258638e",
+        "target": "entity:eobs_339eeefe4b9e1c28",
+        "description": "엄지 공주는 호두 껍데기를 들고 마당으로 나갔다.",
+        "keywords": "엄지 공주, 호두 껍데기, 마당",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S36"
+        ]
+      },
+      {
+        "source": "entity:eobs_339eeefe4b9e1c28",
+        "target": "entity:eobs_1c1ed6aaee936aa1",
+        "description": "마당에 두꺼비가 들어왔다.",
+        "keywords": "마당, 두꺼비, 등장",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S33"
+        ]
+      },
+      {
+        "source": "entity:eobs_1c1ed6aaee936aa1",
+        "target": "entity:eobs_e2948176a3458033",
+        "description": "두꺼비는 아들과 함께 살고 있다.",
+        "keywords": "두꺼비, 아들, 함께 살다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S38"
+        ]
+      },
+      {
+        "source": "entity:eobs_e2948176a3458033",
+        "target": "entity:eobs_400ba79810266611",
+        "description": "아들 두꺼비는 어미 두꺼비와 비슷하다.",
+        "keywords": "아들 두꺼비, 어미 두꺼비, 유사성",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S39"
+        ]
+      },
+      {
+        "source": "entity:eobs_a1aacc088aef984c",
+        "target": "entity:eobs_1d5f7615aa6db2ae",
+        "description": "어미 두꺼비는 아이를 보호하고 있다.",
+        "keywords": "어미 두꺼비, 아이, 보호",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S41",
+          "S46"
+        ]
+      },
+      {
+        "source": "entity:eobs_1d5f7615aa6db2ae",
+        "target": "entity:eobs_00334537fee600c9",
+        "description": "아이를 시냇물 속에 놓아두어야 한다고 어미 두꺼비가 말했다.",
+        "keywords": "아이, 시냇물, 놓아두다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S46"
+        ]
+      },
+      {
+        "source": "entity:eobs_00334537fee600c9",
+        "target": "entity:eobs_2051301357449309",
+        "description": "시냇물 속에는 수련이 자생한다.",
+        "keywords": "시냇물, 수련, 자생",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S49"
+        ]
+      },
+      {
+        "source": "entity:eobs_1d5f7615aa6db2ae",
+        "target": "entity:eobs_981ed84fa043e794",
+        "description": "어미 두꺼비는 진흙으로 방을 만든다.",
+        "keywords": "어미 두꺼비, 진흙, 방",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S55"
+        ]
+      },
+      {
+        "source": "entity:eobs_1c1ed6aaee936aa1",
+        "target": "entity:eobs_06fe7fb506b44f0d",
+        "description": "두꺼비와 아들이 엄지 공주가 서 있는 이파리로 헤엄쳐 왔다.",
+        "keywords": "두꺼비, 아들, 이파리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S56"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOhtW1jkzFDsyG2gsO0rApW4L9d8",
+    "usage": {
+      "completion_tokens": 1308,
+      "prompt_tokens": 3979,
+      "total_tokens": 5287,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

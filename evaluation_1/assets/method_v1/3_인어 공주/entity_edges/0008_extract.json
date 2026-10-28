@@ -1,0 +1,95 @@
+{
+  "request_hash": "6e1428b509006736b39381143fe55f6a750b0f7eecf5366a9391d8f448c37b92",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_5343cdfd79b1c823",
+        "target": "entity:eobs_54f9b972a7a3025d",
+        "description": "인어 공주가 두려워하는 바다 마녀를 찾아가겠다고 결심한다.",
+        "keywords": "인어 공주, 바다 마녀, 두려움",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_5343cdfd79b1c823",
+        "target": "entity:eobs_669aef2b95fafe1a",
+        "description": "인어 공주가 마녀의 집 근처로 가기 위해 소용돌이를 지나가야 한다.",
+        "keywords": "인어 공주, 마녀의 집, 소용돌이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S6",
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_5343cdfd79b1c823",
+        "target": "entity:eobs_81662ca29f5e0539",
+        "description": "인어 공주가 마녀의 집 근처에서 폴립을 마주친다.",
+        "keywords": "인어 공주, 폴립, 마녀의 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S13",
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_81662ca29f5e0539",
+        "target": "entity:eobs_6019c189c341958f",
+        "description": "폴립의 팔에 죽은 인간의 허연 뼈가 붙어 있다.",
+        "keywords": "폴립, 죽은 인간의 허연 뼈",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_54f9b972a7a3025d",
+        "target": "entity:eobs_a40e037fd8a222a8",
+        "description": "바다 마녀가 인어 공주에게 약을 만들어 주겠다고 한다.",
+        "keywords": "바다 마녀, 약, 인어 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S36",
+          "S38"
+        ]
+      },
+      {
+        "source": "entity:eobs_8ff062b8e37842d6",
+        "target": "entity:eobs_b799ff0768667b1b",
+        "description": "공주가 슬픔을 얻게 될 것이라는 바다 마녀의 예언이 있다.",
+        "keywords": "공주, 슬픔, 바다 마녀",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkZOdLWl5fshLhymSfdNrXJiW9i",
+    "usage": {
+      "completion_tokens": 521,
+      "prompt_tokens": 3671,
+      "total_tokens": 4192,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

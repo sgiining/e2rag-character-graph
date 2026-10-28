@@ -1,0 +1,105 @@
+{
+  "request_hash": "c4011cc5426c0fc13a0d85c252a8168b246fe3fe3e1605e4f503feca5aeb4b64",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_18d33865af56073e",
+        "target": "entity:eobs_27dfbd017aff4ff8",
+        "description": "두더지는 들쥐와 함께 집을 이용할 수 있도록 허락했다.",
+        "keywords": "두더지, 들쥐, 집 이용",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S8",
+          "S9"
+        ]
+      },
+      {
+        "source": "entity:eobs_27dfbd017aff4ff8",
+        "target": "entity:eobs_6f6c9a7a0612fcaa",
+        "description": "들쥐는 엄지 공주와 함께 두더지의 집을 이용할 수 있다고 말했다.",
+        "keywords": "들쥐, 엄지 공주, 두더지 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S9"
+        ]
+      },
+      {
+        "source": "entity:eobs_6f6c9a7a0612fcaa",
+        "target": "entity:eobs_370fc386e9ef48bb",
+        "description": "엄지 공주는 사랑스러운 새를 기억하며 노래를 불렀다.",
+        "keywords": "엄지 공주, 사랑스러운 새, 노래",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S4",
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_af784446c97fd04b",
+        "target": "entity:eobs_af851da1b00b4695",
+        "description": "소녀는 제비가 안쓰럽다고 느꼈다.",
+        "keywords": "소녀, 제비, 안쓰러움",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_af851da1b00b4695",
+        "target": "entity:eobs_9e7b6d69579a4a9f",
+        "description": "소녀는 제비의 심장 박동을 느꼈다.",
+        "keywords": "제비, 심장, 소녀",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S49",
+          "S51"
+        ]
+      },
+      {
+        "source": "entity:eobs_370fc386e9ef48bb",
+        "target": "entity:eobs_fb23f37c891b6a61",
+        "description": "소녀는 사랑스러운 새를 위해 덮개를 만들었다.",
+        "keywords": "소녀, 사랑스러운 새, 덮개",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S41",
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_fb23f37c891b6a61",
+        "target": "entity:eobs_4211cd67494798af",
+        "description": "소녀는 박하 나뭇잎으로 새를 덮어 주었다.",
+        "keywords": "소녀, 박하 나뭇잎, 새",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S59"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOiPvfZCMDEI2p6Nvo7lR6xhDum5",
+    "usage": {
+      "completion_tokens": 573,
+      "prompt_tokens": 3758,
+      "total_tokens": 4331,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

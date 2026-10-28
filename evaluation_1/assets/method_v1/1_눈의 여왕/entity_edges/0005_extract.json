@@ -1,0 +1,141 @@
+{
+  "request_hash": "e120a76696335670bca65bd283132a5d4dbff5f3691b7617c161b9f6d3e2cb61",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_233b0d06ce1f3a82",
+        "target": "entity:eobs_7dfcefbf90ae148b",
+        "description": "카이는 마을에서 나간 인물이다.",
+        "keywords": "카이, 마을",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S2",
+          "S6",
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_0d5d516688cd917f",
+        "target": "entity:eobs_233b0d06ce1f3a82",
+        "description": "게르다는 카이의 소꿉친구로, 그의 죽음에 슬퍼한다.",
+        "keywords": "게르다, 카이",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S5",
+          "S10",
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_2502e3d2325c7862",
+        "target": "entity:eobs_233b0d06ce1f3a82",
+        "description": "강은 카이가 죽었다고 전해지는 장소이다.",
+        "keywords": "강, 카이",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S7",
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_4d36bb6455b40a27",
+        "target": "entity:eobs_0d5d516688cd917f",
+        "description": "참새는 게르다의 울음소리를 들을 수 있는 유일한 생물이다.",
+        "keywords": "참새, 게르다",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S38",
+          "S39"
+        ]
+      },
+      {
+        "source": "entity:eobs_4dbd9e5868f145ce",
+        "target": "entity:eobs_0d5d516688cd917f",
+        "description": "게르다는 신발을 던지기 위해 배에 올라간다.",
+        "keywords": "신발, 게르다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S33",
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_4dd50c533a07bfbf",
+        "target": "entity:eobs_4dbd9e5868f145ce",
+        "description": "빨간 구두는 게르다가 신는 신발이다.",
+        "keywords": "빨간 구두, 신발",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S20",
+          "S24"
+        ]
+      },
+      {
+        "source": "entity:eobs_6b828c6c9590d28b",
+        "target": "entity:eobs_f540bca353f636c1",
+        "description": "소년들은 카이가 사용한 마차를 끌고 갔다.",
+        "keywords": "마차, 소년들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_6dc2754e8a8f6236",
+        "target": "entity:eobs_6b828c6c9590d28b",
+        "description": "썰매는 마차에 매달린 물체이다.",
+        "keywords": "썰매, 마차",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_1d6a9c7cc0b38c84",
+        "target": "entity:eobs_2502e3d2325c7862",
+        "description": "강둑은 강의 경치를 지칭한다.",
+        "keywords": "강둑, 강",
+        "strength": 4,
+        "evidence_sentence_ids": [
+          "S46",
+          "S52"
+        ]
+      },
+      {
+        "source": "entity:eobs_5286be60537cf34f",
+        "target": "entity:eobs_4d36bb6455b40a27",
+        "description": "병정은 게르다와 마주치는 생물이다.",
+        "keywords": "병정, 참새",
+        "strength": 3,
+        "evidence_sentence_ids": [
+          "S54",
+          "S55"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOesdsMm36fkuyts07VaGDWlsFtn",
+    "usage": {
+      "completion_tokens": 768,
+      "prompt_tokens": 4037,
+      "total_tokens": 4805,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

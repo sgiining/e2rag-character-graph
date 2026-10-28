@@ -1,0 +1,115 @@
+{
+  "request_hash": "156e49aa6f445675ac0c58a6de5dcd67c5f0b9ab80e07a06dad1bb5fbbe13d20",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_4d9d92cb085dca26",
+        "target": "entity:eobs_930316f426a0e913",
+        "description": "조수들이 신하들과 함께 서 있었다.",
+        "keywords": "조수들, 신하들",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S1"
+        ]
+      },
+      {
+        "source": "entity:eobs_1a2d6437ea6a4795",
+        "target": "entity:eobs_d27e66bce49aa7c9",
+        "description": "카이는 공주와 결혼했다는 이야기가 있었다.",
+        "keywords": "카이, 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S6",
+          "S8",
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_680d53731f54c072",
+        "target": "entity:eobs_98b681f5bb1214e4",
+        "description": "내 사랑이 아이에 대해 이야기했다.",
+        "keywords": "내 사랑, 아이",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S11",
+          "S12"
+        ]
+      },
+      {
+        "source": "entity:eobs_3148b644e4a687e3",
+        "target": "entity:eobs_1a2d6437ea6a4795",
+        "description": "게르다가 카이를 언급했다.",
+        "keywords": "게르다, 카이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S7",
+          "S52"
+        ]
+      },
+      {
+        "source": "entity:eobs_1b445deb1a0cc01c",
+        "target": "entity:eobs_b159413c58736b80",
+        "description": "시종이 성에 대해 언급했다.",
+        "keywords": "시종, 성",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S22"
+        ]
+      },
+      {
+        "source": "entity:eobs_a60be154a2c46eea",
+        "target": "entity:eobs_0d547d9a4ed7e757",
+        "description": "까마귀가 왕실 주인들에 대해 이야기했다.",
+        "keywords": "까마귀, 왕실 주인들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S75"
+        ]
+      },
+      {
+        "source": "entity:eobs_1b445deb1a0cc01c",
+        "target": "entity:eobs_4369e15020f30bb8",
+        "description": "시종이 문지방에 서 있었다.",
+        "keywords": "시종, 문지방",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_1a2d6437ea6a4795",
+        "target": "entity:eobs_0a0d50ce2d5e979e",
+        "description": "카이가 왕실 주인들과 관련이 있다.",
+        "keywords": "카이, 왕실 주인들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfroi3QyIzOqGqqy1PZKmlGuWi6",
+    "usage": {
+      "completion_tokens": 565,
+      "prompt_tokens": 3699,
+      "total_tokens": 4264,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

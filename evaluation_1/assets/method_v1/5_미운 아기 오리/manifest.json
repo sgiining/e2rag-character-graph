@@ -1,0 +1,51 @@
+{
+  "work_id": "5_미운 아기 오리",
+  "read_end_char": [
+    1794,
+    3505,
+    5108,
+    6796,
+    8483,
+    9873
+  ],
+  "model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "counts": {
+    "entity": 131,
+    "event": 111,
+    "relation": 11,
+    "chunk": 6
+  },
+  "edge_counts_before": {
+    "entity_event": 332,
+    "event_event": 110,
+    "entity_relation_source": 11,
+    "entity_relation_target": 11,
+    "relation_event": 7
+  },
+  "edge_counts": {
+    "entity_event": 304,
+    "event_event": 110,
+    "entity_relation_source": 11,
+    "entity_relation_target": 11,
+    "relation_event": 7,
+    "entity_entity": 66
+  },
+  "entity_event_policy": "paper_description_same_chunk.v1",
+  "entity_event_removed": 28,
+  "outputs": {
+    "graph.json": "5fcd7960821596bc36c51a9b349ec2ffe1042f90f9af929834958d5374975f3a",
+    "entity.npy": "4d713e9999921082609ac0142e5de90466f9241d7da4f81547d622d942a1df8f",
+    "entity.meta.jsonl": "0ef0f3492c138dd3128fab3f87540bea3277e3419c1111f4cc0d05d645731dc3",
+    "event.npy": "89ad45ca47c94cfcf6881ee99603f71ae1561bc33c6446273e960c476b6a8ad0",
+    "event.meta.jsonl": "15d6d0ca51acbd9bf8e6968d767227a632538823475cf840c26c9cd819710be4",
+    "relation.npy": "ea51a597e47c3a989c7d75048543623336166d143a373f2bfd5b66711b8e6e1f",
+    "relation.meta.jsonl": "7ca839230b6da6206c0c7c3f7819f5fcc87ba33fc1b1d8d3d47322c736d54e51",
+    "chunk.npy": "e3f7e7db6d19cea5b9e9d4bb3dc36a5057fab018234cf25e028c124e1cf48ccb",
+    "chunk.meta.jsonl": "c8423a6ff1e712aba516af57b41127041efeddc1e145c680fadfd8afebb91cc4"
+  },
+  "source_signature": "76843df12a3729766efd1bc0f0346cdef137b8448fef383e15065385745d45d9",
+  "embedding_policy": "entity/event=name+safe description; relation/chunk=original",
+  "event_merge_policy": "reuse existing span-overlap deduplication",
+  "build_id": "c126d1673311e63826dc9c6aa742aedf5083479c76f19767e390bff6ae15f549"
+}

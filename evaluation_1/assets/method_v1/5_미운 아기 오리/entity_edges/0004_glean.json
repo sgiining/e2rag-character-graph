@@ -1,0 +1,41 @@
+{
+  "request_hash": "f3bd373a4386e04f81e8c45e43f955df7a6b33baf3042cf56d519ec403cf0271",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_fc88b9b4ffa6eebc",
+        "target": "entity:eobs_d533b502997165f9",
+        "description": "아기 오리는 할머니에게 물어보았다.",
+        "keywords": "아기 오리, 할머니, 질문",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S63"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOo3gxnKcv8H2e4HGgGhdZZ1VNdB",
+    "usage": {
+      "completion_tokens": 75,
+      "prompt_tokens": 4833,
+      "total_tokens": 4908,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

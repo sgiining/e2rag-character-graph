@@ -1,0 +1,131 @@
+{
+  "request_hash": "fd74b2dadea84f71468ff28015ef193ec20f0f8db6537a3198ea62a4cc6d8791",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_6d027d49a79a17f4",
+        "description": "아기 오리는 늪지 갈대밭에서 목숨을 부지하고 있었다.",
+        "keywords": "아기 오리, 오리",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_3e60dfc4d6ae9a3b",
+        "description": "아기 오리는 사과나무 꽃이 활짝 핀 커다란 정원에 도착했다.",
+        "keywords": "아기 오리, 정원",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_91ecd40a57ec00aa",
+        "description": "아기 오리는 백조들을 알아보았다.",
+        "keywords": "아기 오리, 백조",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_066d0fb2ba54d8f6",
+        "description": "아기 오리는 닭장 소녀에게 고통을 받았다.",
+        "keywords": "아기 오리, 닭장 소녀",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_b359c98ba07aca82",
+        "description": "아기 오리는 오리 농장에서 태어났다.",
+        "keywords": "아기 오리, 오리 농장",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S30"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_bda30d15cc0a0c97",
+        "description": "아기 오리는 어린아이들이 정원으로 와서 곡식과 빵조각을 던지는 것을 보았다.",
+        "keywords": "아기 오리, 어린아이들",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_8bf1df42f80058a6",
+        "description": "아기 오리는 아이들이 부모님을 데리고 오는 것을 보았다.",
+        "keywords": "아기 오리, 아이들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S39"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_fbcc9a2cd8cd6500",
+        "description": "아기 오리는 사람들이 빵과 과자를 던져주는 것을 보았다.",
+        "keywords": "아기 오리, 사람들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S40"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_05f0b12a30227b47",
+        "description": "아기 오리는 나이 든 백조들이 고개를 숙이는 모습을 보았다.",
+        "keywords": "아기 오리, 나이 든 백조들",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_5a9c3e5f6712e22b",
+        "description": "아기 오리는 따스한 태양 아래에서 행복을 느꼈다.",
+        "keywords": "아기 오리, 태양",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S52"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOoJkcvxrcrMDEivDo3cGuSRACG5",
+    "usage": {
+      "completion_tokens": 781,
+      "prompt_tokens": 3555,
+      "total_tokens": 4336,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

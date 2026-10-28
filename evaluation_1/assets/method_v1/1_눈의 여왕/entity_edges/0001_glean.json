@@ -1,0 +1,71 @@
+{
+  "request_hash": "faaa25186b0ab5ada36adae3165909a80ca826da1f2cde826ea318647e2c14e0",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_18afa4b795bf5e52",
+        "target": "entity:eobs_7b20fa7aebf7c92c",
+        "description": "안경은 유리 조각으로 만들어진 물건으로, 거울의 영향을 받는다.",
+        "keywords": "안경, 유리 조각, 거울",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S34"
+        ]
+      },
+      {
+        "source": "entity:eobs_262de3e6097831c0",
+        "target": "entity:eobs_c28a11f6f69609b0",
+        "description": "어린 소녀와 어린 소년은 서로를 아끼며, 함께 이야기를 나눈다.",
+        "keywords": "어린 소녀, 어린 소년, 관계",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_6aa1095177e9376e",
+        "target": "entity:eobs_e67bdd2014e94f82",
+        "description": "부모님들은 다락방이 가까이 붙어 있는 집에 살며, 두 아이의 생활에 영향을 미친다.",
+        "keywords": "부모님들, 집, 영향",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S43"
+        ]
+      },
+      {
+        "source": "entity:eobs_a7bdaadd3fd13f9c",
+        "target": "entity:eobs_7c1920a2982fdc77",
+        "description": "가난한 두 아이는 화분보다 큰 텃밭에서 자라며, 서로를 아끼는 관계를 형성한다.",
+        "keywords": "텃밭, 화분, 관계",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S41"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOeOgMaHF2u3QVFdDtOxake3CV0Z",
+    "usage": {
+      "completion_tokens": 348,
+      "prompt_tokens": 7662,
+      "total_tokens": 8010,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,51 @@
+{
+  "request_hash": "39fe360c7344b734a9117b3637baae91b0b82f5516476374c972c9cf0a685bb9",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_b3def8ea732aaa74",
+        "target": "entity:eobs_a1520585e6b27e17",
+        "description": "게르다가 할머니 집으로 걸어가는 장면에서 할머니 집이 언급된다.",
+        "keywords": "게르다, 할머니 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_39cbd5b59531860e",
+        "target": "entity:eobs_a1520585e6b27e17",
+        "description": "카이가 할머니 집으로 걸어가는 장면에서 할머니 집이 언급된다.",
+        "keywords": "카이, 할머니 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOhID4DPsFT6HE8s6I9WVKRwqn9Y",
+    "usage": {
+      "completion_tokens": 157,
+      "prompt_tokens": 3167,
+      "total_tokens": 3324,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 1024,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

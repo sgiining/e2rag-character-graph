@@ -1,0 +1,119 @@
+{
+  "request_hash": "88f5186a085cb74b8a437060aeb262c8fe6618fa52bef3cd2ae0f43361781343",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_9ad8e9155ac5386f",
+        "target": "entity:eobs_b306af1a6c87fdec",
+        "description": "게르다가 왕실 침실에 도착하여 카이를 찾으려 했다.",
+        "keywords": "게르다, 왕실 침실",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S15",
+          "S21",
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_9ad8e9155ac5386f",
+        "target": "entity:eobs_f36d64d576fbbeb0",
+        "description": "게르다가 카이를 찾으러 왕실 침실로 갔지만, 왕자는 카이를 닮았다고 언급되었다.",
+        "keywords": "게르다, 왕자",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S21",
+          "S27"
+        ]
+      },
+      {
+        "source": "entity:eobs_9ad8e9155ac5386f",
+        "target": "entity:eobs_653bbd3dd3dbdd2a",
+        "description": "게르다가 까마귀들이 자신을 위해 해준 일들을 털어놓았다.",
+        "keywords": "게르다, 까마귀들",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S30",
+          "S33"
+        ]
+      },
+      {
+        "source": "entity:eobs_3b36da3ccb46521b",
+        "target": "entity:eobs_9a3d3e385fa517e8",
+        "description": "궁의 까마귀가 게르다에게 조언을 하며 대화에 참여했다.",
+        "keywords": "궁의 까마귀, 까마귀",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S7",
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_b306af1a6c87fdec",
+        "target": "entity:eobs_1dbfe090508cb75b",
+        "description": "왕실 침실에 하얀색 침대에 공주가 누워 있었다.",
+        "keywords": "왕실 침실, 공주",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_1dbfe090508cb75b",
+        "target": "entity:eobs_f36d64d576fbbeb0",
+        "description": "공주가 왕자와 함께 게르다에게 멋진 시간을 보내라고 말했다.",
+        "keywords": "공주, 왕자",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S29",
+          "S51"
+        ]
+      },
+      {
+        "source": "entity:eobs_342710e957db6ead",
+        "target": "entity:eobs_b95e89908ba9dd31",
+        "description": "게르다가 작은 마차를 요청하자, 문 앞에 황금 마차가 서 있었다.",
+        "keywords": "작은 마차, 황금 마차",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S55",
+          "S51"
+        ]
+      },
+      {
+        "source": "entity:eobs_9a3d3e385fa517e8",
+        "target": "entity:eobs_8e607a5dabc4b04a",
+        "description": "숲에서 만난 까마귀가 게르다와 함께 동행했지만, 부엌에서 너무 많이 먹어 배가 아파 따라오지 않았다.",
+        "keywords": "까마귀, 부엌",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S59",
+          "S62"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfydZ01AthHY9Vi2eWOPxJWgwFb",
+    "usage": {
+      "completion_tokens": 678,
+      "prompt_tokens": 4462,
+      "total_tokens": 5140,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

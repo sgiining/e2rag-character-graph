@@ -1,0 +1,81 @@
+{
+  "request_hash": "489222ba33bc40b63c66cc247f836a481cedeb2d908f7250befa80d2b05ea281",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_09e1eb9b325af771",
+        "description": "아기 오리는 오리들과 비교하고 있다.",
+        "keywords": "아기 오리, 오리들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_d782e8f15bc497ad",
+        "description": "아기 오리는 암탉과 비교하고 있다.",
+        "keywords": "아기 오리, 암탉",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_8bf1df42f80058a6",
+        "description": "아기 오리는 아이들이 부모님을 데리고 오는 것을 보았다.",
+        "keywords": "아기 오리, 아이들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S39"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_fbcc9a2cd8cd6500",
+        "description": "아기 오리는 사람들이 빵과 과자를 던져주는 것을 보았다.",
+        "keywords": "아기 오리, 사람들",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S40"
+        ]
+      },
+      {
+        "source": "entity:eobs_f20d7deb55e8abe6",
+        "target": "entity:eobs_05f0b12a30227b47",
+        "description": "아기 오리는 나이 든 백조들이 고개를 숙이는 모습을 보았다.",
+        "keywords": "아기 오리, 나이 든 백조들",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOoR63sAFP6xOHyLqXrkbtdwCJhG",
+    "usage": {
+      "completion_tokens": 375,
+      "prompt_tokens": 5349,
+      "total_tokens": 5724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2048,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

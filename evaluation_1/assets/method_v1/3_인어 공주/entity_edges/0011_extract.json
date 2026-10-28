@@ -1,0 +1,115 @@
+{
+  "request_hash": "5c7d4037a0bcab13652eb3c76337957ba2c15658f6f3397b0580bbc584357593",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_f25b283acdd38119",
+        "description": "공주는 왕자를 깊이 사랑하고 있으며, 왕자도 공주를 좋아하지만 왕비로 삼을 생각은 없다.",
+        "keywords": "사랑, 왕자, 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S9",
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_38c47441e4857374",
+        "description": "공주는 어린 소녀를 사랑하고 있으며, 그 소녀는 그녀가 사랑할 수 있는 유일한 여인이다.",
+        "keywords": "사랑, 어린 소녀, 유일한 여인",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S26"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_a6deb1cdc2927f6c",
+        "description": "공주는 수도원에 있는 사랑스러운 여인을 언급하며, 그 여인이 자신과 닮지 않았을 것이라고 생각한다.",
+        "keywords": "수도원, 사랑스러운 여인, 닮지 않음",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S53"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_3e9147b33808a164",
+        "description": "공주는 바다에서 할머니를 보았고, 할머니는 왕관을 쓰고 있었다.",
+        "keywords": "할머니, 바다, 왕관",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4",
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_9921888b505a059e",
+        "description": "공주는 바다의 왕과 함께 할머니를 보았고, 왕관을 쓴 바다의 왕이 있었다.",
+        "keywords": "바다의 왕, 할머니, 왕관",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4",
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_63fa759d626d76fc",
+        "description": "공주는 아버지의 성을 상상하며, 그 성의 탑 위에 할머니가 서 있는 모습을 떠올린다.",
+        "keywords": "아버지의 성, 할머니, 상상",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S64",
+          "S65"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_86f3acec99195d25",
+        "description": "공주는 왕자가 이웃 왕국으로 떠나는 이유가 왕의 딸을 보기 위한 것이라고 알고 있다.",
+        "keywords": "이웃 왕국, 왕자, 떠남",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S44"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba4f114b95b96626",
+        "target": "entity:eobs_ceb553f8ba19a9de",
+        "description": "공주는 왕자가 이웃 왕의 아름다운 딸과 결혼할 것이라는 소문을 듣고 있다.",
+        "keywords": "소문, 결혼, 이웃 왕",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S42"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOl0bPxoxtm1ufUmkHYoJv1k9zVu",
+    "usage": {
+      "completion_tokens": 708,
+      "prompt_tokens": 4104,
+      "total_tokens": 4812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

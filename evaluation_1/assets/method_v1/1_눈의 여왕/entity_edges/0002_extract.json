@@ -1,0 +1,137 @@
+{
+  "request_hash": "7a616d0337d5eb94a66d2d493e6c04751725742fb39c1f061e272329fb42b4f8",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f0958e3701c66aaf",
+        "target": "entity:eobs_ec16ed8a6208c850",
+        "description": "꽃 담장은 마치 꽃과 풀로 이루어진 개선문처럼 보였다.",
+        "keywords": "꽃 담장, 개선문",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S2",
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_49aa00ea0599fc02",
+        "target": "entity:eobs_449da558f7acb518",
+        "description": "콩이 상자 위로 드리우고 장미 덤불이 길게 늘어져 있었다.",
+        "keywords": "콩, 상자",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S3",
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_24c435509731062c",
+        "target": "entity:eobs_e584e7a95296efde",
+        "description": "자그마한 의자는 장미 아래에서 아이들이 놀 때 사용되었다.",
+        "keywords": "의자, 장미 덤불",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_fba806b69a89df9e",
+        "target": "entity:eobs_2af0ba03534618ec",
+        "description": "아이들은 난로 위에서 구리 동전을 뜨겁게 달구었다.",
+        "keywords": "아이들, 난로",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_b0764ea3d5e6eefb",
+        "target": "entity:eobs_db3e03c45a8a4aad",
+        "description": "소녀의 이름은 게르다이고, 소년의 이름은 카이였다.",
+        "keywords": "게르다, 카이",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_2b06802717aeebc8",
+        "target": "entity:eobs_0776fe185ed10f5b",
+        "description": "할머니가 하얀 꿀벌에 대해 이야기했다.",
+        "keywords": "할머니, 하얀 꿀벌",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S13",
+          "S14"
+        ]
+      },
+      {
+        "source": "entity:eobs_8dc0f74d11caa3fd",
+        "target": "entity:eobs_a7095b70a074e7b6",
+        "description": "남자아이가 여왕벌에 대해 물었다.",
+        "keywords": "남자아이, 여왕벌",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S15",
+          "S16"
+        ]
+      },
+      {
+        "source": "entity:eobs_a4386f48551a4b5f",
+        "target": "entity:eobs_f023671bbe1721f5",
+        "description": "눈꽃이 떨어져 여자가 얼음처럼 반짝였다.",
+        "keywords": "눈꽃, 여자",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S37",
+          "S41"
+        ]
+      },
+      {
+        "source": "entity:eobs_1e744473f3730187",
+        "target": "entity:eobs_0b16a134ebac3c81",
+        "description": "교회 탑의 시계는 다섯 번 울렸다.",
+        "keywords": "교회 탑의 시계, 교회 탑",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S59"
+        ]
+      },
+      {
+        "source": "entity:eobs_26686402b18ce010",
+        "target": "entity:eobs_db3e03c45a8a4aad",
+        "description": "눈은 카이가 아프다고 느끼는 신체 부위를 지칭한다.",
+        "keywords": "눈, 카이",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S62",
+          "S63"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOeSfGUKKz9LdfjDmO0GolBB9djr",
+    "usage": {
+      "completion_tokens": 752,
+      "prompt_tokens": 4262,
+      "total_tokens": 5014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

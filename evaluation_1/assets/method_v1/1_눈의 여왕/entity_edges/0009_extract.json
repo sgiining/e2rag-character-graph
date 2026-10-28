@@ -1,0 +1,85 @@
+{
+  "request_hash": "407f947801c41e4e5a632650ccb80f5192b2bf4ce134521217ce43c826e9e672",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_fdf9ebd1bd2313a3",
+        "target": "entity:eobs_900ba81fa384692f",
+        "description": "게르다가 까마귀에게 이야기를 들려주며 카이를 찾고자 했다.",
+        "keywords": "게르다, 까마귀, 이야기",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S30",
+          "S31",
+          "S40"
+        ]
+      },
+      {
+        "source": "entity:eobs_900ba81fa384692f",
+        "target": "entity:eobs_4bf8f9f26a84ba5a",
+        "description": "까마귀가 게르다에게 카이가 공주와 함께 산다고 말했다.",
+        "keywords": "까마귀, 카이, 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S40",
+          "S42"
+        ]
+      },
+      {
+        "source": "entity:eobs_4bf8f9f26a84ba5a",
+        "target": "entity:eobs_c40dcd09ec714556",
+        "description": "공주는 신문을 읽고 모든 것을 기억하는 똑똑한 인물이다.",
+        "keywords": "공주, 신문, 똑똑함",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S60",
+          "S62"
+        ]
+      },
+      {
+        "source": "entity:eobs_c40dcd09ec714556",
+        "target": "entity:eobs_dd019f4bb2398b39",
+        "description": "부인들은 공주의 생각을 듣고 기뻐했다.",
+        "keywords": "부인들, 공주, 기쁨",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S72"
+        ]
+      },
+      {
+        "source": "entity:eobs_6b1e5695919bb7a4",
+        "target": "entity:eobs_aeaaba0ba0a86878",
+        "description": "마디는 궁정을 마음대로 돌아다니는 유순한 사랑을 언급했다.",
+        "keywords": "마디, 궁정, 사랑",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S78"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOfZIz9mEStq8BCCoPXaM6UDq7Kd",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 3855,
+      "total_tokens": 4260,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

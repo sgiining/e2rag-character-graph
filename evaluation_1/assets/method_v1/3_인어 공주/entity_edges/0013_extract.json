@@ -1,0 +1,142 @@
+{
+  "request_hash": "bb5fe85c0878dde4209b8b5073f45f2db915821f9349750092249f03e5429186",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f6f77baeff65b1a8",
+        "target": "entity:eobs_914e57266f4bc686",
+        "description": "하늘은 인어 공주가 올려다보는 장소이며, 마지막 밤의 배경이 된다.",
+        "keywords": "하늘, 밤",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S1",
+          "S2"
+        ]
+      },
+      {
+        "source": "entity:eobs_00576b33802784bd",
+        "target": "entity:eobs_8843fb97d885bd6d",
+        "description": "인어 공주는 영혼이 없으며 영혼을 가질 수 없다는 사실을 알고 있다.",
+        "keywords": "인어 공주, 영혼",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_c7748609a37238ee",
+        "target": "entity:eobs_10448463a70fc960",
+        "description": "인어 공주의 언니들이 마녀에게 머리카락을 주었다고 언급된다.",
+        "keywords": "언니들, 마녀",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S17"
+        ]
+      },
+      {
+        "source": "entity:eobs_10448463a70fc960",
+        "target": "entity:eobs_267c95a0786ac8b6",
+        "description": "마녀가 언니들에게 날카로운 칼을 주었다고 언급된다.",
+        "keywords": "마녀, 칼",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_bf91d80fd097518a",
+        "target": "entity:eobs_b3fa6ba78e87f8f5",
+        "description": "왕자는 아름다운 신부에게 입을 맞추고 신부는 왕자의 머리카락을 어루만진다.",
+        "keywords": "왕자, 신부",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_760f79e62f609b73",
+        "target": "entity:eobs_23dae4f37e4cd228",
+        "description": "공주는 왕자의 심장에 칼을 꽂아야 한다는 언니들의 말을 듣는다.",
+        "keywords": "공주, 심장",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_00576b33802784bd",
+        "target": "entity:eobs_8367de0e9ac885a5",
+        "description": "인어 공주는 다시 인어가 되어 바닷속으로 돌아갈 수 있다고 언급된다.",
+        "keywords": "인어 공주, 바닷속",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_00576b33802784bd",
+        "target": "entity:eobs_0c59d4734bf5cf94",
+        "description": "인어 공주는 죽어서 짠 바다의 거품이 될 때까지 삼백 년을 더 살 수 있다고 언급된다.",
+        "keywords": "인어 공주, 바다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S24"
+        ]
+      },
+      {
+        "source": "entity:eobs_d0b1912096deecef",
+        "target": "entity:eobs_760f79e62f609b73",
+        "description": "할머니는 슬픔에 빠져 하얀 머리카락이 계속 빠지고 있다고 언급된다.",
+        "keywords": "할머니, 공주",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S27"
+        ]
+      },
+      {
+        "source": "entity:eobs_f6c960dd596953c9",
+        "target": "entity:eobs_23dae4f37e4cd228",
+        "description": "언니들은 왕자의 심장에 칼을 꽂아야 한다고 말한다.",
+        "keywords": "칼날, 심장",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      },
+      {
+        "source": "entity:eobs_00576b33802784bd",
+        "target": "entity:eobs_ffd405c0df7e40a4",
+        "description": "인어 공주는 인간의 사랑을 얻지 못하면 영혼을 가질 수 없다는 사실을 알고 있다.",
+        "keywords": "인어 공주, 인간",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOlI8Y2w8qMrbncEzmBSikmEpU2D",
+    "usage": {
+      "completion_tokens": 868,
+      "prompt_tokens": 3941,
+      "total_tokens": 4809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

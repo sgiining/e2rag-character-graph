@@ -1,0 +1,103 @@
+{
+  "request_hash": "0ecf2a490efffa3483302abfdfb30dbc66f36ae0e57f37ff96e36d1084d486f1",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_7f97fd6b7fb1a1b7",
+        "target": "entity:eobs_fab91a14c0ea12ae",
+        "description": "소녀는 결혼식이 4주 남았다고 말했다.",
+        "keywords": "소녀, 결혼식",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S4",
+          "S5"
+        ]
+      },
+      {
+        "source": "entity:eobs_1ea4b429a3ee24b6",
+        "target": "entity:eobs_f0fd0562690ed628",
+        "description": "소녀는 두더지를 남편으로 삼을 수 없다고 들쥐에게 말했다.",
+        "keywords": "소녀, 두더지, 들쥐",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S5",
+          "S12"
+        ]
+      },
+      {
+        "source": "entity:eobs_78da891154fba0bd",
+        "target": "entity:eobs_b0949afc82c76e02",
+        "description": "제비는 엄지 공주를 보고 무척이나 반가워했다.",
+        "keywords": "제비, 엄지 공주",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S30"
+        ]
+      },
+      {
+        "source": "entity:eobs_b0949afc82c76e02",
+        "target": "entity:eobs_1ea4b429a3ee24b6",
+        "description": "엄지 공주는 소녀에게 사랑을 전해달라고 부탁했다.",
+        "keywords": "엄지 공주, 소녀",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      },
+      {
+        "source": "entity:eobs_3bb049e9b0415ee5",
+        "target": "entity:eobs_3d685f6cd6f8f4b9",
+        "description": "제비는 숲 위로, 호수 위로, 거대한 산맥 위로 날아올랐다.",
+        "keywords": "제비, 숲, 호수, 산맥",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S46"
+        ]
+      },
+      {
+        "source": "entity:eobs_50245061dcd72565",
+        "target": "entity:eobs_ebf30be260fd51c6",
+        "description": "오래된 성은 웅장한 초록 숲 아래에 위치해 있다.",
+        "keywords": "오래된 성, 숲",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S57"
+        ]
+      },
+      {
+        "source": "entity:eobs_8c1c5a346c1a47a1",
+        "target": "entity:eobs_ddc446601a95c1c9",
+        "description": "포도 덩굴은 기둥에 감겨 있다.",
+        "keywords": "포도 덩굴, 기둥",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S58"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOie9dn8uwSM4HtSAuqh6DDDF8Sd",
+    "usage": {
+      "completion_tokens": 558,
+      "prompt_tokens": 4660,
+      "total_tokens": 5218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

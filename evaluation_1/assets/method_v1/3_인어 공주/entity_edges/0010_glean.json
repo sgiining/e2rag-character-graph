@@ -1,0 +1,112 @@
+{
+  "request_hash": "45299fce119593c3cc732c017f526336337e457cec9be0f11fe4e218e910de23",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_f71dc9eec060ae39",
+        "target": "entity:eobs_4c71518c6ad987c7",
+        "description": "연회장의 불이 꺼진 후 공주는 대리석 계단을 올라갔다.",
+        "keywords": "연회장, 대리석 계단",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S2",
+          "S10"
+        ]
+      },
+      {
+        "source": "entity:eobs_caca52480739e597",
+        "target": "entity:eobs_d036b75138769873",
+        "description": "공주는 꽃밭에서 언니들의 꽃을 따는 장면이 있다.",
+        "keywords": "꽃밭, 언니들",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_e73a586a601fb8a7",
+        "target": "entity:eobs_481d6c5a4ffc4da8",
+        "description": "공주는 바다를 헤치고 올라가야 했다.",
+        "keywords": "바다, 공주",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S8"
+        ]
+      },
+      {
+        "source": "entity:eobs_bdddaacc70a746bf",
+        "target": "entity:eobs_481d6c5a4ffc4da8",
+        "description": "공주는 쓰디쓴 약을 삼켰다.",
+        "keywords": "약, 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S11"
+        ]
+      },
+      {
+        "source": "entity:eobs_6e6f81bd6826aaaf",
+        "target": "entity:eobs_e49e142503299a34",
+        "description": "공주는 왕자와 함께 있을 때 가장 아름다웠다.",
+        "keywords": "공주, 왕자",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S27"
+        ]
+      },
+      {
+        "source": "entity:eobs_1ef3bdf83987aacd",
+        "target": "entity:eobs_00b8977fb36150a4",
+        "description": "연회장에서 여자 무희들이 왕자와 왕자의 부모님 앞에서 노래를 불렀다.",
+        "keywords": "연회장, 무희",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S29"
+        ]
+      },
+      {
+        "source": "entity:eobs_1ef3bdf83987aacd",
+        "target": "entity:eobs_f16701f0ab6f0734",
+        "description": "연회장에서 왕자의 부모님이 등장했다.",
+        "keywords": "연회장, 왕자의 부모님",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S29"
+        ]
+      },
+      {
+        "source": "entity:eobs_a539e280d3781a56",
+        "target": "entity:eobs_1ef3bdf83987aacd",
+        "description": "인어 공주가 연회장에서 춤을 추었다.",
+        "keywords": "인어 공주, 연회장",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S36"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOkvgX5wAdx5lWtPLlQhpyCD7b0k",
+    "usage": {
+      "completion_tokens": 581,
+      "prompt_tokens": 5517,
+      "total_tokens": 6098,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

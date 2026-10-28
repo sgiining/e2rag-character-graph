@@ -1,0 +1,111 @@
+{
+  "request_hash": "9f4cf44138bc44b709ccd2075a25f099e47aae3bd3c67bb087ffefccc84b3b89",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_822a7d1623c525a5",
+        "target": "entity:eobs_6b50845bf385d066",
+        "description": "카이는 게르다를 꼭 안았다.",
+        "keywords": "사랑, 포옹",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S4"
+        ]
+      },
+      {
+        "source": "entity:eobs_6b50845bf385d066",
+        "target": "entity:eobs_9d61754a4a0c1575",
+        "description": "게르다의 뺨을 타고 흘러내린 눈물은 행복의 상징이다.",
+        "keywords": "행복, 눈물",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S6"
+        ]
+      },
+      {
+        "source": "entity:eobs_822a7d1623c525a5",
+        "target": "entity:eobs_19ae2ec9536bdd39",
+        "description": "카이와 게르다는 거대한 성을 느릿느릿 빠져나왔다.",
+        "keywords": "탈출, 성",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S19"
+        ]
+      },
+      {
+        "source": "entity:eobs_6b50845bf385d066",
+        "target": "entity:eobs_99768184fa95238a",
+        "description": "게르다는 할머니에 대해 이야기했다.",
+        "keywords": "가족, 대화",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_7c473b0b81ce7967",
+        "target": "entity:eobs_5cdb2cd082e162af",
+        "description": "순록이 게르다와 카이를 태우고 핀족 여인에게로 갔다.",
+        "keywords": "여행, 순록",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      },
+      {
+        "source": "entity:eobs_ba268ea41c094677",
+        "target": "entity:eobs_6b50845bf385d066",
+        "description": "산적 딸은 게르다를 한눈에 알아봤다.",
+        "keywords": "인식, 만남",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S43"
+        ]
+      },
+      {
+        "source": "entity:eobs_9388c0b5d1fce57f",
+        "target": "entity:eobs_6b50845bf385d066",
+        "description": "산적 딸은 까마귀가 죽었다고 게르다에게 말했다.",
+        "keywords": "슬픔, 소식",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S53"
+        ]
+      },
+      {
+        "source": "entity:eobs_6b50845bf385d066",
+        "target": "entity:eobs_3f3d26ff23c8e20d",
+        "description": "게르다는 카이와 함께 할머니 집으로 걸어갔다.",
+        "keywords": "귀환, 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S71"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOh5m6BEKBTG5h338AFl31RvMUKA",
+    "usage": {
+      "completion_tokens": 580,
+      "prompt_tokens": 3981,
+      "total_tokens": 4561,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,52 @@
+{
+  "request_hash": "2d164858fa232bdf9e8cb39c30d05398682b9f9658931a14c6f41359adbbce89",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_7262afd786be5e25",
+        "target": "entity:eobs_e4d3d14694dddc6f",
+        "description": "배가 성난 바다를 헤치고 나아가는 장면이 묘사되었다.",
+        "keywords": "성난 바다, 백조",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S53",
+          "S55"
+        ]
+      },
+      {
+        "source": "entity:eobs_0b287b54d9c211d0",
+        "target": "entity:eobs_0fcc506c1b124b4d",
+        "description": "하늘에는 저녁별이 투명하게 빛나고 있었다.",
+        "keywords": "저녁별, 젊은 왕자",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOk0an2TlgaJoW8eqOlOgAMH7Ipi",
+    "usage": {
+      "completion_tokens": 165,
+      "prompt_tokens": 6362,
+      "total_tokens": 6527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

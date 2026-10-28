@@ -1,0 +1,53 @@
+{
+  "request_hash": "0b4b20240a3a1e40c084cbf2903cede034f83d5f122fc4eef5587427bafc2f88",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_342710e957db6ead",
+        "target": "entity:eobs_b95e89908ba9dd31",
+        "description": "게르다가 작은 마차를 요청하자, 문 앞에 황금 마차가 서 있었다.",
+        "keywords": "작은 마차, 황금 마차",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S51",
+          "S55"
+        ]
+      },
+      {
+        "source": "entity:eobs_9a3d3e385fa517e8",
+        "target": "entity:eobs_8e607a5dabc4b04a",
+        "description": "숲에서 만난 까마귀가 게르다와 함께 동행했지만, 부엌에서 너무 많이 먹어 배가 아파 따라오지 않았다.",
+        "keywords": "까마귀, 부엌",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S59",
+          "S62"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOg5TYtDUtSKUo6cAVFBjfyS62oL",
+    "usage": {
+      "completion_tokens": 186,
+      "prompt_tokens": 6828,
+      "total_tokens": 7014,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

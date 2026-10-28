@@ -1,0 +1,51 @@
+{
+  "request_hash": "39201361b58d08acf2f1e10c42ea3f56853e76d5a3174478d67ba4340b267919",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_eb173e8d7db4a4ec",
+        "target": "entity:eobs_7d226838481dcf4e",
+        "description": "소년들은 카이가 멋진 마차에 썰매를 매달고 따라갔다고 말했다.",
+        "keywords": "소년들, 카이, 마차",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S69"
+        ]
+      },
+      {
+        "source": "entity:eobs_eb173e8d7db4a4ec",
+        "target": "entity:eobs_e1f43a1c69f48b26",
+        "description": "사람들은 카이에 대한 소식을 듣고 반응했다.",
+        "keywords": "사람들, 카이, 반응",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S71"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOeqiVPvHsgRfXDXERYeRELDVjzO",
+    "usage": {
+      "completion_tokens": 165,
+      "prompt_tokens": 6134,
+      "total_tokens": 6299,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 1792,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

@@ -1,0 +1,51 @@
+{
+  "request_hash": "0a55482a64646d51450ace44a7aa3117dcd21c2c2612d03c33fc962a31aafca4",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_2ed02786171ec41b",
+        "target": "entity:eobs_50afa3424522bc11",
+        "description": "영주의 저택은 호수에 둘러싸인 오래된 건물이다.",
+        "keywords": "저택, 호수",
+        "strength": 9,
+        "evidence_sentence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "source": "entity:eobs_eae9206d8a6c9470",
+        "target": "entity:eobs_c6f6fb1a03dfeb73",
+        "description": "초록 세상은 아기 오리들이 느끼는 넓은 공간이다.",
+        "keywords": "초록 세상, 세상",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S21"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOnZHGiNtu9IRU9EsuDYtqkvnBTW",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 7104,
+      "total_tokens": 7257,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

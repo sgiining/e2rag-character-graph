@@ -1,0 +1,64 @@
+{
+  "request_hash": "f0e5c394a50fe0a9ccda73898afacc797eb07d2d3b33b5c6c950cc56e4ab9718",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_9af3ec170e2548c8",
+        "target": "entity:eobs_7067a0a7dace82da",
+        "description": "라프족 여인이 순록에게 게르다의 이야기를 들려주는 장면에서, 라프족 여인과 순록의 관계가 드러난다.",
+        "keywords": "라프족 여인, 순록",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S4",
+          "S15"
+        ]
+      },
+      {
+        "source": "entity:eobs_7067a0a7dace82da",
+        "target": "entity:eobs_f89e017863093b82",
+        "description": "순록이 게르다의 이야기를 라프족 여인에게 들려주는 장면에서, 순록과 아이의 관계가 드러난다.",
+        "keywords": "순록, 아이",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S4",
+          "S30"
+        ]
+      },
+      {
+        "source": "entity:eobs_f69a3f8e8331b3a7",
+        "target": "entity:eobs_3de0b1a0e77872af",
+        "description": "핀마크로 가기 위해 순록이 핀족 여인에게 전갈을 전달하라는 지시를 하는 장면에서, 핀마크와 수프 냄비의 관계가 나타난다.",
+        "keywords": "핀마크, 수프 냄비",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S9",
+          "S27"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgoYkPaCek346ygeDAtB8YEVEWz",
+    "usage": {
+      "completion_tokens": 309,
+      "prompt_tokens": 6174,
+      "total_tokens": 6483,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2048,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

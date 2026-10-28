@@ -1,0 +1,41 @@
+{
+  "request_hash": "4d646b525508578e81320ecb4a00e03425f11ba408f120916669a85e9b3a73f4",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_6b50845bf385d066",
+        "target": "entity:eobs_3f3d26ff23c8e20d",
+        "description": "게르다는 카이와 함께 할머니 집으로 걸어갔다.",
+        "keywords": "귀환, 집",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S71"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOhBetpcdh9GhAoSpPQh2VxqiWPj",
+    "usage": {
+      "completion_tokens": 77,
+      "prompt_tokens": 5331,
+      "total_tokens": 5408,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2048,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

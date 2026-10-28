@@ -1,0 +1,112 @@
+{
+  "request_hash": "3db69b63af5d869b01ed5583908329fff68862103b3bf85bcf309dfc6ddc9a9b",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_a850c9870b1c0cb6",
+        "target": "entity:eobs_953ee1510a35d6d9",
+        "description": "산적 딸이 게르다에게 소리치며 새를 던졌다.",
+        "keywords": "산적 딸, 게르다, 소리치다, 새",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S11"
+        ]
+      },
+      {
+        "source": "entity:eobs_a850c9870b1c0cb6",
+        "target": "entity:eobs_05851e8de8ff28c2",
+        "description": "산적 딸이 자신의 단짝 친구 베에를 언급했다.",
+        "keywords": "산적 딸, 베에, 단짝 친구",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S16"
+        ]
+      },
+      {
+        "source": "entity:eobs_a850c9870b1c0cb6",
+        "target": "entity:eobs_516eb6fb6a5357a4",
+        "description": "산적 딸이 순록을 언급하며 그를 잘 감시해야 한다고 말했다.",
+        "keywords": "산적 딸, 순록, 감시하다",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S19",
+          "S20"
+        ]
+      },
+      {
+        "source": "entity:eobs_516eb6fb6a5357a4",
+        "target": "entity:eobs_44bb6116f68a9d7f",
+        "description": "순록의 목에 반짝이는 구리 목걸이가 걸려 있었다.",
+        "keywords": "순록, 목걸이, 구리",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_516eb6fb6a5357a4",
+        "target": "entity:eobs_9d8badcf967ea5bb",
+        "description": "산적 딸이 순록의 목에 칼을 겨누었다.",
+        "keywords": "순록, 칼, 겨누다",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S23"
+        ]
+      },
+      {
+        "source": "entity:eobs_98bb05e2818b73ab",
+        "target": "entity:eobs_3279a94c144d359c",
+        "description": "눈의 여왕은 라플란드로 갔을 것이라고 언급되었다.",
+        "keywords": "눈의 여왕, 라플란드, 언급하다",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S54"
+        ]
+      },
+      {
+        "source": "entity:eobs_98bb05e2818b73ab",
+        "target": "entity:eobs_1b7e0d66417deb51",
+        "description": "눈의 여왕의 본거지는 북극 근처에 있는 성이다.",
+        "keywords": "눈의 여왕, 본거지, 북극",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S61"
+        ]
+      },
+      {
+        "source": "entity:eobs_1b7e0d66417deb51",
+        "target": "entity:eobs_dd6f854ea9ac3193",
+        "description": "여왕의 본거지는 스핏스베르겐이라고 부르는 섬에 있다.",
+        "keywords": "여왕의 본거지, 스핏스베르겐, 섬",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S62"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOgIJRjGxqI6qmbfAxTfgvznIDPo",
+    "usage": {
+      "completion_tokens": 663,
+      "prompt_tokens": 3995,
+      "total_tokens": 4658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

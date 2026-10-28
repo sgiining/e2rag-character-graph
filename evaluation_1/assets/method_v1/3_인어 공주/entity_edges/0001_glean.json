@@ -1,0 +1,71 @@
+{
+  "request_hash": "2e525ad809a80cb7b26fc349a05838a6e629f969571c8794a329ec30af463549",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_1d32a66150f31503",
+        "target": "entity:eobs_5bb282e28081b68c",
+        "description": "막내는 막내 공주로서 가장 아름답다.",
+        "keywords": "막내, 막내 공주",
+        "strength": 8,
+        "evidence_sentence_ids": [
+          "S18"
+        ]
+      },
+      {
+        "source": "entity:eobs_22c87ab05acc9b9e",
+        "target": "entity:eobs_8bb4adcd1fe92b3b",
+        "description": "공주들은 각각 자기들만의 작은 꽃밭을 가지고 있다.",
+        "keywords": "공주들, 꽃밭",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S31"
+        ]
+      },
+      {
+        "source": "entity:eobs_8bb4adcd1fe92b3b",
+        "target": "entity:eobs_f0b870e5ffd298f6",
+        "description": "공주 하나는 고래 모양 속에 꽃 침대를 만들었다.",
+        "keywords": "공주, 고래 모양",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S32"
+        ]
+      },
+      {
+        "source": "entity:eobs_40a29f45e78ae0ee",
+        "target": "entity:eobs_ea3b0f5d9feb1f64",
+        "description": "바다 왕의 궁전 밖에는 정원이 있다.",
+        "keywords": "바다 왕의 궁전, 정원",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S25"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOjQ9CIykFUpxtkzmb5DxVMgJk8y",
+    "usage": {
+      "completion_tokens": 302,
+      "prompt_tokens": 6624,
+      "total_tokens": 6926,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 3072,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}

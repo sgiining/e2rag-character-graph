@@ -1,0 +1,61 @@
+{
+  "request_hash": "25af33ee41c4a2da9b78cd22e312d8e1516b6f84f4317ca2427cefaa10558a74",
+  "raw_object": {
+    "edges": [
+      {
+        "source": "entity:eobs_0917d336df51c3fd",
+        "target": "entity:eobs_a9bc72540cc6cf46",
+        "description": "어미 두꺼비는 두꺼비 집에서 살고 싶지 않다고 생각한다.",
+        "keywords": "거주지, 두꺼비 집",
+        "strength": 5,
+        "evidence_sentence_ids": [
+          "S12"
+        ]
+      },
+      {
+        "source": "entity:eobs_868180173f3d5a83",
+        "target": "entity:eobs_cd9b62dffb42489e",
+        "description": "아들은 엄지 공주가 서 있는 이파리로 헤엄쳐 갔다.",
+        "keywords": "이동, 엄지 공주",
+        "strength": 6,
+        "evidence_sentence_ids": [
+          "S3"
+        ]
+      },
+      {
+        "source": "entity:eobs_bcf710f0f7790acc",
+        "target": "entity:eobs_88778d0bf9555bfd",
+        "description": "물고기들은 소녀의 말을 들었다.",
+        "keywords": "소통, 물고기",
+        "strength": 7,
+        "evidence_sentence_ids": [
+          "S14"
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "response_model": "gpt-4o-mini-2024-07-18",
+    "response_id": "chatcmpl-EbOiDeoNkbvyPk3SBhQGZX86aqqHY",
+    "usage": {
+      "completion_tokens": 223,
+      "prompt_tokens": 5989,
+      "total_tokens": 6212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0,
+        "text_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 2176,
+        "image_tokens": null,
+        "text_tokens": null
+      }
+    }
+  },
+  "evidence_protocol": "entity_edges.sentence_ids.v2"
+}
